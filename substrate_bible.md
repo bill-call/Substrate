@@ -1078,6 +1078,73 @@ modes: airborne interception of the dead-bug plume, and ammonia-runoff
 filtering. Primary source of raw organic material for non-tower
 organisms.
 
+9.11 Ammonia Sea Ecology
+
+**\[NEW IN V2.4\]**
+
+**The fundamental strangeness: the solvent is food.** On Earth, water is metabolically inert — it's the medium, not the meal. Here, ammonia is both the ocean AND a metabolic substrate. NH₃ is the nitrogen source for silazane bonds (Si-NH-Si), which is the organism's entire body matrix. Every organism in the ocean is immersed in building material. But ammonia alone isn't enough — the energy metabolism runs on SiH₄. The reaction is SiH₄ + NH₃ → silazanes + H₂. Ammonia is the co-substrate; silane is the energy carrier. Marine ecology is organized entirely by SiH₄ distribution.
+
+SiH₄ enters the ocean three ways: (1) atmospheric dissolution at the surface (Henry's law), (2) hydrothermal/volcanic input from sea-floor vents, (3) rain-washed particulates from the terminator rain-wall (organosilicon compounds scrubbed from the atmosphere). Near sources, life is dense. Away from sources, it's sparse. The ocean is a net SiH₄ sink — organisms consume it faster than it's supplied.
+
+**The ocean eats you back.** ~50 ppm dissolved H₂O — more than 8× the "untenable" threshold of 6 ppm for silazane bonds. Every mouthful of ammonia carries H₂O. The ocean is simultaneously food AND acid bath. Marine organisms fight constant chemical attack. The metabolic cost has two components: external petrification (surface contact with H₂O-laden ammonia, mitigated by shells) and internal petrification (feeding throughput — H₂O ingested during ammonia processing). Two opposing size curves: external cost drops with size (surface-to-volume favors large); internal cost rises with size (more feeding throughput = more H₂O ingested). Optimal body size depends on local SiH₄ availability and H₂O concentration. Near vents (high SiH₄, possibly lower H₂O): optimum shifts larger. In open ocean (low SiH₄, 50 ppm H₂O): optimum shifts smaller.
+
+**Buoyancy.** Everything sinks in ammonia — amorph gel 1050 kg/m³, glass ~2200 kg/m³, SiC ~3200 kg/m³, ammonia only 660 kg/m³. H₂ gas bladders provide ~659 kg/m³ buoyancy per unit volume of gas — approximately 80× more effective than H₂ lift in the atmosphere. H₂ is metabolic waste from SiH₄ + NH₃ processing. Retained in a flexible amorph membrane at ambient pressure (swim bladder, not pressure vessel). Depth control by gas production and venting. The ocean surface fizzes continuously with metabolic H₂ from every living organism.
+
+**Glass spines: baseline marine defense.** In an ocean where any wound exposes living tissue to 50 ppm H₂O, glass spines (manufactured via controlled petrification) are the minimum viable defense. A spine punctures a predator's membrane, creating an entry wound through which ambient H₂O attacks living tissue. Mechanical damage plus petrification exposure at every wound site. Universal marine defense — any organism capable of controlled petrification grows glass spines. Not specialized; expected.
+
+**Involuntary broadcast.** Liquid ammonia (dielectric constant ~22) couples to amorph EM neural processing. Directional communication becomes omnidirectional — the medium acts as a waveguide. Marine amorphs cannot think privately. Every neural process is broadcast to the surrounding ocean. Consequences: marine amorphs are small (larger = louder broadcast = more predator attention), fast-metabolizing (constant petrification repair), and short-lived (chronic metabolic stress). Privacy requires either silence (stop thinking) or physical distance. Shore amorphs are bilingual — adapted to operate in both the private-directional world of air and the public-broadcast world of liquid ammonia. Conductive shells (N-doped SiC) provide partial Faraday cage shielding — large shelled organisms recover some EM privacy.
+
+**Biological distillation: the key marine adaptation.** NH₃ and H₂O have vastly different boiling points (~240K vs 373K at relevant pressures). A glass-lined internal chamber (manufactured by controlled petrification — free, H₂O-proof, structurally rigid) serves as a biological still. The organism takes in dirty ammonia, heats slightly (resistive heating from semiconductor substrate) or reduces pressure (expand float bladder), and NH₃ vaporizes while H₂O stays liquid. Clean NH₃ vapor is routed to living tissue for metabolism. H₂O-enriched residue is concentrated and stored.
+
+Living tissue never contacts H₂O. The entire petrification problem converts from a material repair cost (rebuilding hydrolyzed silazane bonds) to an energy cost (powering the still). Flash distillation at near-ambient conditions is efficient — the organism processes a 50 ppm contaminant, not a 50/50 mixture. This adaptation is probably common — too useful to be rare. Organisms with distillation organs dominate wherever H₂O concentration is significant; those without are pushed to low-H₂O margins (fresh rain-input zones, surface film).
+
+**✓ RESOLVED: Medusa-fish — apex marine predator via weaponized distillation waste.**
+
+Distillation produces concentrated H₂O as a byproduct. The medusa-fish stores it and deploys it as a weapon. Water is universally lethal to all silazane-based life (K ≈ 10⁵, thermodynamic — no resistance adaptation possible). The medusa-fish is the marine analog of the fluorine weapon ecology on land: concentrate an environmental toxin and make it everyone else's problem.
+
+**Body plan:** Lionfish model. Rigid shell (SiC composite and/or glass), amorph body inside. Corona of hollow glass spines radiating outward — permanent, structural, not muscular. Each spine is a glass tube connected to the internal H₂O reservoir via glass-lined channels. Puncture on contact delivers concentrated water directly into the target's living tissue. Internal petrification — prey immobilized, then gradually glassed.
+
+**Weapon system engineering — three components, zero moving parts:**
+
+| Component | Material | Function |
+|---|---|---|
+| Intake/ejection channel | Glass | Bidirectional — ammonia in during feeding, water out during firing |
+| Distillation chamber | Glass | Flash distillation — NH₃ vaporizes, H₂O stays liquid |
+| Concentrator (multi-stage) | Glass | Enriches H₂O from 50 ppm toward high concentration |
+| Reservoir | Glass | Stores concentrated water |
+| Tesla valve | Glass (single piece, no moving parts) | Allows gas pressure forward (bladder→reservoir), blocks water reverse. Manufactured by controlled petrification of shaped tissue template. Geometric flow asymmetry — turbulence-based, orientation-independent |
+| Float bladder | Amorph membrane, H₂ gas | Pressure source (squeeze to fire), vacuum source (expand for distillation), buoyancy |
+| Hollow spines | Glass | Delivery — connected to reservoir, pressurized on bladder squeeze |
+
+All water-contacting surfaces are glass (petrification endpoint). The float bladder (only non-glass element) never contacts water — the Tesla valve ensures one-way gas pressure transmission. Squeeze bladder → gas pressure transmits through Tesla valve (fast, low-viscosity gas) → pressurizes reservoir → water forced out through glass intake and/or through hollow spines. Release bladder → Tesla valve blocks water return (geometric resistance + 200:1 viscosity ratio of water vs H₂ gas). H₂ leakage through glass plumbing compensated by continuous metabolic H₂ production (the system is flow-through, not hermetic).
+
+**Three defense/offense modes:**
+
+**(1) Passive defense — distributed sub-shell bladders.** Small glass bladders throughout the body, just under the shell. Predator breaches shell → bladder ruptures → concentrated water contacts predator's feeding surfaces → instant petrification of the mouth. The predator does it to itself. No action required from the medusa-fish.
+
+**(2) Contact spray — ejection through glass intake.** Squeeze float bladder, water exits through the glass intake channel. Short range in ammonia (miscible — jet disperses within centimeters to tens of centimeters). Longer range in air (shore-dwelling medusa-fish spraying water at terrestrial organisms — nothing on land has defenses calibrated for concentrated liquid H₂O delivery).
+
+**(3) Injection — hollow glass spines.** Glass-tipped spines puncture target on contact. Pressurized water delivered directly into living tissue, bypassing the miscibility problem. Internal petrification — the most lethal delivery mode. Prey petrifies from the inside out. Portuguese man-of-war model: trailing spines, touch is lethal.
+
+**Ecological role:** Apex by inedibility (nothing can eat an organism full of concentrated water without petrifying its own feeding surfaces). Self-sterilizing interior (no parasites survive concentrated H₂O). Population controlled by SiH₄ availability and intraspecific competition, not predation. Potentially long-lived.
+
+Mobile reef: defenseless organisms cluster in the spine corona for protection — predators can't reach them without contacting glass spines. The sheltering organisms are unwitting bait, attracting predators into spine range. The medusa-fish benefits from the bait effect without active hunting. Clownfish-anemone mutualism: sheltered organisms get protection, medusa-fish gets prey delivery.
+
+The medusa-fish is the marine analog of the tower — a mobile habitat node around which a local food web organizes. Where the medusa-fish goes, the ecosystem follows. The barren open ocean between them is empty transit space.
+
+**Marine zonation:**
+
+| Zone | SiH₄ source | H₂O exposure | Character |
+|---|---|---|---|
+| Surface film | Atmospheric dissolution (richest) | Lower (distillation effect at interface) | Primary production. Glass-shell diatom mats. Densest microbial life. |
+| Rain-input deltas | Terminator rain delivers organosilicon particulates | Moderate | Nutrient-rich, turbid. Highest total biomass. |
+| Vent communities | Hydrothermal SiH₄ (direct, rich) | Variable | Dense local ecosystems. Largest marine organisms. Possible deep-rock biosphere connection through sea floor. |
+| Shore/intertidal | Atmospheric SiH₄ + dissolved SiH₄ | Lower (wave spray = partially distilled ammonia) | Richest zone: dual SiH₄ access. Bilingual shore amorph populations. |
+| Pelagic column | Diffusion from above, sinking organics | ~50 ppm (bulk) | Sparse. Gas-bladder organisms. Medusa-fish territory. |
+| Deep floor | Marine snow only | ~50 ppm | Barren. Glass fossil pavement accumulating over geological time. Graveyard, not habitat. |
+
+**✓ RESOLVED: Marine crisis.** Aquatic life is the canary. The H₂O ratchet concentrates water in the seas over geological time. Marine organisms are immersed in the accumulating poison; land organisms are partially shielded by distillation (rain is H₂O-poor). As H₂O rises, the petrification tax increases, the optimal body size shifts smaller, distillation energy costs rise, and marginal populations collapse from the deep ocean outward toward the shores. Marine extinction precedes terrestrial crisis by a significant margin. Vulnerability gradient: deep sea → shallow sea → coastal → land → towers.
+
 10\. TOWERS AND THE PLANETARY NETWORK
 
 10.1 Tower Biology: The Coral Model

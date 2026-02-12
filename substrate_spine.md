@@ -232,6 +232,26 @@ Individual learning only — no inherited memory.
 
 **✓** Marine glass-shell organisms (diatom analogs): SiO₂ armor from controlled surface petrification. Zero SiH₄ cost. Self-passivating, self-healing. Middle Kingdom / microbial marine adaptation. Large amorphs shed glass; small organisms keep it.
 
+## AMMONIA SEA ECOLOGY
+
+**✓** Ammonia ocean = hybrid of hot acid spring + deep hydrothermal vent ecology. The solvent is food (NH₃ is a metabolic co-substrate with SiH₄ for silazane synthesis). SiH₄ is the limiting nutrient, not ammonia. Marine ecology organized by SiH₄ distribution: dense life near sources (surface dissolution, rain-input deltas, hydrothermal vents), sparse elsewhere.
+
+**✓** Petrification dominates marine ecology. Sea H₂O ~50 ppm (8× the 6 ppm "untenable" threshold). Every marine organism fights constant chemical attack. The metabolic cost is both external (surface contact) and internal (feeding throughput — every mouthful of ammonia carries H₂O). Two opposing size curves: external petrification cost drops with size (surface-to-volume), internal petrification cost rises with size (feeding throughput). Optimal size depends on local SiH₄/H₂O ratio.
+
+**✓** Glass spines: baseline marine defense. Any wound exposes living tissue to 50 ppm ambient H₂O. Glass spines (from controlled petrification) puncture predators, creating petrification entry wounds. Minimum viable marine defense. Universal, not specialized.
+
+**✓** Biological distillation: key marine adaptation. Glass-lined internal chamber (petrification endpoint — free, H₂O-proof). Organism heats slightly or reduces pressure (expand float bladder) → NH₃ vaporizes (bp ~240K), H₂O stays liquid (bp 373K). Clean NH₃ vapor routed to living tissue. H₂O residue concentrated and stored. Living tissue never contacts H₂O. Converts petrification tax from material repair cost to energy cost. Organisms with distillation dominate; those without are marginal.
+
+**✓** Medusa-fish: apex marine organism. Distillation waste (concentrated H₂O) weaponized. Lionfish body plan — rigid shell, corona of hollow glass spines connected to pressurized H₂O reservoir via glass-lined plumbing. Tesla valve (no-moving-parts check valve, manufactured by petrifying a shaped tissue template) separates float bladder (H₂ gas, pressure source) from reservoir (concentrated H₂O). Squeeze bladder → gas pressure through Tesla valve → forces water out through glass intake/spines. All water-contacting surfaces are glass. Zero moving parts in weapon system. Three delivery modes: passive (distributed sub-shell bladders — predator breaches shell, contacts water, mouth petrifies), contact spray (water ejected through glass intake — short range in ammonia, longer in air), injection (hollow glass spines puncture target, pressurized water delivered internally). Apex by inedibility — K ≈ 10⁵ is thermodynamic, no resistance possible. Self-sterilizing interior (no parasites survive concentrated H₂O). Amorph body inside shell; shell possibly dual-organism (sexual symbiont SiC/glass structure). Mobile reef: defenseless organisms cluster in spine corona for protection, acting as unwitting bait attracting predators to the spines. Marine analog of the tower — mobile habitat node around which local food web organizes.
+
+**✓** Marine buoyancy: everything sinks in ammonia (amorph 1050 vs NH₃ 660 kg/m³). H₂ gas bladders provide ~659 kg/m³ buoyancy per unit volume — 80× more effective than atmospheric H₂ lift. H₂ is metabolic waste. Flexible amorph membrane at ambient pressure (swim bladder, not pressure vessel). Depth control by gas production/venting.
+
+**✓** Involuntary broadcast: liquid ammonia (dielectric constant ~22) couples to amorph EM neural processing. Directional communication becomes omnidirectional. Marine amorphs can't think privately. Small, fast-metabolizing, short-lived. Shore amorphs are bilingual (broadcast/private). Conductive shells (N-doped SiC) provide partial Faraday cage shielding.
+
+**✓** Marine zonation: surface film (atmospheric SiH₄ dissolution, glass-shell diatom mats), rain-input deltas (terminator, nutrient-rich, highest biomass), vent communities (hydrothermal SiH₄, dense local ecosystems, possible deep-rock biosphere connection), shore/intertidal (richest — dual SiH₄ access, reduced H₂O exposure), deep floor (barren glass fossil pavement). Sea-dipping is skywhale-exclusive (drowning risk below ~10 m organism scale).
+
+**✓** Marine crisis: aquatic life is the canary. H₂O ratchet concentrates water in seas. Marine extinction precedes terrestrial crisis. Vulnerability gradient: deep sea → shallow sea → coastal → land → towers.
+
 **✓** Petrification as decomposition analog: living organisms fight K ≈ 10⁵ through metabolic repair. Death → petrification proceeds to equilibrium → glass fossil. Aging = accumulation of unrepairable petrification scars + other damage. Dead persist as translucent silicon-mineral solids.
 
 **✓** "Getting glassed" (acute H₂O surface exposure): self-limiting (Deal-Grove √t). Large amorphs: prank-tier for small splash on bulk tissue, assault for targeted/internal delivery. Severity scales with dose, location, and inverse body size.
