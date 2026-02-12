@@ -13,9 +13,11 @@ Substrate's world-building is deeply interconnected. The towers alone touch geol
 ### Tier 0: CLAUDE.md (this file)
 - **Always load first.** Tells Claude what's available and what to request.
 - ~500 words. Pure instruction. No world-building content.
+- Where instructions require you to load any file, always load the most recent version of that file *ignoring* the parenthesized duplication counters that the file system appends to the base file name.  "foo.md", "foo (1).md", and "foo (10).md" are all the same file; take the most recent version. The same concept applies to file names that include version suffixes (e.g., "_v2.1").  A version number suffix does not make a file unique for the purposes of determining the latest version (e.g., "foo.md", "foo_v3.md", and "foo_v3 (2).md" are all the same file). In any case where the file names are semantically identical, by these rules, take the latest version by the last-updated date.
+Use pandoc to convert .docx to .md, when necessary. Hard requirement: pandoc does not work correctly unless you specify the FULL file path for each pandoc command line option that requires one.
 
 ### Tier 1: Spine
-- **File:** `substrate_spine.docx`
+- **File:** `substrate_spine.md`
 - **Always load.** Every session. No exceptions.
 - **Contains:** Every hard constraint, resolved decision, and key number. No explanatory prose. Tables and one-line resolutions only.
 - **Size target:** <2,000 words. Currently ~1,500.
@@ -25,7 +27,15 @@ Substrate's world-building is deeply interconnected. The towers alone touch geol
 - Larger convergence documents for topics where many systems intersect.
 - Load the relevant hub when the session focuses on that nexus.
 - **Currently built:**
-  - `substrate_tower_hub.docx` — towers as nexus of geology, ecology, network, civilization, wind. ~1,850 words.
+  - `substrate_tower_hub.docx` / `substrate_tower_hub_latest.md` — towers as nexus of geology, ecology, network, civilization, wind.
+  - `substrate_silicon_chemistry_hub.md` — all silicon chemistry: silazane, carbosilane, fluorine, metallosilazane catalysis, lattice composition.
+  - `substrate_fauna_structural_hub.md` — structural materials, body plans, mechanical engineering for all mobile life. Tower symbiote guilds.
+  - `substrate_planetary_geology_hub.md` — mantle model, volcanic regime, SiH₄ budget, H₂O ratchet, petrification, gas pockets, crisis.
+  - `substrate_pool_genesis_hub.md` — ammonia-pool abiogenesis, dual-origin lineage fork, undersea tower genesis.
+  - `substrate_memory_architecture_hub.md` — amorph cognition, working memory, meme architecture, federation.
+  - `substrate_amorph_economics_hub.md` — charge economy, power constraints, evolutionary economics, tech tree, day-side colonization.
+  - `substrate_heavy_industry_hub.md` — industrial processes, machinery, biological-to-mechanical transition, factory architecture.
+  - `substrate_warfare_hub.md` — weapons, escalation ladder, fluorine taboo, strategic constraints, grid warfare.
 - **Planned hubs:**
   - Network Hub — adversarial ratchet, consciousness question, awakening crises, merger, monks. (Touches towers, deep-rock, civilization, narrative.)
   - Crisis Hub — atmospheric decline, tower deaths, merger, probe, space program. (Touches everything.)
@@ -120,7 +130,7 @@ These predate the spine/hub/module system. Their content has been absorbed into 
 ## Versioning
 
 All documents carry version numbers matching the bible version they're current with.
-- Current version: **v2.1** (February 2026)
+- Current version: **v2.4** (February 2026)
 - When the bible is updated, all spine/hub/module documents should be checked for consistency and updated if needed. Their version numbers should match.
 
 ## What Claude Should Do When Something Contradicts
