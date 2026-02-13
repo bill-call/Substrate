@@ -1,6 +1,6 @@
 # SUBSTRATE — POOL GENESIS HUB
 
-**v2.3 — February 2026**
+**v2.4 — February 2026**
 
 **Load with:** Spine (required). Silicon Chemistry Hub §14 (recommended, for void genesis comparison).
 
@@ -88,21 +88,64 @@ The sea concentrates H₂O from hydrothermal injection, meteoritic delivery, and
 
 See Chemistry Hub §10.3 for the full thermodynamic analysis. See Geology Hub §6 for petrification kinetics and biological defense.
 
-### 2.5 Pool Persistence: The Proto-Tower Shelter
+### 2.5 The Proto-Tower Genesis Reactor
 
-**[NEW IN V2.4]** An ammonia pool on an open surface is a sediment trap. Atmospheric particulate (volcanic fines, and later SiC from the dead-bug plume) falls out wherever wind meets liquid (wave-induced turbulence reduces wind carrying capacity). All particulate sinks in ammonia (solids: 2500–3200 kg/m³ vs ammonia: 660 kg/m³). Without outflow, the pool fills with sediment and dies. This is the fundamental geomorphological constraint on pool genesis: **the pool must persist long enough for abiogenesis**.
+**[REVISED IN V2.4]** An ammonia pool on an open surface is a sediment trap. Atmospheric particulate (volcanic fines + volcanic SiC) falls out wherever wind meets liquid (wave-induced turbulence reduces wind carrying capacity). All particulate sinks in ammonia (solids: 2500–3200 kg/m³ vs ammonia: 660 kg/m³). Pre-biotic silicate terrain erodes at ~600 mm/Myr from combined volcanic SiC (~0.08% of conveyor particulate, ~9 Tg/yr) and silicate abrasion — natural depressions in silicate bedrock are geologically short-lived. See `v2.4_volcanic_sic_analysis.md` for the full quantitative analysis.
 
-The solution is the **proto-tower**. Before surface biology exists, the deep-rock colony already deposits SiC lattice at the surface (void genesis pathway, Chemistry Hub §14). This lattice structure is a mountain — a persistent roughness element made of SiC (Mohs 9.5), highly resistant to pre-biotic abrasion (which uses only silicate particulate, Mohs 6-7). The proto-tower provides:
+The solution is the **proto-tower** — but it provides far more than shelter. The proto-tower is the surface expression of an active deep-rock colony with a fracture network. It is a **genesis reactor**, not merely a windbreak.
 
-1. **Wind shelter.** Lee-side wind shadow where ammonia rain pools without being evaporated or blown away.
-2. **Gravitational gradient.** Topographic relief around the mountain base creates drainage — the pool is a flow-through system, not a closed basin. Outflow carries fine suspended sediment, extending pool lifetime.
-3. **Roughness for ammonia retention.** Irregular topography at the tower base (root structures, scour features, rubble) creates many small depressions that hold ammonia.
+#### Geomorphological Shelter
 
-The genesis environment is specifically: **millions of small ammonia pools in the broken topography around proto-tower bases, at the terminator**. Not one large sea. Each pool is an independent abiogenesis experiment with slightly different conditions (temperature, mineral exposure, SiH₄ flux, catalytic metal concentration). Highly parallel.
+SiC (Mohs 9.5) resists both silicate abrasion (Mohs 6–7, cannot scratch) and peer-hardness volcanic SiC abrasion (~0.08% of particulate load). Differential erosion ratio: ~100,000:1 (SiC monadnock vs silicate terrain). Monadnock survival without symbiote support: >1 Gyr. With deep-rock SiC deposition from below: actively growing. The proto-tower provides:
 
-**Temporal bootstrap:** Pool genesis must occur while primordial topography (impact basins, crustal roughness) still supplements proto-tower shelter. Once the surface ecosystem establishes and the dead-bug plume begins feeding SiC into the atmospheric conveyor, accelerated peneplain formation erases natural basins. Tower-maintained basins replace them — but this requires the symbiosis to already be established. The ecosystem pulls up the ladder behind it. Surface abiogenesis is a **one-way door**: unrepeatable once the SiC-polished peneplain replaces primordial topography.
+1. **Wind shelter.** Lee-side wind shadow where ammonia rain pools.
+2. **Gravitational gradient.** Topographic relief creates drainage — flow-through system prevents sediment-filling death.
+3. **Roughness for ammonia retention.** Irregular lattice topography (root structures, scour features, rubble) creates many small depressions that hold ammonia.
 
-Pool genesis is chemically independent of the proto-tower — the tower provides geomorphological shelter only, not chemical input. The undersea tower scenario (§7) is a separate, later pathway where pool organisms colonize the adjacent tower surface.
+#### Chemical and Energetic Force Multipliers
+
+The proto-tower's fracture network actively delivers resources that dramatically enhance genesis conditions compared to a generic ammonia pool:
+
+| Force multiplier | Mechanism | Advantage over generic pool |
+|---|---|---|
+| Geothermal SiH₄ venting | Fracture network carries SiH₄ from depth, vents at tower base | Bypasses atmospheric dissolution bottleneck (~0.1 mM). Locally 10–100× higher dissolved SiH₄ |
+| Metal-enriched fluids | Hydrothermal circulation leaches all four biometals (Ni, Fe, Co, Ti) as ammine complexes | Same "metal bonanza" as undersea tower scenario (§7.2) but in a pool. Generic pools get only local rock mineralogy |
+| Lightning rod effect | Tallest object on landscape. Lightning preferentially strikes monadnock, products wash into adjacent pools | Concentrates Miller-Urey engine over small liquid volume. Orders of magnitude more product per unit pool volume |
+| Warm fluids | Geothermal input through fractures: +5–20K above ambient 240K | 2–5× kinetic acceleration for genesis-relevant reactions (Ea ~50 kJ/mol) |
+| N-doped SiC substrate | Pool floor/walls include semiconductor material from deep-rock colony | Catalytic surfaces, electrochemical gradients at semiconductor-liquid interface. Silicate substrate is inert |
+| Flow-through hydrology | Gravitational drainage from monadnock topography | Continuous fresh ammonia input maintains <1 ppm H₂O, delivers fresh lightning products, creates chemical gradients |
+| Micro-pool multiplication | Rough lattice structure creates many pools at different depths, exposures, flow rates, vent proximities | Each monadnock is a rack of parallel experiments with varied conditions, not a single beaker |
+
+**Comparison to the undersea tower scenario (§7):** The proto-tower-base pool combines the advantages of pool genesis (atmospheric SiH₄ access, direct lightning, low H₂O <1 ppm) with the advantages of undersea tower genesis (metal bonanza, vent SiH₄, warm fluids, semiconductor substrate) WITHOUT the undersea scenario's liabilities (50 ppm H₂O, no lightning access, no air-liquid interface). The proto-tower pool is the best of both genesis environments.
+
+#### Preadaptation Gradient Toward Symbiosis
+
+Organisms evolving in the proto-tower's resource shadow develop traits that pre-adapt them for tower symbiosis, even though symbiosis doesn't yet exist as a strategy:
+
+| Preadaptation | Pool-base origin | Symbiote endpoint |
+|---|---|---|
+| SiC surface contact | Adhesion/catalysis enzymes interact with SiC substrate | Schottky/ohmic junction for energy extraction (§8) |
+| Vent SiH₄ dependency | Metabolism tuned to tower-controlled resource | Obligate metabolic coupling to lattice |
+| Metal profile matching | Metallosilazane enzymes evolved in this fracture network's metal chemistry | Chelation badge compatibility (fourth speciation axis) |
+| Signal exposure | Bathed in deep-rock colony's electrical/EM leakage through conductive lattice | Signal tolerance → signal response → signal integration |
+
+The evolutionary distance from "pool organism at tower base" to "tower symbiote" is a gentle slope of incremental adaptations. Compare: an organism from a generic silicate pool, wind-dispersed to a foreign tower, faces novel surface chemistry, no resource dependency to leverage, mismatched metal profile, and unfamiliar signals — a cliff, not a slope.
+
+**The tower doesn't recruit symbiotes. It manufactures them** by controlling the evolutionary environment from genesis onward. The golden rule: that which controls the resources, makes the rules.
+
+#### Genesis Probability and the Fermi Answer
+
+The genesis environment is: **thousands of monadnock sites along the ~62,000 km terminator flexure zone**, each with hundreds of micro-pools, each running for thousands to millions of years with the full force-multiplier stack. Site count: ~10³–10⁴ simultaneously active favorable sites. Window: ~1–3 Gyr (bounded early by atmospheric stabilization, late by SiH₄ decline).
+
+The genesis bar is low: a self-replicating autocatalytic cycle in a supported environment, not an autonomous organism. The proto-tower provides energy, materials, shelter, and concentration. The genesis product can be far simpler than it would need to be in an unsupported environment.
+
+Pool genesis only needs to succeed **once**. After that, mobile life spreads by wind to all towers (§7.6).
+
+**Void genesis (→ towers) is the expected outcome of any suitable planet's chemistry.** Deep-rock colonies, SiC lattice, surface outcrops — the physics practically demands it on any tidally locked super-Earth with reducing atmosphere and SiH₄. **Pool genesis (→ mobile life) is the rare conjunction**: monadnock + active fracture venting + terminator ammonia + successful coacervation. Most tower-bearing planets never produce mobile life. The universe may be full of silent, growing lattice — towers with no one to walk between them.
+
+#### The One-Way Door
+
+Pre-biotic volcanic SiC (~9 Tg/yr, ~0.08% of conveyor particulate) already erodes silicate terrain at ~600 mm/Myr. Natural topography is being erased before biology exists. After pool genesis succeeds → mobile organisms → tower colonization → symbiotes → dead-bug plume begins feeding biological SiC into the conveyor. The SiC fraction of the abrasive load jumps dramatically. Peneplain formation accelerates. Genesis conditions are erased — not by a single event, but by the biosphere's own SiC output amplifying an already-ongoing geological process. Abiogenesis is unrepeatable: the monadnock persists, but the surrounding landscape (now mirror-polished) no longer provides the primordial topographic complexity that complemented monadnock shelter during genesis.
 
 ---
 
@@ -346,7 +389,7 @@ The reef spreads laterally and — in shallowing margins — vertically. When th
 
 Above the waterline, the reef grows **new** lattice with pore geometry optimized for gas exchange (the submerged lattice, grown for liquid-phase operation, remains liquid-filled or poorly drained). Vertical growth becomes favorable in the aerial zone. The emergent reef carries its aquatic symbiotes above the waterline as the aerial lattice layer thickens.
 
-**The sea-floor tower is the cradle of symbiosis.** Wind dispersal (§7.6) is the subsequent diaspora mechanism.
+**The sea-floor tower is one cradle of symbiosis.** The proto-tower-base pool (§2.5) provides the same metal bonanza and vent SiH₄ advantages without the sea's 50 ppm H₂O liability, and adds lightning concentration and atmospheric SiH₄ access. Both pathways operate; the pool-base scenario may be primary for initial genesis, with the undersea scenario as a parallel or later pathway. Wind dispersal (§7.6) is the subsequent diaspora mechanism.
 
 ### 7.6 Wind Dispersal to Air-Born Towers
 
@@ -395,6 +438,10 @@ The tower lattice is N-doped SiC (n-type semiconductor). A symbiote's metallosil
 | Ammonia-sea population traits | ✓ | Small (diffusion + petrification tax), involuntary broadcast (ionic leakage), shorter-lived (chronic H₂O damage), ancestral (never left pool). |
 | H₂O at genesis sites | ✓ | Fresh terminator pools <1 ppm H₂O (distillation shield). Void genesis anhydrous (reducing buffer). Sea hostile (~50 ppm) but not a genesis site. Pool-to-sea = anti-petrification bottleneck. |
 | Marine glass-shell organisms | ✓ | SiO₂ diatom analogs. Controlled surface petrification → self-passivating armor. Zero SiH₄ cost. Middle Kingdom / microbial adaptation. |
+| Proto-tower genesis reactor | ✓ | Not merely shelter — seven force multipliers (vent SiH₄, metals, lightning rod, warm fluids, semiconductor substrate, flow-through hydrology, micro-pool multiplication). Best of both pool and undersea genesis environments. |
+| Preadaptation gradient | ✓ | Organisms born in tower's resource shadow pre-adapted for symbiosis: SiC contact → junction, vent dependency → coupling, metal match → chelation, signal exposure → tolerance. Tower manufactures its own symbiotes. |
+| Pre-biotic volcanic SiC | ✓ | ~9 Tg/yr (~0.08% of conveyor). Differential erosion ratio ~100,000:1 (SiC vs silicate). Monadnock survives >1 Gyr without symbiote support. Mirror-polish is post-biotic; pre-biotic surfaces are smooth but not polished. |
+| Genesis probability | ✓ | ~10³–10⁴ monadnock sites, ~1–3 Gyr window, lowered genesis bar (supported environment). Only needs to succeed once. Void genesis (towers) expected on any suitable planet; pool genesis (mobile life) is the rare conjunction — Fermi answer. |
 
 ---
 

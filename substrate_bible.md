@@ -210,7 +210,7 @@ Terminator basins remain the primary sea locations (tower arrays densest, rain s
 **[NEW IN V2.4]** The dark side is a **mirror-smooth SiC-polished bedrock peneplain**. Three factors combine:
 
 1. **No constructive geology.** No volcanism (lid too thick), no tectonics (stagnant lid), no uplift. Nothing rebuilds terrain.
-2. **Continuous SiC abrasion.** The dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years polishes the surface to sub-grain-scale smoothness.
+2. **Continuous SiC abrasion.** Pre-biotic volcanic SiC (~9 Tg/yr from mantle moissanite + surface pyrolysis, ~0.08% of conveyor particulate) begins smoothing silicate bedrock at ~600 mm/Myr even before biology exists. The dead-bug plume later adds massive biological SiC, dramatically accelerating erosion to produce the mirror-polish. SiC (Mohs 9.5) abrading silicate bedrock (Mohs 6-7) over billions of years polishes the surface to sub-grain-scale smoothness. The smooth→polished transition is a geological marker of the biosphere's onset.
 3. **No accumulation.** The atmospheric particulate conveyor is a closed loop (see §3.6). Material passes through the dark side without accumulating.
 
 The surface roughness falls below the viscous sublayer (~50 μm), producing an **aerodynamically smooth turbulent boundary layer** — Re ~10¹² precludes true laminar flow, but the surface is too smooth to generate roughness-driven turbulence. The narrative consequence is identical: only towers (self-repairing SiC lattice) disturb the flow. All topographic complexity on the dark side is tower-generated.
@@ -409,12 +409,25 @@ environment on the planet. No threat to pre-biotic silazane chemistry.
 shield.** At 240K, NH₃ vapor pressure >> H₂O (~10,000:1). Fresh
 terminator pools fed by rain carry <1 ppm H₂O. At 0.1 ppm, only 1.6%
 of silazane bonds hydrolyzed at equilibrium — negligible. Genesis is
-viable. **[NEW IN V2.4]** Pool persistence requires proto-tower shelter:
-deep-rock SiC lattice (Mohs 9.5) resists pre-biotic silicate abrasion,
-provides wind shadow and drainage gradient. Genesis pools are millions
-of small rock pools in broken topography around proto-tower bases —
-parallel abiogenesis experiments. See §3.5 (dark-side geomorphology)
-and Pool Genesis Hub §2.5.
+viable. **[REVISED V2.4]** The proto-tower is a **genesis reactor**, not merely
+shelter. The deep-rock colony's surface SiC outcrop (Mohs 9.5, differential
+erosion ratio ~100,000:1 vs silicate terrain) provides geomorphological
+shelter PLUS seven chemical/energetic force multipliers: geothermal SiH₄
+venting through fractures (bypasses dissolution bottleneck), metal-enriched
+fluids (all four biometals via hydrothermal circulation), lightning rod effect
+(concentrates Miller-Urey products), warm fluids (+5–20K geothermal),
+N-doped SiC semiconductor substrate (catalytic surfaces), flow-through
+hydrology (maintains <1 ppm H₂O), and micro-pool multiplication
+(many parallel experiments per monadnock). Combines pool-genesis advantages
+(atmospheric SiH₄, lightning, low H₂O) with undersea-tower advantages
+(metal bonanza, vent SiH₄, warm fluids, semiconductor substrate) without
+undersea liabilities (50 ppm H₂O, no lightning). Organisms born in the
+tower's resource shadow are pre-adapted for symbiosis (preadaptation
+gradient — SiC contact, vent dependency, metal profile match, signal
+exposure). Genesis bar: self-replicating chemistry in supported environment,
+not an autonomous organism. Void genesis (towers) is expected on any
+suitable planet; pool genesis (mobile life) is a rare conjunction — Fermi
+answer. See §3.5, Pool Genesis Hub §2.5, and `v2.4_volcanic_sic_analysis.md`.
 
 **The open sea (~50 ppm H₂O, ~89% hydrolysis) is hostile to undefended
 silazane chemistry, but the sea is not a genesis site.** The pool-to-sea
@@ -482,7 +495,7 @@ of years. Result: terminator is a flat, featureless peneplain. No
 geological features survive. Only towers (biological, self-repairing)
 stand above the surface. Ammonia rain contributes chemical erosion.
 
-**[REVISED V2.4]** The dark side is an even more extreme peneplain — SiC-polished bedrock. The dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years, with no constructive geology to fight back, produces mirror-smooth surfaces. Surface roughness falls below the viscous sublayer (~50 μm) → aerodynamically smooth turbulent boundary layer (Re ~10¹² precludes true laminar, but surface too smooth for roughness-driven turbulence). The only persistent roughness elements on the dark side are towers. See §3.5 for the full atmospheric particulate conveyor (closed loop) and §3.4 for tower-dependent basin formation.
+**[REVISED V2.4]** The dark side is an even more extreme peneplain — SiC-polished bedrock. Pre-biotic volcanic SiC (~9 Tg/yr from mantle moissanite + surface pyrolysis of SiH₄/CH₄ on hot lava) begins eroding silicate terrain at ~600 mm/Myr even before biology exists — smooth but not polished. The dead-bug plume later adds massive biological SiC to the conveyor, dramatically accelerating erosion to produce mirror-smooth surfaces. The transition from smooth to mirror-polish is a geological marker of the biosphere's onset. SiC (Mohs 9.5) abrading silicate bedrock (Mohs 6-7) over billions of years, with no constructive geology to fight back, produces sub-grain-scale smoothness. Surface roughness falls below the viscous sublayer (~50 μm) → aerodynamically smooth turbulent boundary layer (Re ~10¹² precludes true laminar, but surface too smooth for roughness-driven turbulence). The only persistent roughness elements on the dark side are towers. See §3.5 for the full atmospheric particulate conveyor (closed loop) and §3.4 for tower-dependent basin formation.
 
 Day side: volcanic construction dominates near substellar. Wind sculpts but cannot overcome construction rate. Gradient from construction-dominated (substellar) to erosion-dominated (toward terminator). Yardangs, ventifacts, streamlined ridges oriented radially toward substellar.
 
