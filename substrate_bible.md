@@ -122,9 +122,10 @@ Density by Zone
 2.3 Liquids
 
   ----------------------- ---------------------------------------------
-  Ammonia seas            Terminator basins (rain-fed, marginally
-                          stable) and night-side basins (stable,
-                          growing). Condensation line = terminator.
+  Ammonia seas            Tower-dependent basins, primarily at
+                          terminator (rain-fed). Tower turbulence
+                          maintains basins against sediment infilling
+                          (see §3.4). Condensation line = terminator.
                           Density \~660 kg/m³. Amorphs sink (\~1,050
                           vs \~660).
 
@@ -196,12 +197,42 @@ Towers break it.
 
 3.4 Ammonia Sea Basins
 
-Basins are geologically controlled: collapsed calderas, rift basins from
-lithospheric extension on the day side, and basins formed at the
-terminator flexure zone. Terminator basins sit at the lithospheric
-stress boundary, where chronic faulting creates closed depressions that
-fill with ammonia precipitation. Locations are permanent on
-civilizational timescales but shift over geological time.
+**[REVISED V2.4]** Ammonia seas are **tower-dependent features** in the modern era. Any topographic depression on the dark side is a sediment trap: atmospheric particulate falls out where katabatic wind meets liquid surface (wave-induced turbulence trips boundary layer, drops carrying capacity), all particulate sinks in ammonia (SiC: 3200 kg/m³, silicate: 2500+ kg/m³, ammonia: 660 kg/m³), and without outflow the basin fills. Over geological time, every unprotected depression fills with sediment and ceases to exist.
+
+Towers are the only self-repairing roughness element on the planet. A tower breaks the otherwise-laminar katabatic flow, creating turbulence → scour basins and complex depositional topography → depressions that hold ammonia. The tower's ongoing turbulence actively maintains the basin against sediment infilling. Kill the tower, the turbulence stops, and the peneplain reclaims the basin within geological time.
+
+**Shore deposition zones:** Where katabatic wind meets ammonia surface, waves create roughness elements, the boundary layer trips to turbulent, and the wind's particulate carrying capacity drops. Atmospheric fallout accumulates at the shoreline — SiC grit, volcanic fines, dead-bug plume debris (catalytic metals, library fragments, SiC plates). The shore is the primary nutrient delivery system connecting the atmospheric conveyor to the marine ecosystem, and the main reason shore/intertidal is the richest marine zone.
+
+Terminator basins remain the primary sea locations (tower arrays densest, rain supply direct, fracture-zone topography supplements tower turbulence). Dark-side seas exist only where tower arrays extend dark-ward of the terminator. Locations are permanent on civilizational timescales but shift over geological time as tower arrays migrate or die.
+
+3.5 Dark-Side Surface Geomorphology
+
+**[NEW IN V2.4]** The dark side is a **mirror-smooth SiC-polished bedrock peneplain**. Three factors combine:
+
+1. **No constructive geology.** No volcanism (lid too thick), no tectonics (stagnant lid), no uplift. Nothing rebuilds terrain.
+2. **Continuous SiC abrasion.** The dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years polishes the surface to sub-grain-scale smoothness.
+3. **No accumulation.** The atmospheric particulate conveyor is a closed loop (see §3.6). Material passes through the dark side without accumulating.
+
+The surface is potentially smooth enough for the katabatic boundary layer to remain laminar — no roughness elements to trip transition to turbulence. The only persistent roughness elements are towers (self-repairing SiC lattice). All topographic complexity on the dark side is tower-generated.
+
+**Visual:** From orbit, the dark side is a polished plain extending to the horizon, punctuated by tower arrays with ammonia seas at their feet. The contrast with the day side (active volcanic terrain — shield volcanoes, flood basalt provinces, yardangs and ventifacts sculpted by wind) is extreme.
+
+**Day-side geomorphology:** Volcanic construction dominates near substellar. Wind erosion increases with distance from substellar. Gradient from construction-dominated (young, rugged volcanic terrain) to erosion-dominated (streamlined remnant topography) to pure peneplain (terminator). The deposition zone 20–40° day-ward of the terminator accumulates deep sediment (km) from wind-transported mineral and volcanic ash.
+
+3.6 Atmospheric Particulate Conveyor
+
+**[NEW IN V2.4]** The atmosphere functions as a closed-loop particulate transport system:
+
+1. Day-side volcanism surfaces raw materials (ash, mineral particulate).
+2. Surface winds carry particulate toward the substellar chimney.
+3. Chimney lofts fine material into the superstream. The chimney acts as a **grain-size filter** — only material light enough to be vertically lofted enters the loop.
+4. Superstream carries particulate toward the anti-stellar downdraft. Superstream velocity **increases** toward the anti-stellar point (spherical convergence: flow area ∝ sin(θ) → 0 as θ → 0). Anything carried past the terminator goes the full distance. No dropout en route.
+5. Anti-stellar downdraft deposits material on the surface.
+6. Katabatic surface winds re-entrain deposited material and carry it back toward the terminator and day side.
+
+**The loop closes** because the chimney's grain-size filter ensures that everything entering the superstream is fine enough for the katabatic wind to re-entrain. Both halves of the Hadley cell carry the same mass flux (steady state), so their particulate carrying capacities are comparable.
+
+**No significant cyclonic activity at convergence points.** Both the substellar and anti-stellar points are on the equator (f = 0). Rotation rate is ~4% of Earth's (18-day period). Equatorial Rossby deformation radius (~20,000 km) exceeds the planetary radius (~8,600 km). The circulation is a broad, thermally-direct overturning with equatorial superrotation (Matsuno-Gill pattern), not discrete vortices. Coriolis modifies the flow (Ro ≈ 0.17–0.28 at mid-latitudes) but does not produce cyclones.
 
 3.5 Volcanic Outgassing and the Atmospheric Budget
 
@@ -377,7 +408,12 @@ environment on the planet. No threat to pre-biotic silazane chemistry.
 shield.** At 240K, NH₃ vapor pressure >> H₂O (~10,000:1). Fresh
 terminator pools fed by rain carry <1 ppm H₂O. At 0.1 ppm, only 1.6%
 of silazane bonds hydrolyzed at equilibrium — negligible. Genesis is
-viable.
+viable. **[NEW IN V2.4]** Pool persistence requires proto-tower shelter:
+deep-rock SiC lattice (Mohs 9.5) resists pre-biotic silicate abrasion,
+provides wind shadow and drainage gradient. Genesis pools are millions
+of small rock pools in broken topography around proto-tower bases —
+parallel abiogenesis experiments. See §3.5 (dark-side geomorphology)
+and Pool Genesis Hub §2.5.
 
 **The open sea (~50 ppm H₂O, ~89% hydrolysis) is hostile to undefended
 silazane chemistry, but the sea is not a genesis site.** The pool-to-sea
@@ -433,13 +469,17 @@ on Earth). Wind power at terminator: \~3.5 kW/m² (Earth best:
 
 **✓ RESOLVED \[V2.4\]:** No terminator convergence updraft. Surface flow is unidirectional (night→day) at every point. The shear layer between surface katabatic flow (night→day) and upper-level return flow (day→night, opposite direction) produces Kelvin-Helmholtz turbulence but no organized uplift.
 
-5.3 Erosion
+5.3 Erosion and Surface Geomorphology
 
 Erosive power scales as v³ and linearly with density. At 8.2 kg/m³ and
 9.5 m/s, erosion rate is modest per-second but continuous for billions
 of years. Result: terminator is a flat, featureless peneplain. No
 geological features survive. Only towers (biological, self-repairing)
 stand above the surface. Ammonia rain contributes chemical erosion.
+
+**[REVISED V2.4]** The dark side is an even more extreme peneplain — SiC-polished bedrock. The dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years, with no constructive geology to fight back, produces mirror-smooth surfaces. Surface potentially smooth enough for laminar boundary layer flow. The only persistent roughness elements on the dark side are towers. See §3.5 for the full atmospheric particulate conveyor (closed loop) and §3.4 for tower-dependent basin formation.
+
+Day side: volcanic construction dominates near substellar. Wind sculpts but cannot overcome construction rate. Gradient from construction-dominated (substellar) to erosion-dominated (toward terminator). Yardangs, ventifacts, streamlined ridges oriented radially toward substellar.
 
 Deposition zone: 20--40° day-ward of terminator; where wind drops below
 erosion/particle-carrying threshold; deep sedimentary deposits of

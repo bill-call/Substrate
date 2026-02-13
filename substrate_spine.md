@@ -114,6 +114,20 @@ February 2026 v2.4
 
 **✓** Deposition zone 20–40° day-ward. Deep sediment (km). Wind-transported mineral + volcanic ash.
 
+## SURFACE GEOMORPHOLOGY
+
+**✓** Atmospheric particulate conveyor: closed loop. Day-side volcanism → surface winds carry particulate to substellar chimney → chimney lofts fines into superstream → superstream carries to anti-stellar downdraft (velocity increases toward anti-stellar via spherical convergence — anything carried past the terminator goes the full distance) → deposition → katabatic surface winds re-entrain and carry back toward terminator/day side. Chimney acts as grain-size filter: only material light enough to be lofted enters the loop. Katabatic wind can re-entrain everything the chimney admitted. No net accumulation on the dark side.
+
+**✓** Dark-side peneplain: SiC-polished bedrock. Dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years produces mirror-smooth surface. No constructive geology (no volcanism, no tectonics) to rebuild. Surface potentially smooth enough for laminar boundary layer flow. Deep dark side is polished bedrock plain to the horizon.
+
+**✓** Day-side geomorphology: active volcanic terrain. Continuous plume volcanism builds shield volcanoes and flood basalt provinces. Wind erosion sculpts but cannot overcome construction rate near substellar. Gradient from volcanic construction-dominated (substellar) to erosion-dominated (toward terminator). Yardangs, ventifacts, streamlined ridges oriented radially toward substellar.
+
+**✓** Ammonia seas are tower-dependent features (modern). Towers are the only self-repairing roughness element on the planet. Tower breaks laminar katabatic flow → turbulence → scour basins and depositional features → topographic complexity that holds liquid ammonia. Kill the tower, turbulence stops, basin fills with aeolian sediment, peneplain reclaims it. Without towers, ammonia seas cannot persist — any depression is a sediment trap (everything sinks in ammonia, atmospheric fallout fills it).
+
+**✓** Shore deposition zones: where katabatic wind meets ammonia surface, waves create roughness, boundary layer trips to turbulent, wind carrying capacity drops, particulate falls out. Shorelines are the ONE place on the dark side where material accumulates. SiC grit, volcanic fines, dead-bug plume debris (catalytic metals, library fragments, SiC plates). Shore = nutrient delivery system connecting atmospheric and marine cycles. Primary reason shore/intertidal is the richest marine zone.
+
+**✓** Genesis environment: proto-tower-sheltered ammonia pools at the terminator. Deep-rock colony deposits SiC lattice at surface (proto-tower = SiC mountain, Mohs 9.5, resists pre-biotic silicate abrasion). Mountain shelters ammonia pools in lee (wind shadow). Mountain provides gravitational gradient for drainage (flow-through system prevents sediment-filling death). Millions of small pools (rock pool garden), not one sea — parallel abiogenesis experiments. Pool genesis is independent of tower biology; proto-tower provides only geomorphological shelter. Surface ecosystem bootstrapped before SiC-accelerated peneplain formation could erase natural basins. One-way door: ecosystem's own SiC output (dead-bug plume) erased the genesis conditions. Abiogenesis unrepeatable without primordial topography.
+
 **✓** Lightning: continuous at terminator. Triboelectric + low dielectric strength = frequent moderate discharge.
 
 **✓** Thunder at 8 bar: shockwave, not just sound. Lightning channel expands into 8× Earth air density. Continuous terminator thunder = continuous overpressure bombardment. Physically damaging at ranges where Earth thunder is merely loud. Terminator acoustic environment is brutal. Dark side is silent. Tower interior provides acoustic shielding.

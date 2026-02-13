@@ -88,6 +88,22 @@ The sea concentrates H₂O from hydrothermal injection, meteoritic delivery, and
 
 See Chemistry Hub §10.3 for the full thermodynamic analysis. See Geology Hub §6 for petrification kinetics and biological defense.
 
+### 2.5 Pool Persistence: The Proto-Tower Shelter
+
+**[NEW IN V2.4]** An ammonia pool on an open surface is a sediment trap. Atmospheric particulate (volcanic fines, and later SiC from the dead-bug plume) falls out wherever wind meets liquid (wave-induced turbulence reduces wind carrying capacity). All particulate sinks in ammonia (solids: 2500–3200 kg/m³ vs ammonia: 660 kg/m³). Without outflow, the pool fills with sediment and dies. This is the fundamental geomorphological constraint on pool genesis: **the pool must persist long enough for abiogenesis**.
+
+The solution is the **proto-tower**. Before surface biology exists, the deep-rock colony already deposits SiC lattice at the surface (void genesis pathway, Chemistry Hub §14). This lattice structure is a mountain — a persistent roughness element made of SiC (Mohs 9.5), highly resistant to pre-biotic abrasion (which uses only silicate particulate, Mohs 6-7). The proto-tower provides:
+
+1. **Wind shelter.** Lee-side wind shadow where ammonia rain pools without being evaporated or blown away.
+2. **Gravitational gradient.** Topographic relief around the mountain base creates drainage — the pool is a flow-through system, not a closed basin. Outflow carries fine suspended sediment, extending pool lifetime.
+3. **Roughness for ammonia retention.** Irregular topography at the tower base (root structures, scour features, rubble) creates many small depressions that hold ammonia.
+
+The genesis environment is specifically: **millions of small ammonia pools in the broken topography around proto-tower bases, at the terminator**. Not one large sea. Each pool is an independent abiogenesis experiment with slightly different conditions (temperature, mineral exposure, SiH₄ flux, catalytic metal concentration). Highly parallel.
+
+**Temporal bootstrap:** Pool genesis must occur while primordial topography (impact basins, crustal roughness) still supplements proto-tower shelter. Once the surface ecosystem establishes and the dead-bug plume begins feeding SiC into the atmospheric conveyor, accelerated peneplain formation erases natural basins. Tower-maintained basins replace them — but this requires the symbiosis to already be established. The ecosystem pulls up the ladder behind it. Surface abiogenesis is a **one-way door**: unrepeatable once the SiC-polished peneplain replaces primordial topography.
+
+Pool genesis is chemically independent of the proto-tower — the tower provides geomorphological shelter only, not chemical input. The undersea tower scenario (§7) is a separate, later pathway where pool organisms colonize the adjacent tower surface.
+
 ---
 
 ## 3. POOL GENESIS PATHWAY
