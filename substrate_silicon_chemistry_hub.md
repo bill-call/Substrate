@@ -1,6 +1,6 @@
 # SUBSTRATE — SILICON CHEMISTRY HUB
 
-**v1.0 — February 2026**
+**v2.4 — February 2026**
 
 Hard chemistry only. Every claim grounded or flagged. Load with bible + spine.
 
@@ -23,7 +23,7 @@ The correct solvent for this world is **polysilazane oil** — the nitrogen anal
 | Backbone | —Si-O-Si-O— | —Si-NH-Si-NH— |
 | Bridge atom | Oxygen | Nitrogen (via NH) |
 | Feedstock atoms | Si, O, C, H | Si, N, C, H |
-| Available on planet? | O is trace/harmful | N is 5% atmosphere (NH₃) + 3% (N₂) |
+| Available on planet? | O is trace/harmful | N is 12.5% atmosphere (NH₃) + 55% (N₂) |
 | Isoelectronic? | Yes — silazanes and siloxanes are isoelectronic pairs |
 | Oil properties | Flexible, low viscosity, hydrophobic, wide liquid range | Same: flexible, variable viscosity, tunable properties |
 | Thermal stability | Good to ~300°C | Good to ~300°C; superior above 400°C |
@@ -195,8 +195,8 @@ The bible refers to "conductive mineral" deposited by tower symbiotes and deep-r
 This is the only answer that uses all available atmospheric feedstocks:
 
 - Silicon from SiH₄ (0.3% atmosphere)
-- Carbon from CH₄ (12% atmosphere)  
-- Nitrogen dopant from NH₃ (5% atmosphere)
+- Carbon from CH₄ (10% atmosphere)
+- Nitrogen dopant from NH₃ (12.5% atmosphere)
 
 Conductivity of N-doped SiC is tunable over many orders of magnitude depending on dopant concentration. At heavy doping levels, it approaches metallic conductivity. At light doping, it's semiconducting.
 
@@ -409,15 +409,15 @@ The composition depends on gas ratios, energy input, and temperature — all of 
 
 ### 10.1 Physical Properties at Planetary Conditions
 
-| Property | NH₃ at 3.5 bar, 270K | Water at 1 bar, 293K |
+| Property | NH₃ at ~1.0 bar partial pressure, 240K | Water at 1 bar, 293K |
 |---|---|---|
-| State | Liquid (boils ~323K at 3.5 bar) | Liquid |
+| State | Liquid (bp ~240K at 1.0 bar pp; well within liquid range at 8 bar total) | Liquid |
 | Density | ~660-680 kg/m³ | 998 kg/m³ |
 | Viscosity | ~0.16 mPa·s | 1.00 mPa·s |
 | Dielectric constant | ~22 | 80 |
 | Autoprotolysis | 2NH₃ ⇌ NH₄⁺ + NH₂⁻ | 2H₂O ⇌ H₃O⁺ + OH⁻ |
 
-**✓ SOUND.** Liquid ammonia at 3.5 bar and 270K is well within its liquid range. It's a real solvent used in laboratory chemistry. It dissolves polar compounds, supports acid-base reactions, and importantly: **it does not attack Si-Si bonds.**
+**✓ SOUND.** Liquid ammonia at ~1.0 bar partial pressure and 240K (terminator) is at approximately its dew point — condensation line coincides with the terminator, making it the rain zone. It's a real solvent used in laboratory chemistry. It dissolves polar compounds, supports acid-base reactions, and importantly: **it does not attack Si-Si bonds.**
 
 This last point is critical and correctly stated in the bible. Water hydrolyzes Si-Si bonds (producing silanols, then siloxanes, then silica). Ammonia does not — Si-N bonds are stable, and ammonia actually *forms* silazane bonds rather than breaking silicon bonds. Ammonia is the biologically compatible solvent; water is the poison.
 

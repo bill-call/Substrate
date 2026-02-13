@@ -441,7 +441,7 @@ surface wind toward day side. Coriolis is weak (18-day rotation, f =
   Anti-stellar pole       \~0 m/s. Stagnation point. Calmest location.
 
   Dark side (pole to      2--8 m/s, accelerating toward terminator.
-  terminator)             Laminar, predictable, gentle.
+  terminator)             Steady, predictable, gentle.
 
   Peak (\~30--40° from    \~10 m/s. Maximum surface wind.
   anti-stellar)
@@ -998,7 +998,7 @@ Atmospheric zones: Terminator shear layer (surface katabatic vs upper return flo
 
 **\[NEW IN V2.4\] Drifter cycle — pelagic food web.** The drifter ecosystem is a pelagic food web mapped onto atmospheric circulation, analogous to an open-ocean tuna-and-sardines system running on wind instead of water currents. At every phase of the cycle, the highest-quality food source is other drifters — concentrated, pre-processed silicon biochemistry versus dilute atmospheric filter-feeding. Atmospheric gas-phase feeding (NH₃ 12.5%, SiH₄ 0.3%) is the primary production layer (the "phytoplankton"), not the main energy pathway for anything above juvenile size. Predation drives the size hierarchy, and the population self-limits through predation pressure at every phase.
 
-**Full circuit trajectory (~24–35 days, 1–N generations):** Anti-stellar descent → dark-side surface transit (S-shaped Coriolis path, 5–7 days) → terminator rain-wall → day-side transit (~12 days, gas-phase feeding) → substellar chimney (lofted to altitude) → superstream return (2–4 days at 50–100+ m/s) → condensation descent → repeat.
+**Full circuit trajectory (~25–55 days, 1–N generations):** Substellar chimney (lofted to altitude) → superstream return (2–4 days at 50–100+ m/s) → dark-side condensation descent (variable latitude — most organisms descend 20–40° past terminator, not at anti-stellar; standing Rossby wave convergence zones are preferred descent locations) → dark-side surface transit (S-shaped Coriolis path; duration depends on descent latitude: ~7–15 days for mid-dark-side descent, ~35 days for anti-stellar descent) → terminator rain-wall → day-side transit (~12 days, gas-phase feeding) → repeat. Short-circuit organisms (descend early, stay in higher-wind zones) complete in ~25–30 days. Long-circuit organisms (descend near anti-stellar, traverse calm interior) take ~50–55 days. Circuit duration is ecologically significant: short-circuit organisms encounter higher wind, richer feeding, more predation; long-circuit organisms traverse the nursery zone, lower predation, slower growth.
 
 **Rain-wall as size filter:** The rain-wall scrubs all wind-borne particulates but does NOT scrub gases. NH₃ and SiH₄ pass through freely — day-side food is gas-phase, not particulate. The rain itself is liquid ammonia = food. Drifters have one reflex: rain hits membrane → metabolize NH₃ → produce H₂ waste → inflate envelope. Three outcomes determined by buoyancy balance, not behavior: (1) sink → tower food; (2) rise → return flow → short dark-side cycle; (3) hold level → through to day side → long cycle. Critically, the rain-wall is only a barrier at small scales. The air between the surface and the superstream shear layer is non-turbulent; for any organism above a threshold size, the rain is just food falling from the sky. Large multi-circuit veterans fly through without difficulty. The rain-wall is a size filter within the food web — a thermocline, not a wall — that adds structure without interrupting the pelagic model.
 
@@ -1133,7 +1133,7 @@ SiH₄ enters the ocean three ways: (1) atmospheric dissolution at the surface (
 
 **Glass spines: baseline marine defense.** In an ocean where any wound exposes living tissue to 50 ppm H₂O, glass spines (manufactured via controlled petrification) are the minimum viable defense. A spine punctures a predator's membrane, creating an entry wound through which ambient H₂O attacks living tissue. Mechanical damage plus petrification exposure at every wound site. Universal marine defense — any organism capable of controlled petrification grows glass spines. Not specialized; expected.
 
-**Involuntary broadcast.** Liquid ammonia (dielectric constant ~22) couples to amorph EM neural processing. Directional communication becomes omnidirectional — the medium acts as a waveguide. Marine amorphs cannot think privately. Every neural process is broadcast to the surrounding ocean. Consequences: marine amorphs are small (larger = louder broadcast = more predator attention), fast-metabolizing (constant petrification repair), and short-lived (chronic metabolic stress). Privacy requires either silence (stop thinking) or physical distance. Shore amorphs are bilingual — adapted to operate in both the private-directional world of air and the public-broadcast world of liquid ammonia. Conductive shells (N-doped SiC) provide partial Faraday cage shielding — large shelled organisms recover some EM privacy.
+**Involuntary broadcast.** Liquid ammonia (dielectric constant ~22) couples to amorph electronic neural processing. In air, neural EM emission is directional and attenuates normally. In liquid NH₃, THz-range radiation is heavily absorbed by the polar solvent, but the high dielectric constant converts neural emission to near-field ionic/electrical coupling — effectively omnidirectional conduction through the medium, not free-space radiation. Marine amorphs cannot think privately. Every neural process is broadcast to the surrounding ocean. Consequences: marine amorphs are small (larger = louder broadcast = more predator attention), fast-metabolizing (constant petrification repair), and short-lived (chronic metabolic stress). Privacy requires either silence (stop thinking) or physical distance. Shore amorphs are bilingual — adapted to operate in both the private-directional world of air and the public-broadcast world of liquid ammonia. Conductive shells (N-doped SiC) provide partial Faraday cage shielding — large shelled organisms recover some EM privacy.
 
 **Biological distillation: the key marine adaptation.** NH₃ and H₂O have vastly different boiling points (~240K vs 373K at relevant pressures). A glass-lined internal chamber (manufactured by controlled petrification — free, H₂O-proof, structurally rigid) serves as a biological still. The organism takes in dirty ammonia, heats slightly (resistive heating from semiconductor substrate) or reduces pressure (expand float bladder), and NH₃ vaporizes while H₂O stays liquid. Clean NH₃ vapor is routed to living tissue for metabolism. H₂O-enriched residue is concentrated and stored.
 
@@ -1882,10 +1882,10 @@ backbone (inverted from human civilization).
 middle-kingdom genomic-sexual / megafauna amorph. Physically motivated
 by scale.
 
-**✓ RESOLVED:** ★★ Middle kingdom is tower-locked electrical parasites.
+**✓ RESOLVED:** ★★ Middle kingdom is tower-locked electrical mutualists.
 Small (mm to low cm), rigid, genomic. Tap lattice for energy. Cannot
 self-power. Insect-scale. The grazers, armored predators, and arms races
-all happen at insect scale on the lattice.
+all happen at insect scale on the lattice. (Historical note: initially characterized as "parasites" — revised to "mutualists" per fauna structural hub §5. Tower tolerates and network manages the middle kingdom because it provides services the tower cannot perform alone: surface maintenance, metal delivery, quality control.)
 
 **✓ RESOLVED:** ★★ Middle-kingdom organisms do not inherit memories.
 Individual learning only. Network manages them via crude EM field

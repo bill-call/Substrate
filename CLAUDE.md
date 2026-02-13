@@ -52,7 +52,7 @@ Use pandoc to convert .docx to .md, when necessary. Hard requirement: pandoc doe
   - Amorph Biology — body plan, disease, death, population variation, cognition, merge
   - Ecology: Fluorine Biome — thorn-flora, pollination, aposematism, biomagnification, volcanic provinces
   - Ecology: Balloon Fauna — fall-survival origin, permanent aerial life, atmospheric conveyor, network blind spot
-  - Ecology: Middle Kingdom — three-tier architecture, tower parasites, sessile/mobile split, insect-scale arms races
+  - Ecology: Middle Kingdom — three-tier architecture, tower mutualists, sessile/mobile split, insect-scale arms races
   - Civilization — governance, religion, economy, art, writing, metallurgy, shell economy
   - Transport & Space — surfing, balloons, boats, flight, rocketry, mass driver, the probe
   - Narrative — scene concepts, POV candidates, timeline, emotional beats, open questions

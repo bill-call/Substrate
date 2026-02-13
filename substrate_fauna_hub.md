@@ -59,7 +59,7 @@ real. The middle kingdom has species in the terrestrial sense.
 
 Size range: millimeter to low centimeter scale. Crushed by the
 square-cube law in 1.82g. Rigid-bodied. Tower-locked electrical
-parasites --- they tap the tower's conductive lattice for energy via
+mutualists --- they tap the tower's conductive lattice for energy via
 inductive coupling, direct contact, or galvanic harvesting. Without
 metabolic processing organs, fuel storage, or digestive systems (beyond
 minimal material intake), their mass budget goes almost entirely to
@@ -1157,9 +1157,9 @@ there? How different from the rest of the biosphere?
 middle-kingdom genomic-sexual / megafauna amorph. Physically motivated
 by scale.
 
-**✓ RESOLVED:** Middle kingdom is tower-locked electrical parasites.
+**✓ RESOLVED:** Middle kingdom is tower-locked electrical mutualists.
 Small, rigid, genomic. Tap lattice for energy. Cannot self-power.
-Network manages via tropism.
+Network manages via tropism. Provide surface maintenance (Healers), metal delivery (Miners), quality control (Guards).
 
 **✓ RESOLVED:** Sessile majority: 95%+ biomass. Mobile minority:
 grazers, predators, dispersal morphs, logistics ants.
