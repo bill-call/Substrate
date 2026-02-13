@@ -266,6 +266,20 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **✓** Dead-bug harvesting: ecological niche and pre-industrial amorph industry. Airborne interception (freshest — metals, library fragments) + ammonia runoff filtering (volume — SiC plates, partially locked metals). Tower-derived SiC plates (~5mm) and metals are primary harvestable resources.
 
+## EM ECOLOGY — MUTUAL PERMANENT DETECTION
+
+**✓** Cognition = EM emission. Amorph neural processing (semiconductor junctions, doped regions) generates detectable EM radiation. All thinking organisms broadcast their cognitive state. This is not a design flaw — it is a physical consequence of electronic neural signaling in the ~THz range. Detection range scales with neural mass and processing intensity.
+
+**✓** Mutual permanent detection: neither predator nor prey can hide while thinking. Stealth is a cognitive problem, not a physical one. Any organism that can detect EM can detect any other organism that is currently thinking. The ecology operates under conditions of near-total mutual awareness — more sonar-saturated ocean than forest.
+
+**✓** Predator strategies (6): (1) **Go cognitively dark** — suppress neural processing for final approach. Committed strike: once dark, cannot adapt to unexpected prey movement. Default ambush strategy across all predator lineages (Earth parallel: sharks blind with mouth open, snakes committed mid-strike). Not a specialist niche — baseline predation mode. (2) **Pursuit predation** — loud and fast. Don't hide; outrun. EM detection is symmetric, so prey knows you're coming, but speed closes the gap. (3) **Ambush in EM noise** — hunt near towers, volcanic vents, or other EM-noisy environments where background masks cognitive signature. (4) **Conductive shell Faraday cage** — N-doped SiC shell attenuates EM emission. Reduces detection range. Partial, not total. (5) **Cognitive mimicry** — match background EM pattern of local fauna. Predator "thinks like prey" during approach. Sophisticated; requires neural plasticity. (6) **Trap predation** — set passive traps, withdraw cognitively. No real-time processing during capture. Ancestral strategy (simplest).
+
+**✓** Prey counter-strategies (4): (1) **Detect and flee** — exploit the symmetry. If predator can detect prey, prey detects predator at the same range. Flee before strike range. Works against all strategies except cognitively-dark final approach. (2) **Group living** — confusion effect. Many overlapping EM signatures make it hard to track individuals. Schooling/herding analog. (3) **Tower lattice as EM shelter** — tower's conductive lattice acts as Faraday cage. Organisms inside lattice are EM-shielded from external detection. Fundamental ecological role of towers: EM sanctuary. Another reason everything lives on towers. Inter-tower gaps are EM killing fields. (4) **Be inedible** — fluorine loading, glass spines, medusa-fish water weapons. If detection is unavoidable, make detection irrelevant.
+
+**✓** Erratic prey movement counters cognitively-dark predators: if prey moves unpredictably, committed (dark) strike misses. Predator must re-compute trajectory → neural activity resumes → EM emission resumes → prey detects re-engagement. Forces iterative dark/compute/dark cycles, each revealing position. Arms race between predator commitment duration and prey erratic behavior.
+
+**✓** Tower lattice is EM shelter: conductive N-doped SiC lattice acts as partial Faraday cage. Interior organisms shielded from external EM detection. This is a fundamental ecological service of the tower — not just physical structure and energy, but EM privacy. Organisms in inter-tower gaps are exposed to detection from all directions. The gap between towers is an EM killing field. This drives the concentration of mobile fauna on towers and explains the barren inter-tower landscape.
+
 ## TOWERS
 
 **✓** Coral model: living layer SUBSURFACE (mm-cm below exterior). Sacrificial crust outward. Structural lattice inward. Self-regulating.

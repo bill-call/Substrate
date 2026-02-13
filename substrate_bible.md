@@ -1145,6 +1145,40 @@ The medusa-fish is the marine analog of the tower — a mobile habitat node arou
 
 **✓ RESOLVED: Marine crisis.** Aquatic life is the canary. The H₂O ratchet concentrates water in the seas over geological time. Marine organisms are immersed in the accumulating poison; land organisms are partially shielded by distillation (rain is H₂O-poor). As H₂O rises, the petrification tax increases, the optimal body size shifts smaller, distillation energy costs rise, and marginal populations collapse from the deep ocean outward toward the shores. Marine extinction precedes terrestrial crisis by a significant margin. Vulnerability gradient: deep sea → shallow sea → coastal → land → towers.
 
+9.12 EM Ecology — Mutual Permanent Detection
+
+**✓ RESOLVED: Cognition = EM emission = mutual permanent detection.** Amorph neural processing uses electronic semiconductor junctions (not electrochemical). Signal speed 100–2000× Earth neurons, operating in the ~THz range. This processing generates detectable EM radiation as a physical byproduct. Every thinking organism broadcasts its cognitive state. Detection range scales with neural mass and processing intensity. The ecology operates under conditions of near-total mutual awareness — more sonar-saturated ocean than forest.
+
+Neither predator nor prey can hide while thinking. Stealth is a cognitive problem, not a physical one. This is the fundamental constraint shaping all predator-prey dynamics on the planet.
+
+**Predator strategies (6 major categories):**
+
+| Strategy | Mechanism | Earth Parallel | Limitations |
+|---|---|---|---|
+| Go cognitively dark | Suppress neural processing for final approach. Committed strike — once dark, cannot adapt to prey movement. | Sharks (blind with mouth open), snakes (committed mid-strike) | Cannot respond to unexpected prey movement. Erratic prey movement defeats it. |
+| Pursuit predation | Loud and fast. Don't hide; outrun. EM detection is symmetric, so prey knows you're coming. | Cheetah, wolf pack | Energetically expensive. Prey has equal warning time. |
+| Ambush in EM noise | Hunt near towers, volcanic vents, or other EM-noisy environments where background masks cognitive signature. | Sit-and-wait predators near waterfalls/rapids | Restricted to specific locations. |
+| Conductive shell Faraday cage | N-doped SiC shell attenuates outgoing EM emission. Reduces detection range. | — | Partial, not total. Also attenuates incoming signals (own detection impaired). |
+| Cognitive mimicry | Match background EM pattern of local fauna. "Think like prey" during approach. | Aggressive mimicry (firefly femmes fatales) | Sophisticated. Requires neural plasticity. Detectable by pattern analysis. |
+| Trap predation | Set passive traps, withdraw cognitively. No real-time processing during capture. | Spider webs, pitcher plants | Ancestral strategy. Low intelligence ceiling. |
+
+**Go cognitively dark is the DEFAULT ambush strategy**, not a specialist niche. Every predator lineage converges on it because it is the simplest solution: stop thinking, strike on last-known trajectory. The committed-strike tradeoff (accuracy vs. adaptability) is the central axis of the predatory arms race.
+
+**Prey counter-strategies (4 major categories):**
+
+| Strategy | Mechanism | Notes |
+|---|---|---|
+| Detect and flee | Exploit the symmetry — if predator detects prey at range R, prey detects predator at range R. Flee before strike range. | Works against all strategies except cognitively-dark final approach. Primary defense. |
+| Group living / confusion effect | Many overlapping EM signatures make individual tracking difficult. Schooling/herding analog. | Also increases collective detection range (more receivers). |
+| Tower lattice as EM shelter | Tower's conductive N-doped SiC lattice acts as Faraday cage. Interior organisms shielded from external EM detection. | **Fundamental ecological role of towers.** Not just physical structure and energy, but EM privacy. Another reason everything lives on towers. |
+| Be inedible | Fluorine loading, glass spines, medusa-fish water weapons. Make detection irrelevant. | Converges with fluorine ecology and marine defense systems. |
+
+**Erratic prey movement** counters cognitively-dark predators: if prey moves unpredictably during the strike, the committed (dark) approach misses. Predator must re-compute trajectory → neural activity resumes → EM emission resumes → prey detects re-engagement. Forces iterative dark/compute/dark cycles, each revealing predator position. Arms race between predator commitment duration and prey erratic behavior.
+
+**Tower lattice as EM sanctuary** — the conductive lattice provides partial Faraday cage shielding to all interior organisms. This is a fundamental ecological service: EM privacy. Organisms in inter-tower gaps are exposed to detection from all directions. The gap between towers is an **EM killing field**. This drives the concentration of mobile fauna on and around towers, and explains why inter-tower ground is ecologically barren despite adequate resources. The tower is shelter in three senses: physical (wind), energetic (grid power), and electromagnetic (detection shielding).
+
+**Daysider commando stealth:** training (learned cognitive suppression) + copper mesh net (amorph equivalent of ghillie suit — Faraday cage wearable). Copper is readily available from metallosilazane chemistry. The net attenuates outgoing EM while the commando operates in minimal-cognition mode. This is specialized military technology; natural organisms cannot fabricate conductive mesh.
+
 10\. TOWERS AND THE PLANETARY NETWORK
 
 10.1 Tower Biology: The Coral Model
