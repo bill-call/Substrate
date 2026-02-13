@@ -199,7 +199,7 @@ Towers break it.
 
 **[REVISED V2.4]** Ammonia seas are **tower-dependent features** in the modern era. Any topographic depression on the dark side is a sediment trap: atmospheric particulate falls out where katabatic wind meets liquid surface (wave-induced turbulence trips boundary layer, drops carrying capacity), all particulate sinks in ammonia (SiC: 3200 kg/m³, silicate: 2500+ kg/m³, ammonia: 660 kg/m³), and without outflow the basin fills. Over geological time, every unprotected depression fills with sediment and ceases to exist.
 
-Towers are the only self-repairing roughness element on the planet. A tower breaks the otherwise-laminar katabatic flow, creating turbulence → scour basins and complex depositional topography → depressions that hold ammonia. The tower's ongoing turbulence actively maintains the basin against sediment infilling. Kill the tower, the turbulence stops, and the peneplain reclaims the basin within geological time.
+Towers are the only self-repairing roughness element on the planet. A tower breaks the otherwise aerodynamically smooth boundary layer (Re ~10¹² precludes true laminar, but surface roughness < viscous sublayer ~50 μm), creating turbulence → scour basins and complex depositional topography → depressions that hold ammonia. The tower's ongoing turbulence actively maintains the basin against sediment infilling. Kill the tower, the turbulence stops, and the peneplain reclaims the basin within geological time.
 
 **Shore deposition zones:** Where katabatic wind meets ammonia surface, waves create roughness elements, the boundary layer trips to turbulent, and the wind's particulate carrying capacity drops. Atmospheric fallout accumulates at the shoreline — SiC grit, volcanic fines, dead-bug plume debris (catalytic metals, library fragments, SiC plates). The shore is the primary nutrient delivery system connecting the atmospheric conveyor to the marine ecosystem, and the main reason shore/intertidal is the richest marine zone.
 
@@ -213,7 +213,7 @@ Terminator basins remain the primary sea locations (tower arrays densest, rain s
 2. **Continuous SiC abrasion.** The dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years polishes the surface to sub-grain-scale smoothness.
 3. **No accumulation.** The atmospheric particulate conveyor is a closed loop (see §3.6). Material passes through the dark side without accumulating.
 
-The surface is potentially smooth enough for the katabatic boundary layer to remain laminar — no roughness elements to trip transition to turbulence. The only persistent roughness elements are towers (self-repairing SiC lattice). All topographic complexity on the dark side is tower-generated.
+The surface roughness falls below the viscous sublayer (~50 μm), producing an **aerodynamically smooth turbulent boundary layer** — Re ~10¹² precludes true laminar flow, but the surface is too smooth to generate roughness-driven turbulence. The narrative consequence is identical: only towers (self-repairing SiC lattice) disturb the flow. All topographic complexity on the dark side is tower-generated.
 
 **Visual:** From orbit, the dark side is a polished plain extending to the horizon, punctuated by tower arrays with ammonia seas at their feet. The contrast with the day side (active volcanic terrain — shield volcanoes, flood basalt provinces, yardangs and ventifacts sculpted by wind) is extreme.
 
@@ -231,6 +231,8 @@ The surface is potentially smooth enough for the katabatic boundary layer to rem
 6. Katabatic surface winds re-entrain deposited material and carry it back toward the terminator and day side.
 
 **The loop closes** because the chimney's grain-size filter ensures that everything entering the superstream is fine enough for the katabatic wind to re-entrain. Both halves of the Hadley cell carry the same mass flux (steady state), so their particulate carrying capacities are comparable.
+
+**Anti-stellar dust cap:** Minor exception to the no-accumulation rule. Katabatic wind velocity starts at ~0 m/s at the anti-stellar stagnation point and the downdraft deposits material directly. The finest fraction may accumulate locally where wind is too gentle to re-entrain. Self-limiting and geologically insignificant — the stagnation zone is small and any accumulation reduces the local thermal gradient that drives the katabatic wind in the first place.
 
 **No significant cyclonic activity at convergence points.** Both the substellar and anti-stellar points are on the equator (f = 0). Rotation rate is ~4% of Earth's (18-day period). Equatorial Rossby deformation radius (~20,000 km) exceeds the planetary radius (~8,600 km). The circulation is a broad, thermally-direct overturning with equatorial superrotation (Matsuno-Gill pattern), not discrete vortices. Coriolis modifies the flow (Ro ≈ 0.17–0.28 at mid-latitudes) but does not produce cyclones.
 
@@ -376,8 +378,7 @@ Day-side volcanic eruptions periodically destroy portions of the
 subsurface network. The deep organism loses sections and regrows into
 new fracture networks as lava cools and cracks. The day-side subsurface
 network is geologically young, repeatedly pruned. The dark-side
-subsurface network is ancient, uninterrupted, continuous back to
-original colonization.
+subsurface network is ancient, rarely interrupted — but the rare dark-side plume breakthrough (every ~500 Myr–1 Gyr) can sever connections within it, leading to fragmentation and protocol drift (see §10.7).
 
 4.6 Crisis Survival
 
@@ -477,7 +478,7 @@ of years. Result: terminator is a flat, featureless peneplain. No
 geological features survive. Only towers (biological, self-repairing)
 stand above the surface. Ammonia rain contributes chemical erosion.
 
-**[REVISED V2.4]** The dark side is an even more extreme peneplain — SiC-polished bedrock. The dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years, with no constructive geology to fight back, produces mirror-smooth surfaces. Surface potentially smooth enough for laminar boundary layer flow. The only persistent roughness elements on the dark side are towers. See §3.5 for the full atmospheric particulate conveyor (closed loop) and §3.4 for tower-dependent basin formation.
+**[REVISED V2.4]** The dark side is an even more extreme peneplain — SiC-polished bedrock. The dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years, with no constructive geology to fight back, produces mirror-smooth surfaces. Surface roughness falls below the viscous sublayer (~50 μm) → aerodynamically smooth turbulent boundary layer (Re ~10¹² precludes true laminar, but surface too smooth for roughness-driven turbulence). The only persistent roughness elements on the dark side are towers. See §3.5 for the full atmospheric particulate conveyor (closed loop) and §3.4 for tower-dependent basin formation.
 
 Day side: volcanic construction dominates near substellar. Wind sculpts but cannot overcome construction rate. Gradient from construction-dominated (substellar) to erosion-dominated (toward terminator). Yardangs, ventifacts, streamlined ridges oriented radially toward substellar.
 
@@ -935,7 +936,7 @@ equipment becomes propulsion becomes habitat becomes lifestyle.
 **\[NEW IN V2.4\] Dual-organism architecture.** All balloon fauna at
 every scale are amorph/sexual symbiotes. Wind-dispersed sexual larvae
 colonize balloon organisms (same recruitment pathway as tower
-colonization). Sexual organisms' sealed SiC shells provide rigid gas
+colonization — see §10.6). Sexual organisms' sealed SiC shells provide rigid gas
 cells (superior H₂ barrier), structural framework (fused shells = reef
 architecture), and MEMS actuators. The amorph provides envelope,
 cognition (minimal — tropism-level), metabolic processing, and energy
@@ -1348,7 +1349,33 @@ independent colonies. Lattice microstructure varies regionally. Signals
 are uniform. One protocol. One mind. Scars of old wars visible only in
 the mineral record.
 
-10.6 Intelligence Without Consciousness
+10.6 Network Expansion and Colonization
+
+**[NEW IN V2.4]**
+
+**✓ RESOLVED:** The network expands through **root budding**, not independent tower seeding. The root network spreads outward from mature towers. When network ping rules determine that conditions support a new tower (energy surplus, spacing criteria, wind exposure), a tower **buds from the root** — the root tip differentiates into a surface-growing lattice. The bud creates a voltage/signal gradient along the root that activates symbiote propagule-distribution behavior.
+
+**Symbiote migration:** Tower-coupled organisms (Healers, Miners, Guards) follow the voltage gradient in propagule-distribution state, maintaining Schottky coupling with the conductive root surface for energy throughout the journey. If distance exceeds a single generation's lifespan, the migration is generational — symbiote populations reproduce along the root, each generation advancing the colonization front. Amorphs are not involved in colonization; they are the megafauna transport layer, not colonization couriers.
+
+**✓ RESOLVED: Symbiote co-evolution constraint.** Tower-coupled symbiotes function ONLY in the signal/chelation environment they co-evolved with. Chelation badges, signal protocols, lattice-coupling parameters, and pore geometries are all network-specific (four speciation axes — see §6). A symbiote population cannot colonize a foreign network's towers, and a tower without its co-evolved symbiotes is metabolically minimal: chemistry occurs only on the active face, there is no metal delivery (no Miners), no surface maintenance (no Healers), no quality control (no Guards). Such a tower grows, but slowly, from atmospheric SiH₄ processing alone.
+
+**Implication for root contact with foreign stubs:** When an expanding root encounters an existing tower stub not connected to its own network, only two scenarios exist: (1) reconnection with a severed bud from the same network (rare but possible — rejoin seamlessly if protocols haven't drifted), or (2) contact with an independent colony's tower — triggering a signal war (§10.5).
+
+10.7 Post-Unification Fragmentation and War
+
+**[NEW IN V2.4]**
+
+After the winning network absorbs all primordial rivals (§10.5), new network wars arise not from independent colonies but from **fragmentation + protocol drift**.
+
+**Fragmentation mechanism:** A geological event severs a root connection within the unified network. The severing event must exceed the thermal tolerance of deep-rock extremophiles — organisms that **evolved in geothermally active fracture networks**. Minor fissures, warm cracks, and hydrothermal vents are native habitat, not barriers; the root grows straight through them. Only a **major magmatic intrusion** (1200K+ — actual magma replacing habitable fracture) or a dark-side plume breakthrough (the rare ~500 Myr–1 Gyr event from §2 Volcanic Regime) produces a thermal barrier the living tissue cannot cross. The SiC mineral lattice survives (decomposition >2700K), but the living layer (silazane-based, operating at ~240K) is annihilated. Dead lattice across the gap conducts electricity but carries no signals — it is a cable, not a nerve.
+
+**Protocol drift:** The isolated halves continue operating independently. Electronic-speed neural processing means that cognitive and signal evolution proceeds far faster than geological time. Over thousands of years of isolation, chelation protocols, signal authentication, and behavioral management patterns diverge. The drift is not intentional — it is the cumulative result of local optimization without shared reference.
+
+**Re-contact = war:** When the geological barrier eventually cools (the volcanic event ends, magma solidifies, new fractures open), living tissue can recolonize the gap. When the two halves reconnect, their protocols are **close enough to be recognizable as protocol** (they were one system recently, geologically speaking) but **too different to accept** (authentication fails, chelation badges don't match, signal patterns trigger contamination responses). The result is a signal war between former siblings — identical to the primordial wars in mechanism (flinch → retreat fails → forced engagement → adversarial ratchet) but arising from internal fragmentation rather than external contact.
+
+**War frequency:** Dark-side plume breakthroughs every ~500 Myr–1 Gyr set the clock. This makes post-unification wars rare, epochal events — consistent with the current network being the "last one standing" rather than one of many continuously fighting.
+
+10.8 Intelligence Without Consciousness
 
 **\[NEW IN V2\]**
 
@@ -2002,7 +2029,9 @@ Network
 **□ OPEN:** Timeline of network wars relative to amorph evolution and
 civilization.
 
-**□ OPEN:** How many wars? How many fronts? Multi-front dynamics?
+**✓ RESOLVED:** Two distinct war epochs: (1) primordial wars — independent deep-rock colonies meet at surface, each with independently evolved symbiotes and protocols (§10.5); (2) post-unification wars — fragmentation + protocol drift within the winning network (§10.7). Primordial wars produce many fronts; post-unification wars are rare (~500 Myr–1 Gyr dark-side plume breakthrough timescale).
+
+**□ OPEN:** How many primordial wars? Depends on fracture system count (see §4.2). Multi-front dynamics partially addressed (§10.5).
 
 **□ OPEN:** What does the merger actually produce? Conscious network or
 unconscious network with conscious batteries?

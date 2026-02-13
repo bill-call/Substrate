@@ -116,13 +116,13 @@ February 2026 v2.4
 
 ## SURFACE GEOMORPHOLOGY
 
-**✓** Atmospheric particulate conveyor: closed loop. Day-side volcanism → surface winds carry particulate to substellar chimney → chimney lofts fines into superstream → superstream carries to anti-stellar downdraft (velocity increases toward anti-stellar via spherical convergence — anything carried past the terminator goes the full distance) → deposition → katabatic surface winds re-entrain and carry back toward terminator/day side. Chimney acts as grain-size filter: only material light enough to be lofted enters the loop. Katabatic wind can re-entrain everything the chimney admitted. No net accumulation on the dark side.
+**✓** Atmospheric particulate conveyor: closed loop. Day-side volcanism → surface winds carry particulate to substellar chimney → chimney lofts fines into superstream → superstream carries to anti-stellar downdraft (velocity increases toward anti-stellar via spherical convergence — anything carried past the terminator goes the full distance) → deposition → katabatic surface winds re-entrain and carry back toward terminator/day side. Chimney acts as grain-size filter: only material light enough to be lofted enters the loop. Katabatic wind can re-entrain everything the chimney admitted. No net accumulation on the dark side (exception: anti-stellar stagnation cap — katabatic wind starts at ~0 m/s, local accumulation of finest fraction possible; minor, self-limiting, not geologically significant).
 
-**✓** Dark-side peneplain: SiC-polished bedrock. Dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years produces mirror-smooth surface. No constructive geology (no volcanism, no tectonics) to rebuild. Surface potentially smooth enough for laminar boundary layer flow. Deep dark side is polished bedrock plain to the horizon.
+**✓** Dark-side peneplain: SiC-polished bedrock. Dead-bug plume feeds SiC particulate (Mohs 9.5) into the atmospheric conveyor. SiC abrading silicate bedrock (Mohs 6-7) over billions of years produces mirror-smooth surface. No constructive geology (no volcanism, no tectonics) to rebuild. Surface roughness falls below viscous sublayer (~50 μm) → aerodynamically smooth turbulent boundary layer (Re ~10¹² precludes true laminar, but surface too smooth to generate roughness-driven turbulence — same narrative consequence: only towers disturb the flow). Deep dark side is polished bedrock plain to the horizon.
 
 **✓** Day-side geomorphology: active volcanic terrain. Continuous plume volcanism builds shield volcanoes and flood basalt provinces. Wind erosion sculpts but cannot overcome construction rate near substellar. Gradient from volcanic construction-dominated (substellar) to erosion-dominated (toward terminator). Yardangs, ventifacts, streamlined ridges oriented radially toward substellar.
 
-**✓** Ammonia seas are tower-dependent features (modern). Towers are the only self-repairing roughness element on the planet. Tower breaks laminar katabatic flow → turbulence → scour basins and depositional features → topographic complexity that holds liquid ammonia. Kill the tower, turbulence stops, basin fills with aeolian sediment, peneplain reclaims it. Without towers, ammonia seas cannot persist — any depression is a sediment trap (everything sinks in ammonia, atmospheric fallout fills it).
+**✓** Ammonia seas are tower-dependent features (modern). Towers are the only self-repairing roughness element on the planet. Tower breaks aerodynamically smooth boundary layer → turbulence → scour basins and depositional features → topographic complexity that holds liquid ammonia. Kill the tower, turbulence stops, basin fills with aeolian sediment, peneplain reclaims it. Without towers, ammonia seas cannot persist — any depression is a sediment trap (everything sinks in ammonia, atmospheric fallout fills it).
 
 **✓** Shore deposition zones: where katabatic wind meets ammonia surface, waves create roughness, boundary layer trips to turbulent, wind carrying capacity drops, particulate falls out. Shorelines are the ONE place on the dark side where material accumulates. SiC grit, volcanic fines, dead-bug plume debris (catalytic metals, library fragments, SiC plates). Shore = nutrient delivery system connecting atmospheric and marine cycles. Primary reason shore/intertidal is the richest marine zone.
 
@@ -154,9 +154,13 @@ Dynamic pressure at terminator: 370 Pa (≈ 25 m/s on Earth).
 
 **✓** Surface roots evolve to manage megafauna; secondarily bridge geological gaps between colonies, triggering network wars.
 
+**✓** Network expansion: root network spreads from mature towers. Network ping rules determine when a new tower buds FROM the root. Bud creates a voltage/signal gradient. Tower-coupled symbiotes (Healers, Miners, Guards) follow gradient in propagule-distribution state, maintaining Schottky coupling with conductive root surface for energy en route. Journey is generational if distance requires — symbiote populations reproduce along the root, maintaining the migration front. Amorphs are NOT involved in colonization (they are megafauna transport layer, not colonization couriers).
+
+**✓** Symbiote co-evolution constraint: tower-coupled symbiotes function ONLY in the signal environment they co-evolved with. Symbiote transfer to a foreign network is impossible — the chelation badges, signal protocols, and lattice-coupling parameters are network-specific. A tower without its co-evolved symbiote population is metabolically minimal (chemistry only on active face, no metal delivery, no surface maintenance, slow growth).
+
 **✓** Deep-rock survives atmospheric crisis (geothermal, not atm-dependent). Crisis kills branches, not trunk.
 
-**✓** Day-side subsurface network: young, repeatedly pruned by volcanism. Dark-side: ancient, uninterrupted.
+**✓** Day-side subsurface network: young, repeatedly pruned by volcanism. Dark-side: ancient, rarely interrupted (dark-side plume breakthrough every ~500 Myr–1 Gyr can sever connections → fragmentation source for post-unification wars).
 
 ## BIOCHEMISTRY
 
@@ -314,7 +318,9 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 ## PLANETARY NETWORK
 
-**✓** Network wars: when surface roots bridge gap between colonies, foreign signals flood infrastructure. Flinch → retreat fails → forced engagement.
+**✓** Network wars (primordial): when surface roots from independent deep-rock colonies first meet, foreign signals flood infrastructure optimized for self-signals. Flinch → retreat fails → forced engagement. Each colony has independently evolved towers AND symbiotes — both are near-peers.
+
+**✓** Network wars (post-unification): after one network absorbs all rivals, new wars arise via FRAGMENTATION + PROTOCOL DRIFT. A geological event (dark-side plume breakthrough every ~500 Myr–1 Gyr, major magmatic intrusion) severs a root connection. The severing event must exceed the thermal tolerance of deep-rock extremophiles — minor vents are just habitat; only magma (1200K+) or sustained major fissures kill the living tissue while leaving dead lattice intact. Isolated halves drift in signal/chelation protocols at electronic neural speeds. Re-contact (when the geological barrier cools, potentially thousands of years later) = war between former siblings with incompatible authentication. Protocol close enough to recognize AS protocol, too different to accept.
 
 **✓** Adversarial ratchet: signal discrimination → protocol analysis → forgery → forgery detection → theory of mind → self-modeling. Intelligence WITHOUT consciousness.
 
