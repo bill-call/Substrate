@@ -441,7 +441,11 @@ surface wind toward day side. Coriolis is weak (18-day rotation, f =
   Anti-stellar pole       \~0 m/s. Stagnation point. Calmest location.
 
   Dark side (pole to      2--8 m/s, accelerating toward terminator.
-  terminator)             Steady, predictable, gentle.
+  terminator)             Free-stream: laminar (stably stratified, no
+                          convection, no weather). Surface boundary
+                          layer: aerodynamically smooth turbulent
+                          (Re ~10¹², roughness < viscous sublayer).
+                          Both → only towers create turbulence.
 
   Peak (\~30--40° from    \~10 m/s. Maximum surface wind.
   anti-stellar)
