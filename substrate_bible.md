@@ -853,6 +853,89 @@ fundamental amorph-tower economic relationship.
 **✓ RESOLVED: Metabolic rates** (100 kg reference mass): 300W rest,
 750W active, 5000W peak. Scaling ~M^0.85.
 
+8.5 Amorph Emergence
+
+**[NEW IN V2.4+]**
+
+> Full stage-by-stage model: **Amorph Emergence Hub**.
+
+The pathway from ≤100 μm pool coacervate to kg-scale free-range
+megafauna. Six overlapping stages; population distributed across all
+stages simultaneously once the conveyor is established.
+
+**Stage 0 — Pool genesis (My-scale).** Open terminator ammonia pool,
+non-fracture-connected. ≤100 μm coacervate with metallosilazane
+catalytic chemistry and ancestral chelation. No genome. Diffusion-limited
+size ceiling at ~100 μm.
+
+**Stage 1 — Aeroplankton dispersal.** Pool organisms wind-dispersed
+across terminator. At 8 bar: settling velocity ~1 mm/s vs 9.5 m/s wind
+(ratio ~10⁴). Travel 10–100+ km. Random deposition, survival selection.
+No directed migration, no taxis. Adjacent terrain may be silicate bedrock
+(pre-biotic), not lattice — dispersal is airborne, not crawling.
+
+**Stage 2 — Tower biofilm.** Micro-amorph deposited on tower exterior
+dead crust. Schottky coupling (metallosilazane enzyme metal centers on
+N:SiC) → grid power → growth beyond diffusion ceiling (positive feedback:
+contact area → power → growth). **Amorphs are the first miners:** chelate
+metals from wind-deposited debris, concentrate on lattice surface for
+living coral layer absorption. Ancestral chelation chemistry from pool
+genesis. Net positive tower feedback. SiC accumulates from dead-bug plume
+debris and environmental deposition. At SiC percolation threshold,
+semiconductor signal processing emerges (physics, not evolution): pattern
+detection, short-term memory, sensory integration.
+
+**Stage 3 — Guard coevolution and first meme.** Guard function evolves in
+sexual symbiote lineage. Long-resident biofilm passively acquires lattice
+surface chemistry (dopant profile, polytype, trace metals) → Guards
+recognize as local → no attack (IFF imprinting). Time-gated:
+fresh arrivals vulnerable until imprinted. Network-specific. New amorph
+acquires IFF signature from resident via gel-gel contact = **first meme**
+(proof-of-residence, survival-selected molecular pattern transfer). The
+gel-contact mechanism generalizes to all subsequent meme exchange. IFF
+chemistry is ancestral to the memory architecture key system (allosteric
+molecular recognition gating enzyme behavior). Trajectory:
+proof-of-residence → network membership → library signature → individual
+identity.
+
+**Stage 4 — Miner competition and range extension.** Sexual Miners (ants)
+evolve: genomically optimized, root-mobile, crevice-adapted. Outcompete
+amorphs on motility and throughput. Tower feedback is proportional — less
+efficient = less reward, not zero. Amorphs persist at reduced margins.
+Competitive pressure drives: (1) range extension (off-grid territory =
+amorph monopoly), (2) body size increase (charge storage → range), (3)
+observation-based learning, (4) brain growth. **Observation-based
+learning:** amorphs watch sexual organisms, replicate behaviors adapted to
+gel physiology, encode as transferable memes. Sexual organisms = innovation
+engine (fast genomic evolution). Amorphs = technology transfer layer.
+Meme crafting from observation is categorically different from transcription
+errors — intentional, requires proto-cognition. **Amorphs accumulate
+smarter, not evolve smarter.** Ontogenic (lifetime SiC + meme acquisition)
+primary mechanism. Lamarckian inheritance via budding (buds receive
+fraction of parent's accumulated state). Mobility modes emerge: root
+railway (grid-powered), downwind advection (passive, one-way), peristaltic
+crawling, atmospheric circuit (later, planetary-scale).
+
+**Stage 5 — Free-range megafauna.** kg-scale+. Variable rigidity, gel
+actuators, parabolic reflector eye (meme-transferable), full sensory
+suite. Semiconductor neurology at electronic speed. Single-node cognitive
+ceiling determined by information-processing topology (edge-traversal
+costs exceed benefit of new nodes), not metabolism. With electronic
+signaling 100–2000× biological neuron speed, ceiling ≥ human-equivalent
+general intelligence. Federation (monks only, much later) exceeds ceiling.
+Tower mutualism mature: amorphs = long-range logistics and intelligence
+layer; tower = fast charger. Charge economy, meme library depth, farmer
+caste, dual currency.
+
+**Idempotency:** Two blank bodies loaded with identical meme sets produce
+approximately the same individual (no genome → no biological
+individuality). Non-idempotent factors: SiC network topology (unique
+growth history → different cognitive style), working memory state
+(volatile), spatial meme distribution. Socially idempotent; subjectively
+not. Budding = similar-but-not-identical offspring (inherits memes + SiC,
+builds own topology). Merge = genuinely new mind (combined library, novel
+topology, neither parent's processing style survives).
+
 9\. ECOLOGY
 
 9.1 The Three-Tier Life Architecture
@@ -2131,6 +2214,39 @@ generations via repeated displacement + catalytic fragment exposure.
 seals throat → back-pressure → burst → ring ejecta → cemented cone →
 breaches surface → lightning rod → ceramification → proto-tower.
 
+**✓ RESOLVED:** ★★★ Amorph emergence pathway: 6-stage model from pool
+coacervate to free-range megafauna. Aeroplankton dispersal (settling ~1
+mm/s vs 9.5 m/s wind), tower biofilm via random deposition, amorphs as
+first miners, IFF tagging → first meme (proof-of-residence via gel-gel
+contact, ancestral to key system), proportional displacement by sexual
+Miners, competitive pressure drives range/size/cognition. See §8.5,
+Amorph Emergence Hub.
+
+**✓ RESOLVED:** ★★★ Proto-cognition emerges at SiC percolation threshold
+in gel matrix. Physics, not evolution. Prerequisite for observation-based
+learning (amorphs watch sexual organisms, adapt to gel physiology, craft
+transferable memes). Sexual organisms = innovation engine; amorphs =
+technology transfer layer.
+
+**✓ RESOLVED:** ★★★ Amorphs accumulate smarter, not evolve smarter.
+Ontogenic (lifetime SiC + meme acquisition) primary mechanism. Lamarckian
+inheritance via budding. Single-node cognitive ceiling is
+information-processing topology limit (edge-traversal costs), not
+metabolic. ≥ human-equivalent with 100–2000× signal speed. Federation
+(monks only) exceeds ceiling.
+
+**✓ RESOLVED:** ★★★ IFF chemistry ancestral to memory architecture key
+system. Same structural pattern: molecular signature → enzyme recognition
+→ behavior switch. Keys descend from IFF. Key exchange during merge
+descends from IFF contact exchange. Trajectory: proof-of-residence →
+network membership → library signature → individual identity.
+
+**✓ RESOLVED:** ★★★ Amorph idempotency: approximately yes at social
+level (same memes → same recognized person). Non-idempotent factors: SiC
+network topology, working memory state, spatial meme distribution. Budding
+produces similar-but-not-identical offspring. Merge produces genuinely new
+mind.
+
 17\. MAJOR OPEN QUESTIONS
 
 Geology
@@ -2186,15 +2302,30 @@ look like in a non-connected pool with only atmospheric SiH₄, rock-weathering
 metals, and lightning? How do the force multipliers change without tower
 proximity?
 
-**[V2.4+] □ OPEN:** Amorph emergence pathway: how does a ≤100 μm pool
-coacervate become macroscopic surface megafauna? The revised model
-(independent pool genesis + tower displacement as evolutionary engine)
-provides framing but the mechanism is not worked through.
+**[V2.4+] ✓ RESOLVED:** Amorph emergence pathway: 6-stage model. Pool
+genesis → aeroplankton dispersal → tower biofilm (first miners) → Guard
+coevolution / first meme (IFF) → Miner competition / range extension →
+free-range megafauna. See §8.5, Amorph Emergence Hub.
 
 **[V2.4+] □ OPEN:** Lineage fork mechanism in open pools: without cone
 geometry, what drives the coacervate → amorph / amphiphile → sexual
 divergence? Pool Genesis Hub §4 describes the fork but the spatial driver
 in the revised (non-tower-adjacent) model is unclear.
+
+**[V2.4+] □ OPEN:** Merge output model: single combined entity (current
+canon, N→1) vs voluntary/involuntary fragmentation into N children.
+Fragmentation resolves aggregate mass problem and produces transient genius
+state (brief integration window for cross-library associations, then
+fission into viable-sized children carrying combined library).
+
+**[V2.4+] □ OPEN:** SiC percolation threshold for proto-cognition onset:
+what volume fraction and network topology in gel matrix? Determines when
+observation-based learning becomes possible.
+
+**[V2.4+] □ OPEN:** Parabolic reflector eye: when in the emergence
+sequence does this meme first appear? Requires enough cognition to observe
+optics, enough SiC to build reflective surface, enough body mass for
+focal stalk.
 
 **□ OPEN:** Balloon fauna ecology in detail: specific niches,
 predator-prey dynamics, colonial organisms. How does the amorph/sexual
