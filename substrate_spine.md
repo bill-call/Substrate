@@ -60,7 +60,7 @@ February 2026 v2.4
 
 | Liquid | Location | Properties |
 |---|---|---|
-| Ammonia seas | Terminator basins (rain-fed, marginally stable) and night-side basins (stable, growing). Condensation line = terminator. | ~660 kg/m³. Amorphs sink. |
+| Ammonia seas | Terminator basins (rain-fed, marginally stable) and night-side basins (stable, growing). Condensation line = terminator. Persist only where towers stabilize them (H₂O ratchet). | ~660 kg/m³. Amorphs sink. |
 | Hydrocarbon lakes | Deep dark side. Ethane/propane. | ~450–550 kg/m³ |
 
 ## GEOLOGY
@@ -469,7 +469,7 @@ Role: compiled probe's library. Grief counselors for shell-economy collapse. Dis
 | Fluorine ecology | Day-side volcanic provinces |
 | Deepest past | Anti-stellar pole + fossil root network |
 
-**✓** Writing is a cognitive prosthetic: external WM that costs zero charge. Invented to offload active working memory (battery-saving), NOT for communication or trust. Culturally low-status (unsigned, unverifiable — less trusted than signed memes). Enables formal mathematics. Monks adopt it earliest (their problems demand sustained high-abstraction work). Medium: etched SiC / conductive traces. Libraries: tower walls.
+**✓** Writing: invented by monks as WM offload for mathematics (signal processing, orbital mechanics). Untrusted — no keys, no provenance, no proof-of-origin. Culturally low-status (less trusted than signed memes). Not needed for memory (meme architecture handles natively; captive meme complex on powered grid = indefinite storage). Occasionally used for communication (low-fidelity channel). Enables formal mathematics (preserves minority insights that wash out in meme-mixing). Medium: etched SiC / conductive traces. Libraries: tower walls.
 
 **✓** Math: native arithmetic/Bayesian. Formal math LATE. Abstract insights wash out in meme-mixing. Mathematical writing preserves minority insights.
 

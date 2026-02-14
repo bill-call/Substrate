@@ -236,7 +236,7 @@ The surface roughness falls below the viscous sublayer (~50 μm), producing an *
 
 **No significant cyclonic activity at convergence points.** Both the substellar and anti-stellar points are on the equator (f = 0). Rotation rate is ~4% of Earth's (18-day period). Equatorial Rossby deformation radius (~20,000 km) exceeds the planetary radius (~8,600 km). The circulation is a broad, thermally-direct overturning with equatorial superrotation (Matsuno-Gill pattern), not discrete vortices. Coriolis modifies the flow (Ro ≈ 0.17–0.28 at mid-latitudes) but does not produce cyclones.
 
-3.5 Volcanic Outgassing and the Atmospheric Budget
+3.7 Volcanic Outgassing and the Atmospheric Budget
 
 **✓ RESOLVED:** Day-side volcanism is the primary mechanism replenishing
 atmospheric silane. The atmosphere is a reservoir: biological
@@ -270,7 +270,7 @@ atmosphere and seas → chronic petrification stress on silicon life.
 industrial-scale silane processing, but they did not cause it — the
 one-way cycle made crisis inevitable from the moment life evolved.
 
-3.6 Fissile Materials
+3.8 Fissile Materials
 
 Uranium and thorium present. \~4.2x Earth's total inventory.
 Concentrated through magmatic differentiation in day-side volcanic
@@ -284,7 +284,7 @@ Nuclear thermal propulsion (uranium-heated H₂, Isp \~900s) is physically
 possible but culturally and technologically distant from silicon
 biochemistry.
 
-3.7 Metal Ore Deposits
+3.9 Metal Ore Deposits
 
 **\[NEW IN V2\]**
 
@@ -436,7 +436,7 @@ that drives pool life's evolution (see §4.9).
 Genesis bar: self-replicating chemistry in supported environment,
 not an autonomous organism. Void genesis (towers) is expected on any
 suitable planet; pool genesis (mobile life) is a rare conjunction — Fermi
-answer. See §3.5, Pool Genesis Hub §§2.5–2.7.
+answer. See §3.7, Pool Genesis Hub §§2.5–2.7.
 
 **The open sea (~50 ppm H₂O, ~89% hydrolysis) is hostile to undefended
 silazane chemistry, but the sea is not a genesis site.** The pool-to-sea
@@ -617,7 +617,7 @@ of years. Result: terminator is a flat, featureless peneplain. No
 geological features survive. Only towers (biological, self-repairing)
 stand above the surface. Ammonia rain contributes chemical erosion.
 
-**[REVISED V2.4]** The dark side is an even more extreme peneplain — SiC-polished bedrock. Pre-biotic volcanic SiC (~9 Tg/yr from mantle moissanite + surface pyrolysis of SiH₄/CH₄ on hot lava) begins eroding silicate terrain at ~600 mm/Myr even before biology exists — smooth but not polished. The dead-bug plume later adds massive biological SiC to the conveyor, dramatically accelerating erosion to produce mirror-smooth surfaces. The transition from smooth to mirror-polish is a geological marker of the biosphere's onset. SiC (Mohs 9.5) abrading silicate bedrock (Mohs 6-7) over billions of years, with no constructive geology to fight back, produces sub-grain-scale smoothness. Surface roughness falls below the viscous sublayer (~50 μm) → aerodynamically smooth turbulent boundary layer (Re ~10¹² precludes true laminar, but surface too smooth for roughness-driven turbulence). The only persistent roughness elements on the dark side are towers. See §3.5 for the full atmospheric particulate conveyor (closed loop) and §3.4 for tower-dependent basin formation.
+**[REVISED V2.4]** The dark side is an even more extreme peneplain — SiC-polished bedrock. Pre-biotic volcanic SiC (~9 Tg/yr from mantle moissanite + surface pyrolysis of SiH₄/CH₄ on hot lava) begins eroding silicate terrain at ~600 mm/Myr even before biology exists — smooth but not polished. The dead-bug plume later adds massive biological SiC to the conveyor, dramatically accelerating erosion to produce mirror-smooth surfaces. The transition from smooth to mirror-polish is a geological marker of the biosphere's onset. SiC (Mohs 9.5) abrading silicate bedrock (Mohs 6-7) over billions of years, with no constructive geology to fight back, produces sub-grain-scale smoothness. Surface roughness falls below the viscous sublayer (~50 μm) → aerodynamically smooth turbulent boundary layer (Re ~10¹² precludes true laminar, but surface too smooth for roughness-driven turbulence). The only persistent roughness elements on the dark side are towers. See §3.6 for the full atmospheric particulate conveyor (closed loop) and §3.4 for tower-dependent basin formation.
 
 Day side: volcanic construction dominates near substellar. Wind sculpts but cannot overcome construction rate. Gradient from construction-dominated (substellar) to erosion-dominated (toward terminator). Yardangs, ventifacts, streamlined ridges oriented radially toward substellar.
 
@@ -733,6 +733,10 @@ Recipes outlive their derivations. Engineering outpaces science. This is
 why mathematical writing matters.
 
 8\. AMORPH BIOLOGY
+
+See also: Amorph Emergence Hub (pore-to-megafauna pathway, §8.5), Fauna
+Structural Hub (body plan mechanics), Amorph Economics Hub (charge
+economy), Memory Architecture Hub (cognition, meme architecture).
 
 8.1 Body Plan
 
@@ -1666,13 +1670,11 @@ would otherwise die.
 
 11.3 Writing
 
-Invented for: reach (distance communication), precision, untrusted
-parties. NOT memory (they have inherited memories). Medium: etched
-silicon or deposited conductive traces. Libraries: tower walls. Oldest
-inscriptions millions of years old, continuously annotated.
+Amorphs do not need writing. Meme architecture handles persistent memory natively with full authentication (keys, provenance, proof-of-origin). A captive meme complex on a powered grid stores information indefinitely. Writing carries none of these guarantees — it is unsigned, unverifiable, and culturally low-status compared to signed memes.
 
-**✓ RESOLVED:** Writing bridges the gap between library (procedural,
-molecular) and theory (symbolic, written). Civilization needs both.
+Invented by monks as a working-memory offload for mathematics (signal processing, orbital mechanics — problems demanding sustained high-abstraction work that exceeded single-session WM capacity). The invention was a cognitive prosthetic: external WM that costs zero charge. Occasionally used for communication (low-fidelity, unauthenticated channel compared to gel-contact meme transfer). Medium: etched silicon or deposited conductive traces. Libraries: tower walls. Oldest inscriptions millions of years old, continuously annotated.
+
+**✓ RESOLVED:** Writing bridges the gap between library (procedural, molecular) and theory (symbolic, written). Civilization needs both. Writing preserves minority mathematical insights that would otherwise wash out via regression-to-consensus in meme-mixing.
 
 11.4 Art
 
@@ -1953,7 +1955,7 @@ cools through the threshold temperature.
 H₂O ratchet compounds the crisis: as SiH₄ surplus disappears,
 unscavenged volcanic H₂O accumulates in the atmosphere and ammonia seas,
 introducing chronic oxidation/petrification stress. Three locks prevent
-H₂O removal (see §3.5).
+H₂O removal (see §3.7).
 
 **[NEW IN V2.3]** Aquatic petrification is a thermodynamic certainty once
 sea H₂O exceeds ~100 ppm: K ≈ 10⁵ for Si-NH-Si + H₂O → Si-O-Si + NH₃
@@ -2247,6 +2249,27 @@ network topology, working memory state, spatial meme distribution. Budding
 produces similar-but-not-identical offspring. Merge produces genuinely new
 mind.
 
+**✓ RESOLVED:** ★★★ H₂O at genesis sites does not kill abiogenesis.
+Void genesis: reducing buffer scavenges H₂O (metallic Si). Pool genesis:
+distillation shield keeps terminator pools <1 ppm H₂O. Open sea hostile
+(~50 ppm, ~89% hydrolysis) but not a genesis site. Pool-to-sea transition
+= anti-petrification evolutionary bottleneck. See §4.7, Pool Genesis Hub
+§2.4, Chemistry Hub §10.3. [V2.3]
+
+**✓ RESOLVED:** ★★★ Fluorine-thorn flora can be cultivated in the
+deposition zone with fluoride-enriched substrate. Natural HF fallout
+provides baseline enrichment; deliberate enrichment extends range. Enables
+agricultural fluorine ammunition production. Tool-using amorphs
+reverse-engineer the viper railgun via merge, farm thorn-plants for CaF₂
+ammunition. Pre-industrial fluorine weapon predating metallurgy. [V2.4]
+
+**✓ RESOLVED:** ★★★ Two distinct network war epochs: (1) primordial wars
+— independent deep-rock systems meet at surface, each with independently
+evolved symbiotes and protocols; (2) post-unification wars —
+fragmentation + protocol drift within the winning network. Primordial wars
+produce many fronts; post-unification wars are rare (~500 Myr–1 Gyr
+dark-side plume breakthrough timescale). [V2.4]
+
 17\. MAJOR OPEN QUESTIONS
 
 Geology
@@ -2278,13 +2301,6 @@ Ecology / Biology
 **□ OPEN:** Aerial soaring lineage: reproduction, predation, ecology of
 the atmospheric conveyor.
 
-**[NEW IN V2.3] ✓ RESOLVED:** H₂O at genesis sites does not kill
-abiogenesis. Void genesis: reducing buffer scavenges H₂O (metallic Si).
-Pool genesis: distillation shield keeps terminator pools <1 ppm H₂O.
-Open sea hostile (~50 ppm, ~89% hydrolysis) but not a genesis site.
-Pool-to-sea transition = anti-petrification evolutionary bottleneck. See
-§4.7, Pool Genesis Hub §2.4, Chemistry Hub §10.3.
-
 **□ OPEN:** Lightning as ongoing abiogenesis. Pre-living autocatalytic
 chemistry held in check by ecological competition?
 
@@ -2293,19 +2309,12 @@ chemistry held in check by ecological competition?
 **□ OPEN:** Fluorine-adapted lineages: specific organisms and their
 ecologies.
 
-**✓ RESOLVED:** Fluorine-thorn flora can be cultivated in the deposition zone with fluoride-enriched substrate. The plant has the full CaF₂ thorn biochemistry; it needs only fluoride supply. Natural HF fallout in the deposition zone provides baseline enrichment; deliberate enrichment extends range. Enables agricultural fluorine ammunition production. Tool-using amorphs reverse-engineer the viper railgun via merge, farm thorn-plants for CaF₂ ammunition. Pre-industrial fluorine weapon predating metallurgy. [RESOLVED V2.4]
-
 **□ OPEN:** Microbiology in general. Fragment exchange protocols.
 
 **[V2.4+] □ OPEN:** Independent pool genesis chemistry: what does genesis
 look like in a non-connected pool with only atmospheric SiH₄, rock-weathering
 metals, and lightning? How do the force multipliers change without tower
 proximity?
-
-**[V2.4+] ✓ RESOLVED:** Amorph emergence pathway: 6-stage model. Pool
-genesis → aeroplankton dispersal → tower biofilm (first miners) → Guard
-coevolution / first meme (IFF) → Miner competition / range extension →
-free-range megafauna. See §8.5, Amorph Emergence Hub.
 
 **[V2.4+] □ OPEN:** Lineage fork mechanism in open pools: without cone
 geometry, what drives the coacervate → amorph / amphiphile → sexual
@@ -2357,8 +2366,6 @@ Network
 
 **□ OPEN:** Timeline of network wars relative to amorph evolution and
 civilization.
-
-**✓ RESOLVED:** Two distinct war epochs: (1) primordial wars — independent deep-rock systems meet at surface, each with independently evolved symbiotes and protocols (§10.5); (2) post-unification wars — fragmentation + protocol drift within the winning network (§10.7). Primordial wars produce many fronts; post-unification wars are rare (~500 Myr–1 Gyr dark-side plume breakthrough timescale).
 
 **□ OPEN:** How many primordial wars? Depends on fracture system count (see §4.2). Multi-front dynamics partially addressed (§10.5).
 
