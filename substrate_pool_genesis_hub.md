@@ -92,7 +92,7 @@ See Chemistry Hub §10.3 for the full thermodynamic analysis. See Geology Hub §
 
 **[REVISED IN V2.4]** An ammonia pool on an open surface is a sediment trap. Atmospheric particulate (volcanic fines + volcanic SiC) falls out wherever wind meets liquid (wave-induced turbulence reduces wind carrying capacity). All particulate sinks in ammonia (solids: 2500–3200 kg/m³ vs ammonia: 660 kg/m³). Pre-biotic silicate terrain erodes at ~600 mm/Myr from combined volcanic SiC (~0.08% of conveyor particulate, ~9 Tg/yr) and silicate abrasion — natural depressions in silicate bedrock are geologically short-lived. See `v2.4_volcanic_sic_analysis.md` for the full quantitative analysis.
 
-The solution is the **proto-tower** — but it provides far more than shelter. The proto-tower is the surface expression of an active deep-rock colony with a fracture network. It is a **genesis reactor**, not merely a windbreak.
+The solution is the **proto-tower** — but its relationship to genesis is more complex than simple shelter. The proto-tower is the surface expression of an active deep-rock system with a fracture network. **⚠ REVISED (see §2.7):** The proto-tower is an evolutionary engine, not a genesis reactor. Fracture-connected pools fill too fast for genesis (years to decades via geyser-cone construction; genesis requires My-scale). Genesis occurs in stable non-connected pools; tower byproducts (catalytic ejecta) provide nutrient rain and punctuated disturbance that drive evolution. The force multipliers below remain real but apply primarily to tower construction and indirect pool benefits.
 
 #### Geomorphological Shelter
 
@@ -142,6 +142,117 @@ The genesis bar is low: a self-replicating autocatalytic cycle in a supported en
 Pool genesis only needs to succeed **once**. After that, mobile life spreads by wind to all towers (§7.6).
 
 **Void genesis (→ towers) is the expected outcome of any suitable planet's chemistry.** Deep-rock colonies, SiC lattice, surface outcrops — the physics practically demands it on any tidally locked super-Earth with reducing atmosphere and SiH₄. **Pool genesis (→ mobile life) is the rare conjunction**: monadnock + active fracture venting + terminator ammonia + successful coacervation. Most tower-bearing planets never produce mobile life. The universe may be full of silent, growing lattice — towers with no one to walk between them.
+
+### 2.6 Proto-Tower Construction: The Geyser-Cone Mechanism
+
+**[NEW IN V2.4]** The proto-tower is not merely the passive surface expression of a deep-rock system — it is actively **built** by a geyser mechanism at the pool floor.
+
+#### The Geyser Cycle
+
+When the deep-rock reaction front reaches the pool floor via a fracture, it opens a vent into liquid ammonia. The vent gas (SiH₄ + H₂ + CH₄, superheated by geothermal + exothermic reaction heat) enters the pool. At the throat zone where gas meets liquid, PCS deposits rapidly (gas-phase catalytic chemistry, high SiH₄ concentration). The throat narrows, seals with a PCS membrane, back-pressure builds, and the membrane fractures — ejecting a burst of PCS debris + gas + ammonia into the pool. The geyser cycle repeats as the throat reseals.
+
+#### Volcanic Cone Construction
+
+Ejecta deposits in a roughly circular ring around the vent (radial debris field in liquid ammonia). Heavier/denser fragments land closer; finer/more porous fragments travel farther (natural size sorting). The vent area stays clear — each burst scours it.
+
+The inner ring (closest to vent, highest dissolved SiH₄ flux) cements first: catalytically active fragments weld at contact necks via liquid-phase PCS/silazane deposition. Successive geyser cycles deposit new rings on top. The cemented inner structure grows upward through the pool as a **volcanic cone** — miniature cinder-cone morphology, vent channel through the center.
+
+When the cone breaches the pool surface:
+- **Atmospheric SiH₄ access** (0.3%, ~10,000× faster than dissolved)
+- **Lightning target** (tallest conductive object)
+- First strike ceramifies tip (PCS → N:SiC)
+- Positive feedback: conductive tip attracts more strikes → ceramification propagates downward → PCS gap forms between lightning front (top-down) and geothermal front (bottom-up)
+
+**The geyser builds the proto-tower. Lightning ceramifies it. The PCS gap forces lateral root expansion.** The seven force multipliers (§2.5) are all explained by this single construction mechanism.
+
+#### The Goldilocks Ring
+
+At intermediate radial distance from the vent, a genesis-favorable zone exists:
+
+| Parameter | Near vent | Goldilocks ring | Far pool |
+|---|---|---|---|
+| SiH₄ concentration | High (direct gas stream) | Moderate (dissolved, radial transport) | Low (dilute) |
+| Cementing rate | Fast (hours) | Slow (days–weeks in liquid phase) | Negligible |
+| Fragment size | Coarse (settles fast) | Fine (high surface/volume ratio) | Colloidal (permanent suspension) |
+| Geyser disturbance | Violent (scouring) | Periodic agitation | Minimal |
+| Genesis chemistry | Too fast, too hot | **Active** | Too dilute |
+
+The PCS fragments are catalytically active (embedded metal nanoparticles from deep-rock chemistry). In liquid ammonia, fragment surfaces undergo aminolysis (Si-H + NH₃ → Si-NH₂ + H₂), creating silazane-functional surfaces. Dissolved metals (leached from fragments as ammine complexes) and building materials (delivered by vent fluid) provide the chemical toolkit for prebiotic chemistry.
+
+The pool has dynamic stratigraphy:
+
+| Zone | State | Genesis role |
+|---|---|---|
+| Liquid column | Turbid suspension (fine fragments, colloidal metals, dissolved precursors) | Maximum surface area, homogeneous catalysis |
+| Bed surface | Recently settled, loose, resuspendable by next burst | Heterogeneous surfaces, sheltered crevices |
+| Shallow bed | Partially cemented, pore water trapped | Micro-reactors with distinct chemistry |
+| Deep bed | Fully welded | Slow-release reagent reservoir (leaches metals into pool) |
+
+Each geyser cycle is a nutrient pulse. Between pulses, the cemented bed slowly releases metals. Genesis happens in the **liquid phase** on and between fragments — not inside solid material.
+
+#### Cone-Wall Dimorphism
+
+**[PROPOSED]** The volcanic cone creates two sharply distinct ecological niches separated by a physical barrier:
+
+**Inside the cone (sealed pool):** SiH₄ supply cut off when cone growth seals the vent. Dissolved stock depletes as organisms consume it. Rich in dissolved metals and building materials (geyser legacy). Liquid ammonia environment, sheltered, resource-declining. Selective pressure: efficiency, small size, merger for resource sharing, liquid-phase survival.
+
+**Outside the cone (atmospheric surface):** Abundant atmospheric SiH₄ (0.3%, continuous). Metal-poor (no vent supply — rain-deposited only). Solid SiC/PCS surface exposed to wind, weather, lightning. Selective pressure: surface attachment, structural integrity, atmospheric gas exchange.
+
+The cone rim is a **selective filter** for the lineage fork:
+
+- **Amphiphile-membrane organisms** survive the rim crossing: membrane retains interior fluid on solid surface in atmosphere → colonize cone exterior → atmospheric SiH₄ → surface-dwellers → **sexual lineage**
+- **Coacervate organisms** are trapped in the pool: liquid-phase entities that cannot maintain coherence outside solvent → depleting resources → efficiency selection, merger capability, flexibility → **amorph lineage**
+
+When lightning ceramifies the chimney tip, the cone exterior becomes the first **tower surface**. Membrane organisms already living there are the first **tower symbiotes** — pre-adapted for surface life on conductive SiC before the tower even exists as such.
+
+**Status: DOWNGRADED.** If pool genesis predates tower arrival at a given pool (§2.7 independent genesis model), the cone is a bulldozer that displaces existing protolife, not a nursery. Cone may impose spatial selection on already-forked lineages during displacement, but is not the cause of the fork. The chemical fork (coacervation vs. amphiphile assembly, §4.3) operates in open pools independent of cone geometry.
+
+### 2.7 Revised Genesis Model: Independent Pool Genesis + Tower as Evolutionary Engine
+
+**[NEW — Feb 2026 follow-up session]**
+
+The geyser-cone mechanism (§2.6) fills fracture-connected pools in **years to decades** (catalytic surface growth ~1.5 mm/yr + ejecta accumulation + contact welding). Pool genesis requires **My-scale**. Therefore **genesis cannot occur in fracture-connected pools**. The proto-tower is not a genesis reactor — it fills its own pools too fast.
+
+#### Independent Pool Genesis
+
+Pool genesis and void genesis are **independent events** on mostly independent variables. If pool genesis is possible at all, it does not require tight coupling to the deep-rock fracture system. Pool genesis requires:
+
+- Stable terminator ammonia pool (rain-fed, non-connected to fracture network)
+- Atmospheric SiH₄ (0.3%, dissolved at pool surface)
+- Lightning (continuous at terminator — Miller-Urey products)
+- Some metal source (rock weathering, rain-deposited particulate, tower ejecta)
+- Sufficient time (My-scale)
+
+Tower proximity provides advantages (lightning rod concentration, nutrient rain from ejecta) but is not required. Many stable pools exist along the 62,000 km terminator independent of fracture networks.
+
+#### Tower as Evolutionary Engine
+
+Void genesis (→ towers) inadvertently drives pool genesis forward via **catalytic ejecta**:
+
+**Chronic nutrient rain (continuous, beneficial):** Fine PCS dust from geyser ejecta, wind-transported across the terminator, settles in all pools. Small fragments (10–100 μm) have few metal nanoparticles, high surface-to-volume ratio → passivate fast (days to weeks as metals leach into ammonia as ammine complexes). These are **micronutrient capsules** — timed-release metal delivery to every pool on the terminator.
+
+**Punctuated disturbance (stochastic, drives evolution):** Rare critical-mass fragments (larger, with enough metal centers for sustained catalytic activity) reach distant pools. These compete with protolife for dissolved SiH₄, deposit PCS, locally disrupt pool chemistry. Pool fills → protolife displaced to margins → forced out → most die → survivors colonize adjacent pools. Classic punctuated equilibrium.
+
+**Size-dependent migration is the filter:** Smallest fragments travel farthest, passivate fastest, pose least threat (nutrient). Largest fragments stay near cone (tower construction). Critical-mass fragments travel intermediate distances at intermediate frequency (disturbance). The disturbance tempo is tunable — it depends on geological variables (geyser energy, fracture density, pool spacing) that vary naturally along the terminator.
+
+**The two genesis pathways are synergistic:** Towers build structure. Pool genesis builds life. Tower byproducts (catalytic ejecta) feed and drive pool life. Without towers: no disturbance regime, protolife stagnates. Without stable pools: disturbance has nothing to act on.
+
+#### Chelation Origin
+
+Catalytic fragments in genesis pools are both **threat** (compete for SiH₄) and **resource** (concentrated biometals in nanoparticle form). Silazane chemistry naturally coordinates transition metals via nitrogen lone-pair donation. Evolutionary sequence:
+
+1. Coacervate contacts fragment surface → non-specific metal uptake (free, thermodynamic)
+2. Selection for better metal extraction → proto-chelation enzymes
+3. Chelation-capable organisms passivate fragments on contact → neutralize threat + harvest metals
+4. Fragment rain becomes continuous nutrient delivery for chelation-capable protolife
+5. Later exaptation: chelation aimed at other organisms' metalloenzymes → immune **kill mode**
+6. Later refinement: calibrated chelation → **toll mode** → symbiote authentication
+
+Chelation evolves as **metal-mining**, not immune defense. The foundational biological metal economy originates from the catalytic rain.
+
+#### Preadaptation via Selection History
+
+Organisms in tower-active terminator zones accumulate tower-contact experience across generations. Repeated displacement by catalytic fragments + chronic exposure to tower chemistry → SiC-surface familiarity, metal-profile compatibility, signal exposure tolerance. Preadaptation is **selection history**, not birthright. The tower doesn't manufacture symbiotes — tower byproducts create the selection regime that produces organisms pre-adapted for eventual symbiosis.
 
 #### The One-Way Door
 
@@ -259,6 +370,8 @@ POOL CHEMISTRY (simultaneous, not sequential)
 ```
 
 The fork is physical, not biological. Two different physical processes operating on different subsets of pool chemistry produce two types of compartment from the start.
+
+**Spatial reinforcement (§2.6, DOWNGRADED):** The geyser-built volcanic cone may impose spatial selection on already-forked lineages during displacement events, but is not the cause of the fork. If genesis predates tower arrival at a given pool (§2.7), the lineage fork operates in open pools independent of cone geometry. The cone is a bulldozer, not a nursery.
 
 **Mapping to the three-tier architecture (spine):** Early-stage coacervate droplets — small, no body plan, catalytic, merge/divide — are the **microbial tier**. The amorph lineage scales up to **megafauna** after the pool-to-land transition (§6). The sexual lineage becomes the **middle kingdom** after tower colonization (§7–8).
 
@@ -442,6 +555,15 @@ The tower lattice is N-doped SiC (n-type semiconductor). A symbiote's metallosil
 | Preadaptation gradient | ✓ | Organisms born in tower's resource shadow pre-adapted for symbiosis: SiC contact → junction, vent dependency → coupling, metal match → chelation, signal exposure → tolerance. Tower manufactures its own symbiotes. |
 | Pre-biotic volcanic SiC | ✓ | ~9 Tg/yr (~0.08% of conveyor). Differential erosion ratio ~100,000:1 (SiC vs silicate). Monadnock survives >1 Gyr without symbiote support. Mirror-polish is post-biotic; pre-biotic surfaces are smooth but not polished. |
 | Genesis probability | ✓ | ~10³–10⁴ monadnock sites, ~1–3 Gyr window, lowered genesis bar (supported environment). Only needs to succeed once. Void genesis (towers) expected on any suitable planet; pool genesis (mobile life) is the rare conjunction — Fermi answer. |
+| Proto-tower construction | ✓ | Geyser-built volcanic cone. Throat seals → back-pressure → burst → ring ejecta → cemented cone → breaches surface → lightning rod → ceramifies → proto-tower. |
+| Goldilocks ring | ✓ | Catalytically active PCS fragments at intermediate distance from vent. Slow cementing in liquid phase. Genesis chemistry on fragment surfaces. Dynamic stratigraphy. |
+| Cone-wall dimorphism | ⚠ DOWNGRADED | Secondary effect at most. If genesis predates tower, cone is bulldozer not nursery. May reinforce but does not cause lineage fork. |
+| Deep-rock reaction front | ✓ | No active tail. Front-only model. Behind front: H₂-permeable, SiH₄-opaque (molecular sieve). Exothermic self-fracturing. Chimney self-selection of surface-connected fractures. |
+| Independent pool genesis | ✓ | Pool genesis does not require tight coupling to void/crack genesis. Requires stable terminator pools + atmospheric SiH₄ + lightning + metals + My-scale time. Tower proximity helps but is not required. |
+| Tower as evolutionary engine | ✓ | Void genesis inadvertently drives pool genesis via catalytic ejecta: chronic nutrient rain (fine fragments, metal delivery) + punctuated disturbance (critical-mass fragments, displacement events). Synergistic, not coupled. |
+| Fracture-connected pool filling | ✓ | Geyser-cone + catalytic exterior growth + ejecta welding fills connected pools in years to decades. Genesis (My-scale) CANNOT occur in connected pools. |
+| Chelation origin | ✓ | Evolves as metal-mining from catalytic PCS fragments, not immune defense. Silazane N lone-pair coordinates metals spontaneously. Later exapted to kill mode → toll mode → symbiote authentication. |
+| Preadaptation via selection history | ✓ | Repeated tower-contact across generations via catalytic rain + displacement. Selection history, not birthright. Tower doesn't manufacture symbiotes; tower byproducts create selection regime. |
 
 ---
 
