@@ -2406,6 +2406,10 @@ traditions, autonomy religion.
 
 **□ OPEN:** Fragment exchange etiquette, social norms, trade law.
 
+**[V2.4+] □ OPEN:** Meme dependency graphs. Tentative YES. Complex memes trigger resonance queries for sub-skills during execution; missing prerequisites → partial execution. Implies natural tech tree, library-dependent meme value, monks as disproportionate beneficiaries, trade in memes you can't run as possible grift. Dependencies are DAGs (directed acyclic graphs) — cycles = cognitive deadlock. Narrative decision — needs formalization in Memory Architecture Hub.
+
+**[V2.4+] □ OPEN:** Meme-liar plague attack vectors. False headers pointing to fabricated content (Memory Architecture Hub §13). Circular dependency injection: meme whose sub-skill calls loop back to itself, locking cognitive engine in unresolvable resonance (resource exhaustion / DoS, not data loss).
+
 **□ OPEN:** Library archaeology (reading the dead's fragments, ethical
 implications).
 

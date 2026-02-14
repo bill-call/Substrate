@@ -427,6 +427,8 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **✓** Memes encode thought/memory machinery, NOT biology. One kg of amorph mass is biologically indistinguishable from any other (unless physically modified, e.g., petrification scars).
 
+⚠ OPEN: Meme dependency graphs (tentative YES). Complex memes call sub-skills via resonance during execution. Missing prerequisite → partial execution. Natural tech tree. Library-dependent meme value. Narrative decision pending.
+
 **✓** Working memory: semiconductor junction network (active processing hardware). Growable via teachable technique. Natural ceiling at single-network communication collapse. Federation bypasses ceiling (see Monks). Growing WM is an elite skill — talent + practice + teacher + years.
 
 **✓** Charge-limited ecology: atmospheric SiH₄ energy is superabundant. Binding constraint is metabolic RATE and stored CHARGE, not total energy. Cognitive capacity degrades with charge depletion. Stillness = intelligence (resting amorph devotes full power budget to cognition).
