@@ -162,31 +162,31 @@ Silicon's bandgap: 1.12 eV. Star's peak emission: ~850 nm (~1.46 eV). The photon
 
 ### 3.5 Deep-Rock Chemolithotrophy
 
-```
-H₂(g) + mineral-bound Si → reduced Si + H₂O or other waste
-```
+**[REVISED V2.4+]** The deep-rock biosphere is **not a collection of organisms** — it is a network of chemically active reaction fronts: metallosilazane catalytic chemistry self-perpetuating through fracture networks. See bible §4.8 for full characterization.
 
-**⚠ NEEDS SPECIFICATION.** The bible says "geothermally mobilized hydrogen and mineral-bound silicon." The most likely specific reaction:
+**Core reaction:** Geothermally generated SiH₄ percolates through fractures from deeper magmatic sources (Si + 2H₂ → SiH₄ at high T/P, kinetically trapped during ascent). The reaction front metabolizes SiH₄ via the same chemistry as surface life:
 
 ```
-4H₂(g) + SiO₂(s) → Si(s) + 2H₂O(g) + 2H₂(g)     [too endothermic at low T]
+SiH₄ + CH₄ → SiC + 4H₂     ΔH = −33 kJ/mol (exothermic)
 ```
 
-Actually this doesn't work at biological temperatures. More plausible:
+N-doped SiC is deposited as structural waste (= conductive mineral = lattice precursor). Nitrogen doping from NH₃ incorporation during deposition.
 
-```
-H₂(g) + metal silicate minerals → metal silicides + H₂O
-```
+**✓ RESOLVED.** Key physical consequences of the reaction chemistry:
 
-Or better yet, the deep-rock organisms process **geothermally heated SiH₄** that percolates through fractures from deeper magmatic sources. Silane can form in deep reducing magmatic conditions (Si + 2H₂ → SiH₄ at high T/P, reversed at surface conditions). The deep-rock biosphere's energy source is the same SiH₄ → Si + 2H₂ reaction as surface life, just from geothermal silane rather than atmospheric silane.
+- **No active tail.** Pore throats narrow below SiH₄ (~4.1 Å) but above H₂ (~2.9 Å). Dead fill = molecular sieve: H₂-permeable, SiH₄-opaque. All catalytic activity at the advancing face only.
+- **Three rate regimes.** Gas-transport ~mm/s (new fractures); channel-fed ~μm/s (narrowing pores); matrix-diffusion ~5 nm/yr (stasis).
+- **Exothermic self-fracturing.** ΔH = −33 kJ/mol. Filling 1mm fracture heats ~1cm rock by ~20K = silicate cracking threshold. Reaction creates its own fractures at depth.
+- **Chimney self-selection.** Surface-connected fractures stay open (draft). Dead-ends fill solid. Network self-prunes.
+- **PCS gap.** Lightning ceramifies from above, geothermal from below. Kilometers of insulating PCS between fronts.
 
-**Proposed resolution:** Deep-rock chemolithotrophs metabolize geothermally generated silane (SiH₄) that percolates through fracture networks, supplemented by H₂ as electron donor for reducing metal-silicate minerals to conductive metal silicides. The mineral they deposit is a mix of amorphous silicon, silicon carbide (where carbon from deep CH₄ is available), and metal silicides — all conductive. This is consistent with the bible's statement that they "deposit conductive mineral as baseline metabolic waste."
+**Void/pool genesis relationship [V2.4+]:** Void genesis (deep-rock → towers) and pool genesis (→ mobile life) operate on mostly independent variables. However, void genesis inadvertently drives pool genesis forward: geyser ejecta from fracture-connected vents seeds terminator pools with catalytic PCS fragments that provide both nutrient rain (micronutrient capsules from passivated small fragments) and punctuated disturbance (rare critical-mass fragments). Chelation — the foundational biological metal economy — evolves as metal-mining from these catalytic fragments (silazane N lone-pair coordinates transition metals). See bible §4.9, Pool Genesis Hub §§2.6–2.7.
 
 ---
 
 ## 4. THE CONDUCTIVE MINERAL — WHAT IS THE LATTICE MADE OF?
 
-The bible refers to "conductive mineral" deposited by tower symbiotes and deep-rock organisms without specifying composition. This needs resolving because it determines the entire electrical ecology.
+The bible refers to "conductive mineral" deposited by tower symbiotes and the deep-rock system without specifying composition. This needs resolving because it determines the entire electrical ecology.
 
 ### Proposed Answer: Nitrogen-Doped Silicon Carbide
 
@@ -519,7 +519,7 @@ Items the chemistry hub does not yet resolve:
 
 **□ Quantitative energy budget** — How many moles of SiH₄ does an amorph process per day? What's the surface area needed for sufficient photovoltaic energy? What fraction of energy comes from each source (chemical, photovoltaic, piezoelectric) in different environments?
 
-**□ The immune system** — What specific chemistry does the "chelation immune response" use? Chelation implies metal-sequestration — possibly stripping catalytic metals from invading organisms' enzymes, inactivating them. If your enzymes are metalloenzymes, stealing the metal center kills the enzyme.
+**✓ The immune system — chelation origin RESOLVED [V2.4+].** Chelation evolves as metal-MINING from catalytic PCS fragments deposited by tower geyser ejecta, not as immune defense. Silazane N lone-pair naturally coordinates transition metals. Evolutionary sequence: non-specific metal uptake from fragment surfaces → proto-chelation enzymes → passivate-on-contact → metal harvesting. Later exaptation: chelation aimed at other organisms' metalloenzymes → immune **kill mode** (indiscriminate metal stripping) → calibrated **toll mode** (authenticated gentle extraction from mutualist symbiotes) → symbiote authentication system. Same chemistry, different calibration, gated by molecular handshake (metallosilazane chelation badge — see Fauna Structural Hub §5). Kill mode ancestral; toll mode derived. See bible §4.9, spine BIOCHEMISTRY table.
 
 **□ Crystallization disease mechanism** — "Inappropriate cross-linking propagates like prions." What's the specific chemistry? Possibly: a misfolded catalytic fragment that catalyzes further cross-linking in neighboring silazane matrix, spreading geometrically. The cross-link converts flexible -Si-NH-Si- to rigid -Si-N(-Si-)-Si- (three-coordinate nitrogen), creating a rigid network that templates further rigidification. A silazane prion.
 
@@ -545,12 +545,12 @@ Items the chemistry hub does not yet resolve:
 | Ammonia doesn't attack Si-Si | ✓ SOUND | NH₃ forms Si-N, doesn't cleave Si-Si |
 | Ammonia-sea cognitive leakage | ✓ SOUND | NH₃ ionic conductivity makes insulation impossible |
 | Conductive mineral (lattice) | ⚠ UNSPECIFIED | → Nitrogen-doped SiC (§4) |
-| Deep-rock energy source | ⚠ VAGUE | → Geothermal SiH₄ in fractures (§3.5) |
+| Deep-rock energy source | **✓ RESOLVED** | Geothermal SiH₄ in fractures; SiH₄ + CH₄ → SiC + 4H₂, ΔH = −33 kJ/mol. Reaction front, not organism (§3.5, bible §4.8) |
 | Petrification mechanism | ⚠ VAGUE | → Si-NH-Si hydrolysis by H₂O → Si-O-Si → SiO₂ (§1, §12.3) |
 | Catalysis/enzymes | ⚠ ABSENT | → Metallosilazane enzymes (§8) |
 | Library information chemistry | ⚠ VAGUE | → Side-chain coding, electronic readout, cyclic end-caps (§11) |
 | Molecular library copying | **□ OPEN** | Template or transcription? Needs resolution |
-| Immune system chemistry | **□ OPEN** | Chelation = metal-stripping? Needs resolution |
+| Immune system chemistry | **✓ RESOLVED** | Chelation origin = metal-mining from catalytic PCS fragments (§3.5, bible §4.9). Kill/toll modes derived. |
 | Crystallization disease | **□ OPEN** | Silazane prion? Needs resolution |
 
 ---

@@ -2,9 +2,9 @@
 
 **v2.4 — February 2026**
 
-**Load with:** Spine (required). Silicon Chemistry Hub §14 (recommended, for void genesis comparison).
+**Load with:** Spine (required). Silicon Chemistry Hub §3.5 + §8 (recommended, for void genesis chemistry and catalysis).
 
-Pool genesis is the liquid-phase origin of mobile, replicating life. It complements void genesis (Chemistry Hub §14), which produces surface-attached, non-replicating towers. Both pathways operate at the terminator; divergence is phase, not geography. This hub covers ammonia-pool abiogenesis, compartmentalization, the amorph/sexual lineage fork, energy constraints, the pool-to-land transition, and the undersea tower scenario that bootstraps symbiosis.
+Pool genesis is the liquid-phase origin of mobile, replicating life. It complements void genesis (Chemistry Hub §3.5, bible §4.8–4.9), which produces surface-attached, non-replicating towers. **[V2.4+]** Pool genesis is independent of void genesis (mostly independent variables), but tower activity drives pool evolution via catalytic ejecta (see §2.7). Both pathways operate at the terminator; divergence is phase, not geography. This hub covers ammonia-pool abiogenesis, compartmentalization, the amorph/sexual lineage fork, energy constraints, the pool-to-land transition, and the undersea tower scenario that bootstraps symbiosis.
 
 ---
 
@@ -22,7 +22,7 @@ Both genesis environments share: terminator location, lightning access, atmosphe
 | Compartmentalization | Unnecessary (surface-attached) | Required (coacervation) |
 | Product | Non-replicating lattice organism | Replicating mobile organisms (two lineages) |
 
-See Chemistry Hub §14 for the complete void genesis pathway. This document covers pool genesis only, noting parallels where relevant.
+See Chemistry Hub §3.5 and bible §4.8 for the deep-rock reaction front and void genesis pathway. This document covers pool genesis only, noting parallels where relevant.
 
 ---
 
@@ -112,7 +112,7 @@ The proto-tower's fracture network actively delivers resources that dramatically
 | Metal-enriched fluids | Hydrothermal circulation leaches all four biometals (Ni, Fe, Co, Ti) as ammine complexes | Same "metal bonanza" as undersea tower scenario (§7.2) but in a pool. Generic pools get only local rock mineralogy |
 | Lightning rod effect | Tallest object on landscape. Lightning preferentially strikes monadnock, products wash into adjacent pools | Concentrates Miller-Urey engine over small liquid volume. Orders of magnitude more product per unit pool volume |
 | Warm fluids | Geothermal input through fractures: +5–20K above ambient 240K | 2–5× kinetic acceleration for genesis-relevant reactions (Ea ~50 kJ/mol) |
-| N-doped SiC substrate | Pool floor/walls include semiconductor material from deep-rock colony | Catalytic surfaces, electrochemical gradients at semiconductor-liquid interface. Silicate substrate is inert |
+| N-doped SiC substrate | Pool floor/walls include semiconductor material from deep-rock system | Catalytic surfaces, electrochemical gradients at semiconductor-liquid interface. Silicate substrate is inert |
 | Flow-through hydrology | Gravitational drainage from monadnock topography | Continuous fresh ammonia input maintains <1 ppm H₂O, delivers fresh lightning products, creates chemical gradients |
 | Micro-pool multiplication | Rough lattice structure creates many pools at different depths, exposures, flow rates, vent proximities | Each monadnock is a rack of parallel experiments with varied conditions, not a single beaker |
 
@@ -127,7 +127,7 @@ Organisms evolving in the proto-tower's resource shadow develop traits that pre-
 | SiC surface contact | Adhesion/catalysis enzymes interact with SiC substrate | Schottky/ohmic junction for energy extraction (§8) |
 | Vent SiH₄ dependency | Metabolism tuned to tower-controlled resource | Obligate metabolic coupling to lattice |
 | Metal profile matching | Metallosilazane enzymes evolved in this fracture network's metal chemistry | Chelation badge compatibility (fourth speciation axis) |
-| Signal exposure | Bathed in deep-rock colony's electrical/EM leakage through conductive lattice | Signal tolerance → signal response → signal integration |
+| Signal exposure | Bathed in deep-rock system's electrical/EM leakage through conductive lattice | Signal tolerance → signal response → signal integration |
 
 The evolutionary distance from "pool organism at tower base" to "tower symbiote" is a gentle slope of incremental adaptations. Compare: an organism from a generic silicate pool, wind-dispersed to a foreign tower, faces novel surface chemistry, no resource dependency to leverage, mismatched metal profile, and unfamiliar signals — a cliff, not a slope.
 
@@ -262,7 +262,7 @@ Pre-biotic volcanic SiC (~9 Tg/yr, ~0.08% of conveyor particulate) already erode
 
 ## 3. POOL GENESIS PATHWAY
 
-Steps parallel void genesis (Chemistry Hub §14.1–14.8). Only pool-specific differences detailed here.
+Steps parallel void genesis (Chemistry Hub §3.5, §8, §9; bible §4.8). Only pool-specific differences detailed here.
 
 ### 3.1 Building Block Delivery
 
@@ -280,7 +280,7 @@ Silazane chelates displace ammonia ligands (entropic advantage of chelation). Co
 
 ### 3.3 Autocatalysis Under Dilution Pressure
 
-✓ Same autocatalytic chemistry as void genesis (Chemistry Hub §14.4–14.5): Ni-silazane complexes catalyze Si-N bond formation, producing more silazane, coordinating more metals, closing the cycle.
+✓ Same autocatalytic chemistry as void genesis (Chemistry Hub §8): Ni-silazane complexes catalyze Si-N bond formation, producing more silazane, coordinating more metals, closing the cycle.
 
 **Pool-specific constraint:** Products diffuse away. Autocatalytic rate must exceed dilution rate. Weak autocatalysts are diluted to extinction. The pool is a harsher selection environment than the void — what survives is more efficient.
 
@@ -315,7 +315,7 @@ Short chains (N < 25): soluble in NH₃, participate in solution chemistry. Long
 
 ### 3.5 Information and Replication
 
-✓ Same as void genesis (Chemistry Hub §14.6–14.8). Polysilane backbone, quaternary side-chain code, electronic readout, transcriptive copying. The information system evolves identically in both environments because it uses the same polysilane chemistry. No pool-specific modifications needed.
+✓ Same as void genesis (Chemistry Hub §11). Polysilane backbone, quaternary side-chain code, electronic readout, transcriptive copying. The information system evolves identically in both environments because it uses the same polysilane chemistry. No pool-specific modifications needed.
 
 ---
 
@@ -450,7 +450,7 @@ The spine's ammonia-sea amorphs — "smaller, faster-metabolizing, shorter-lived
 
 The terminator is both a lithospheric flexure zone (fractures) and the ammonia condensation line (seas). These co-locate. Some fractures open onto the sea floor.
 
-A deep-rock colony's hypercycle propagates upward through a fracture system, reaches a gas-filled void, and does standard void genesis on the void walls (Chemistry Hub §14). If the void opens to the sea floor, the hypercycle encounters liquid ammonia at the gas-liquid interface.
+A deep-rock system's reaction front propagates upward through a fracture system, reaches a gas-filled void, and does standard void genesis on the void walls (Chemistry Hub §3.5, bible §4.8). If the void opens to the sea floor, the hypercycle encounters liquid ammonia at the gas-liquid interface.
 
 ### 7.2 The Metal Bonanza
 
@@ -539,7 +539,7 @@ The tower lattice is N-doped SiC (n-type semiconductor). A symbiote's metallosil
 | Pool solvent properties | ✓ | NH₃ at 240K, 8 bar. Viscosity 0.20 mPa·s. ε ≈ 25. Compatible with Si-Si. |
 | Metal availability | ✓ | Ammine complexes. All four biometals in solution simultaneously. |
 | SiH₄ supply | ✓ | Atmospheric dissolution. Sea is net sink. Vent supplement at hotspots. |
-| Metallosilazane formation | ✓ | 3D solution, faster than 2D surface. Same chemistry as void (Chemistry Hub §14.3). |
+| Metallosilazane formation | ✓ | 3D solution, faster than 2D surface. Same chemistry as void (Chemistry Hub §8). |
 | Compartmentalization (amorph) | ✓ | PMSz coacervation. χ ≈ 0.6–0.8. Phase equilibrium; rain-robust. |
 | Compartmentalization (sexual) | ✓ | Amphiphile coat on coacervate (interface adsorption). → SiC shell. |
 | Lineage fork mechanism | ✓ | Parasitic merge → hawk-dove. Two lineages from different physics. |

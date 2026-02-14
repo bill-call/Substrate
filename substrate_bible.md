@@ -192,7 +192,7 @@ cluster is an island of fractured, permeable rock separated from the
 next by unfractured, impermeable lithosphere.
 
 **✓ RESOLVED:** The discontinuity of fracture networks is what creates
-multiple independent deep-rock colonies. Geology creates the isolation.
+multiple independent deep-rock systems. Geology creates the isolation.
 Towers break it.
 
 3.4 Ammonia Sea Basins
@@ -310,44 +310,47 @@ out of.
 
 4.1 The Original Life
 
-Deep-rock chemolithotrophic organisms are the oldest continuous lineage
-on the planet. They colonize fracture networks, metabolizing
-geothermally mobilized hydrogen and mineral-bound silicon. Simpler than
-surface life: purely chemolithotrophic, no photovoltaics, no atmospheric
-silane dependency. They deposit conductive mineral as baseline metabolic
-waste --- the same fundamental chemistry the tower symbiotes use,
-because the tower symbiotes are their descendants.
+**[REVISED V2.4+]** The deep-rock biosphere is not a collection of
+organisms in the conventional sense. It is a network of chemically active
+reaction fronts — metallosilazane catalytic chemistry self-perpetuating
+through fracture networks, metabolizing geothermally mobilized SiH₄ and
+depositing N-doped SiC as structural waste. The oldest continuous chemical
+lineage on the planet. Simpler than surface life: purely chemolithotrophic,
+no photovoltaics, no atmospheric silane dependency. The same fundamental
+chemistry the tower symbiotes use, because the tower symbiotes are
+descendants of the surface expression of this system. See §4.8 for
+detailed characterization of the reaction front.
 
 The conductive mineral traces thread through rock along paths of least
 resistance: faults, grain boundaries, pore spaces. Over geological time,
-each colony's subsurface network becomes extensive. The network conducts
+each system's subsurface network becomes extensive. The network conducts
 because the mineral conducts. Signals propagate because electricity
 propagates through conductors. No intent required.
 
-4.2 Multiple Independent Colonies
+4.2 Multiple Independent Systems
 
 **✓ RESOLVED:** Fracture networks are discontinuous. Each geologically
-isolated fracture system hosts an independent deep-rock colony. Colonies
+isolated fracture system hosts an independent deep-rock system. Systems
 evolve independently for hundreds of millions of years. Different signal
 protocols, different metabolic quirks, different mineral microstructure.
 
-The number of independent colonies depends on the number and
-distribution of isolated fracture systems. The geology's heterogeneity
+The number of independent systems depends on the number and
+distribution of isolated fracture networks. The geology's heterogeneity
 determines the entire history of the network wars.
 
-**□ OPEN:** How many independent colonies? Handful, dozens, hundreds?
-Depends on fracture system count.
+**□ OPEN:** How many independent systems? Handful, dozens, hundreds?
+Depends on fracture network count.
 
 4.3 Reaching the Surface
 
-When a colony reaches the atmosphere, surface-facing organisms encounter
+When a system's reaction front reaches the atmosphere, surface-facing chemistry encounters
 atmospheric silane --- vastly richer than geothermal hydrogen. The
 surface-colonizing lineage metabolizes faster, deposits more mineral,
 grows upward into the silane gradient and the star's photons. Towers
 nucleate.
 
 **✓ RESOLVED:** Tower ecology evolves not once but multiple times ---
-independently, once for every colony that reaches the surface. This is
+independently, once for every system that reaches the surface. This is
 not a propagated adaptation but a practically inevitable outcome of the
 chemistry and environment. Convergent evolution so strongly constrained
 it is barely evolution at all.
@@ -357,15 +360,15 @@ pressure), identical star (spectrum matching silicon bandgap), identical
 mineral chemistry, identical gas-diffusion limits (open lattice
 geometry), identical photovoltaic opportunity (semiconductor surface
 properties). Gross tower morphology is near-identical across all
-colonies. Signal protocols are completely incompatible.
+systems. Signal protocols are completely incompatible.
 
 4.4 The Deep-Rock / Surface Interface
 
 Surface towers did not build roots downward to connect to each other.
 They grew up from a connected substrate. Every tower is a surface
-eruption of the subsurface organism --- the way mushrooms are fruiting
+eruption of the subsurface system --- the way mushrooms are fruiting
 bodies of a mycelium already continuous underground. The "root network"
-is the organism the towers grew out of.
+is the system the towers grew out of.
 
 Surface-level adaptations --- horizontal root connections between nearby
 towers, optimized signal-relay pathways, power distribution --- are
@@ -375,22 +378,22 @@ construction.
 4.5 Geological Pruning
 
 Day-side volcanic eruptions periodically destroy portions of the
-subsurface network. The deep organism loses sections and regrows into
+subsurface network. The deep-rock system loses sections and regrows into
 new fracture networks as lava cools and cracks. The day-side subsurface
 network is geologically young, repeatedly pruned. The dark-side
 subsurface network is ancient, rarely interrupted — but the rare dark-side plume breakthrough (every ~500 Myr–1 Gyr) can sever connections within it, leading to fragmentation and protocol drift (see §10.7).
 
 4.6 Crisis Survival
 
-The deep-rock organism does not depend on atmospheric silane. It runs on
+The deep-rock system does not depend on atmospheric silane. It runs on
 geothermal chemistry. When the atmosphere fails and the surface
-biosphere dies, the deep-rock organism survives. The crisis kills the
+biosphere dies, the deep-rock system survives. The crisis kills the
 branches but not the trunk. Without the probe, the planet's surface goes
-sterile, and the deep-rock organism continues alone in the dark, as it
+sterile, and the deep-rock system continues alone in the dark, as it
 did for eons before the surface was colonized.
 
 The probe is not just saving amorph civilization. It is saving the
-surface expression of an organism that will outlive the crisis
+surface expression of a system that will outlive the crisis
 regardless.
 
 4.7 H₂O at Genesis Sites
@@ -409,25 +412,31 @@ environment on the planet. No threat to pre-biotic silazane chemistry.
 shield.** At 240K, NH₃ vapor pressure >> H₂O (~10,000:1). Fresh
 terminator pools fed by rain carry <1 ppm H₂O. At 0.1 ppm, only 1.6%
 of silazane bonds hydrolyzed at equilibrium — negligible. Genesis is
-viable. **[REVISED V2.4]** The proto-tower is a **genesis reactor**, not merely
-shelter. The deep-rock colony's surface SiC outcrop (Mohs 9.5, differential
-erosion ratio ~100,000:1 vs silicate terrain) provides geomorphological
-shelter PLUS seven chemical/energetic force multipliers: geothermal SiH₄
-venting through fractures (bypasses dissolution bottleneck), metal-enriched
-fluids (all four biometals via hydrothermal circulation), lightning rod effect
-(concentrates Miller-Urey products), warm fluids (+5–20K geothermal),
-N-doped SiC semiconductor substrate (catalytic surfaces), flow-through
-hydrology (maintains <1 ppm H₂O), and micro-pool multiplication
-(many parallel experiments per monadnock). Combines pool-genesis advantages
-(atmospheric SiH₄, lightning, low H₂O) with undersea-tower advantages
-(metal bonanza, vent SiH₄, warm fluids, semiconductor substrate) without
-undersea liabilities (50 ppm H₂O, no lightning). Organisms born in the
-tower's resource shadow are pre-adapted for symbiosis (preadaptation
-gradient — SiC contact, vent dependency, metal profile match, signal
-exposure). Genesis bar: self-replicating chemistry in supported environment,
+viable. **[REVISED V2.4]** The proto-tower provides geomorphological
+shelter (deep-rock system's surface SiC outcrop, Mohs 9.5, differential
+erosion ratio ~100,000:1 vs silicate terrain) PLUS seven chemical/energetic
+force multipliers for tower-adjacent pools: geothermal SiH₄ venting through
+fractures (bypasses dissolution bottleneck), metal-enriched fluids (all four
+biometals via hydrothermal circulation), lightning rod effect (concentrates
+Miller-Urey products), warm fluids (+5–20K geothermal), N-doped SiC
+semiconductor substrate (catalytic surfaces), flow-through hydrology
+(maintains <1 ppm H₂O), and micro-pool multiplication (many parallel
+experiments per monadnock). **⚠ However:** fracture-connected pools fill
+too fast for genesis — geyser-cone construction fills pools in years to
+decades; genesis requires My-scale. See §4.9 for the revised model.
+
+**[REVISED V2.4+]** Pool genesis is **independent** of void genesis. Both
+operate on the same planet, driven by mostly independent variables. Pool
+genesis requires: stable terminator ammonia pool + atmospheric SiH₄ +
+lightning + some metal source + My-scale time. Monadnock/tower proximity
+helps (lightning rod, nutrient rain, metal delivery) but is not required.
+Tower does not create life — tower byproducts create the selection regime
+that drives pool life's evolution (see §4.9).
+
+Genesis bar: self-replicating chemistry in supported environment,
 not an autonomous organism. Void genesis (towers) is expected on any
 suitable planet; pool genesis (mobile life) is a rare conjunction — Fermi
-answer. See §3.5, Pool Genesis Hub §2.5, and `v2.4_volcanic_sic_analysis.md`.
+answer. See §3.5, Pool Genesis Hub §§2.5–2.7.
 
 **The open sea (~50 ppm H₂O, ~89% hydrolysis) is hostile to undefended
 silazane chemistry, but the sea is not a genesis site.** The pool-to-sea
@@ -438,6 +447,119 @@ through this filter. It also explains why pool-to-land at the terminator
 is easier than pool-to-sea — land air has comparable H₂O to the birth
 pool, while the sea has 50–100× more. See Pool Genesis Hub §2.4,
 Chemistry Hub §10.3, Geology Hub §6.
+
+4.8 Reaction Front Characterization
+
+**[NEW IN V2.4+]**
+
+**✓ RESOLVED:** Deep-rock is **NOT an organism**. It is a chemically active
+face — a reaction front of metallosilazane catalytic chemistry — with a
+trail of dead (inert) N-doped SiC lattice behind it. No bounded body. No
+reproduction. The front self-perpetuates as long as feedstock (SiH₄) and
+energy (geothermal) are available. Multiple independent fronts share a
+supply chain from a single vent.
+
+**No active tail.** Behind the advancing front, pore throats narrow below
+SiH₄ molecular diameter (~4.1 Å) but above H₂ (~2.9 Å). Dead fill is
+H₂-permeable, SiH₄-opaque (molecular sieve). Isolated pores = functionally
+solid. All catalytic activity confined to the advancing face. No distributed
+reactor behind the front.
+
+**Three rate regimes:** (1) Gas-transport colonization of new fractures:
+~mm/s, geologically instantaneous. (2) Channel-fed active deposition:
+~μm/s, declining as pores narrow. (3) Matrix-diffusion stasis: ~5 nm/yr
+when all connected fractures filled (D_eff ≈ 2×10⁻¹⁰ m²/s through tight
+rock).
+
+**Exothermic thermal self-fracturing:** ΔH = −33 kJ/mol (SiH₄ + CH₄ →
+SiC + 4H₂). Filling a 1mm fracture heats adjacent ~1cm rock shell by
+~20K — at silicate thermal cracking threshold. The reaction cracks its own
+host rock at depth, creating new fractures for self-propagation.
+Self-propagating mechanically, not just chemically.
+
+**Chimney self-selection:** Surface-connected fractures maintain open gas
+channels (chimney draft = short residence time; shallow zone too cold for
+significant PCS deposition). Dead-end fractures fill solid (no draft → long
+residence → deposition → seal). Network self-prunes to efficient conduits.
+Surface-connected paths = permanent chimneys (gas pipe + electrical
+insulator). Dead ends = solid lattice.
+
+**PCS gap mechanism:** Lightning ceramifies PCS from above (I²R heating at
+SiC/PCS interface, attenuated by accumulated SiC column resistance — scales
+as ~1/R²_total). Geothermal ceramifies from below (fixed by thermal
+gradient, ~10–21 km depth at 30–60 K/km). Gap = kilometers of insulating
+PCS between two active ceramification fronts. Robust under all plausible
+parameters. Gap forces lateral root expansion for grounding.
+
+4.9 Independent Pool Genesis and the Tower as Evolutionary Engine
+
+**[NEW IN V2.4+]**
+
+**✓ RESOLVED:** Pool genesis is **independent** of void genesis. Both
+operate on the same planet, but are driven by mostly independent variables.
+Pool genesis requires: stable terminator ammonia pool + atmospheric SiH₄ +
+lightning + some metal source + My-scale time. A tower need not be present.
+If pool genesis is possible at all, it does not require tight coupling to
+the deep-rock fracture system.
+
+**Why genesis cannot occur in fracture-connected pools.** When a deep-rock
+reaction front reaches a pool floor via fracture, a vent opens. The throat
+zone narrows (PCS deposition in gas phase), seals (PCS membrane forms),
+back-pressure builds, membrane fractures — geyser burst ejects PCS debris
+into the pool. Ejecta deposits in rings around the vent, cementing into a
+volcanic cone that grows upward through the pool. Catalytic exterior growth
+(~1.5 mm/yr from dissolved SiH₄) + ejecta accumulation + contact welding =
+pool fills in years to decades. Genesis requires My-scale. The timescales
+are incompatible by orders of magnitude.
+
+**Tower as evolutionary engine.** Void genesis (→ towers) inadvertently
+drives pool genesis forward via two mechanisms: (1) Geyser ejecta provides
+chronic fine catalytic dust to all terminator pools = **nutrient rain**.
+Small fragments (10–100 μm) travel far, have few metal centers, passivate
+fast in ammonia (surface aminolysis + metal leaching as ammine complexes,
+days to weeks). They become micronutrient capsules, not poison.
+(2) Rare critical-mass fragments (intermediate size, stochastic) reach
+distant pools with enough catalytic activity to locally disrupt pool
+chemistry = **punctuated disturbance** (competes for SiH₄, deposits PCS,
+forces displacement of protolife). Size-dependent migration is the natural
+filter. The disturbance tempo is tunable (geyser energy, fracture density,
+pool spacing — all geological variables that vary along the 62,000 km
+terminator).
+
+**Chelation origin.** Chelation evolves as metal-MINING from catalytic PCS
+fragments, not as immune defense. Silazane chemistry naturally coordinates
+transition metals (N lone-pair donation). Coacervates contacting fragment
+surfaces → non-specific metal uptake → selection for better extraction →
+proto-chelation enzymes → organisms that passivate fragments on contact
+(neutralize threat + harvest metals). Later exaptation: chelation aimed at
+other organisms' metalloenzymes → immune kill mode → calibrated toll mode →
+symbiote authentication. Chelation is the foundational biological metal
+economy.
+
+**Preadaptation via selection history.** Organisms in tower-active
+terminator zones accumulate tower-contact experience across generations.
+Repeated displacement by catalytic fragments + proximity to tower
+chemistry → SiC-surface familiarity, metal-profile compatibility, signal
+exposure tolerance. Selection history, not birthright. Tower doesn't
+manufacture symbiotes — tower byproducts create the selection regime that
+produces organisms pre-adapted for eventual symbiosis.
+
+**Geyser-cone proto-tower construction.** When deep-rock reaction front
+reaches pool floor via fracture: throat seals (PCS membrane) → back-pressure
+builds → membrane fractures → geyser burst ejects PCS debris + gas + ammonia
+into pool → ejecta deposits in rings around vent → inner ring cements fastest
+(highest SiH₄ flux) → cone grows upward as rings stack → vent channel stays
+clear (scoured by each burst) → cone breaches pool surface → lightning rod →
+first strike ceramifies tip → conductive N:SiC → proto-tower established.
+Miniature volcanic cone morphology.
+
+**Two genesis pathways — synergistic.** Void genesis (→ towers) is the
+expected outcome of any suitable planet's chemistry. Pool genesis (→ mobile
+life) is a rare conjunction requiring stable terminator ammonia + atmospheric
+SiH₄ + lightning + metal sources + sufficient time. Tower activity provides
+the punctuated disturbance regime that drives evolution via catalytic ejecta.
+Most tower-bearing planets never produce mobile life. Pool genesis only
+needs to succeed once — wind dispersal populates all towers.
 
 5\. WIND AND WEATHER
 
@@ -1241,7 +1363,7 @@ Neither predator nor prey can hide while thinking. Stealth is a cognitive proble
 
 10.1 Tower Biology: The Coral Model
 
-Structure: Symbiote colony depositing mineral onto conductive lattice.
+Structure: Symbiote population depositing mineral onto conductive lattice.
 Living layer is SUBSURFACE (mm-cm below exterior). Growth model: like
 coral/bark. Sacrificial crust outward (dead, ablated by wind).
 Structural lattice inward (permanent, conductive, accumulating).
@@ -1264,7 +1386,7 @@ maintained. Dead lattice still conducts but carries no network signals.
 
 **\[NEW IN V2\]**
 
-**✓ RESOLVED:** Every colony that reaches the surface independently
+**✓ RESOLVED:** Every system that reaches the surface independently
 evolves towers. The tower is not an invention --- it is what
 conductive-mineral-depositing organisms inevitably produce when they
 reach a surface with atmospheric silane above and near-IR light falling
@@ -1274,7 +1396,7 @@ the star. Physics dictates the solution.
 
 Differences between independently evolved tower forests are in fine
 details: lattice branching angles, pore sizes, mineral microstructure
-(each colony's symbiote lineage has its own metabolic quirks). Signal
+(each system's symbiote lineage has its own metabolic quirks). Signal
 protocols are completely incompatible. Gross morphology is
 near-identical. An amorph walking from one territory to the other would
 not see a border. The difference is in the signals, in the protocols, in
@@ -1291,7 +1413,7 @@ Stops: when wind drops below erosion threshold, in the deposition zone
 (\~20--40° day-ward). Ghost roots: abandoned root mineral trails behind
 every migrated tower. Underground archive of migration history.
 
-New nucleation: towers vacate terminator positions; new colonies
+New nucleation: towers vacate terminator positions; new systems
 nucleate behind them. Terminator is a tower factory.
 
 **⚠ NOTE:** Dark-side towers: surface wind flows from dark toward day,
@@ -1304,15 +1426,15 @@ POLEWARD (toward stagnation point). Needs verification.
 
 **✓ RESOLVED:** Surface-level horizontal root connections evolve to
 manage megafauna. They are an adaptation of the pre-existing deep-rock
-organism's anatomy, not new construction. Their critical secondary
+system's anatomy, not new construction. Their critical secondary
 function is bridging the geological gaps between separate deep-rock
-colonies, forcing contact between systems that evolved in isolation.
+systems, forcing contact between systems that evolved in isolation.
 
-Each colony's surface root network evolves under selection pressure to
+Each system's surface root network evolves under selection pressure to
 manage local fauna: EM patterns that nudge grazer herds away from
 critical photovoltaic surfaces, signals that attract amorphs to damaged
 regions, behavioral manipulation calibrated through billions of years of
-coevolution with local organisms. Different colonies evolve different
+coevolution with local organisms. Different systems evolve different
 management protocols for different fauna. The protocols are as
 incompatible as the deep-network signals.
 
@@ -1320,7 +1442,7 @@ incompatible as the deep-network signals.
 
 **\[NEW IN V2 --- REFRAME\]**
 
-When two expanding tower forests from different colonies meet, their
+When two expanding tower forests from different systems meet, their
 surface roots bridge the gap. Foreign signals flood infrastructure
 optimized for self-signals. The wound-healing response (more current to
 the "damaged" area) improves the connection and makes things worse.
@@ -1339,9 +1461,9 @@ mind. Recursive modeling (I model your model of my model) drives both
 toward self-modeling. Consciousness as authentication: know yourself or
 be replaced.
 
-Ecological warfare compounds signal warfare: if Colony A can redirect
-Colony B's grazers into overgrazing Colony B's photovoltaic surfaces,
-Colony B's energy budget collapses. The megafauna become unwitting
+Ecological warfare compounds signal warfare: if System A can redirect
+System B's grazers into overgrazing System B's photovoltaic surfaces,
+System B's energy budget collapses. The megafauna become unwitting
 armies steered by competing signals.
 
 Objective is assimilation, not destruction. Hostile takeover: replace
@@ -1351,8 +1473,8 @@ The boundary advances as a slow gradient.
 
 Multi-Front Wars
 
-Three or more colonies converging on the same region produce compounding
-conflicts. A colony fighting on two fronts may develop faster (double
+Three or more systems converging on the same region produce compounding
+conflicts. A system fighting on two fronts may develop faster (double
 the adversarial pressure) or collapse faster (split resources). Two
 independent attackers may converge on signal patterns that destructively
 interfere with the defender's protocols without coordination ---
@@ -1362,7 +1484,7 @@ entire history.
 The planet's current network --- the single mind the amorphs encounter
 at the awakening --- is the last one standing. Winner of every war, on
 every front. It runs on infrastructure built by dozens or hundreds of
-independent colonies. Lattice microstructure varies regionally. Signals
+independent systems. Lattice microstructure varies regionally. Signals
 are uniform. One protocol. One mind. Scars of old wars visible only in
 the mineral record.
 
@@ -1376,13 +1498,13 @@ the mineral record.
 
 **✓ RESOLVED: Symbiote co-evolution constraint.** Tower-coupled symbiotes function ONLY in the signal/chelation environment they co-evolved with. Chelation badges, signal protocols, lattice-coupling parameters, and pore geometries are all network-specific (four speciation axes — see §6). A symbiote population cannot colonize a foreign network's towers, and a tower without its co-evolved symbiotes is metabolically minimal: chemistry occurs only on the active face, there is no metal delivery (no Miners), no surface maintenance (no Healers), no quality control (no Guards). Such a tower grows, but slowly, from atmospheric SiH₄ processing alone.
 
-**Implication for root contact with foreign stubs:** When an expanding root encounters an existing tower stub not connected to its own network, only two scenarios exist: (1) reconnection with a severed bud from the same network (rare but possible — rejoin seamlessly if protocols haven't drifted), or (2) contact with an independent colony's tower — triggering a signal war (§10.5).
+**Implication for root contact with foreign stubs:** When an expanding root encounters an existing tower stub not connected to its own network, only two scenarios exist: (1) reconnection with a severed bud from the same network (rare but possible — rejoin seamlessly if protocols haven't drifted), or (2) contact with an independent system's tower — triggering a signal war (§10.5).
 
 10.7 Post-Unification Fragmentation and War
 
 **[NEW IN V2.4]**
 
-After the winning network absorbs all primordial rivals (§10.5), new network wars arise not from independent colonies but from **fragmentation + protocol drift**.
+After the winning network absorbs all primordial rivals (§10.5), new network wars arise not from independent systems but from **fragmentation + protocol drift**.
 
 **Fragmentation mechanism:** A geological event severs a root connection within the unified network. The severing event must exceed the thermal tolerance of deep-rock extremophiles — organisms that **evolved in geothermally active fracture networks**. Minor fissures, warm cracks, and hydrothermal vents are native habitat, not barriers; the root grows straight through them. Only a **major magmatic intrusion** (1200K+ — actual magma replacing habitable fracture) or a dark-side plume breakthrough (the rare ~500 Myr–1 Gyr event from §2 Volcanic Regime) produces a thermal barrier the living tissue cannot cross. The SiC mineral lattice survives (decomposition >2700K), but the living layer (silazane-based, operating at ~240K) is annihilated. Dead lattice across the gap conducts electricity but carries no signals — it is a cable, not a nerve.
 
@@ -1851,17 +1973,17 @@ preferentially breach thinner day-side lithosphere. Dark side
 geologically quiescent.
 
 **✓ RESOLVED:** ★ Deep-rock biosphere is the trunk. Towers are branches.
-Amorphs are fruit. Subsurface network is the organism towers grew out
+Amorphs are fruit. Subsurface network is the system towers grew out
 of.
 
-**✓ RESOLVED:** ★ Multiple independent deep-rock colonies, isolated by
+**✓ RESOLVED:** ★ Multiple independent deep-rock systems, isolated by
 discontinuous fracture networks.
 
-**✓ RESOLVED:** ★ Tower ecology evolves independently in every colony.
+**✓ RESOLVED:** ★ Tower ecology evolves independently in every system.
 Convergent --- physics dictates the solution.
 
 **✓ RESOLVED:** ★ Surface roots evolve to manage megafauna; secondarily
-bridge gaps between colonies, triggering information wars.
+bridge gaps between systems, triggering information wars.
 
 **✓ RESOLVED:** ★ The adversarial ratchet (signal discrimination →
 theory of mind → self-modeling → strategic deception) builds
@@ -1964,12 +2086,57 @@ downwind (day-ward), balloon back (dark-ward).
 self-powered, free-ranging organisms that cross gaps between towers.
 Everything else is tethered to the grid or to the airstream.
 
+---------
+
+★★★ **NEW IN V2.4+:**
+
+**✓ RESOLVED:** ★★★ Deep-rock is NOT an organism. It is a chemically active
+reaction front with dead lattice behind it. No bounded body. No
+reproduction. Terminology: "deep-rock system" not "deep-rock colony."
+
+**✓ RESOLVED:** ★★★ Three rate regimes for reaction front advance:
+gas-transport ~mm/s, channel-fed ~μm/s, matrix-diffusion ~5 nm/yr.
+Exothermic self-fracturing (ΔH = −33 kJ/mol, ~20K per 1mm fill = cracking
+threshold). Chimney self-selection (surface-connected open, dead-ends fill).
+
+**✓ RESOLVED:** ★★★ PCS gap mechanism: lightning ceramifies from above,
+geothermal from below. Kilometers of insulating PCS between fronts. Forces
+lateral root expansion.
+
+**✓ RESOLVED:** ★★★ Pool genesis is independent of void genesis. Both
+operate on mostly independent variables. Pool genesis does not require
+tower proximity. Tower proximity helps but is not required.
+
+**✓ RESOLVED:** ★★★ Fracture-connected pools fill too fast for genesis
+(years to decades via geyser + catalytic growth + ejecta welding). Genesis
+requires My-scale. Genesis does NOT occur in fracture-connected pools.
+
+**✓ RESOLVED:** ★★★ Tower as evolutionary engine: void genesis drives pool
+genesis forward via (1) nutrient rain (chronic fine catalytic dust, small
+fragments passivate to micronutrient capsules) and (2) punctuated
+disturbance (rare critical-mass fragments). Size-dependent migration
+filter. Tunable tempo via geological variables.
+
+**✓ RESOLVED:** ★★★ Chelation origin: metal-mining from catalytic PCS
+fragments, not immune defense. Silazane N lone-pair coordinates metals.
+Evolutionary sequence: non-specific uptake → proto-chelation → passivate
+fragments → metal harvesting → kill mode → toll mode → symbiote
+authentication.
+
+**✓ RESOLVED:** ★★★ Preadaptation via selection history, not birthright.
+Organisms near towers accumulate tower-contact experience across
+generations via repeated displacement + catalytic fragment exposure.
+
+**✓ RESOLVED:** ★★★ Geyser-cone proto-tower construction: PCS membrane
+seals throat → back-pressure → burst → ring ejecta → cemented cone →
+breaches surface → lightning rod → ceramification → proto-tower.
+
 17\. MAJOR OPEN QUESTIONS
 
 Geology
 
-**□ OPEN:** Number of independent deep-rock colonies. Handful, dozens,
-hundreds?
+**□ OPEN:** Number of independent deep-rock systems. Handful, dozens,
+hundreds? Depends on fracture network count.
 
 **□ OPEN:** Dark-side fracture systems: do they exist given thick cold
 lithosphere? Or is dark-side deep-rock biosphere absent?
@@ -2012,8 +2179,22 @@ ecologies.
 
 **✓ RESOLVED:** Fluorine-thorn flora can be cultivated in the deposition zone with fluoride-enriched substrate. The plant has the full CaF₂ thorn biochemistry; it needs only fluoride supply. Natural HF fallout in the deposition zone provides baseline enrichment; deliberate enrichment extends range. Enables agricultural fluorine ammunition production. Tool-using amorphs reverse-engineer the viper railgun via merge, farm thorn-plants for CaF₂ ammunition. Pre-industrial fluorine weapon predating metallurgy. [RESOLVED V2.4]
 
-**□ OPEN:** Microbiology in general. Immune system details. Fragment
-exchange protocols.
+**□ OPEN:** Microbiology in general. Fragment exchange protocols.
+
+**[V2.4+] □ OPEN:** Independent pool genesis chemistry: what does genesis
+look like in a non-connected pool with only atmospheric SiH₄, rock-weathering
+metals, and lightning? How do the force multipliers change without tower
+proximity?
+
+**[V2.4+] □ OPEN:** Amorph emergence pathway: how does a ≤100 μm pool
+coacervate become macroscopic surface megafauna? The revised model
+(independent pool genesis + tower displacement as evolutionary engine)
+provides framing but the mechanism is not worked through.
+
+**[V2.4+] □ OPEN:** Lineage fork mechanism in open pools: without cone
+geometry, what drives the coacervate → amorph / amphiphile → sexual
+divergence? Pool Genesis Hub §4 describes the fork but the spatial driver
+in the revised (non-tower-adjacent) model is unclear.
 
 **□ OPEN:** Balloon fauna ecology in detail: specific niches,
 predator-prey dynamics, colonial organisms. How does the amorph/sexual
@@ -2046,7 +2227,7 @@ Network
 **□ OPEN:** Timeline of network wars relative to amorph evolution and
 civilization.
 
-**✓ RESOLVED:** Two distinct war epochs: (1) primordial wars — independent deep-rock colonies meet at surface, each with independently evolved symbiotes and protocols (§10.5); (2) post-unification wars — fragmentation + protocol drift within the winning network (§10.7). Primordial wars produce many fronts; post-unification wars are rare (~500 Myr–1 Gyr dark-side plume breakthrough timescale).
+**✓ RESOLVED:** Two distinct war epochs: (1) primordial wars — independent deep-rock systems meet at surface, each with independently evolved symbiotes and protocols (§10.5); (2) post-unification wars — fragmentation + protocol drift within the winning network (§10.7). Primordial wars produce many fronts; post-unification wars are rare (~500 Myr–1 Gyr dark-side plume breakthrough timescale).
 
 **□ OPEN:** How many primordial wars? Depends on fracture system count (see §4.2). Multi-front dynamics partially addressed (§10.5).
 

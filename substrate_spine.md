@@ -74,7 +74,7 @@ February 2026 v2.4
 | Day side | Volcanically active. 10–30 provinces simultaneously. ~100 Myr resurfacing. Continuous, not episodic. Source of SiH₄ + H₂O outgassing. |
 | Dark side | Geologically quiescent. Ancient stable crust. Minimal volcanism. |
 | Terminator | Lithospheric flexure zone. Chronic cracking/faulting. Primary fracture networks. |
-| Fracture networks | Discontinuous. Each isolated system hosts independent deep-rock colony. |
+| Fracture networks | Discontinuous. Each isolated system hosts independent deep-rock system. |
 | Sea basins | Volcanic: calderas, rift basins, terminator flexure depressions. |
 | Metal ores | Native metals (reducing atm = no oxidation). Concentrated by magmatic differentiation + NH₃ hydrothermal. Day-side volcanic provinces. |
 | Fissile materials | U/Th present (~4.2× Earth inventory). Magmatic + NH₃-hydrothermal concentration. |
@@ -126,7 +126,7 @@ February 2026 v2.4
 
 **✓** Shore deposition zones: where katabatic wind meets ammonia surface, waves create roughness, boundary layer trips to turbulent, wind carrying capacity drops, particulate falls out. Shorelines are the ONE place on the dark side where material accumulates. SiC grit, volcanic fines, dead-bug plume debris (catalytic metals, library fragments, SiC plates). Shore = nutrient delivery system connecting atmospheric and marine cycles. Primary reason shore/intertidal is the richest marine zone.
 
-**✓** Genesis environment: proto-tower-base ammonia pools at the terminator. Proto-tower = deep-rock colony's surface SiC outcrop (Mohs 9.5, differential erosion ratio ~100,000:1 vs silicate terrain). Survives pre-biotic erosion: volcanic SiC is only ~0.08% of conveyor particulate; silicate abrasive (Mohs 6-7) cannot scratch SiC. Pre-biotic silicate terrain erodes at ~600 mm/Myr; monadnock erosion ~0.006 mm/Myr.
+**✓** Genesis environment: proto-tower-base ammonia pools at the terminator. Proto-tower = deep-rock system's surface SiC outcrop (Mohs 9.5, differential erosion ratio ~100,000:1 vs silicate terrain). Survives pre-biotic erosion: volcanic SiC is only ~0.08% of conveyor particulate; silicate abrasive (Mohs 6-7) cannot scratch SiC. Pre-biotic silicate terrain erodes at ~600 mm/Myr; monadnock erosion ~0.006 mm/Myr.
 
 **✓** Proto-tower seven force multipliers (for tower-adjacent pools): (1) geothermal SiH₄ venting through fractures (bypasses atmospheric dissolution bottleneck), (2) metal-enriched fracture fluids (all four biometals — Ni, Fe, Co, Ti — via hydrothermal circulation), (3) lightning rod effect (tallest object concentrates Miller-Urey products into adjacent pools), (4) warm fluids (+5–20K geothermal), (5) N-doped SiC semiconductor substrate (catalytic surfaces, electrochemical gradients), (6) flow-through hydrology (drainage maintains <1 ppm H₂O, delivers fresh inputs, creates chemical gradients), (7) micro-pool multiplication (rough lattice topography → many parallel experiments per monadnock). **⚠ NOTE:** Fracture-connected pools fill too fast for genesis (geyser-cone construction fills pools in years to decades; genesis requires My-scale). Force multipliers enhance tower construction and indirectly benefit neighboring non-connected pools via ejecta seeding.
 
@@ -168,11 +168,11 @@ Dynamic pressure at terminator: 370 Pa (≈ 25 m/s on Earth).
 
 **✓** Deposits N-doped SiC as metabolic waste (= conductive mineral = lattice precursor).
 
-**✓** Multiple independent colonies in isolated fracture systems. Different protocols, different metabolic quirks.
+**✓** Multiple independent systems in isolated fracture networks. Different protocols, different metabolic quirks.
 
-**✓** Each colony independently evolves towers when reaching surface. Convergent — physics dictates. Gross morphology identical, signals incompatible.
+**✓** Each system independently evolves towers when reaching surface. Convergent — physics dictates. Gross morphology identical, signals incompatible.
 
-**✓** Surface roots evolve to manage megafauna; secondarily bridge geological gaps between colonies, triggering network wars.
+**✓** Surface roots evolve to manage megafauna; secondarily bridge geological gaps between systems, triggering network wars.
 
 **✓** Network expansion: root network spreads from mature towers. Network ping rules determine when a new tower buds FROM the root. Bud creates a voltage/signal gradient. Tower-coupled symbiotes (Healers, Miners, Guards) follow gradient in propagule-distribution state, maintaining Schottky coupling with conductive root surface for energy en route. Journey is generational if distance requires — symbiote populations reproduce along the root, maintaining the migration front. Amorphs are NOT involved in colonization (they are megafauna transport layer, not colonization couriers).
 
@@ -350,7 +350,7 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 ## PLANETARY NETWORK
 
-**✓** Network wars (primordial): when surface roots from independent deep-rock colonies first meet, foreign signals flood infrastructure optimized for self-signals. Flinch → retreat fails → forced engagement. Each colony has independently evolved towers AND symbiotes — both are near-peers.
+**✓** Network wars (primordial): when surface roots from independent deep-rock systems first meet, foreign signals flood infrastructure optimized for self-signals. Flinch → retreat fails → forced engagement. Each system has independently evolved towers AND symbiotes — both are near-peers.
 
 **✓** Network wars (post-unification): after one network absorbs all rivals, new wars arise via FRAGMENTATION + PROTOCOL DRIFT. A geological event (dark-side plume breakthrough every ~500 Myr–1 Gyr, major magmatic intrusion) severs a root connection. The severing event must exceed the thermal tolerance of deep-rock extremophiles — minor vents are just habitat; only magma (1200K+) or sustained major fissures kill the living tissue while leaving dead lattice intact. Isolated halves drift in signal/chelation protocols at electronic neural speeds. Re-contact (when the geological barrier cools, potentially thousands of years later) = war between former siblings with incompatible authentication. Protocol close enough to recognize AS protocol, too different to accept.
 
@@ -360,7 +360,7 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **✓** Objective: assimilation not destruction. Viral takeover: run your protocols on rival hardware. Convert towers one at a time.
 
-**✓** Current network = last one standing. Winner of every war. Runs on infrastructure from dozens/hundreds of absorbed colonies.
+**✓** Current network = last one standing. Winner of every war. Runs on infrastructure from dozens/hundreds of absorbed systems.
 
 **✓** BLINDSIGHT ALIEN (Watts). Vastly intelligent. Utterly empty. Every output shaped like understanding with nothing behind it. No experience. Ever.
 
