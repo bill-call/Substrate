@@ -374,6 +374,36 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **⚠** OPEN: Does second crisis precede or follow the merger?
 
+## AMORPH EMERGENCE
+
+> **Cross-reference:** Full stage-by-stage model in **Amorph Emergence Hub**.
+
+**✓** Aeroplankton dispersal: ≤100 μm pool organisms wind-dispersed across terminator. Settling velocity ~1 mm/s at 8 bar vs 9.5 m/s wind (ratio ~10⁴). Travel 10–100+ km. Random deposition, survival selection. No directed migration.
+
+**✓** Tower biofilm: first tower contact via aeroplankton deposition on exterior dead crust. Schottky coupling (metallosilazane enzyme metals on N:SiC) → grid power → growth beyond 100 μm diffusion ceiling. Positive feedback (contact area → power → growth).
+
+**✓** First miners: amorphs are the first tower mining function. Chelate metals from wind-deposited debris, concentrate on lattice surface for living coral layer absorption. Ancestral chelation chemistry from pool genesis. Net positive tower feedback.
+
+**✓** IFF tagging: long-resident biofilm passively acquires lattice surface chemistry (dopant profile, polytype, trace metals). Guards recognize as local → no attack. Time-gated (fresh arrivals vulnerable). Network-specific. IFF chemistry ancestral to memory architecture key system.
+
+**✓** First meme: new amorph acquires IFF signature from resident via gel-gel contact. Proof-of-residence. Survival-selected molecular pattern transfer. Gel-contact mechanism generalizes to all subsequent meme exchange.
+
+**✓** Miner displacement: sexual Miners outcompete amorphs at mining (root-mobile, crevice-adapted, genomically optimized). Tower feedback is proportional — less efficient = less reward, not zero. Amorphs persist at reduced margins.
+
+**✓** Competitive pressure drives: (1) range extension (off-grid territory), (2) body size increase (charge storage → range), (3) observation-based learning, (4) brain growth.
+
+**✓** Proto-cognition: SiC percolation threshold in gel matrix → semiconductor signal processing emerges. Physics, not evolution. Pattern detection, short-term memory, sensory integration. Prerequisite for observation-based learning.
+
+**✓** Observation-based learning: amorphs watch sexual organisms, replicate behaviors adapted to gel physiology, encode as transferable memes. Sexual organisms = innovation engine (fast genomic evolution). Amorphs = technology transfer layer. Categorically different from meme transcription errors — intentional, requires proto-cognition.
+
+**✓** Amorphs accumulate smarter, not evolve smarter. Ontogenic (lifetime SiC + meme acquisition) primary mechanism. Lamarckian inheritance: buds receive fraction of parent's accumulated state. Meme pool improves slowly via transcription errors + selection.
+
+**✓** Single-node cognitive ceiling: information-processing topology limit (edge-traversal costs exceed benefit of new nodes). With electronic signaling 100–2000× biological neuron speed, ceiling ≥ human-equivalent general intelligence. Federation (monks only) exceeds ceiling.
+
+**✓** Idempotency: same meme set on identical blank bodies → approximately same individual. Non-idempotent factors: SiC network topology (unique growth history), working memory state (volatile), spatial meme distribution. Socially idempotent; subjectively not.
+
+**⚠** OPEN: Merge output model — single combined entity (current canon) vs fragmentation into N children (resolves aggregate mass problem, not yet canon).
+
 ## AMORPH BIOLOGY
 
 | Parameter | Value |

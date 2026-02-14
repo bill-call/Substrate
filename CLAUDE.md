@@ -36,6 +36,7 @@ Use pandoc to convert .docx to .md, when necessary. Hard requirement: pandoc doe
   - `substrate_amorph_economics_hub.md` — charge economy, power constraints, evolutionary economics, tech tree, day-side colonization.
   - `substrate_heavy_industry_hub.md` — industrial processes, machinery, biological-to-mechanical transition, factory architecture.
   - `substrate_warfare_hub.md` — weapons, escalation ladder, fluorine taboo, strategic constraints, grid warfare.
+  - `substrate_amorph_emergence_hub.md` — pore-to-megafauna pathway, aeroplankton dispersal, tower biofilm, IFF/first meme, miner competition, cognition emergence.
 - **Planned hubs:**
   - Network Hub — adversarial ratchet, consciousness question, awakening crises, merger, monks. (Touches towers, deep-rock, civilization, narrative.)
   - Crisis Hub — atmospheric decline, tower deaths, merger, probe, space program. (Touches everything.)
@@ -80,6 +81,7 @@ These predate the spine/hub/module system. Their content has been absorbed into 
 | Session Focus | Load (in addition to spine) |
 |---|---|
 | Towers (any aspect) | Tower Hub |
+| Amorph emergence, pore-to-megafauna | Amorph Emergence Hub + Pool Genesis Hub |
 | Network, consciousness, awakening | Network Hub (when built); until then, bible |
 | Atmospheric crisis, probe, space | Crisis Hub (when built); until then, bible |
 | Deep-rock biosphere | Deep-Rock module (when built); until then, spine is sufficient for most questions |
