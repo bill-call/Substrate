@@ -898,7 +898,8 @@ Mass driver (3 km/s EM boost). Balloon launch to 15–20 km. Intercontinental fr
 | Emergence pathway | Amorph Emergence Hub | §2–§7 |
 | Structural materials, body plans | Fauna Structural Hub | §2–§5 |
 | Memory architecture, keys | Memory Architecture Hub | §2–§6 |
-| Tower coral model, lattice | Tower Hub | — |
+| Tower coral model, lattice, ecosystem | Tower Hub | — |
+| Tower shape, structure, dimensions | Tower Morphology Hub | §§3–9 |
 | EM ecology, three-layer signaling | Spine | §EM ECOLOGY |
 | Subwoofer EM phased array, pack detection | Fauna Hub | §6.5 |
 | Guild retirement, meme dependency | Spine | §CIVILIZATION |

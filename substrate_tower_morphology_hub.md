@@ -454,12 +454,152 @@ No destabilizing feedback loops at equilibrium. No resource-competition feedback
 
 ---
 
-## 11. Key Dimensions Summary
+## 11. Pore Architecture, Surface Features, and Habitat Scale
+
+### 11.1 Pore sizes
+
+For a 3D lattice of ~2 mm struts (from Aeolian tone: St ≈ 0.2, v ≈ 10 m/s, f ≈ 1 kHz), strut pitch scales with solids fraction as p ≈ d × √(3π/4φ):
+
+| Location | Solids fraction | Strut pitch | Pore opening |
+|---|---|---|---|
+| Apex (youngest, lightest) | ~5% | ~14 mm | ~12 mm |
+| Mid-height | ~8% | ~11 mm | ~9 mm |
+| Base (densest, Healer-renovated) | ~15% | ~8 mm | ~6 mm |
+
+These are large relative to most atmospheric particulate but small relative to any macroscopic organism.
+
+### 11.2 Lattice opacity
+
+Throughflow velocity decays exponentially with depth. For 2 mm struts at pitch p with loss coefficient K ≈ 0.2 per layer: U(x) = U₀ × exp(−Kx/2p). Decay length L = 2p/K:
+
+| Zone | Pitch | Solids | Velocity decay length (1/e) |
+|---|---|---|---|
+| Apex | 14 mm | 5% | ~14 cm |
+| Mid-height | 11 mm | 8% | ~10 cm |
+| Base | 8 mm | 15% | ~5 cm |
+
+At 50 cm depth (apex), throughflow is essentially zero. The tower is **~80–85% opaque** to bulk throughflow across its full chord. Air enters the windward face, decelerates within the first ~15–30 cm, turns, and flows upward through the lattice interior at low velocity (~0.5–1 m/s), exiting at the summit. This slow interior flow assists H₂ waste removal (chimney draft) and moderate SiH₄ replenishment in metabolically active zones.
+
+### 11.3 Collection: two growth modes
+
+The tower's collection requirements depend fundamentally on its growth mode. These are distinct regimes with different feedstock, and the lattice geometry serves both but is optimized for neither — it is shaped by structural and symbiote-habitat constraints.
+
+**Mode 1: Catalytic surface growth (proto-tower, pre-symbiote)**
+
+The original autocatalytic N:SiC surface ceramifies deposited material. Feedstock is whatever lands on the active surface — primarily **lightning-forged molecular species**: PCS oligomers, silazane fragments, nascent molecular clusters (nm to μm scale) produced by atmospheric lightning chemistry from SiH₄ + NH₃ + CH₄. These pre-formed building blocks are essential to catalytic growth; the surface incorporates them, it doesn't synthesize from raw gas.
+
+| Regime | Target | Mechanism | Notes |
+|---|---|---|---|
+| Diffusion capture | 1–10 nm clusters | Brownian diffusion to catalytic surface | D ≈ 10⁻⁹ m²/s at 8 bar. Slow. Surface area matters. |
+| Electrostatic capture | 10–100 nm aerosol | Charged-particle attraction to conductive surface | MPPS range. Lightning-charged lattice provides the field. |
+| Inertial impaction | > ~1 μm particles | Stokes-number impaction | St > 0.1 for d > 1.3 μm on 2 mm struts at 9.5 m/s. |
+| Direct gas reaction | SiH₄ | Catalytic decomposition on active surface | SiH₄ → SiC/SiCN directly. Significant but slower than molecular deposition. |
+
+In this mode, the lattice opacity is directly beneficial: slow interior flow maximizes residence time for nm-scale diffusion capture, and the large internal surface area provides collection surface. The windward face geometry matters for impaction of larger fragments. **All four capture regimes contribute.**
+
+**Mode 2: Symbiote CVD construction (mature tower)**
+
+Healers perform arc-CVD from **raw atmospheric gases**: SiH₄ + NH₃ + CH₄ → SiCN + H₂, using grid-supplied electrical power. They synthesize lattice material from scratch. Pre-formed molecular building blocks from lightning chemistry are **not required** — the Healers do their own chemistry.
+
+| Input | Source | Delivery |
+|---|---|---|
+| SiH₄ (0.3% atm) | Atmosphere | Gas diffusion to all surfaces. D ≈ 2×10⁻⁶ m²/s at 8 bar; crosses 6 mm gap in ~18 s. Trivially available everywhere in the lattice. Metabolic rate is the limit, not transport. |
+| N₂ (55%), NH₃ (12.5%), CH₄ (10%) | Atmosphere | Gas diffusion. Superabundant. Not rate-limiting. |
+| Catalytic metals (Ti, Fe, etc.) | Miners (primary), volcanic dust (secondary) | Miner chelation delivery is the primary path. Windward-face impaction of metal-bearing volcanic dust is supplementary. |
+| Electrical energy | Lightning grid | Schottky coupling to lattice. |
+
+In this mode, the tower is not a filter in any meaningful sense — it is a **gas-phase chemical reactor** bathed in its own feedstock. The lattice opacity is irrelevant to nutrition; it is a passive consequence of the structural geometry. Interior airflow assists waste removal (H₂ exhaust via chimney draft) and SiH₄ replenishment, but these are secondary effects, not the reason the lattice exists.
+
+**Windward surface features (both modes, but context differs):**
+
+1. **Dendrite tips.** Short (~0.1–0.5 mm) SiCN projections extending from the strut's windward face. In catalytic mode: increase collection area for atmospheric molecular deposition. In mature mode: increase surface area for metal-bearing dust capture (volcanic particulate from katabatic wind). Healer-deposited, biologically cheap.
+2. **Electrostatic enhancement.** Lightning-charged conductive lattice attracts triboelectrically charged wind-borne particles. In catalytic mode: captures nm-scale molecular clusters (essential). In mature mode: captures metal-bearing dust (supplementary to Miner delivery).
+3. **In situ metabolic processing.** Windward-face symbiotes (primarily Healers) chelate and metabolize captured particles within hours. The windward face is simultaneously a collection surface and a processing surface. **In mature towers, the primary value of windward capture is metal recovery, not structural material.**
+
+### 11.4 Leeward solar collection
+
+**Photovoltaic material:** Elemental Si, not SiC. SiC bandgap (2.3–3.3 eV) is too wide for the star's peak emission at ~850 nm. Si bandgap (1.12 eV) absorbs all photons below ~1100 nm. In the reducing atmosphere (no O₂), elemental Si is stable — no oxidation. Healer synthesis: SiH₄ → Si + 2H₂ (the *simpler* reaction, omitting the carbon source used for SiC).
+
+**Geometry:** At the terminator, the star is at the horizon. Sunlight arrives horizontally from the substellar direction. The leeward face (roughly day-facing) is the primary illuminated surface. At ~15° Coriolis deflection (mid-latitude), the leeward face normal is 15° off from the sun direction — cos(15°) ≈ 0.97, negligible loss.
+
+**Optimization incentive: weak.** Terminator towers have massive lightning surplus. Solar contributes real but marginal power. The tower is poorly incentivized to optimize solar collection geometry. Si films exist on leeward surfaces as a low-effort ambient harvest (the simpler CVD reaction deposited on whatever surfaces face the sun), not as precision-engineered photovoltaic arrays. No asymmetric flank treatment, no latitude-dependent Healer programs. The incentive increases day-ward (deposition zone towers get less lightning, more sun).
+
+### 11.5 Habitat scale hierarchy
+
+The 6–12 mm native pore openings establish that **tower structure is not megafauna housing.** The lattice is scaled for wind physics and symbiote biology. Amorph habitation requires excavation at a completely different scale.
+
+| Scale | Occupant | Access |
+|---|---|---|
+| Native lattice (6–12 mm pores) | Middle-kingdom organisms (insect-scale), individual symbiotes (Healers, Miners, Guards) | Native — organisms navigate the lattice directly. The 5-zone strut ecology operates here. |
+| Excavated chambers (meter-scale) | Amorphs (megafauna) | Healer-built. Material removed from lattice, surrounding structure densified to redistribute load. Every amorph-accessible space is artificial. |
+| Chimney conduits (multi-meter) | Gas transport (H₂ exhaust, buoyancy draft) | Primary function is gas flow. May double as amorph transit corridors. Not purpose-built for habitation. |
+
+The tower was not built to house amorphs. Amorphs moved in; Healers excavated space for them — because the network has incentive to keep mutualists close (metal delivery, external maintenance, defense). Housing is a service the tower provides in exchange for the mutualist relationship, not the tower's architectural purpose.
+
+**Chamber size limit:** At 5% solids, the lattice is near minimum structural density. Excavating a chamber requires densifying the surrounding lattice to carry the redistributed load. Larger chamber = thicker reinforced walls = more biological investment. Upper bound on chamber size set by structural analysis (unresolved — see §13.2).
+
+### 11.6 Exterior climbing by megafauna amorphs
+
+**Can a megafauna amorph use the pore lattice to climb the tower exterior?** Yes.
+
+**Mechanism:** The amorph extends gel tendrils into 6–12 mm pore openings, then stiffens them by redistributing SiC stock — a biological expansion bolt. Mechanical interlock, not friction. Load transfers to struts in shear.
+
+**Load capacity:** A 2 mm SiC strut at ~9 MPa supports ~28 N per interlock point. A 100 kg amorph at 1.82g weighs ~1785 N — 64 struts under load, trivial when the contact surface covers thousands of pores. The lattice can support many times the amorph's weight.
+
+**Practical constraints:**
+
+| Factor | Windward face | Leeward face |
+|---|---|---|
+| Wind | 9.5 m/s, ~370 N drag on 1 m² profile (~20% body weight) | Sheltered, near-zero airflow |
+| Climb speed | ~0.1 m/s (extend/grip/haul cycle) | ~0.1 m/s |
+| Summit time (1 km) | ~3 hours | ~3 hours |
+| Energy cost | High (fighting wind + gravity at 1.82g) | High (gravity only) |
+| Healer response | Exposed to exterior Healer patrol | Exposed to exterior Healer patrol |
+
+**Healer response depends on chelation badge:**
+- Recognized mutualist (correct badge): tolerated, possibly assisted (debris cleared from climbing path).
+- Unrecognized (wrong badge or none): active resistance — Healers seal pores ahead of climber, deposit material to block tendrils, signal network.
+
+**The exterior climb is the unauthorized access route.** Normal amorph entry is through Healer-maintained corridors at the leeward base. Climbing the lattice exterior is physically possible but slow, exposed, energy-expensive, and contested by the tower's immune system if the climber lacks credentials. Narrative uses: infiltration during grid warfare, first contact by a wild amorph, emergency escape from a hostile tower interior.
+
+**Recreational climbing and glide descent.** Amorphs do not fear falling — they can reshape to reduce terminal velocity below injury threshold. At 8 bar air density (~8 kg/m³), terminal velocity scales with spread area: ~10 m/s at 4 m², ~7 m/s at 8 m², ~5 m/s at 16 m². No fixed body plan means cross-section is a choice — the amorph dials in its descent rate. Even 10 m/s (lethal for a rigid-skeleton organism) is survivable for a gel body with no organs to rupture and selectively redistributed SiC crumple zones. A comfortable recreational descent would use maximum spread. (Same physics as balloon fauna fall-survival origin — see Skywhale Hub.)
+
+**Descent tradeoff:** More spread = slower fall = more time aloft = more wind displacement. At 5 m/s descent from 1 km altitude in 9.5 m/s katabatic wind, horizontal displacement is ~1.9 km day-ward. Two descent modes:
+
+1. **Vertical (recreational):** Jump from leeward face into the tower's wind shadow. Near-zero airflow in the lee. Spread wide, land gently at the tower base. Safe, controlled, predictable.
+2. **Transit (tower-hopping):** Jump into the open wind toward the **next downwind tower**. Spread into crude airfoil (gel membrane, SiC-ribbed). At 8 bar air density, minimum glide speed ~7.5 m/s (100 kg amorph, 8 m² wing, CL ≈ 1.0). Glide ratio L/D ≈ 4–8 depending on aspect ratio and shaping effort (limited by gel flutter at high AR; practical best ~6). The target is not maximum range — it's the next tower. Landing between towers is useless (hours of ground travel to reach one).
+
+   **Tower upwash.** The tower is ~80–85% opaque to bulk throughflow (see §11.2 — velocity decays within ~15–30 cm of the windward surface; the full chord is effectively a wall). This creates strong upwash along the windward face: **~3–5 m/s** vertical component (30–50% of freestream). This does NOT conflict with the tower's collection function — in mature towers (§11.3, Mode 2), the primary feedstock is gas-phase SiH₄ (diffuses to all surfaces regardless of flow direction) and metals (Miner-delivered). The lattice opacity is a passive consequence of structural geometry, not a nutritional optimization. Upwash vanishes above the summit (flow transitions to horizontal).
+
+   Amorph terminal velocity at maximum spread (16 m²): ~4.3 m/s. Upwash of 3–5 m/s makes ground-level riding **marginal** — net ascent of −1.3 to +0.7 m/s depending on local upwash strength. At the base center of the windward face (strongest 2D constraint), upwash may reach 5–7 m/s, making passive riding possible but slow. Higher on the face, the upwash weakens as air routes to the sides, and riding becomes unreliable. **Practical model: the amorph climbs the lower face (upwash reduces effective weight by ~35–70%) and transitions to passive riding where the upwash is sufficient.** The crossover height is geometry-dependent and unresolved.
+
+   **Tower-hop sequence (terminator, ~6.5 km spacing):**
+   1. Launch from tower A summit (~1 km). Glide downwind at L/D ≈ 6–7.
+   2. Approach tower B. Upwash zone extends ~200–500 m ahead of the windward face, providing significant lift that extends the glide. Simple geometry: L/D = 6 from 1 km loses ~1080 m over 6.5 km (marginal without assist); upwash on approach recovers ~200–400 m, making the hop reliable.
+   3. Arrive at tower B's windward face at low altitude. Climb with upwash assist (reduced effective weight) through the lower face; transition to passive updraft riding where upwash exceeds sink rate.
+   4. Reach summit altitude. Repeat from step 1.
+
+   Each hop: **~10 min glide + climb/ride time (unresolved — depends on crossover height).** One-way only — upwind ground speed goes negative. Return by balloon via upper-level return flow (see Fauna Hub, "surfing" transit).
+
+   **Spacing dependency:** Tower-hopping works at terminator spacing (~6.5 km) where the strong upwash makes the glide geometry close. At wider dark-side spacings (8–20 km), the glide path falls below ground level well before the next tower — hopping becomes impossible. Tower-hopping is a **terminator transit mode**, reinforcing the terminator as the high-connectivity zone.
+
+Tower climbing is a zero-mortality-risk activity: the ascent is physical challenge (hours, 1.82g, pore-grip technique, windward face preferred for upwash weight reduction), the summit is a novel sensory environment (exposed EM, acoustic transition, raw wind), and the descent is either a controlled drop (leeward shadow) or tower-hopping transit (day-ward only). The recreational version would be a universal meme — easy to learn, hard to master, socially visible.
+
+The pore lattice thus serves four simultaneous functions from one geometry: filtration machine, symbiote habitat, climbing surface, and security perimeter.
+
+---
+
+## 12. Key Dimensions Summary
 
 | Parameter | Value | Confidence |
 |---|---|---|
 | **Cross-section shape** | Symmetric airfoil (plan view). Convex arch (cross-wind). | High |
-| **Functional filter depth** | 2–3 m | High |
+| **Pore opening (apex)** | ~12 mm | Moderate (solids fraction dependent) |
+| **Pore opening (base)** | ~6 mm | Moderate (solids fraction dependent) |
+| **Primary feedstock** | Gas-phase SiH₄ (diffusion) + nm-scale lightning products (diffusion + electrostatic) | High |
+| **Impaction capture threshold** | > ~1 μm (coarse particulate, minor fraction) | High |
+| **Effective filtration skin** | ~15–30 cm (apex), ~5–10 cm (base) | Moderate (derived from velocity decay) |
+| **Bulk throughflow opacity** | ~80–85% (tower-scale) | Moderate |
 | **Wind-axis chord at base** | 30–50 m | Moderate |
 | **Wind-axis chord at top** | 3–8 m | Moderate |
 | **Tower-to-tower spacing (terminator)** | ~6.5 km | Moderate (root attenuation dependent) |
@@ -477,13 +617,15 @@ No destabilizing feedback loops at equilibrium. No resource-competition feedback
 
 ---
 
-## 12. Open Questions
+## 13. Open Questions
 
 1. **Aerogel solids fraction:** Specific canonical values needed. The 3–15% range assumed here spans a factor of 5 in density and structural capacity.
-2. **Interior architecture detail:** Chimney channel geometry, structural webbing pattern, amorph chamber distribution. Shaped by chimney self-selection + Healer excavation, but unquantified.
+2. **~~Interior architecture detail~~** ✓ PARTIALLY RESOLVED (§11.5). Habitat scale hierarchy established: native lattice (6–12 mm, symbiote-scale) vs excavated chambers (meter-scale, Healer-built for amorphs) vs chimney conduits (multi-meter, gas transport). Remaining open: specific chamber geometries, structural webbing patterns, chamber size upper bound.
 3. **~~Fibonacci spacing numbers~~** ✓ RESOLVED (§10.2). ~6.5 km at terminator, widening to ~20 km deep dark. Root attenuation (~10–20 km unboosted) is binding constraint. Cross-wind blockage ~3%.
-4. **Healer construction program specifics:** What behaviors are genomically encoded? Density response to stress signals, vent shaping, structural ribbing patterns? The "symbiote genome = tower blueprint" claim is well-grounded in principle but the specific behavioral repertoire is unspecified.
+4. **Healer construction program specifics:** What behaviors are genomically encoded? Density response to stress signals, vent shaping, structural ribbing patterns, Si vs SiC deposition switching (§11.4)? The "symbiote genome = tower blueprint" claim is well-grounded in principle but the specific behavioral repertoire is unspecified.
 5. **Catalytic reaction status in modern towers:** Is the original autocatalytic surface definitely dead (buried under non-catalytic Healer deposits), or could it restart if exposed? Affects the crisis degradation pathway.
 6. **Base-to-root transition:** Detailed geometry of the merge between tower base and root network. Smooth flare vs distinct boundary. Affects structural modeling of overturning resistance.
 7. **Pre-Healer root mechanism:** Canon: roots evolved to sink excess power, predating sophisticated symbiotes. What builds the first roots? Some intermediate mechanism needed between "bare catalytic tower" and "Healer-built root network."
 8. **Visual/sensory experience of tower interior:** What does it feel like to be inside a tower? EM environment, acoustic environment, spatial character at different heights.
+9. **Maximum excavated chamber size:** Structural analysis needed. At minimum solids fraction (~5%), how large a void can be excavated before the surrounding lattice cannot be densified enough to carry the redistributed load? Sets hard upper bound on amorph living space within a tower.
+10. **Upwash crossover height for passive amorph riding:** At what height on the windward face does the upwash exceed the amorph's sink rate (~4.3 m/s at max spread)? Determines the climb/ride split in the tower-hop transit model. Depends on tower width, opacity profile, and 3D flow routing around the flanks. The base center-face has the strongest 2D constraint (highest upwash) but this weakens with height as air finds lateral routes.
