@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Substrate: Tower Morphology — Architectural View</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{overflow:hidden;background:#0a0a16;font-family:'Courier New',monospace;color:#aab}
+canvas{display:block}
+#info{position:absolute;top:8px;left:8px;font-size:11px;line-height:1.5;max-width:310px;
+  background:rgba(10,10,22,0.88);padding:8px 10px;border:1px solid #334;pointer-events:none}
+#info h2{color:#dde;font-size:13px;margin-bottom:3px}
+.d{color:#667;font-size:10px}
+#views{position:absolute;top:8px;right:8px}
+#views button{display:block;margin:2px 0;padding:3px 7px;background:#161628;
+  color:#99a;border:1px solid #334;cursor:pointer;font-family:inherit;font-size:10px;
+  min-width:110px;text-align:left}
+#views button:hover{background:#222240;color:#dde}
+#plan{position:absolute;bottom:8px;right:8px;border:1px solid #334;background:rgba(10,10,22,0.88)}
+#planLbl{position:absolute;bottom:198px;right:8px;font-size:9px;color:#445;
+  text-align:center;width:240px;pointer-events:none}
+#note{position:absolute;bottom:8px;left:8px;font-size:9px;color:#334}
+</style>
+</head>
+<body>
+
+<div id="info">
+<h2>Mature Terminator Tower (~1 km)</h2>
+"Gothic cathedral buttress &mdash;<br>
+wide base sweeping up to a thin ridge."<br><br>
+<span class="d">
+White ribs: structural vault arches<br>
+Gold lines: windward face meridians<br>
+Cyan: root buttress flare zone<br>
+Amber: windward intake face<br>
+Green: living zone shell (2-3 m)<br>
+Gray: structural lattice / chimney<br>
+Blue: trailing edge + chimney vents<br><br>
+Base (ground): ~68 m deep &times; ~250 m wide<br>
+At 100 m: ~44 m deep &times; ~175 m wide<br>
+At 500 m: ~13 m deep &times; ~69 m wide<br>
+Apex ridge: ~4 m &times; ~25 m<br>
+Height: 1,000 m<br><br>
+Drag to rotate &middot; Scroll to zoom
+</span>
+</div>
+
+<div id="views">
+<button onclick="setView('persp')">Perspective</button>
+<button onclick="setView('plan')">Plan (top)</button>
+<button onclick="setView('side')">Side Profile</button>
+<button onclick="setView('front')">Windward Face</button>
+<button onclick="setView('rear')">Trailing Edge</button>
+<button onclick="setView('base')">Base / Buttresses</button>
+<button onclick="setView('growth')" style="margin-top:8px;border-color:#5a7">Growth Stages</button>
+<button onclick="setView('region')" style="margin-top:2px;border-color:#a75">Regional Variation</button>
+</div>
+
+<div id="planLbl">Plan cross-section at 500 m</div>
+<canvas id="plan" width="240" height="180"></canvas>
+<div id="note">Grid = 100 m | Wireframe = lattice character | True proportions</div>
+
+<script type="importmap">
+{"imports":{
+  "three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+
+// ============================================================
+// PARAMETERS
+// ============================================================
+const H = 1000;
+
+function nacaHW(x) {
+  x = Math.max(1e-4, Math.min(.9999, x));
+  const v = .2969*Math.sqrt(x) - .126*x - .3516*x*x + .2843*x*x*x - .1036*x*x*x*x;
+  return Math.max(0, v / .10042);
+}
+
+// Blend airfoil → circle for shape maturity (proto-mound = circular, mature = full airfoil)
+function profileHW(xn, blend) {
+  const naca = nacaHW(xn);
+  const circ = 2 * Math.sqrt(Math.max(0, xn * (1 - xn)));
+  return blend * naca + (1 - blend) * circ;
+}
+
+// Note: the "gentle central peak" (morphology hub §5.8) is a sub-visual-scale
+// feature (~5-10m on a 1000m tower, <1%). Not modeled here — it creates saddle
+// artifacts on the airfoil cross-section that are more misleading than informative.
+// All cross-sections are at uniform height.
+
+function chordAt(z) {
+  const t = Math.min(z / H, 1);
+  // Base taper already widens toward ground (power 1.8).
+  // Buttress flare: broad, smooth additional widening over bottom 150m.
+  // Blends seamlessly — no kink. "Almost a mound" at ground level.
+  let d = 4 + 46 * Math.pow(1 - t, 1.8);
+  if (z < 150) d *= 1 + .35 * Math.pow(1 - z / 150, 1.5);
+  return d;
+}
+
+function spanAt(z) {
+  const t = Math.min(z / H, 1);
+  let w = 25 + 175 * Math.pow(1 - t, 1.5);
+  if (z < 150) w *= 1 + .25 * Math.pow(1 - z / 150, 1.5);
+  return w;
+}
+
+// ============================================================
+// MAIN TOWER MESH
+// ============================================================
+function buildTower() {
+  const NZ = 80, NP = 100, pos = [], col = [], idx = [];
+  for (let i = 0; i <= NZ; i++) {
+    const zB = (i / NZ) * H;
+    for (let j = 0; j < NP; j++) {
+      const th = 2 * Math.PI * j / NP;
+      const xn = (1 - Math.cos(th)) / 2;
+      const sign = th <= Math.PI ? 1 : -1;
+      const ny = nacaHW(xn);
+      const D = chordAt(zB);
+      const W = spanAt(zB);
+      pos.push(xn * D, zB, sign * ny * W / 2);
+      // Color by zone
+      const hf = .3 + .7 * Math.min(zB / H, 1);
+      let r, g, b;
+      if (xn < .06)      { r=.8;  g=.58; b=.25; }  // windward (amber)
+      else if (xn < .25) { r=.28; g=.56; b=.3;  }  // living zone (green)
+      else if (xn < .7)  { r=.36; g=.36; b=.4;  }  // structural (gray)
+      else               { r=.22; g=.3;  b=.5;  }  // trailing edge (blue)
+      // Tint buttress zone cyan
+      if (zB < 150) {
+        const f = (1 - zB / 150) * .2;
+        r = r * (1-f) + .2*f; g = g * (1-f) + .6*f; b = b * (1-f) + .6*f;
+      }
+      col.push(r * hf, g * hf, b * hf);
+    }
+  }
+  for (let i = 0; i < NZ; i++)
+    for (let j = 0; j < NP; j++) {
+      const a = i*NP+j, b = i*NP+(j+1)%NP, c = (i+1)*NP+j, d = (i+1)*NP+(j+1)%NP;
+      idx.push(a, c, b, b, c, d);
+    }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+  geo.setAttribute('color', new THREE.Float32BufferAttribute(col, 3));
+  geo.setIndex(idx); geo.computeVertexNormals();
+  return geo;
+}
+
+// ============================================================
+// HORIZONTAL ARCH RIBS (cross-sections showing the vault)
+// ============================================================
+function buildHRibs() {
+  const grp = new THREE.Group();
+  const mat = new THREE.LineBasicMaterial({color: 0xffffff, transparent: true, opacity: .45});
+  for (const z of [0, 30, 80, 200, 400, 600, 800, 1000]) {
+    const pts = [], D = chordAt(z), W = spanAt(z);
+    for (let j = 0; j <= 120; j++) {
+      const th = 2 * Math.PI * j / 120;
+      const xn = (1 - Math.cos(th)) / 2;
+      const sign = th <= Math.PI ? 1 : -1;
+      pts.push(new THREE.Vector3(xn * D, z, sign * nacaHW(xn) * W / 2));
+    }
+    grp.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts), mat));
+  }
+  return grp;
+}
+
+// ============================================================
+// VERTICAL MERIDIANS on windward face (shows vault curvature)
+// ============================================================
+function buildVRibs() {
+  const grp = new THREE.Group();
+  const mat = new THREE.LineBasicMaterial({color: 0xccaa55, transparent: true, opacity: .3});
+  for (const cf of [0, .15, .3, .5, .7, .85, .95]) {
+    for (const side of [1, -1]) {
+      if (cf === 0 && side === -1) continue;
+      const pts = [];
+      for (let i = 0; i <= 60; i++) {
+        const z = (i / 60) * H;
+        const D = chordAt(z), W = spanAt(z);
+        const xOff = D * .02 * cf * cf;
+        pts.push(new THREE.Vector3(xOff, z, side * cf * W / 2));
+      }
+      grp.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts), mat));
+    }
+  }
+  return grp;
+}
+
+// ============================================================
+// ROOT / BUTTRESS RIDGE LINES
+// ============================================================
+function buildRoots() {
+  const grp = new THREE.Group();
+  const mat = new THREE.LineBasicMaterial({color: 0x55aaaa, transparent: true, opacity: .45});
+  const N = 16;
+  for (let k = 0; k < N; k++) {
+    const th = 2 * Math.PI * k / N;
+    const xn = (1 - Math.cos(th)) / 2;
+    const sign = th <= Math.PI ? 1 : -1;
+    const ny = nacaHW(xn);
+    if (ny < .03 && xn > .05 && xn < .95) continue;
+    const pts = [];
+    // Trace the buttress flare zone (0 to 150m) — on the tower surface
+    for (let i = 0; i <= 30; i++) {
+      const z = 150 * (1 - i / 30);
+      const D = chordAt(z), W = spanAt(z);
+      pts.push(new THREE.Vector3(xn * D, z, sign * ny * W / 2));
+    }
+    grp.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts), mat));
+  }
+  return grp;
+}
+
+// ============================================================
+// INTERIOR CHIMNEY CHANNELS (faint vertical lines)
+// ============================================================
+function buildChimney() {
+  const grp = new THREE.Group();
+  const mat = new THREE.LineBasicMaterial({color: 0x4466aa, transparent: true, opacity: .15});
+  for (const xf of [.35, .5, .65, .8]) {
+    for (const wf of [0, .25, -.25]) {
+      const pts = [];
+      for (let i = 0; i <= 40; i++) {
+        const z = (i / 40) * H;
+        const D = chordAt(z), W = spanAt(z);
+        pts.push(new THREE.Vector3(xf * D, z, wf * W * .25));
+      }
+      grp.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts), mat));
+    }
+  }
+  return grp;
+}
+
+// ============================================================
+// TRAILING-EDGE VENT MARKS (upper tower)
+// ============================================================
+function buildVents() {
+  const grp = new THREE.Group();
+  const mat = new THREE.LineBasicMaterial({color: 0x6688cc, transparent: true, opacity: .45});
+  for (let z = 350; z <= 950; z += 60) {
+    const D = chordAt(z), W = spanAt(z);
+    // V-shaped vent marks at trailing edge
+    for (const side of [1, -1]) {
+      const pts = [
+        new THREE.Vector3(D * .92, z, side * W * .04),
+        new THREE.Vector3(D, z, 0),
+        new THREE.Vector3(D * .92, z, -side * W * .04)
+      ];
+      grp.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts), mat));
+    }
+  }
+  return grp;
+}
+
+// ============================================================
+// GROWTH STAGE TOWER BUILDER (parameterized)
+// ============================================================
+function buildStageTower(cfg, zOffset) {
+  const NZ = 50, NP = 60, pos = [], col = [], idx = [];
+  const {h, bc, bs, tc, ts, blend, flareZ, flareD, flareW} = cfg;
+  const chFn = z => {
+    const t = Math.min(z / h, 1);
+    let d = tc + (bc - tc) * Math.pow(1 - t, 1.8);
+    if (z < flareZ && flareZ > 0) d *= 1 + flareD * Math.pow(1 - z / flareZ, 1.5);
+    return d;
+  };
+  const spFn = z => {
+    const t = Math.min(z / h, 1);
+    let w = ts + (bs - ts) * Math.pow(1 - t, 1.5);
+    if (z < flareZ && flareZ > 0) w *= 1 + flareW * Math.pow(1 - z / flareZ, 1.5);
+    return w;
+  };
+  for (let i = 0; i <= NZ; i++) {
+    const zB = (i / NZ) * h;
+    for (let j = 0; j < NP; j++) {
+      const th = 2 * Math.PI * j / NP;
+      const xn = (1 - Math.cos(th)) / 2;
+      const sign = th <= Math.PI ? 1 : -1;
+      const ny = profileHW(xn, blend);
+      const D = chFn(zB), W = spFn(zB);
+      pos.push(xn * D, zB, sign * ny * W / 2 + zOffset);
+      const hf = .3 + .7 * Math.min(zB / h, 1);
+      let r, g, b;
+      if (xn < .06)      { r=.8; g=.58; b=.25; }
+      else if (xn < .25) { r=.28; g=.56; b=.3; }
+      else if (xn < .7)  { r=.36; g=.36; b=.4; }
+      else               { r=.22; g=.3; b=.5; }
+      col.push(r * hf, g * hf, b * hf);
+    }
+  }
+  for (let i = 0; i < NZ; i++)
+    for (let j = 0; j < NP; j++) {
+      const a = i*NP+j, b = i*NP+(j+1)%NP, c = (i+1)*NP+j, d = (i+1)*NP+(j+1)%NP;
+      idx.push(a, c, b, b, c, d);
+    }
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+  geo.setAttribute('color', new THREE.Float32BufferAttribute(col, 3));
+  geo.setIndex(idx); geo.computeVertexNormals();
+  return geo;
+}
+
+// ============================================================
+// GROWTH STAGES (5 towers showing progression)
+// ============================================================
+function buildGrowthStages() {
+  const grp = new THREE.Group();
+  const stages = [
+    // Proto-mound: pre-symbiote, crude mineral accretion, nearly circular
+    { label:'Proto-mound\n~50 m\nPre-symbiote',
+      h:50, bc:8, bs:12, tc:3, ts:8, blend:.15, flareZ:0, flareD:0, flareW:0 },
+    // Young: early Healers, developing airfoil, modest base
+    { label:'Young tower\n~200 m\nEarly Healers',
+      h:200, bc:14, bs:40, tc:4, ts:15, blend:.5, flareZ:30, flareD:.12, flareW:.08 },
+    // Adolescent: clear airfoil, active base renovation underway
+    { label:'Adolescent\n~500 m\nActive renovation',
+      h:500, bc:22, bs:80, tc:4, ts:20, blend:.85, flareZ:70, flareD:.22, flareW:.15 },
+    // Sub-mature: near-optimal, most renovation complete
+    { label:'Sub-mature\n~750 m\nNear-optimal',
+      h:750, bc:32, bs:130, tc:4, ts:22, blend:.95, flareZ:110, flareD:.3, flareW:.2 },
+    // Mature: fully renovated equilibrium form
+    { label:'Mature\n~1000 m\nFully renovated',
+      h:1000, bc:50, bs:200, tc:4, ts:25, blend:1, flareZ:150, flareD:.35, flareW:.25 },
+  ];
+  let zOff = 0;
+  for (const cfg of stages) {
+    const geo = buildStageTower(cfg, zOff);
+    grp.add(new THREE.Mesh(geo, new THREE.MeshPhongMaterial({
+      vertexColors: true, side: THREE.DoubleSide,
+      transparent: true, opacity: .45, shininess: 15, depthWrite: false
+    })));
+    grp.add(new THREE.LineSegments(
+      new THREE.WireframeGeometry(geo),
+      new THREE.LineBasicMaterial({color: 0x556677, transparent: true, opacity: .1})
+    ));
+    // Cross-section rings at 25% intervals
+    const ringMat = new THREE.LineBasicMaterial({color: 0xffffff, transparent: true, opacity: .35});
+    for (let r = 0; r <= 4; r++) {
+      const z = (r / 4) * cfg.h, pts = [];
+      const t = Math.min(z / cfg.h, 1);
+      let D = cfg.tc + (cfg.bc - cfg.tc) * Math.pow(1 - t, 1.8);
+      if (z < cfg.flareZ && cfg.flareZ > 0) D *= 1 + cfg.flareD * Math.pow(1 - z / cfg.flareZ, 1.5);
+      let W = cfg.ts + (cfg.bs - cfg.ts) * Math.pow(1 - t, 1.5);
+      if (z < cfg.flareZ && cfg.flareZ > 0) W *= 1 + cfg.flareW * Math.pow(1 - z / cfg.flareZ, 1.5);
+      for (let j = 0; j <= 80; j++) {
+        const th = 2 * Math.PI * j / 80;
+        const xn = (1 - Math.cos(th)) / 2, sign = th <= Math.PI ? 1 : -1;
+        pts.push(new THREE.Vector3(xn * D, z, sign * profileHW(xn, cfg.blend) * W / 2 + zOff));
+      }
+      grp.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts), ringMat));
+    }
+    // Label
+    const c = document.createElement('canvas'); c.width = 300; c.height = 120;
+    const x = c.getContext('2d');
+    x.fillStyle = '#aab'; x.font = '20px Courier New'; x.textAlign = 'center';
+    cfg.label.split('\n').forEach((l, i) => x.fillText(l, 150, 28 + i * 26));
+    const sp = new THREE.Sprite(new THREE.SpriteMaterial({map: new THREE.CanvasTexture(c), transparent: true}));
+    sp.position.set(cfg.bc / 2, cfg.h + 60, zOff);
+    sp.scale.set(220, 90, 1);
+    grp.add(sp);
+    zOff += Math.max(cfg.bs, 120) * 1.4 + 80;
+  }
+  grp.visible = false;
+  return grp;
+}
+
+// ============================================================
+// REGIONAL VARIATION GRID — age × region matrix (§8.4)
+// ============================================================
+function buildRegionalVariation() {
+  const grp = new THREE.Group();
+
+  // Columns: environmental zones (§8.4 shape continuum)
+  // Mature tower parameters for each region
+  const regions = [
+    { name:'Terminator',  sub:'\u03B8=90\u00B0 | 9.5 m/s',  mH:1000, mBC:50, mBS:200, mTC:4, mTS:25, mBlend:1,   mFlareZ:150, mFlareD:.35, mFlareW:.25 },
+    { name:'Near Dark',   sub:'\u03B8\u2248110\u00B0 | ~7 m/s',  mH:600,  mBC:30, mBS:120, mTC:5, mTS:20, mBlend:.8,  mFlareZ:80,  mFlareD:.25, mFlareW:.18 },
+    { name:'Mid Dark',    sub:'\u03B8\u2248135\u00B0 | ~4 m/s',  mH:300,  mBC:20, mBS:50,  mTC:6, mTS:15, mBlend:.45, mFlareZ:35,  mFlareD:.15, mFlareW:.1 },
+    { name:'Deep Dark',   sub:'\u03B8\u2248160\u00B0 | ~1.5 m/s',mH:100,  mBC:12, mBS:18,  mTC:6, mTS:10, mBlend:.15, mFlareZ:0,   mFlareD:0,   mFlareW:0 },
+    { name:'Anti-stellar', sub:'\u03B8\u2192180\u00B0 | ~0 m/s', mH:40,   mBC:10, mBS:10,  mTC:5, mTS:6,  mBlend:0,   mFlareZ:0,   mFlareD:0,   mFlareW:0 },
+  ];
+
+  // Rows: growth stages (frac=0 → proto-mound, frac=1 → mature)
+  const stages = [
+    { name:'Proto-mound',  frac:0 },
+    { name:'Young',        frac:.2 },
+    { name:'Adolescent',   frac:.5 },
+    { name:'Mature',       frac:1 },
+  ];
+
+  // Derive tower config for any (region, stage) cell.
+  // Proto-mound: nearly circular, proportional to height.
+  // Mature: full regional parameters.
+  // Intermediate: linear interpolation from proto baseline to mature.
+  function cellCfg(reg, frac) {
+    const protoH = Math.max(10, reg.mH * .05);
+    const h = Math.max(10, reg.mH * (.05 + .95 * frac));
+    const pB = Math.max(5, protoH * .2);
+    const pBC = pB, pBS = pB * 1.3, pTC = Math.max(2, pB * .5), pTS = Math.max(3, pB * .8);
+    const f = frac;
+    return {
+      h,
+      bc: pBC + (reg.mBC - pBC) * f,
+      bs: pBS + (reg.mBS - pBS) * f,
+      tc: pTC + (reg.mTC - pTC) * f,
+      ts: pTS + (reg.mTS - pTS) * f,
+      blend: reg.mBlend * (.15 + .85 * f),
+      flareZ: reg.mFlareZ * Math.max(0, (f - .3) / .7),
+      flareD: reg.mFlareD * Math.max(0, (f - .3) / .7),
+      flareW: reg.mFlareW * Math.max(0, (f - .3) / .7),
+    };
+  }
+
+  // Grid: stages along Z (left→right), regions along X (front→back)
+  const colSpace = 450;   // Z spacing between age columns
+  const rowSpace = 500;   // X spacing between region rows
+
+  for (let ri = 0; ri < regions.length; ri++) {
+    for (let si = 0; si < stages.length; si++) {
+      const cfg = cellCfg(regions[ri], stages[si].frac);
+      const sub = new THREE.Group();
+
+      const geo = buildStageTower(cfg, 0);
+      sub.add(new THREE.Mesh(geo, new THREE.MeshPhongMaterial({
+        vertexColors: true, side: THREE.DoubleSide,
+        transparent: true, opacity: .45, shininess: 15, depthWrite: false
+      })));
+      sub.add(new THREE.LineSegments(
+        new THREE.WireframeGeometry(geo),
+        new THREE.LineBasicMaterial({color: 0x556677, transparent: true, opacity: .1})
+      ));
+
+      // Cross-section rings
+      const ringMat = new THREE.LineBasicMaterial({color: 0xffffff, transparent: true, opacity: .3});
+      const nR = Math.max(1, Math.min(4, Math.ceil(cfg.h / 250)));
+      for (let r = 0; r <= nR; r++) {
+        const z = (r / nR) * cfg.h, pts = [];
+        const t = Math.min(z / cfg.h, 1);
+        let D = cfg.tc + (cfg.bc - cfg.tc) * Math.pow(1 - t, 1.8);
+        if (z < cfg.flareZ && cfg.flareZ > 0) D *= 1 + cfg.flareD * Math.pow(1 - z / cfg.flareZ, 1.5);
+        let W = cfg.ts + (cfg.bs - cfg.ts) * Math.pow(1 - t, 1.5);
+        if (z < cfg.flareZ && cfg.flareZ > 0) W *= 1 + cfg.flareW * Math.pow(1 - z / cfg.flareZ, 1.5);
+        for (let j = 0; j <= 60; j++) {
+          const th = 2 * Math.PI * j / 60;
+          const xn = (1 - Math.cos(th)) / 2, sign = th <= Math.PI ? 1 : -1;
+          pts.push(new THREE.Vector3(xn * D, z, sign * profileHW(xn, cfg.blend) * W / 2));
+        }
+        sub.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts), ringMat));
+      }
+
+      // Per-cell height label
+      const c = document.createElement('canvas'); c.width = 128; c.height = 40;
+      const x = c.getContext('2d');
+      x.fillStyle = '#667'; x.font = '16px Courier New'; x.textAlign = 'center';
+      x.fillText(Math.round(cfg.h) + 'm', 64, 26);
+      const sp = new THREE.Sprite(new THREE.SpriteMaterial({map: new THREE.CanvasTexture(c), transparent: true}));
+      sp.position.set(cfg.bc / 2, cfg.h + 25, 0);
+      sp.scale.set(70, 24, 1);
+      sub.add(sp);
+
+      sub.position.set(ri * rowSpace, 0, si * colSpace);
+      grp.add(sub);
+    }
+  }
+
+  // Column headers (stage names) — along Z axis at front of grid (x = -100)
+  for (let si = 0; si < stages.length; si++) {
+    const c = document.createElement('canvas'); c.width = 256; c.height = 48;
+    const x = c.getContext('2d');
+    x.fillStyle = '#aab'; x.font = 'bold 20px Courier New'; x.textAlign = 'center';
+    x.fillText(stages[si].name, 128, 32);
+    const sp = new THREE.Sprite(new THREE.SpriteMaterial({map: new THREE.CanvasTexture(c), transparent: true}));
+    sp.position.set(-120, 5, si * colSpace);
+    sp.scale.set(200, 40, 1);
+    grp.add(sp);
+  }
+
+  // Row headers (region names + wind) — along X axis at left of grid (z = -120)
+  for (let ri = 0; ri < regions.length; ri++) {
+    const c = document.createElement('canvas'); c.width = 380; c.height = 64;
+    const x = c.getContext('2d');
+    x.fillStyle = '#dde'; x.font = 'bold 18px Courier New'; x.textAlign = 'center';
+    x.fillText(regions[ri].name, 190, 24);
+    x.fillStyle = '#889'; x.font = '14px Courier New';
+    x.fillText(regions[ri].sub, 190, 46);
+    const sp = new THREE.Sprite(new THREE.SpriteMaterial({map: new THREE.CanvasTexture(c), transparent: true}));
+    sp.position.set(ri * rowSpace, 5, -180);
+    sp.scale.set(300, 50, 1);
+    grp.add(sp);
+  }
+
+  grp.visible = false;
+  return grp;
+}
+
+// ============================================================
+// SCENE
+// ============================================================
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0a0a16);
+scene.fog = new THREE.Fog(0x0a0a16, 4000, 8000);
+
+const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 1, 10000);
+camera.position.set(-500, 600, 600);
+
+const renderer = new THREE.WebGLRenderer({antialias: true});
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+document.body.appendChild(renderer.domElement);
+
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.target.set(20, 400, 0);
+controls.enableDamping = true;
+controls.dampingFactor = .08;
+controls.update();
+
+// Lights
+scene.add(new THREE.AmbientLight(0x334455, .5));
+const dl1 = new THREE.DirectionalLight(0xffeedd, .7);
+dl1.position.set(-300, 800, 400); scene.add(dl1);
+const dl2 = new THREE.DirectionalLight(0x445566, .25);
+dl2.position.set(200, 200, -300); scene.add(dl2);
+
+// Main tower group (toggled off when showing growth stages)
+const mainGroup = new THREE.Group();
+const tGeo = buildTower();
+mainGroup.add(new THREE.Mesh(tGeo, new THREE.MeshPhongMaterial({
+  vertexColors: true, side: THREE.DoubleSide,
+  transparent: true, opacity: .4, shininess: 15, depthWrite: false
+})));
+mainGroup.add(new THREE.LineSegments(
+  new THREE.WireframeGeometry(tGeo),
+  new THREE.LineBasicMaterial({color: 0x556677, transparent: true, opacity: .08})
+));
+mainGroup.add(buildHRibs());
+mainGroup.add(buildVRibs());
+mainGroup.add(buildRoots());
+mainGroup.add(buildChimney());
+mainGroup.add(buildVents());
+scene.add(mainGroup);
+
+// Growth stages group (toggled on via button)
+const growthGroup = buildGrowthStages();
+scene.add(growthGroup);
+
+// Regional variation grid (toggled on via button)
+const regionGroup = buildRegionalVariation();
+scene.add(regionGroup);
+
+// Ground grid
+const grid = new THREE.GridHelper(2000, 20, 0x1a1a33, 0x111122);
+grid.material.transparent = true; grid.material.opacity = .35;
+scene.add(grid);
+
+// Wind arrow
+{
+  const g = new THREE.Group(), m = new THREE.MeshBasicMaterial({color: 0xcc4444});
+  const s = new THREE.Mesh(new THREE.CylinderGeometry(2, 2, 180, 6), m);
+  s.rotation.z = -Math.PI / 2; s.position.set(-200, 5, -140); g.add(s);
+  const h = new THREE.Mesh(new THREE.ConeGeometry(6, 25, 6), m);
+  h.rotation.z = -Math.PI / 2; h.position.set(-85, 5, -140); g.add(h);
+  const c = document.createElement('canvas'); c.width = 256; c.height = 48;
+  const x = c.getContext('2d'); x.fillStyle = '#cc4444'; x.font = '24px Courier New';
+  x.fillText('WIND 9.5 m/s', 10, 32);
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({
+    map: new THREE.CanvasTexture(c), transparent: true}));
+  sp.position.set(-150, 5, -170); sp.scale.set(160, 40, 1); g.add(sp);
+  scene.add(g);
+}
+
+// Scale bar
+{
+  const g = new THREE.Group();
+  const m = new THREE.LineBasicMaterial({color: 0x556677});
+  g.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([
+    new THREE.Vector3(-90, 0, -100), new THREE.Vector3(-90, 1000, -100)]), m));
+  for (let y = 0; y <= 1000; y += 200) {
+    g.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints([
+      new THREE.Vector3(-95, y, -100), new THREE.Vector3(-85, y, -100)]), m));
+    const c = document.createElement('canvas'); c.width = 96; c.height = 36;
+    const x = c.getContext('2d'); x.fillStyle = '#556677'; x.font = '20px Courier New';
+    x.textAlign = 'right'; x.fillText(y + 'm', 88, 24);
+    const sp = new THREE.Sprite(new THREE.SpriteMaterial({
+      map: new THREE.CanvasTexture(c), transparent: true}));
+    sp.position.set(-115, y, -100); sp.scale.set(50, 20, 1); g.add(sp);
+  }
+  scene.add(g);
+}
+
+// ============================================================
+// CAMERA PRESETS
+// ============================================================
+let activeView = 'main'; // 'main' | 'growth' | 'region'
+function showOnly(which) {
+  mainGroup.visible = which === 'main';
+  growthGroup.visible = which === 'growth';
+  regionGroup.visible = which === 'region';
+  activeView = which;
+}
+window.setView = function(name) {
+  let pos, tgt;
+  if (name === 'growth') {
+    const target = activeView === 'growth' ? 'main' : 'growth';
+    showOnly(target);
+    if (target === 'growth') {
+      pos = new THREE.Vector3(-600, 700, 400);
+      tgt = new THREE.Vector3(20, 300, 350);
+    } else {
+      pos = new THREE.Vector3(-500, 600, 600);
+      tgt = new THREE.Vector3(20, 400, 0);
+    }
+  } else if (name === 'region') {
+    const target = activeView === 'region' ? 'main' : 'region';
+    showOnly(target);
+    if (target === 'region') {
+      pos = new THREE.Vector3(-800, 1200, -400);
+      tgt = new THREE.Vector3(900, 150, 700);
+    } else {
+      pos = new THREE.Vector3(-500, 600, 600);
+      tgt = new THREE.Vector3(20, 400, 0);
+    }
+  } else {
+    showOnly('main');
+    switch (name) {
+      case 'persp': pos = new THREE.Vector3(-500,600,600);  tgt = new THREE.Vector3(20,400,0); break;
+      case 'plan':  pos = new THREE.Vector3(25,2200,0);     tgt = new THREE.Vector3(25,0,0); break;
+      case 'side':  pos = new THREE.Vector3(25,500,1200);   tgt = new THREE.Vector3(25,500,0); break;
+      case 'front': pos = new THREE.Vector3(-1200,500,0);   tgt = new THREE.Vector3(0,500,0); break;
+      case 'rear':  pos = new THREE.Vector3(1200,500,0);    tgt = new THREE.Vector3(40,500,0); break;
+      case 'base':  pos = new THREE.Vector3(-200,120,300);  tgt = new THREE.Vector3(30,30,0); break;
+    }
+  }
+  const sp = camera.position.clone(), st = controls.target.clone(), t0 = performance.now();
+  (function anim(t) {
+    const f = Math.min((t - t0) / 600, 1);
+    const e = f < .5 ? 2*f*f : 1 - Math.pow(-2*f+2, 2) / 2;
+    camera.position.lerpVectors(sp, pos, e);
+    controls.target.lerpVectors(st, tgt, e);
+    controls.update();
+    if (f < 1) requestAnimationFrame(anim);
+  })(t0);
+};
+
+// ============================================================
+// 2D PLAN VIEW
+// ============================================================
+{
+  const cv = document.getElementById('plan'), ctx = cv.getContext('2d');
+  const z = 500, D = chordAt(z), W = spanAt(z);
+  const w = cv.width, h = cv.height, mg = 16;
+  const sc = Math.min((w - 2*mg) / D, (h - 2*mg) / W);
+  const ox = mg + (w - 2*mg - D*sc) / 2, cy = h / 2;
+  ctx.clearRect(0, 0, w, h);
+
+  // Airfoil fill
+  ctx.beginPath();
+  for (let j = 0; j <= 200; j++) {
+    const th = 2*Math.PI*j/200, xn = (1 - Math.cos(th)) / 2, s = th <= Math.PI ? 1 : -1;
+    const px = ox + xn*D*sc, py = cy - s*nacaHW(xn)*W/2*sc;
+    j ? ctx.lineTo(px, py) : ctx.moveTo(px, py);
+  }
+  ctx.closePath(); ctx.fillStyle = 'rgba(50,55,65,.4)'; ctx.fill();
+  ctx.strokeStyle = '#778'; ctx.lineWidth = 1; ctx.stroke();
+
+  // Living zone highlight
+  ctx.beginPath(); let started = false;
+  for (let j = 0; j <= 200; j++) {
+    const th = 2*Math.PI*j/200, xn = (1 - Math.cos(th)) / 2, s = th <= Math.PI ? 1 : -1;
+    if (xn * D <= 3) {
+      const px = ox + xn*D*sc, py = cy - s*nacaHW(xn)*W/2*sc;
+      started ? ctx.lineTo(px, py) : ctx.moveTo(px, py); started = true;
+    }
+  }
+  ctx.strokeStyle = '#4a8'; ctx.lineWidth = 2.5; ctx.stroke();
+
+  // Dimension lines
+  ctx.strokeStyle = '#445'; ctx.lineWidth = .5; ctx.setLineDash([3, 3]);
+  ctx.beginPath(); ctx.moveTo(ox, cy + W/2*sc + 10); ctx.lineTo(ox + D*sc, cy + W/2*sc + 10); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(ox + D*sc + 10, cy - W/2*sc); ctx.lineTo(ox + D*sc + 10, cy + W/2*sc); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // Labels
+  ctx.fillStyle = '#667'; ctx.font = '9px Courier New'; ctx.textAlign = 'center';
+  ctx.fillText('D=' + D.toFixed(0) + 'm', ox + D*sc/2, cy + W/2*sc + 20);
+  ctx.save(); ctx.translate(ox + D*sc + 22, cy); ctx.rotate(-Math.PI / 2);
+  ctx.fillText('W=' + W.toFixed(0) + 'm', 0, 0); ctx.restore();
+  ctx.fillStyle = '#cc4444'; ctx.textAlign = 'left'; ctx.fillText('wind \u2192', 3, 12);
+}
+
+// ============================================================
+// RESIZE + ANIMATE
+// ============================================================
+addEventListener('resize', () => {
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+(function anim() {
+  requestAnimationFrame(anim);
+  controls.update();
+  renderer.render(scene, camera);
+})();
+
+</script>
+</body>
+</html>

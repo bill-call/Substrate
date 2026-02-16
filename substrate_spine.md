@@ -205,7 +205,7 @@ Dynamic pressure at terminator: 370 Pa (≈ 25 m/s on Earth).
 | Carbosilane | CH₄ + SiH₄ → methylsilanes → polycarbosilanes → fibers → SiC ceramic. 4 stages. |
 | Fiber composite | 40% lighter than bulk SiC, self-repairing, tunable anisotropy. Superior to grazer armor. |
 | Catalysis | Metallosilazane enzymes: Ni (Si-H/C-H activation), Fe (electron transfer, ceramification), Ti (polymerization), Co (Si-Si coupling) |
-| Conductive mineral | Nitrogen-doped silicon carbide (N:SiC), 3C polytype dominant. Dead lattice still conducts (physical property). |
+| Conductive mineral | Nitrogen-doped silicon carbide (N:SiC), 3C polytype dominant. Lattice geometry IS the signal-processing circuit. |
 | Petrification | H₂O hydrolyzes Si-NH-Si → Si-O-Si (siloxane) → SiO₂ (glass). Staged, progressive, increasingly irreversible. |
 | Immune system | Chelation-based metal stripping. Two modes: **kill** (indiscriminate — strip all catalytic metals from foreign metalloenzymes) and **toll** (authenticated — gentle extraction from recognized mutualists, delivering metals to living layer). Same chemistry, different calibration, gated by molecular handshake. Kill mode ancestral; toll mode derived. |
 
@@ -219,7 +219,7 @@ Dynamic pressure at terminator: 370 Pa (≈ 25 m/s on Earth).
 
 **✓** Two axes of speciation (amorphs): cognitive protocol compatibility + library addressing compatibility. Both needed. Either can diverge independently.
 
-**✓** Four axes of speciation (middle kingdom): cognitive protocol + library addressing + hook-lattice pore geometry + chelation badge compatibility. All four must match for an organism to survive on a given tower lineage.
+**✓** Four axes of speciation (middle kingdom): cognitive protocol + library addressing + hook-lattice pore geometry + chelation badge compatibility. All four must match for an organism to survive on a given tower lineage. Chelation badge = biological public-key authentication (easy to verify, hard to forge). Network wars drove key complexity via forgery/detection arms race.
 
 **✓** Reproduction: cognitive = regression-to-consensus; library = discrete probabilistic inheritance. Recipes outlive derivations.
 
@@ -316,41 +316,79 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **✓** Dead-bug harvesting: ecological niche and pre-industrial amorph industry. Airborne interception (freshest — metals, library fragments) + ammonia runoff filtering (volume — SiC plates, partially locked metals). Tower-derived SiC plates (~5mm) and metals are primary harvestable resources.
 
-## EM ECOLOGY — MUTUAL PERMANENT DETECTION
+## EM ECOLOGY
 
-**✓** Cognition = EM emission. Amorph neural processing (semiconductor junctions, doped regions) generates detectable EM radiation. All thinking organisms broadcast their cognitive state. This is not a design flaw — it is a physical consequence of electronic neural signaling in the ~THz range. Detection range scales with neural mass and processing intensity.
+**✓** Cognition = EM emission. Amorph neural processing (semiconductor junctions, doped regions) generates detectable EM radiation as a physical byproduct. All thinking organisms broadcast cognitive state. Not a design flaw — a consequence of electronic signaling. Detection range scales with neural mass and processing intensity.
 
-**✓** Mutual permanent detection: neither predator nor prey can hide while thinking. Stealth is a cognitive problem, not a physical one. Any organism that can detect EM can detect any other organism that is currently thinking. The ecology operates under conditions of near-total mutual awareness — more sonar-saturated ocean than forest.
+**✓** Three-layer signaling (Amorph Daily Life Hub §8.3.1): (1) **Involuntary emission** — physical byproduct, honest signal, autonomic tells (pupil dilation equivalent). Cannot be encrypted. (2) **Deliberate emotional conventions** — learned EM patterns (amorph "smile", cultural gestures). Conscious, performative. Can contradict Layer 1. (3) **Deliberate communication** — structured semantic content (radio, 100 MHz–2 GHz). Encryptable with salted asymmetric-key crypto. Monk Layer 1 control = EM poker face.
 
-**✓** Predator strategies (6): (1) **Go cognitively dark** — suppress neural processing for final approach. Committed strike: once dark, cannot adapt to unexpected prey movement. Default ambush strategy across all predator lineages (Earth parallel: sharks blind with mouth open, snakes committed mid-strike). Not a specialist niche — baseline predation mode. (2) **Pursuit predation** — loud and fast. Don't hide; outrun. EM detection is symmetric, so prey knows you're coming, but speed closes the gap. (3) **Ambush in EM noise** — hunt near towers, volcanic vents, or other EM-noisy environments where background masks cognitive signature. (4) **Conductive shell Faraday cage** — N-doped SiC shell attenuates EM emission. Reduces detection range. Partial, not total. (5) **Cognitive mimicry** — match background EM pattern of local fauna. Predator "thinks like prey" during approach. Sophisticated; requires neural plasticity. (6) **Trap predation** — set passive traps, withdraw cognitively. No real-time processing during capture. Ancestral strategy (simplest).
+**✓** Short-range mutual awareness (individual): individual EM detection range is short — conversational to social distance. 8-bar atmosphere at 12.5% NH₃ absorbs strongly across much of the EM spectrum. An individual amorph's EM sense is intimate — rich emotional/cognitive context in face-to-face interaction, NOT radar.
 
-**✓** Prey counter-strategies (4): (1) **Detect and flee** — exploit the symmetry. If predator can detect prey, prey detects predator at the same range. Flee before strike range. Works against all strategies except cognitively-dark final approach. (2) **Group living** — confusion effect. Many overlapping EM signatures make it hard to track individuals. Schooling/herding analog. (3) **Tower lattice as EM shelter** — tower's conductive lattice acts as Faraday cage. Organisms inside lattice are EM-shielded from external detection. Fundamental ecological role of towers: EM sanctuary. Another reason everything lives on towers. Inter-tower gaps are EM killing fields. (4) **Be inedible** — fluorine loading, glass spines, medusa-fish water weapons. If detection is unavoidable, make detection irrelevant.
+**✓** Tower as EM sensor (AWACS): the Faraday cage effect IS the detection mechanism. External EM signals induce surface currents on the conductive lattice — those currents cancel the field inside, and the network reads the currents as signal. The tower's entire corpus is the antenna — not optimised for detection (tower morphology is shaped by wind filtration and accretion, not EM reception), but sheer scale (cross-section hundreds of meters) provides massive aperture that compensates for poor efficiency. Sensitivity is angle-dependent: tower cross-section elongated in wind direction, windward/leeward surface geometry asymmetric → reduced reception from some bearings. NOT perfect omnidirectional coverage. Multiple towers partially compensate (one tower's blind spot covered by adjacent towers at different angles). Roots extend the sensor perimeter as ground-level tripwire grid (conductive lattice on peneplain surface; contact/approach detectable via surface-current sensing regardless of tower blind spots). Smart predators avoid stepping on roots. The network has strong but imperfect situational awareness of its territory. Whether this benefits any particular organism depends on the network sharing the information.
 
-**✓** Erratic prey movement counters cognitively-dark predators: if prey moves unpredictably, committed (dark) strike misses. Predator must re-compute trajectory → neural activity resumes → EM emission resumes → prey detects re-engagement. Forces iterative dark/compute/dark cycles, each revealing position. Arms race between predator commitment duration and prey erratic behavior.
+**✓** Subwoofer EM phased array (Fauna Hub §6.5): the exception to short-range detection. A distributed pack of 10–25 subwoofers, each with EM receiver organs, cross-correlates involuntary prey emissions to achieve directional sensitivity and detection range beyond any individual organism. Pack IS the antenna. Dual-domain predator: find by EM, kill by sound. Prey cannot hide while thinking, cannot stop thinking without losing acoustic defenses.
 
-**✓** Tower lattice is EM shelter: conductive N-doped SiC lattice acts as partial Faraday cage. Interior organisms shielded from external EM detection. This is a fundamental ecological service of the tower — not just physical structure and energy, but EM privacy. Organisms in inter-tower gaps are exposed to detection from all directions. The gap between towers is an EM killing field. This drives the concentration of mobile fauna on towers and explains the barren inter-tower landscape.
+**✓** Predator strategies (6 — all operate at close range): (1) **Go cognitively dark** — suppress neural processing for final approach. Committed strike; once dark, cannot adapt. Default ambush strategy. (2) **Pursuit predation** — loud and fast. Outrun, don't hide. (3) **Ambush in EM noise** — hunt near towers, volcanic vents where background masks cognitive signature. (4) **Conductive shell Faraday cage** — N-doped SiC shell attenuates EM emission. Reduces already-short detection range further. (5) **Cognitive mimicry** — match background EM pattern. "Think like prey" during approach. (6) **Trap predation** — passive traps, cognitive withdrawal during capture. Ancestral strategy.
+
+**✓** Prey counter-strategies (5): (1) **Detect and flee** — EM detection is symmetric at close range. If predator is close enough to sense you, you sense it. Flee before strike range. (2) **Group living** — confusion effect at close range, plus degrades subwoofer phased-array targeting. (3) **Herd SIGINT** — group acts as distributed phased-array EM detector, sweeping for predator emissions. Most effective against subwoofers (which remain EM-active during approach); least effective against cognitively-dark ambush predators (low EM signature during committed strike). (4) **Tower lattice as EM shelter** — conductive lattice acts as Faraday cage. Blocks EM detection from outside (including subwoofer phased array). Fundamental ecological service. (5) **Be inedible** — fluorine loading, glass spines, medusa-fish water weapons.
+
+**✓** Erratic prey movement counters cognitively-dark predators: unpredictable movement causes committed strike to miss. Predator must re-compute → neural activity resumes → EM emission resumes → prey detects re-engagement. Forces iterative dark/compute/dark cycles.
+
+**✓** Tower lattice as EM shelter: conductive N-doped SiC lattice acts as partial Faraday cage. Interior organisms shielded from external EM detection — especially important against subwoofer phased-array detection. Fundamental ecological service: not just structure and energy, but EM privacy. Inter-tower gaps are dangerous (wind, thunder, acoustic exposure, subwoofer packs) — drives concentration of mobile fauna on towers.
 
 ## TOWERS
 
-**✓** Coral model: living layer SUBSURFACE (mm-cm below exterior). Sacrificial crust outward. Structural lattice inward. Self-regulating.
+### Construction Model
 
-**✓** Lattice is a lung: gas transport through porous interior. Windward fed via leeward diffusion. Max diameter limited by diffusion path.
+**✓** Tower has no genome. No body plan. Responds to local real-time measurements only (stress, wind, material intake, electrical potential). Ceramified lattice is permanent — cannot un-ceramify. Additive manufacturing with feedback, minus the plan.
 
-**✓** Towers do not die of old age. Lattice is mineral. Living layer replaced continuously. Oldest: billions of years.
+**✓** Four growth phases over deep time: (1) **Autocatalytic mineral accretion** — lightning forges heavy molecules from atmosphere, hypercyclic catalytic reactions on tower surface assemble into more lattice. Growth follows reaction front. No biology. (2) **Symbiote colonization** — aeroplankton arrive, tap grid power, initially parasitic (occupy catalytic surface, consume SiH₄). (3) **Mutualism and reef transition** — Healer genomes accumulate architectural information via energy-gradient tropism selection. Tower transitions from mineral deposit to biological construction (reef/termite mound). Original autocatalytic reaction may be dead in modern towers (buried under non-catalytic Healer SiCN deposits). (4) **Ship of Theseus renewal** — Healers progressively replace all original material in situ. Every tower position ancient; every tower's material renewed. No old towers on mature network.
 
-**✓** Dead lattice conducts (physical property) but carries no signals.
+**✓** Symbiote genomes = tower construction program. Healer genomes encode deposition/demolition behavior. Miner genomes encode metal delivery. Guard genomes encode quality control. Network behavioral patterns = project manager (energy-gradient modulation). Tower is the product; symbiotes carry the blueprints.
 
-**✓** Towers migrate day-ward: sand-dune mechanism (windward erodes, leeward accretes). ~mm/yr at terminator. Stop in deposition zone.
+**✓** Healers are builders AND wreckers. Arc + CVD feedstock = construction (deposit SiCN). Arc without feedstock = destruction (vaporize SiC at ~2700°C). Same tool, two modes. Subtractive capability: remove suboptimal structure, carve chimney channels, excavate amorph chambers, progressive renovation.
 
-**✓** Terminator is a tower factory: new nucleation behind vacated positions.
+**✓** Tower aliveness spectrum (not binary): full reef (all guilds, Healer-directed, network-connected) → degraded reef (patchy symbiotes, weakening) → reaction front only (no symbiotes, crude autocatalytic, disconnected) → inert (passivated, fossil ceramics). Crisis = degradation through this spectrum.
 
-**✓** Ghost roots: abandoned root trails underground behind every migrated tower. Fossil archive.
+**⚠** OPEN: Pre-Healer root mechanism. Canon: roots evolved to sink excess power (predates sophisticated symbiotes). Modern roots are Healer-maintained. But original root growth mechanism must exist before Healers evolve. Single-tower-instance evolution to "construction bots" before first root is brittle. Unresolved.
 
-**⚠** Dark-side towers may migrate POLEWARD. Needs verification.
+### Shape and Structure
+
+**✓** Cross-section: symmetric airfoil (plan view). Blunt convex windward face (arch in cross-wind direction), tapers to trailing edge with chimney vents. Not a column — a thin curved wall. "Membrane held up by an arch."
+
+**✓** Functional filter depth: 2–3 m from windward face. ~450 strut layers. SiH₄ and particulate depleted. Beyond this: structural + chimney infrastructure only.
+
+**✓** H₂ chimney: core metabolism SiH₄ → SiC + 2H₂. H₂ buoyancy = 132 Pa/m. Over km height, chimney draft orders of magnitude stronger than wind (370 Pa). Venturi-enhanced trailing-edge vents (upper tower). Primary exhaust straight up through apex.
+
+**✓** Regional shape continuum: airfoil (terminator, 9.5 m/s) → teardrop (near dark) → circular dome (anti-stellar, ~0 wind). v(θ) = v_term × (sin θ)^(−1/4). Filter zone thickens as wind decreases.
+
+**✓** Height profile: wide deep buttressed base (30–50 m chord, 100–200+ m span) → thin blade apex (3–5 m chord, 20–60 m span). Gothic cathedral buttress silhouette. Base merges into root system via flares. Apex is broad ridge with gentle central peak.
+
+**✓** Porosity gradient: 3–5% solids (top, light, youngest) to 10–15% solids (base, dense, Healer-renovated over Gyr). Gibson-Ashby scaling: 5% solids → ~9 MPa effective strength, H_max ~3100 m. Km-scale towers feasible.
+
+### Stationary Towers
+
+**✓** Towers are stationary. At v2.4 wind (9.5 m/s, q = 370 Pa), SiC aerogel strut strength (~20 MPa) exceeds wind-borne impact by 4–5 orders of magnitude. Pitting-only erosion, completely negated by Healer repair. Net erosion = zero. Position fixed at nucleation permanently.
+
+**✓** Nucleation positions determined by Fibonacci ping-latency spacing (network signal optimization), not migration/replacement.
+
+**✓** Convergent architecture: given geological time, all accessible towers Ship-of-Theseus replaced to current best model for each location. Regional variation reflects local conditions, not evolutionary history.
+
+### Power Gradient
+
+**✓** Terminator towers: power SURPLUS. Lightning + piezoelectric vibration + solar (850 nm matches Si bandgap). All electricity to piezoelectric entity. Problem is managing excess. Healer renovation energy-unconstrained.
+
+**✓** Power declines dark-ward. Deep dark side: energy-poor, renovation rare, growth-history-constrained architecture. Anti-stellar: near-zero power, most primitive modern architecture.
+
+**✓** Geothermal oasis exception: dark-side tower on SiH₄ pocket vent = terminator-class power in energy desert. Architecturally refined. Non-renewable (pocket depletes → tower degrades through aliveness spectrum). These become monk monasteries.
+
+**✓** Tower lattice = signal-processing circuit (FPGA). Lattice geometry IS the computation — every junction, pore, conductive path is a circuit element. Healers reprogram the circuit by adding/removing structure. Dead tower (no Healers) = frozen processor running stale firmware. If root-connected, signals still flow through it. If disconnected, silent (no input, not incapable).
+
+**✓** Ghost roots: subsurface root network connecting towers. Not migration artifacts (towers are stationary).
 
 ## PLANETARY NETWORK
 
-**✓** Network wars (primordial): when surface roots from independent deep-rock systems first meet, foreign signals flood infrastructure optimized for self-signals. Flinch → retreat fails → forced engagement. Each system has independently evolved towers AND symbiotes — both are near-peers.
+**✓** Network wars (primordial): when surface roots from independent deep-rock systems first meet, foreign signals flood infrastructure optimized for self-signals. Flinch → retreat fails → forced engagement. Each system has independently evolved towers (void genesis = multiple independent events). Symbiotes share a common origin (pool genesis = singular event, wind-dispersed), but symbiote lineages diverge on different tower systems — different protocols, chelation badges, metabolic quirks. Both sides are near-peers.
 
 **✓** Network wars (post-unification): after one network absorbs all rivals, new wars arise via FRAGMENTATION + PROTOCOL DRIFT. A geological event (dark-side plume breakthrough every ~500 Myr–1 Gyr, major magmatic intrusion) severs a root connection. The severing event must exceed the thermal tolerance of deep-rock extremophiles — minor vents are just habitat; only magma (1200K+) or sustained major fissures kill the living tissue while leaving dead lattice intact. Isolated halves drift in signal/chelation protocols at electronic neural speeds. Re-contact (when the geological barrier cools, potentially thousands of years later) = war between former siblings with incompatible authentication. Protocol close enough to recognize AS protocol, too different to accept.
 
@@ -427,11 +465,11 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **✓** Memes encode thought/memory machinery, NOT biology. One kg of amorph mass is biologically indistinguishable from any other (unless physically modified, e.g., petrification scars).
 
-⚠ OPEN: Meme dependency graphs (tentative YES). Complex memes call sub-skills via resonance during execution. Missing prerequisite → partial execution. Natural tech tree. Library-dependent meme value. Narrative decision pending.
+**✓** Meme dependency graphs: complex memes trigger resonance queries for sub-skills during execution. Missing prerequisite → partial execution, not total failure. Dependencies are DAGs (cycles = cognitive deadlock). Economic mechanism: guilds deliberately engineer dependency graphs as IP defense (fragmented graph = guild controls topology). Skill trees are DRM, not pedagogy. Meme-liar attack vector: circular dependency injection = DoS (resource exhaustion).
 
 **✓** Working memory: semiconductor junction network (active processing hardware). Growable via teachable technique. Natural ceiling at single-network communication collapse. Federation bypasses ceiling (see Monks). Growing WM is an elite skill — talent + practice + teacher + years.
 
-**✓** Charge-limited ecology: atmospheric SiH₄ energy is superabundant. Binding constraint is metabolic RATE and stored CHARGE, not total energy. Cognitive capacity degrades with charge depletion. Stillness = intelligence (resting amorph devotes full power budget to cognition).
+**✓** Charge-limited ecology: atmospheric SiH₄ energy is superabundant. Binding constraint is metabolic RATE and stored CHARGE, not total energy. Charge depletion causes cognitive NARROWING via power-budget load-shedding (fewer parallel junction clusters active, each still at full fidelity above threshold — digital, not analog). Torpor at critical threshold. Stillness = intelligence (resting amorph devotes full power budget to cognition).
 
 **✓** Tower is a charger: the fundamental amorph-tower economic relationship is power delivery rate, not energy. Tower grid provides fast electrical recharge; atmospheric SiH₄ metabolism is slow baseline only. Original amorph-tower interaction was power parasitism.
 
@@ -449,7 +487,9 @@ Capabilities: therapists (de-weight trauma), meme-lie detection, network interfa
 
 Location: dark side, gentle wind zone. Physical before philosophical.
 
-**✓** Monasteries at gas-pocket towers: night-side towers whose deep roots tap subsurface SiH₄ reservoirs (pressure-equilibrium gas trapped in ancient dark-side crust). Geological lottery — monastery locations determined by geology, not choice. Gas pockets are non-renewable (no dark-side volcanism to recharge). Monasteries face their own slow resource depletion.
+**✓** Monk origin: consequence of network warfare. Fragmentation events (geological disconnection → protocol drift → reconnection → micro-war) occasionally produce losing towers/clusters that reveal vulnerabilities in the network's behavioral influence protocol before being absorbed. The winning network inherits exploit knowledge and begins patching — high-value terminator nodes first, low-priority dark-side nodes last. Amorphs on unpatched dark-side nodes experience behavioral influence with detectable artifacts. The tower's own signal environment contains information about the vulnerability (inherited war spoil). Proto-monks: amorphs who notice the seam and develop the core skill — reading structure without being captured — by learning the shape of the exploit from the tower itself. Any dark-side tower is low-priority; even a gas-pocket tower with large SiH₄ reserves is impoverished compared to a terminator tower. Monk tradition predates the specific association with gas-pocket towers.
+
+**✓** Monasteries at gas-pocket towers: later institutional development. Night-side towers whose deep roots tap subsurface SiH₄ reservoirs (pressure-equilibrium gas trapped in ancient dark-side crust). Geological lottery — monastery locations determined by geology, not choice. Gas pockets provide the surplus power for federation-level cognition. Non-renewable (no dark-side volcanism to recharge). Monasteries face their own slow resource depletion.
 
 **✓** Abbots: huge, sessile, spread flat for heat dissipation, plugged into tower hardlines. Biological supercomputers. Obligate grid-connected — federation-level cognition exceeds atmospheric metabolic capacity. Cannot unplug without cognitive collapse.
 

@@ -185,7 +185,7 @@ SiH₄ formed by pressure-driven equilibrium at depth (geology hub) can be trapp
 
 A tower whose deep roots tap a gas pocket gets a **bonanza**: concentrated SiH₄ at the root → massive metabolic throughput → grid power surplus → waste heat (valuable in cold environment).
 
-**Monasteries are at gas-pocket towers.** The geological lottery determines where sustained deep cognition is possible. The monks didn't choose contemplation then find a tower — they found a tower with surplus power, and the surplus enabled contemplation. "Physical before philosophical."
+**Monasteries are at gas-pocket towers.** This is a later institutional development — monk contemplative tradition predates the gas-pocket association (see warfare hub §6.4: monk origin as network warfare consequence). The geological lottery determines where sustained deep cognition (federation) is possible. Gas-pocket surplus enabled the transition from contemplative tradition to institutional powerhouse. "Physical before philosophical" — but the philosophical came first, on ordinary unpatched dark-side nodes.
 
 ### 7.3 Gas Pockets Are Non-Renewable
 

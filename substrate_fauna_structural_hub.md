@@ -396,11 +396,11 @@ The miner doesn't "decide" to deliver metals. It follows energy gradients. The n
 
 **The immune system IS the mutualism mechanism.** Same chelation chemistry, different calibration, gated by molecular authentication. An organism without the correct handshake — foreign tower lineage, novel species, damaged/mutant — triggers the kill response.
 
-### 8.9 Authentication Chemistry — Badge, Not Crypto
+### 8.9 Authentication Chemistry — Biological Public-Key Infrastructure
 
-✓ **RESOLVED: Static chemical badge read by chelation effector binding specificity. No cryptographic protocol.**
+✓ **RESOLVED: Static chemical badge read by chelation effector binding specificity. [v2.4+ reframe:] This IS cryptographic — biological public-key authentication. MHC is crypto.**
 
-The middle kingdom organism is an insect. It cannot compute a challenge-response. The authentication is molecular recognition — MHC self-recognition, not PKI.
+The middle kingdom organism is an insect. It cannot compute a challenge-response. But the authentication is asymmetric: the badge (public key) is easy to verify (Guard binding-site recognition, constant time) and hard to forge (requires the correct metabolic machinery — the private key — not just surface replication). Network wars drove key complexity to extreme levels. The adversarial ratchet's forgery/forgery-detection arms race is a cryptographic arms race.
 
 **The badge:** A characteristic ventral-surface metallosilazane pattern — specific metal centers (from the Ni/Fe/Ti/Co inventory), specific ligand geometries, specific spatial arrangement on the contact face. Set during larval bootstrap (§9.6 steps 6–7) when the ventral ceramification plate forms. Inherited via library recipes. Does not change after shell closure.
 
@@ -423,7 +423,7 @@ The middle kingdom organism is an insect. It cannot compute a challenge-response
 
 | Guild | Ecological role | Body plan specialization | Tower benefit | Mobility |
 |-------|----------------|------------------------|---------------|----------|
-| **Healers** | Surface maintenance: capture grit, consume fouling, repair erosion, structural accretion | Robust windward-adapted shell, scraping/processing mouthparts, concave ventral shroud with field-emitter array for arc-CVD | Surface repair + immune defense + structural growth. Wind that drives erosion also supplies repair feedstock. | Both sessile and mobile forms. Sessile = permanent armor + chemical fill. Mobile = targeted arc-CVD repair. |
+| **Healers** | Primary tower construction AND demolition. Surface maintenance, structural accretion, lattice renovation, chimney/chamber excavation | Robust windward-adapted shell, scraping/processing mouthparts, concave ventral shroud with field-emitter array for arc-CVD | Construction (arc + CVD = deposit SiCN) + destruction (arc without CVD = vaporize SiC at ~2700°C). Same tool, two modes. Healer genomes encode architectural behavior selected over Gyr via energy-gradient tropism. Symbiote genomes = tower construction program. | Both sessile and mobile forms. Sessile = permanent armor + chemical fill. Mobile = targeted arc-CVD construction/demolition. |
 | **Miners** | Transport metals exterior → living layer | Metal storage capacity (large metallosilazane inventory), deep lattice traversal | Catalytic metal delivery | Mobile only. Depth-transect cycling. |
 | **Guards** | Cull damaged/inefficient Healers and Miners | Spring-loaded strike apparatus (§9.3), ambush morphology | Population quality control — remove organisms consuming energy without delivering adequate service | Mobile only. Patrol + ambush. |
 
@@ -589,7 +589,7 @@ Pore-scale Re ≈ 31,000 (8.2 kg/m³, ~10 m/s in 5 mm pores). Fully turbulent. V
 | Junction pocket | Recirculating dead zone | Accumulation — grit settles | Low — poorly ventilated | Minimal |
 | Deep interior | Stagnant, attenuated by upstream strut layers | None — filtered | Depleted — consumed | None |
 
-**Depth gradient:** Outer lattice = high velocity, high grit, high SiH₄, high danger. Each strut layer filters grit and extracts SiH₄. Velocity and feedstock decay with depth. Living zone (~2–3 m) is the gas-exchange envelope. Below: stagnant, dead.
+**Depth gradient:** Outer lattice = high velocity, high grit, high SiH₄, high danger. Each strut layer filters grit and extracts SiH₄. Velocity and feedstock decay with depth. Living zone (~2–3 m) is the gas-exchange envelope. Below: no symbiote biology, but functionally active (H₂ chimney draft, structural webbing, amorph habitat).
 
 **Ecological niche map:**
 
@@ -601,7 +601,7 @@ Pore-scale Re ≈ 31,000 (8.2 kg/m³, ~10 m/s in 5 mm pores). Fully turbulent. V
 | Leeward face, deep | Larvae (§9.6) | Nursery. Minimum grit, protected bootstrapping. |
 | Pore throat | Transit corridor | Fast, dangerous. High SiH₄ refueling. Mobile Healers do arc-CVD here (max feedstock flow). Cross quickly. |
 | Junction pocket | Guard ambush, Miner foraging | Grit accumulates (mineral-rich scraping). Low flow = easy ambush station-keeping. |
-| Below living zone | Nothing | Dead lattice. No biology. |
+| Below living zone | Chimney conduit + amorph habitat | No symbiote biology. Active H₂ chimney (buoyancy-driven draft). Structural webbing. Amorph-excavated chambers and passages. Functionally important interior. |
 
 **Aeolian tone — the lattice hums.**
 

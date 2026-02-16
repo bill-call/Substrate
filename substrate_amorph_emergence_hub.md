@@ -85,7 +85,7 @@ Sexual Miners (ants) evolve: genomically optimized, root-mobile (Schottky-couple
 
 - **Root railway:** Grid-powered transit along conductive root. Local inter-tower. Same IFF/Guard protection as on tower.
 - **Downwind advection:** Passive, one-way, day-ward. Deploy membrane, ride wind.
-- **Peristaltic crawling:** 0.1–0.3 m/s, any direction. Energetically feasible for short off-grid excursions. Exposed (EM killing field between towers).
+- **Peristaltic crawling:** 0.1–0.3 m/s, any direction. Energetically feasible for short off-grid excursions. Exposed (no Faraday shelter, wind, thunder, subwoofer packs).
 - **Atmospheric circuit (later):** Ride wind to substellar chimney → superstream return → dark-side surface. Planetary-scale. Semelparous propagule variant possible (release propagules at chimney, parent dies).
 
 **Energy transition:** Grid-coupled on tower and root (charging). Stored charge off-grid (discharging). Return-to-charge cycle begins. Charge economy established.

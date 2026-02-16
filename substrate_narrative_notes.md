@@ -726,6 +726,12 @@ If the survivor is pre-de-weighting era: they are crushed under the weight of a 
 
 **XIII. THE DEAD TOWER MONASTERY**
 
+**[v2.4+ NOTE: Monk Origin Predates Dead Towers]**
+
+The monk contemplative tradition originates NOT from gas-pocket depletion but from network warfare consequences. Fragmentation events produce losing towers that reveal vulnerabilities in the behavioral influence protocol. The winning network inherits exploit knowledge and patches nodes — high-value first, dark-side last. Amorphs on unpatched dark-side nodes (any dark-side tower, not just gas-pocket towers) experience behavioral influence with detectable artifacts and develop the core skill: reading structure without being captured by content. The dead-tower discovery described below is a LATER chapter — an engineering breakthrough by an already-existing tradition, not the origin of monks. See spine §MONKS, bible §12, warfare hub §6.4.
+
+---
+
 **The Death That Liberates**
 
 A gas-pocket monastery's fuel is non-renewable. The monks — the first beings on the planet to understand non-renewable resources, because they're living on one — can see the depletion curve. The pocket runs dry. The symbiote layer, which was living on the energy surplus, starves. The tower dies. The network goes silent.

@@ -37,6 +37,8 @@ Use pandoc to convert .docx to .md, when necessary. Hard requirement: pandoc doe
   - `substrate_heavy_industry_hub.md` — industrial processes, machinery, biological-to-mechanical transition, factory architecture.
   - `substrate_warfare_hub.md` — weapons, escalation ladder, fluorine taboo, strategic constraints, grid warfare.
   - `substrate_amorph_emergence_hub.md` — pore-to-megafauna pathway, aeroplankton dispersal, tower biofilm, IFF/first meme, miner competition, cognition emergence.
+  - `substrate_amorph_daily_life_hub.md` — ground-level texture, 11×5×3 matrix (life domains × periods × geography), hierarchy of needs, locomotion, shelter, feeding, social life, economy, governance, art, ground-level ecology, city morphology, legal system, transport evolution.
+  - `substrate_tower_morphology_hub.md` — physical engineering of tower shape: airfoil cross-section derivation, construction model, filtration/chimney/structural analysis, Gibson-Ashby scaling, height profiles, porosity gradients, regional variation, key dimensions.
 - **Planned hubs:**
   - Network Hub — adversarial ratchet, consciousness question, awakening crises, merger, monks. (Touches towers, deep-rock, civilization, narrative.)
   - Crisis Hub — atmospheric decline, tower deaths, merger, probe, space program. (Touches everything.)

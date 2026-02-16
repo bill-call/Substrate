@@ -6,6 +6,8 @@ Maser Capability, Volcanic Mechanics, and Cascade Failure
 
 February 2026 --- Established through conversation
 
+> **⚠ PARTIALLY SUPERSEDED (v2.4+).** This V2.2 addendum predates the tower shape analysis and reef construction model. The authoritative tower document is now **`substrate_tower_hub_latest.md`**. Sections marked **[SUPERSEDED]** below are retained for historical reference only. Key changes: towers are STATIONARY (no migration, no sand-dune mechanism), construction is Healer-directed (reef model, not coral/sacrificial crust), cross-section is symmetric airfoil (not bullet/wedge), wind does NOT shatter struts (pitting only, fully repaired). See also `substrate_tower_shape_results.md` for full derivation.
+
 This document contains corrections and new entries for the Substrate
 Reference Bible (v2.1) and the Marching Towers expansion. All entries
 follow bible formatting conventions. Section numbers reference the
@@ -17,7 +19,7 @@ bible's existing structure; new subsections are added where indicated.
 
 **Correction: 10.3 Tower Migration --- Dark-Side Direction**
 
-*\[CORRECTION --- V2.2\]*
+*\[CORRECTION --- V2.2\]* **[SUPERSEDED v2.4+ — Towers are stationary. No migration in any direction. See Tower Hub.]**
 
 **✓ RESOLVED:** Dark-side towers migrate DAY-WARD, not poleward. The
 dark-side surface wind flows from pole toward terminator (dark-to-day).
@@ -107,7 +109,7 @@ with the naked eye.
 
 **5.2 The Self-Recycling Windward Face**
 
-*\[NEW --- V2.2 --- supersedes earlier sacrificial-crust model\]*
+*\[NEW --- V2.2 --- supersedes earlier sacrificial-crust model\]* **[SUPERSEDED v2.4+ — Wind does NOT shatter struts. SiC aerogel strut strength (~20 MPa) exceeds wind-borne impact by 4–5 orders of magnitude at 9.5 m/s. Pitting only, fully negated by Healer repair. Net erosion = zero. Towers are stationary. See Tower Hub.]**
 
 **✓ RESOLVED:** The windward face of a tower in wind is not eroded in
 the conventional sense. Wind shatters individual struts in the nanoscale
@@ -182,7 +184,7 @@ slightly different in a system that has never experienced different.
 
 **5.4 Tower Morphology**
 
-*\[NEW --- V2.2\]*
+*\[NEW --- V2.2\]* **[SUPERSEDED v2.4+ — Cross-section is symmetric airfoil, not bullet/wedge. Shape derived from filtration optimization + structural constraints + chimney function, not erosion equilibrium. See Tower Hub §Shape and Structure.]**
 
 **✓ RESOLVED:** The overall tower silhouette is a slightly tapering
 column. Widest at the base, narrowing upward. The taper rate depends on

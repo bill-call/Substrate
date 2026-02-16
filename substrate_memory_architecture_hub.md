@@ -222,6 +222,26 @@ AMORPH knows they should remember X
               or complete blank (header destroyed)
 ```
 
+### 5.4 Power-Dependent Query Behaviour
+
+The junction network that processes queries is itself power-dependent. Each junction cluster operates digitally — full fidelity above threshold, non-functional below — but the number of clusters powered simultaneously depends on available charge.
+
+As charge depletes, autonomous power management **sheds parallel processes in priority order**:
+
+| Priority | Function shed | Effect on memory system |
+|----------|-------------|------------------------|
+| 1 (first) | Broad library resonance search | Queries no longer propagate body-wide. Recall narrows to local/recent memories. Distant associations lost. |
+| 2 | Multi-modal sensory integration | New experiences encode through primary sense (EM) only. Poorer header generation (less context in hash). |
+| 3 | Abstract reasoning / formal WM | Cannot hold multiple retrieved memories simultaneously for comparison. Single-thread only. |
+| 4 | Secondary motor functions | No direct memory effect, but inability to reach charging source prolongs depleted state. |
+| 5 (last) | Threat detection + basic locomotion | Minimal query capability. Passive recall only (strongest resonances). Below this → torpor. |
+
+Key insight: the amorph doesn't lose memories or forget — it loses the ability to **search widely**. Content, keys, and headers remain intact. The memory system is undamaged; the processing substrate that queries it is power-rationed. A depleted amorph thinks *narrowly*, not *poorly*.
+
+This graceful degradation is a product of selection pressure — an organism that crashed from full cognition to torpor with no intermediate states would be a dead organism.
+
+> **Full treatment:** Amorph Daily Life Hub §2.2 — shedding priority table, experiential descriptions at each depletion level, cross-period implications.
+
 ---
 
 ## 6. THE THREE FAILURE MODES
@@ -495,6 +515,8 @@ Header damaged     →  invisible damage, delayed resurfacing
 | Electronic signaling | Chemistry Hub | §5 |
 | Metallosilazane enzymes | Chemistry Hub | §8 |
 | Forensic recovery | Amorph Forensics | §5-6 |
+| Power-budget load-shedding, charge depletion experience | Amorph Daily Life Hub | §2.2 |
+| Charge-limited ecology, power constraints | Amorph Economics Hub | §2–§3 |
 | Meme-liar plague | (pending) | |
 | Monk capabilities | (pending) | |
 

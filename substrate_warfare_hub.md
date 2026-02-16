@@ -397,9 +397,15 @@ Towers are simultaneously:
 
 You cannot destroy the enemy's towers without destroying the thing you want to capture. Warfare tends toward siege, infiltration, and network subversion rather than bombardment.
 
+**[v2.4+] EM blind spots as tactical terrain:** Tower airfoil cross-section creates systematic EM blind spots along the wind axis (upwind and downwind — edge-on to thin profile). Maximum AWACS sensitivity is broadside (cross-wind). Fibonacci array partially compensates (offset neighbors cover each other's blind spots), but wind-axis approach vectors remain tactically exploitable. Attacking along the wind axis reduces probability of tower detection. Grid warfare is intelligence warfare — and tower geometry defines the intelligence gaps.
+
 ### 6.4 Network Warfare
 
 The tower network carries authentication (chelation), communication, and (post-awakening) consciousness. Network warfare — signal jamming, authentication spoofing, meme corruption — may be more decisive than kinetic warfare. This bleeds into the network hub's territory (adversarial ratchet, key theft, network wars).
+
+**[v2.4+] Tower as FPGA:** The lattice geometry IS the signal-processing circuit. Healers reprogram it by adding/removing structure. Capturing a tower and replacing its Healers with yours = reflashing enemy hardware. A captured tower's signal-processing topology can be reprogrammed to run the captor's protocols. This is the physical mechanism behind the network wars' "viral takeover: run your protocols on rival hardware" (bible §10.5). The tower doesn't need to be destroyed — just reprogrammed.
+
+**[v2.4+] Exploit inheritance and the monk origin:** Every absorbed micro-war loser reveals vulnerabilities in the behavioral influence protocol before being defeated. The winning network inherits the exploit knowledge and begins patching — but patching requires physical lattice reprogramming (Healers) or symbiote population changes, both of which take time. High-value terminator nodes are patched first; low-priority dark-side nodes last. This patch-priority gradient creates a persistent window: dark-side towers running behavioral influence with known, detectable artifacts. The tower's own signal environment contains the vulnerability information (war spoil). Amorphs on unpatched nodes can learn to perceive the behavioral influence as influence rather than as their own thoughts — the origin of the monk contemplative tradition. The network's own inherited knowledge of the vulnerability enables the first organisms to resist it.
 
 ⚠ Network warfare requires its own deep treatment. This hub covers physical warfare only.
 
@@ -455,6 +461,8 @@ The tower network carries authentication (chelation), communication, and (post-a
 - **Heavy Industry Hub §3.7** — SiC electroluminescence (LEDs). The semiconductor physics underlying both LEDs and laser biology.
 - **Fluorine Ecology Hub §8** — Tower laser vs. viper railgun economics. Two halogen weapons, two logistics models.
 - **Fluorine Ecology Hub §3.6–3.9** — Thorn-flower federated architecture, energy budget, day-side viability band, dispersal outcome matrix.
+- **Amorph Daily Life Hub §8.3.2** — Tower AWACS: tower lattice as EM sensor, network panopticon, grid warfare = intelligence warfare. Blinding towers destroys sensor coverage.
+- **Fauna Hub §6.5** — Subwoofer EM phased-array detection. Herd SIGINT counter. Phased-array arms race.
 
 ---
 

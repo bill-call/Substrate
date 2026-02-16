@@ -302,20 +302,24 @@ semiconductor deposited at nano- to microscale. Mostly void by volume.
 Enormous internal surface area. Strong in compression. Light enough that
 kilometer-tall columns are feasible in 1.82g precisely because they are
 mostly air. Gas diffuses through the matrix. The whole tower is a lung
-and a solar panel simultaneously, at every point. The overall shape is a
-rounded, slightly tapering pillar --- a truncated cone, nearly circular
-in cross-section, dome-topped. From a distance it looks geological: a
-butte or sea stack.
+and a solar panel simultaneously, at every point. **[REVISED v2.4+]** The overall shape is a symmetric airfoil in plan view:
+blunt convex windward face (arch in cross-wind direction), tapering to a
+trailing edge with chimney vents. Not a column --- a thin curved wall
+("membrane held up by an arch"). Wide and shallow at the base (30–50 m
+chord, 100–200+ m span), narrowing to a thin blade at the apex (3–5 m
+chord). Gothic cathedral buttress silhouette. Regional continuum: airfoil
+(terminator) → teardrop (near dark) → circular dome (anti-stellar, no
+wind). From a distance it looks geological: a blade ridge or fin.
 
 **✓ RESOLVED:** Wind flowing through the porous aerogel matrix excites
 resonances at every scale. Different void sizes, different channel
 lengths, different resonant frequencies. Every tower is a pipe organ.
 The tower does not produce white noise --- it produces a specific,
 complex, structured chord determined by its geometry. Every tower has a
-unique voice. The voice changes as the tower erodes and accretes --- a
+unique voice. The voice changes as Healers modify lattice geometry --- a
 real-time acoustic readout of the tower's physical state.
 
-At the terminator (50--80 m/s wind), the acoustic output is enormous.
+At the terminator (9.5 m/s sustained wind, q = 370 Pa), the acoustic output is substantial.
 The sound propagates through the aerogel matrix and radiates from every
 surface. The leeward side of a terminator tower is sheltered from wind
 but not from sound --- it may be louder than the windward side in
@@ -557,6 +561,32 @@ communicate by sound without contaminating its own targeting signals.
 The EM channel handles all logistics and synchronization; the acoustic
 channel is reserved entirely for the weapon.
 
+**Pack as EM phased-array detector:** The same EM receivers that coordinate pack behavior serve a second function: passive detection of prey involuntary emissions. Every amorph radiates EM as a byproduct of semiconductor junction processing (Amorph Daily Life Hub §8.3.1, Layer 1). A single subwoofer, with its small body and simple EM circuitry, has limited detection range — comparable to or less than an individual amorph's. But a pack of 10–25 organisms distributed over tens of meters IS a phased-array antenna. Each member receives the prey's involuntary emission at a slightly different time and phase. Cross-correlating these signals (the same EM coordination channel already used for acoustic phase-locking) yields directional sensitivity and detection range that no individual organism can achieve.
+
+The pack can detect and **localise** a thinking amorph at ranges well beyond the prey's own EM perception radius. The prey senses nothing — it cannot detect the pack's passive listening. The pack converges silently, each member's EM receiver contributing one element of the array, until the prey is within acoustic kill range.
+
+**The prey's dilemma is absolute.** Involuntary EM emission is a physical consequence of neural processing. To suppress it, the prey must reduce processing — accept cognitive degradation. But cognitive degradation impairs the frequency-dodging and body-reconfiguration that are the prey's only acoustic defenses. The prey cannot hide (thinking betrays it) and cannot stop thinking (it needs cognition to survive the acoustic attack). "Stillness = intelligence" (Spine §AMORPH BIOLOGY) — the insight that motionless amorphs think most effectively — becomes a liability against subwoofers: the smartest, stillest target is the brightest EM beacon.
+
+**Countermeasures:**
+
+| Defense | Mechanism | Effectiveness |
+|---------|-----------|---------------|
+| Tower lattice (Faraday cage) | Conductive SiC/SiCN lattice attenuates EM propagation | High — eliminates EM detection inside lattice. The primary shelter. |
+| Group travel (confusion) | Multiple amorphs with different EM signatures confuse array localisation | Moderate — degrades bearing accuracy, doesn't eliminate detection of the group. |
+| Herd SIGINT posture | Group members adopt distributed "signals intelligence" listening posture — the herd IS a phased-array detector, sweeping for predator EM emissions | Variable — see below. |
+| Monk EM suppression | Trained involuntary emission control | Variable — reduces EM cross-section but cannot eliminate emission while maintaining cognition. Best in combination with other defenses. |
+| Terrain (root networks, rubble) | Conductive SiC structures scatter and attenuate EM | Moderate — broken terrain degrades array coherence. |
+
+**Herd SIGINT and the phased-array arms race:** The phased-array principle cuts both ways. A group of amorphs distributed across a patch of ground can cross-correlate EM signals just as a subwoofer pack does — individuals adopt a listening posture, dedicating processing to EM signal analysis, and the group's spatial extent gives directional sensitivity. This is the prey-side counter: sweep for predator EM signatures before the pack closes to acoustic range.
+
+**Limitations against subwoofers specifically:** The technique is directional — a phased array looks one way at a time. A subwoofer pack approaching from an unscanned bearing is undetected until it's close. More critically, non-phased-array predators (the majority) use cognitively-dark approach: their committed strike occurs in a state of *reduced* mental activity, lowering their EM signature precisely when the prey's phased array is most needed. A dark-approach predator radiates weakly — the signal-to-noise ratio at the prey array drops below useful threshold. The prey phased array is most effective against predators that think during approach, and least effective against those that don't.
+
+**Result:** Herd SIGINT is most effective as a subwoofer early-warning system (subwoofers remain cognitively active during the approach phase — they must coordinate phase-locking and spatial distribution via EM). It is least effective against traditional ambush predators, which have already evolved the EM-dark committed strike as their baseline hunting mode. The arms race is asymmetric: phased-array detection and phased-array countermeasures operate in different niches of the predator landscape.
+
+**Evolutionary context:** The subwoofer evolved in an ecology that produces EM-emitting prey. The EM receiver organ predates the acoustic weapon — ancestral lattice-dwellers in the tower interior (§6.10) already used EM sensing for spatial awareness within the conductive lattice environment. When the lineage moved to ground-level predation, the existing EM hardware was exapted for prey detection. The pack's phased-array capability emerged from the same selection pressure that drove acoustic phase-locking: coordinated hunting rewards distributed sensing.
+
+This makes the subwoofer a dual-domain predator: EM phased array for detection and localisation, acoustic phased array for the kill. Find by EM, kill by sound. The prey's two signature channels (electromagnetic and mechanical) are both weaponised against it.
+
 **6.6 Thunder-Skin Interaction**
 
 **[NEW IN V2.4]**
@@ -664,6 +694,17 @@ masking. The gaps between towers have direct wind and broadband noise
 that degrades the predator's targeting precision. The lee is where the
 prey goes for shelter — and the predator follows. The tower's acoustic
 shadow is simultaneously refuge and trap.
+
+**Root avoidance:** Subwoofer packs avoid stepping on or crossing exposed
+root surfaces. Roots are conductive extensions of the tower lattice —
+the network detects anything that contacts them via surface-current
+sensing (Amorph Daily Life Hub §8.3.2). A pack that crosses a root
+announces its position and bearing to the network. Whether the network
+acts on this information depends on context, but the behavioral
+avoidance is consistent and ancient. This constrains pack approach
+vectors and creates root-bounded safe corridors on the peneplain — prey
+travelling along roots benefits from both the powered habitat and the
+predator exclusion zone.
 
 **✓ RESOLVED: Day-side variants exist.** Reduced, metabolically powered
 subwoofers inhabit the day-side deposition zone and volcanic provinces.
@@ -1207,7 +1248,7 @@ range. Coherent addition: N phase-locked emitters deliver N² power at
 focal point (20 emitters = 400× single). Prey cannot detune from all
 frequencies simultaneously. EM for spatial coordination AND phase
 synchronization; acoustic channel reserved for weapon. Semi-permanent
-extended family packs, territorial.
+extended family packs, territorial. Pack also functions as **EM phased-array detector** — passive receivers distributed across pack extent cross-correlate prey involuntary emissions to detect and localise thinking amorphs at ranges beyond individual EM perception. Dual-domain predator: find by EM, kill by sound.
 
 **✓ RESOLVED:** Preferred hunting ground: leeward acoustic shadow of
 towers. Sparser frequency environment for precision targeting. Prey
