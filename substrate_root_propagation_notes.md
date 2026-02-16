@@ -266,7 +266,7 @@ A root built across dry terrain that later floods becomes free marine infrastruc
 - Maintenance-free (inert mineral)
 - Colonizable by marine organisms that independently evolve Schottky coupling to N:SiC
 
-The marine ecosystem doesn't need the tower to grow into the sea. The sea comes to the lattice. Ghost roots (abandoned trails from migrated towers) submerged by expanding seas = prime marine real estate.
+The marine ecosystem doesn't need the tower to grow into the sea. The sea comes to the lattice. Ghost roots (subsurface root network — NOT migration trails; towers are stationary) submerged by expanding seas = prime marine real estate.
 
 ---
 

@@ -386,6 +386,31 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **✓** Ghost roots: subsurface root network connecting towers. Not migration artifacts (towers are stationary).
 
+### Network Distribution
+
+**✓** Fibonacci phyllotaxis (~137.5° golden angle). ~6 neighbors per tower. Prevents correlated EM blind spots.
+
+**✓** Spacing set by network signal optimization (root attenuation, latency), not ecology or energy competition. Towers are creatures of the network.
+
+| Zone | Spacing | Binding constraint |
+|---|---|---|
+| Terminator | ~6.5 km | Root signal range |
+| Near dark | ~8–10 km | Root signal range |
+| Mid dark | ~12–15 km | EM coverage |
+| Deep dark | ~20 km | EM coverage |
+
+**✓** Two-speed signal: tower body = FPGA (gate delay, ~10³–10⁴ m/s). Roots = transmission line (~10⁸ m/s in N:SiC). Root attenuation: ~10–20 km unboosted range (~10 cm cross-section, N-doped SiC).
+
+**✓** Superconductors: never by network (CVD precision insufficient). Late amorph industrial tech.
+
+**✓** Forest aerodynamic drag ~4× smooth surface at terminator, but non-binding (lightning-powered, net-zero materials, SiH₄ superabundant).
+
+**✓** Material conveyor independent of forest. Mature towers net-zero (intake ≈ waste). Conveyor saturates at atmospheric carrying capacity. No engineered channels needed.
+
+**✓** Three feedback mechanisms: (1) preferential-feeding self-regulation (dominant), (2) peneplain stability lock (freezes existing pattern), (3) death cascade (crisis-mode only, propagates day-ward).
+
+⚠ Alternative model (towers maximized for power population, not network coverage) produces different spacing. Current working assumption: network topology is the driver.
+
 ## PLANETARY NETWORK
 
 **✓** Network wars (primordial): when surface roots from independent deep-rock systems first meet, foreign signals flood infrastructure optimized for self-signals. Flinch → retreat fails → forced engagement. Each system has independently evolved towers (void genesis = multiple independent events). Symbiotes share a common origin (pool genesis = singular event, wind-dispersed), but symbiote lineages diverge on different tower systems — different protocols, chelation badges, metabolic quirks. Both sides are near-peers.

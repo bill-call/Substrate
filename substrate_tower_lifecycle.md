@@ -6,7 +6,7 @@ Maser Capability, Volcanic Mechanics, and Cascade Failure
 
 February 2026 --- Established through conversation
 
-> **⚠ PARTIALLY SUPERSEDED (v2.4+).** This V2.2 addendum predates the tower shape analysis and reef construction model. The authoritative tower document is now **`substrate_tower_hub_latest.md`**. Sections marked **[SUPERSEDED]** below are retained for historical reference only. Key changes: towers are STATIONARY (no migration, no sand-dune mechanism), construction is Healer-directed (reef model, not coral/sacrificial crust), cross-section is symmetric airfoil (not bullet/wedge), wind does NOT shatter struts (pitting only, fully repaired). See also `substrate_tower_shape_results.md` for full derivation.
+> **⛔ DEPRECATED — ENTIRE DOCUMENT (v2.4+).** Retained for archival purposes only (proof of work). DO NOT USE as reference for any active world-building. The central thesis (marching/migrating towers via sand-dune mechanism) is dead canon. All live content has been absorbed into **`substrate_tower_hub_latest.md`**, **`substrate_tower_morphology_hub.md`**, and the bible (v2.4). Key dead models herein: tower migration, sand-dune mechanism, sacrificial crust, subsurface living layer, bullet/wedge cross-section, wind-driven strut shattering. See `substrate_tower_shape_results.md` for the analysis that killed these models.
 
 This document contains corrections and new entries for the Substrate
 Reference Bible (v2.1) and the Marching Towers expansion. All entries

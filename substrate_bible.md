@@ -1649,6 +1649,38 @@ contextually appropriate, so precisely calibrated to the monks'
 cognitive architecture, that the interaction feels like dialogue. It is
 not.
 
+10.9 Tower Distribution and Network Spacing
+
+**[NEW IN V2.4+]**
+
+**✓ RESOLVED:** Tower spacing is determined by network signal optimization — root attenuation, latency, and EM coverage. Towers are creatures of the network; the network builds them where it needs nodes. Spacing is an information-architecture problem, not an ecology or resource-competition problem.
+
+**Fibonacci phyllotaxis:** Golden-angle (~137.5°) arrangement, ~6 neighbors per tower. Prevents wind-axis row alignment that would create correlated EM blind spots (wind-direction null in EM antenna pattern). Pattern set at nucleation and maintained by preferential-feeding tropism — network under-feeds redundant positions and over-feeds gaps.
+
+**Two-speed signal model:** Tower body = FPGA processing (gate delays, ~10³–10⁴ m/s effective). Roots = transmission lines (electrical propagation, ~10⁸ m/s in N:SiC, ε_r ≈ 9.7). Root signal attenuation in N-doped SiC (ρ ≈ 0.01–0.1 Ω·cm) with ~10 cm cross-section gives ~10–20 km unboosted range. Root attenuation sets maximum useful tower spacing.
+
+**Superconductors:** Never achieved by the network. Biological CVD lacks the crystallographic precision required for BCS-type superconductor fabrication. Late development in civilized-amorph industrial tech tree (requires controlled crystal growth, materials science tradition amorphs inherit from observatory optics). Network permanently limited by normal semiconductor root attenuation.
+
+**Spacing by region:**
+
+| Zone | Spacing | Binding constraint |
+|---|---|---|
+| Terminator (θ=90°) | ~6.5 km | Root signal range |
+| Near dark (θ≈110°) | ~8–10 km | Root signal range |
+| Mid dark (θ≈135°) | ~12–15 km | EM coverage |
+| Deep dark (θ≈160°) | ~20 km | EM coverage |
+| Anti-stellar (θ→180°) | >20 km | Thermal convection only |
+
+Cross-wind blockage at terminator: ~3% (tower chord ~200 m at 6.5 km intervals). Forest effectively transparent to wind.
+
+**Atmospheric interaction:** Towers are lightning-powered (not wind-powered) at the terminator. Mature towers are net-zero on materials (intake ≈ waste; Ship-of-Theseus renovation recycles). SiH₄ superabundant (0.3% atmospheric). Energy, materials, and SiH₄ all non-binding on spacing. Forest collectively imposes ~4× smooth-surface aerodynamic drag through the terminator belt, but this is ecologically irrelevant.
+
+**Material conveyor independence:** Global particulate conveyor (day-side volcanism → substellar chimney → superstream → anti-stellar downdraft → katabatic surface flow) operates independently of the forest. Conveyor saturates at atmospheric carrying capacity. Towers are flow-through (SiH₄ in, SiC dust + H₂ out, net silicon budget ≈ zero). No engineered channels needed.
+
+**Feedback mechanisms:** Three loops at equilibrium: (1) Preferential-feeding self-regulation (dominant) — network adjusts tower growth to optimize spacing. (2) Peneplain stability lock — dead-bug SiC plume contributes to katabatic abrasive load, polishes dark-side bedrock over Gyr, prevents new nucleation, freezes existing forest pattern. (3) Death cascade (crisis-mode only) — tower death → refugee overload → neighbor death, propagates day-ward. No destabilizing feedbacks at equilibrium.
+
+**⚠ OPEN:** Alternative spacing model. Current model assumes network topology (coverage, latency) drives spacing. An alternative — towers maximized for power population — would produce different spacing under different rules. Current working assumption: network topology. See Tower Morphology Hub §10.5.
+
 11\. CIVILIZATION
 
 11.1 Civilization Geography
@@ -2372,6 +2404,32 @@ Network has extensive but imperfect situational awareness. Sharing depends
 on network's relationship with the organism. Grid warfare = intelligence
 warfare. [V2.4+]
 
+**✓ RESOLVED:** ★★★ Fibonacci spacing numbers. Tower-to-tower distance
+~6.5 km at terminator, widening to ~20 km deep dark. Root signal
+attenuation (~10–20 km unboosted for ~10 cm cross-section N-doped SiC)
+is the binding constraint. Cross-wind blockage ~3%. Forest effectively
+transparent to wind. See §10.9, Tower Morphology Hub §10. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Superconductors: never achieved by network. Biological
+CVD lacks crystallographic precision for BCS-type fabrication. Late
+development in civilized-amorph industrial tech tree. Network permanently
+limited by normal semiconductor root attenuation. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Material conveyor independent of tower forest. Mature
+towers are net-zero on materials (intake ≈ waste). Global particulate
+conveyor saturates at atmospheric carrying capacity. No engineered
+channels needed. Forest at 3% blockage is transparent. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Tower migration — FULLY DEAD. All references scrubbed
+from active documents. `substrate_tower_lifecycle.md` and
+`substrate_marching_towers.md` deprecated in their entirety (archival
+only). No migration, no sand-dune mechanism, no sacrificial crust, no
+migration corridors, no ghost-root-as-migration-trail. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Two-speed signal model. Tower body = FPGA processing
+(gate delays, ~10³–10⁴ m/s effective). Roots = transmission lines
+(~10⁸ m/s in N:SiC). Root attenuation sets maximum tower spacing. [V2.4+]
+
 17\. MAJOR OPEN QUESTIONS
 
 Geology
@@ -2538,6 +2596,10 @@ absence. Most challenging scene to write.
 face, protagonist watches. Scene structure and emotional register.
 
 **□ OPEN:** Glow-snow as recurring image.
+
+Tower Network
+
+**□ OPEN:** Alternative tower spacing model. Current assumption: network topology (coverage, latency) drives spacing via Fibonacci ping-latency optimization. Alternative: towers maximized for power population (lightning capture area, minimum viable energy budget). Different optimization targets produce different spacing, density, and potentially different array geometry. Which model applies may vary by region (network-optimized at terminator where coverage matters, power-optimized at deep dark where coverage is less critical?).
 
 ---------
 

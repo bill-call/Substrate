@@ -404,7 +404,57 @@ No revision to the 5-zone model needed. Defined at strut scale, independent of m
 
 ---
 
-## 10. Key Dimensions Summary
+## 10. Tower Distribution and Network Spacing
+
+### 10.1 Spacing model
+
+Tower spacing is determined by network signal optimization — root attenuation, latency, and EM coverage. Towers are creatures of the network; the network builds them where it needs nodes. Spacing is an information-architecture problem, not an ecology or resource-competition problem.
+
+**Fibonacci phyllotaxis:** Towers are arranged in a golden-angle (~137.5°) pattern, giving ~6 neighbors per tower. This prevents wind-axis row alignment, which would create correlated EM blind spots (§9.2). The pattern is set at nucleation and maintained by preferential-feeding tropism — the network under-feeds positions that are too close (redundant coverage) and over-feeds gaps (latency holes).
+
+**Two-speed signal model:** Tower body = FPGA processing with gate delays (~10³–10⁴ m/s effective signal velocity). Roots = transmission lines with electrical propagation (~10⁸ m/s in N:SiC, ε_r ≈ 9.7). Root signal attenuation in N-doped SiC (ρ ≈ 0.01–0.1 Ω·cm) with ~10 cm cross-section gives ~10–20 km unboosted range. This root attenuation sets the maximum useful tower spacing.
+
+**Superconductors:** Never achieved by the network. Biological CVD lacks the crystallographic precision required for BCS-type superconductor fabrication. Late development in civilized-amorph industrial tech tree. The network is permanently limited by normal semiconductor root attenuation.
+
+### 10.2 Spacing by region
+
+| Zone | Spacing | Binding constraint |
+|---|---|---|
+| Terminator (θ=90°) | ~6.5 km | Root signal range |
+| Near dark (θ≈110°) | ~8–10 km | Root signal range |
+| Mid dark (θ≈135°) | ~12–15 km | EM coverage |
+| Deep dark (θ≈160°) | ~20 km | EM coverage |
+| Anti-stellar (θ→180°) | >20 km | Thermal convection only |
+
+Cross-wind blockage at terminator spacing: ~3% (tower chord ~200 m at 6.5 km intervals). The forest is effectively transparent to wind.
+
+### 10.3 Interaction with atmospheric circulation
+
+**Non-binding constraints:** Towers are lightning-powered (not wind-powered) at the terminator. Mature towers are net-zero on materials (intake ≈ waste; Ship-of-Theseus renovation recycles). SiH₄ is superabundant (0.3% atmospheric). Energy, materials, and SiH₄ are all non-binding on spacing.
+
+**Aerodynamic drag:** The forest collectively imposes ~4× smooth-surface friction in the terminator belt (tower drag vs smooth-surface friction over the same area). Physically real but ecologically irrelevant — does not constrain tower viability or density.
+
+**Material conveyor:** Global particulate conveyor (day-side volcanism → chimney → superstream → anti-stellar downdraft → katabatic surface flow) operates independently of the forest. Conveyor saturates at atmospheric carrying capacity. Towers are flow-through (SiH₄ in, SiC dust + H₂ out). No engineered channels needed.
+
+### 10.4 Feedback mechanisms
+
+Three feedback loops identified at equilibrium:
+
+1. **Preferential-feeding self-regulation (dominant).** The network modulates tower growth via energy distribution. Under-feeds redundant positions, over-feeds gaps. Converges on Fibonacci spacing because it simultaneously optimizes signal coverage, latency, EM pattern, and energy efficiency.
+
+2. **Peneplain stability lock.** Dead-bug plume (SiC, Mohs 9.5) contributes to katabatic wind abrasive load, polishing dark-side bedrock over Gyr. Polished surface prevents new tower nucleation (no root purchase). Existing pattern frozen — can extend at edges, fill dead-tower gaps, but cannot reorganize interior.
+
+3. **Death cascade (crisis-mode only).** Tower death → refugee overload → neighbor death → propagates day-ward (downwind). Requires external forcing (atmospheric SiH₄ decline). Not operative at equilibrium.
+
+No destabilizing feedback loops at equilibrium. No resource-competition feedback. Spacing constrained entirely by information architecture.
+
+### 10.5 Open: alternative spacing model
+
+⚠ The current model assumes network topology (coverage, latency) drives spacing. An alternative — towers maximized for power population rather than network coverage — would produce different spacing under different rules. Current working assumption: network topology is the driver.
+
+---
+
+## 11. Key Dimensions Summary
 
 | Parameter | Value | Confidence |
 |---|---|---|
@@ -412,6 +462,8 @@ No revision to the 5-zone model needed. Defined at strut scale, independent of m
 | **Functional filter depth** | 2–3 m | High |
 | **Wind-axis chord at base** | 30–50 m | Moderate |
 | **Wind-axis chord at top** | 3–8 m | Moderate |
+| **Tower-to-tower spacing (terminator)** | ~6.5 km | Moderate (root attenuation dependent) |
+| **Cross-wind blockage** | ~3% | Moderate |
 | **Cross-wind width at base** | 100–200+ m | Low (Fibonacci spacing dependent) |
 | **Cross-wind width at top** | 20–60 m | Low |
 | **Height (terminator)** | 500–2000 m | Moderate |
@@ -425,11 +477,11 @@ No revision to the 5-zone model needed. Defined at strut scale, independent of m
 
 ---
 
-## 11. Open Questions
+## 12. Open Questions
 
 1. **Aerogel solids fraction:** Specific canonical values needed. The 3–15% range assumed here spans a factor of 5 in density and structural capacity.
 2. **Interior architecture detail:** Chimney channel geometry, structural webbing pattern, amorph chamber distribution. Shaped by chimney self-selection + Healer excavation, but unquantified.
-3. **Fibonacci spacing numbers:** What is the actual tower-to-tower distance at the terminator? Constrains maximum cross-wind width. Depends on root conductivity and network latency tolerance — no hard numbers available.
+3. **~~Fibonacci spacing numbers~~** ✓ RESOLVED (§10.2). ~6.5 km at terminator, widening to ~20 km deep dark. Root attenuation (~10–20 km unboosted) is binding constraint. Cross-wind blockage ~3%.
 4. **Healer construction program specifics:** What behaviors are genomically encoded? Density response to stress signals, vent shaping, structural ribbing patterns? The "symbiote genome = tower blueprint" claim is well-grounded in principle but the specific behavioral repertoire is unspecified.
 5. **Catalytic reaction status in modern towers:** Is the original autocatalytic surface definitely dead (buried under non-catalytic Healer deposits), or could it restart if exposed? Affects the crisis degradation pathway.
 6. **Base-to-root transition:** Detailed geometry of the merge between tower base and root network. Smooth flare vs distinct boundary. Affects structural modeling of overturning resistance.

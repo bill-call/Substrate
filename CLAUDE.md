@@ -72,7 +72,8 @@ These predate the spine/hub/module system. Their content has been absorbed into 
 - `substrate_expansion_v1.1.docx` — 8 expansion sections
 - `substrate_molecular_library.docx` — molecular library deep dive
 - `substrate_carbosilane.docx` — carbosilane chemistry deep dive
-- `substrate_marching_towers.docx` — wind, erosion, tower migration, geography, transportation
+- `substrate_marching_towers.docx` — **DEPRECATED.** Tower migration is dead canon. Wind/geography content absorbed into tower hub + morphology hub. Retained for archival only.
+- `substrate_tower_lifecycle.md` — **DEPRECATED.** Central thesis (marching towers) is dead canon. All live content absorbed into tower hub + morphology hub + bible v2.4. Retained for archival only.
 
 ## Session Loading Protocol
 
