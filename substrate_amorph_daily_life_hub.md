@@ -182,6 +182,7 @@ Low wind, no lightning, no thunder, no weather-driven cycles. The deep dark side
 | Root railway | Stage 4 (Emergence Hub) | Grid-powered transit along conductive root. |
 | Wind-surfing | Early Stage 5 / Period 2 | Deploy membrane, ride wind day-ward. One-way. |
 | Sprint | Late Stage 4 / Stage 5 | 2–3 m/s, 2–3 min. Power-limited outdoors, heat-limited indoors. Survival response, not commuting. |
+| Tower-hopping | Early Period 2 | Glide from tower summit to next downwind tower. One-way day-ward. Terminator only (~6.5 km spacing). |
 | Ballooning | Mid Stage 5 / Period 2 | H₂ production control + membrane deployment. Return via upper-level return flow. |
 | Constructed aids | Period 3+ | Sledges, improved root grips, sail frames. |
 | Powered vehicles | Period 4+ | Electric propulsion. Powered flight. Watercraft. |
@@ -190,7 +191,7 @@ Low wind, no lightning, no thunder, no weather-driven cycles. The deep dark side
 
 **Period 1 (Terminator):** Crawling on tower surface and root. No off-grid travel. Movement is within-tower repositioning.
 
-**Period 2 (Terminator + sparse dark side):** Crawling between towers with stored charge. Wind-surfing day-ward (free, one-way). Ballooning back (upper-level return flow). Root railway for safe inter-tower transit. Sprint for emergency. Dark-side explorers: slow overland crawl on polished SiC bedrock with battery organism companions for charge reserves. Low wind means no wind-surfing; silence makes the journey safe but slow.
+**Period 2 (Terminator + sparse dark side):** Crawling between towers with stored charge. Wind-surfing day-ward (free, one-way). Tower-hopping day-ward (climb to summit, glide to next tower — faster than wind-surfing for tower-to-tower transit at terminator spacing). Ballooning back (upper-level return flow). Root railway for safe inter-tower transit. Sprint for emergency. Dark-side explorers: slow overland crawl on polished SiC bedrock with battery organism companions for charge reserves. Low wind means no wind-surfing or tower-hopping; silence makes the journey safe but slow.
 
 **Period 3 (Terminator + dark side):** Constructed aids. Membrane frames for efficient wind-surfing (better lift-to-drag). Root-gripping tools. Sledges for dark-side bedrock (polished SiC surface, low friction). Coastal watercraft for ammonia seas (sail-powered, manufactured composite hulls).
 
@@ -206,7 +207,23 @@ Low wind, no lightning, no thunder, no weather-driven cycles. The deep dark side
 
 **Where wheels-as-vehicles appear:** Inside factory complexes (smooth manufactured floors). Deposition-zone cities (deep, packable sediment). Short-haul material handling. Never long-haul overland.
 
-### 3.4 Watercraft
+### 3.4 Tower-Hopping
+
+> **Full derivation:** Tower Morphology Hub §11.4.
+
+Amorphs have no fixed body plan. At 8 bar air density (~8 kg/m³), a 100 kg amorph spread to 16 m² has terminal velocity ~4.3 m/s — a gentle landing. **Falling is not dangerous.** Gel body, no organs, selectively redistributed SiC crumple zones. Same physics as balloon fauna fall-survival origin.
+
+**Two descent modes from tower summit:**
+
+1. **Vertical drop (recreational/leeward).** Jump from leeward face into the tower's wind shadow. Spread wide, land gently at tower base. Safe, controlled, zero displacement.
+
+2. **Transit glide (tower-hopping).** Jump from summit into open wind. Spread into crude airfoil (gel membrane, SiC-ribbed). Glide ratio L/D ≈ 4–8 (practical best ~6). Minimum glide speed ~7.5 m/s. Glide downwind ~6.5 km to next tower's windward face. Tower upwash (~3–5 m/s, from ~80–85% bulk flow opacity) on approach extends glide and assists the climb back up (reduces effective weight 35–70% on windward face). Each hop: ~10 min glide + hours of climb (upwash-assisted). **One-way day-ward only. Terminator only** — dark-side spacing (8–20 km) exceeds glide range.
+
+**Comparison with wind-surfing:** Wind-surfing is passive membrane deployment at ground level — simpler, no climb required, but slower (deceleration + lattice entry turbulence). Tower-hopping requires climbing to summit height (~3 hours at 1.82g) but the glide itself is faster and more controlled. For repeated tower-to-tower transit at terminator spacing, hopping is the premium mode: skilled, efficient, socially visible. Wind-surfing remains the accessible default.
+
+**Recreational climbing:** Tower climbing is a zero-mortality-risk activity. Summit is a novel sensory environment (exposed EM, acoustic transition, raw wind, full-sky view above the lattice). Universal meme potential — easy to learn, hard to master. The windward face is preferred for upwash weight reduction. Authorization depends on chelation badge: recognized mutualists tolerated or assisted; unrecognized climbers contested by Healer immune response.
+
+### 3.5 Watercraft
 
 Amorphs sink in ammonia (1050 vs 660 kg/m³). Swimming is not an option — you sink and broadcast your thoughts involuntarily (dielectric coupling in liquid NH₃).
 
@@ -823,7 +840,7 @@ Biofilm spreading across lattice. Root railway (unconscious — biofilm follows 
 
 ### 16.2 Period 2 — First Off-Grid
 
-Crawling (stored charge), wind-surfing (one-way day-ward), ballooning (return), root railway (conscious). Navigation by EM beacon detection and learned routes (navigation memes as IP). No infrastructure.
+Crawling (stored charge), wind-surfing (one-way day-ward), tower-hopping (summit glide to next downwind tower — premium terminator transit), ballooning (return), root railway (conscious). Navigation by EM beacon detection and learned routes (navigation memes as IP). No infrastructure.
 
 ### 16.3 Period 3 — Systematic
 
@@ -870,6 +887,7 @@ Mass driver (3 km/s EM boost). Balloon launch to 15–20 km. Intercontinental fr
 | Subwoofer EM phased array | ✓ | Pack of 10–25 with EM receivers = ambulatory phased-array detector. Cross-correlates prey involuntary emissions for directional detection at extended range. Dual-domain predator: find by EM, kill by sound. Prey cannot hide while thinking. Tower lattice = Faraday shelter. |
 | Herd SIGINT | ✓ | Prey groups adopt distributed phased-array EM listening. Most effective against subwoofers (EM-active during approach). Least effective against cognitively-dark ambush predators (low SNR). Asymmetric arms race. |
 | Tower AWACS | ✓ | Faraday cage surface currents = detection signal. Tower corpus is antenna — not optimised for detection (morphology shaped by wind filtration), angle-dependent sensitivity, blind spots from some bearings. Sheer scale compensates for poor efficiency. Multiple towers partially compensate for each other's blind spots. Roots = ground-level tripwire grid. Network has extensive but imperfect situational awareness. Intelligence sharing depends on network relationship. Grid warfare = intelligence warfare. |
+| Tower-hopping | ✓ | Glide from summit to next downwind tower. L/D ≈ 4–8, upwash-assisted climb. Terminator only (~6.5 km spacing). One-way day-ward. Premium transit mode. Recreational climbing = universal meme. (Tower Morphology Hub §11.4) |
 
 ---
 

@@ -1489,7 +1489,7 @@ Whether this intelligence benefits any particular organism depends on the networ
 
 **Power gradient:** Terminator = surplus (lightning + piezo + solar). Problem is managing excess. Power declines dark-ward. Geothermal oasis exception (SiH₄ pocket towers).
 
-**Tower aliveness spectrum:** Full reef → degraded reef → reaction front only → inert. Not binary alive/dead. Crisis = degradation through this spectrum.
+**Tower aliveness spectrum:** Full reef → degraded reef → reaction front only → inert. Not binary alive/dead. **[V2.4+]** "Reaction front only" is an early-life state (Phase 1 towers that never received symbiotes), not a degradation state achievable by modern towers. Ship of Theseus replaced all original catalytic material with non-catalytic Healer SiCN; modern crisis pathway: full reef → degraded → inert (skips reaction-front-only). Dependence on symbiotes is absolute and irreversible.
 
 **Convergent architecture:** All accessible towers Ship-of-Theseus replaced to current optimal. Regional variation = local conditions, not history.
 
@@ -1530,13 +1530,13 @@ Nucleation positions determined by Fibonacci ping-latency spacing (network signa
 
 Ghost roots: subsurface root network connecting towers. Not migration artifacts (towers don't migrate).
 
-**⚠ OPEN:** Pre-Healer root mechanism. Canon: roots evolved to sink excess power (predates sophisticated symbiotes). Modern roots are Healer-maintained. Original root growth mechanism unresolved.
+**✓ RESOLVED [V2.4+]:** Pre-Healer root mechanism. Roots are the lateral component of Phase 1 autocatalytic surface growth — same N:SiC surface catalysis that builds the tower, extending along exposed fracture traces at the monadnock base. Amplified by resistance crossover: as lightning-driven PCS gap ceramification stalls (power ∝ 1/R²_total), current shifts to lateral surface paths (Kirchhoff). Pre-biotic proto-root network — dendritic, fracture-following. Healers inherit and optimize with arc-CVD, eventually replacing all original material via Ship of Theseus.
 
 10.4 Surface Root Networks
 
 **\[NEW IN V2 --- REFRAME\]**
 
-**✓ RESOLVED:** Surface-level horizontal root connections are Healer-built (arc-CVD construction directed by network energy gradients). **[v2.4+ note:]** Modern roots are symbiote products. Original root mechanism predates sophisticated symbiotes (canon: roots evolved to sink excess power). Pre-Healer root mechanism is an open question. Their critical function is bridging the geological gaps between separate deep-rock systems, forcing contact between systems that evolved in isolation.
+**✓ RESOLVED:** Surface-level horizontal root connections originate as Phase 1 autocatalytic lateral growth (pre-biotic, pre-symbiote — see §10.3). Modern roots are Healer-built (arc-CVD construction directed by network energy gradients), orders of magnitude faster than the original catalytic mechanism. Their critical function is bridging the geological gaps between separate deep-rock systems, forcing contact between systems that evolved in isolation.
 
 Each system's surface root network evolves under selection pressure to
 manage local fauna: EM patterns that nudge grazer herds away from
@@ -2429,6 +2429,25 @@ migration corridors, no ghost-root-as-migration-trail. [V2.4+]
 **✓ RESOLVED:** ★★★ Two-speed signal model. Tower body = FPGA processing
 (gate delays, ~10³–10⁴ m/s effective). Roots = transmission lines
 (~10⁸ m/s in N:SiC). Root attenuation sets maximum tower spacing. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Pre-Healer root mechanism. Roots are the lateral
+component of Phase 1 autocatalytic surface growth — same N:SiC surface
+catalysis that builds the tower, extending along exposed fracture traces
+at the monadnock base. Amplified by resistance crossover: as
+lightning-driven PCS gap ceramification stalls (power ∝ 1/R²_total),
+current shifts to lateral surface paths (Kirchhoff's laws). Pre-biotic
+proto-root network — dendritic, fracture-following. Healers inherit and
+optimize with arc-CVD, eventually replacing all original material via
+Ship of Theseus. See §10.3, Tower Morphology Hub §2.2. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Catalytic surface dead in modern towers. Healer SiCN
+lacks metallosilazane catalytic sites (metals not in atmospheric CVD
+feedstock; metal incorporation anti-selected). Ship of Theseus has
+replaced all original material. "Reaction front only" in the aliveness
+spectrum is an early-life state (Phase 1), not achievable by degradation
+of a modern tower. Modern crisis pathway: full reef → degraded → inert
+(skips reaction-front-only). Dependence on symbiotes is absolute and
+irreversible. See §10.1, Tower Morphology Hub §2.6. [V2.4+]
 
 17\. MAJOR OPEN QUESTIONS
 

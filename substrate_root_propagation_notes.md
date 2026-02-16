@@ -418,14 +418,15 @@ Possible mechanisms (NONE VERIFIED):
 
 ## 11. OPEN THREADS
 
-### Terminology (spine + bible)
-- [ ] Replace "deep-rock colony" with "deep-rock system/front/catalytic network" across all documents.
+### ~~Terminology (spine + bible)~~ DONE
+- [x] ~~Replace "deep-rock colony" with "deep-rock system/front/catalytic network" across all documents.~~ Completed in terminology pass (Feb 2026).
 
-### Root chemistry (high priority, specialist session pending)
-- [ ] Physical substrate of metallosilazane enzymes at active face — what carries the catalytic chemistry?
-- [ ] Healer-built vs. electrochemical autonomous surface root model — chemistry grounding.
-- [ ] Root substrate bonding — first Healer layer on bare bedrock (SiCN on silicate adhesion).
-- [ ] Root growth rate — mm/day? Spine says "generational."
+### ~~Root chemistry~~ PARTIALLY RESOLVED (Feb 2026, pre-Healer root session)
+- [ ] Physical substrate of metallosilazane enzymes at active face — what carries the catalytic chemistry? **Still open** (deep-rock specific; not needed for surface root resolution).
+- [x] ~~Healer-built vs. electrochemical autonomous surface root model~~ **RESOLVED.** Pre-Healer roots are Phase 1 autocatalytic surface growth, not a separate mechanism. Same N:SiC surface catalysis that builds the tower, extending laterally along exposed fracture traces. Amplified by resistance crossover: as PCS gap downward ceramification stalls (power ∝ 1/R²_total), lightning current shifts to lateral paths (Kirchhoff). Pre-biotic proto-roots — dendritic, fracture-following, slow (mm/yr to cm/yr). Healers inherit and optimize with arc-CVD. See Tower Morphology Hub §2.2.
+- [x] ~~Root substrate bonding — first Healer layer on bare bedrock~~ Subsumed: Healers deposit on pre-existing Phase 1 root lattice, not bare bedrock. Adhesion question dissolves.
+- [x] ~~Root growth rate~~ Pre-Healer: geological (mm/yr to cm/yr, feedstock-limited by atmospheric PCS deposition). Healer-built: orders of magnitude faster (arc-CVD from raw atmospheric gas). "Generational" refers to Healer-era network expansion, not Phase 1 proto-roots.
+- [x] **NEW RESOLVED — Catalytic surface dead in modern towers.** Healer SiCN lacks metallosilazane catalytic sites. Ship of Theseus replaced all original material. "Reaction front only" is Phase 1 early-life state, not degradation. Modern crisis: full reef → degraded → inert. Irreversible.
 
 ### ~~Sponge-reactor genesis~~ CLOSED — model invalidated
 - [x] ~~Reconcile sponge-reactor model with existing pool genesis hub~~ Sponge model invalidated. Replaced by geyser-cone + Goldilocks ring (Pool Genesis Hub §2.6).
