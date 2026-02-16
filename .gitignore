@@ -1,0 +1,29 @@
+# Download duplicates (browser appends "(1)", "(2)", etc.)
+*(*).md
+*(*).docx
+*(*).txt
+*(*).zip
+*(*).html
+
+# Binary source documents (canonical content is in .md)
+*.docx
+*.zip
+*.msi
+*.png
+
+# Temp/scratch files
+_temp_*
+
+# Tool directories
+.claude/
+.daem0nmcp/
+
+# Backup copies
+* - Copy.*
+*- Copy.*
+
+# One-off input files
+anhydrous_chemistry_context.txt
+
+# Windows artifacts
+nul
