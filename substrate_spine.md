@@ -41,7 +41,7 @@ February 2026 v2.5
 |---|---|
 | Dry adiabatic lapse rate | ~12.3 K/km (g/cp = 17.85/1450) |
 | Moist adiabatic lapse rate | ~5 K/km (NH₃ latent heat 1374 kJ/kg at 12.5% mixing ratio) |
-| Tropopause / superstream altitude | ~12–16 km (10–20% of surface pressure) |
+| Tropopause / superstream altitude | ~12–16 km (~5–11% of surface pressure). Thermally-driven upper return flow of the single overturning cell (NOT equatorial superrotation, which is absent). |
 | Condensation floor (dayside) | Rises with T_surf: 4.6 km at 280K, 2.4 km at 260K, 1.2 km at 250K, at surface at 240K (terminator) |
 | Overturning cell | Single planet-wide cell. Rossby deformation radius ~1.5× planet radius → no mid-latitude jet stream. Coriolis deflects within cell (S-shaped paths) but does not produce zonal jets or multiple cells. 18-day rotation period is past the ~12-day superrotation transition (Carone et al. 2015) → equatorial superrotation negligible or absent. |
 | Superstream vs rain column | Superstream at 12–16 km PASSES THROUGH the NH₃ condensation zone (surface to ~18 km at terminator). Upper-level return flow is inside the weather, not above it. Rain scavenging begins well dayside of the terminator mound crest. |

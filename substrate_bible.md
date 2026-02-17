@@ -244,7 +244,7 @@ The surface roughness falls below the viscous sublayer (~50 μm), producing an *
 
 Dry adiabatic lapse rate: ~12.3 K/km (g/c_p = 17.85/1450). **Moist adiabatic lapse rate: ~5 K/km** — NH₃ latent heat (1374 kJ/kg) at 12.5% mixing ratio massively stabilizes the atmosphere, stretching the thermal structure vertically by ~2.4× compared to a dry atmosphere.
 
-Tropopause and superstream altitude: ~12–16 km (10–20% of 8-bar surface pressure). Single planet-wide overturning cell — Rossby deformation radius (~1.5× planet radius) exceeds the planet, preventing Hadley-cell breakdown into zonal jets. Coriolis deflects flow within the cell (S-shaped surface paths) but cannot produce Earth-style jet streams. No equatorial superrotation — 18-day period is past the transition (see §3.6.3).
+Tropopause and superstream altitude: ~12–16 km (~5–11% of 8-bar surface pressure). The superstream is the thermally-driven upper return flow of the single overturning cell (NOT equatorial superrotation, which is absent on this planet). Single planet-wide overturning cell — Rossby deformation radius (~1.5× planet radius) exceeds the planet, preventing Hadley-cell breakdown into zonal jets. Coriolis deflects flow within the cell (S-shaped surface paths) but cannot produce Earth-style jet streams. No equatorial superrotation — 18-day period is past the transition (see §3.6.3).
 
 **Critical difference from Earth:** the superstream at 12–16 km altitude **passes through the NH₃ condensation zone** (which extends from the surface to ~18 km at the terminator). Earth's jet stream is above the tropopause, outside the weather. Here the upper-level return flow is *inside* the weather — subject to rain scavenging throughout the terminator transit.
 
@@ -2653,7 +2653,7 @@ irreversible. See §10.1, Tower Morphology Hub §2.6. [V2.4+]
 
 **✓ RESOLVED:** ★★★ Piezoelectric SiC as universal energy mechanism. Not just grass — any SiC-bearing organism vibrating in wind harvests piezo charge. MEMS dorsal shells (~70 Hz), balloon fauna reef structures, free-living middle kingdom armor plates. Tower is the most efficient concentrator (cathedral-scale lattice + lightning), not exclusive owner of the mechanism. Atmospheric SiH₄ = chemical feedstock; wind-on-SiC = power. Non-tower food chain always had this foundation — grass makes it visible as infrastructure. [V2.4+]
 
-**✓ RESOLVED:** ★★★ Moist adiabatic lapse rate ~5 K/km. NH₃ latent heat (1374 kJ/kg) at 12.5% mixing ratio massively stabilizes the atmosphere. Superstream at 12–16 km altitude (inside the rain column, not above it like Earth's jet stream). Single overturning cell — no mid-latitude jet stream. Rossby deformation radius ~1.5× planet radius. [V2.5]
+**✓ RESOLVED:** ★★★ Moist adiabatic lapse rate ~5 K/km. NH₃ latent heat (1374 kJ/kg) at 12.5% mixing ratio massively stabilizes the atmosphere. Superstream (thermally-driven upper return flow, NOT equatorial superrotation) at 12–16 km altitude (~5–11% surface pressure; inside the rain column, not above it like Earth's jet stream). Single overturning cell — no mid-latitude jet stream. Rossby deformation radius ~1.5× planet radius. [V2.5]
 
 **✓ RESOLVED:** ★★★ Effective hydrological cycle is terminator-to-substellar. Rain scavenging starts well dayside of mound crest. 80–95% of rainfall recycles on dayside. Only 5–20% of volcanic NH₃ reaches nightside as liquid. Nightside ocean is shallow (50–200 m in lowest basins), not hemisphere-spanning. Megaflood scenario dead. Mound holds by 1–3 km headroom. [V2.5]
 
