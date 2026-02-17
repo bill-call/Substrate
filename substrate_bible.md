@@ -1933,26 +1933,81 @@ surface: geyser-cone mechanism operates in air; volcanic lightning
 Power: geothermal thermoelectric gradient (hot vent below, cold
 nightside atmosphere above) — continuous, inexhaustible. NOT on the
 grid (roots submerged in conductive ammonia, permanently shorted).
-NOT intelligent until initialized. An ammonia-world Surtsey.
+NOT intelligent until initialized. An ammonia-world Surtsey. **Must be
+within ~400–500 km of the terminator mound crest** for direct EM relay
+to a terminator peak tower (geometric LoS constraint; see proto-monk
+entry below). Not a tight constraint — nightside seas concentrate near
+the terminator.
 
 **✓ RESOLVED: Proto-monk origin — oasis tower boot sequence.**
-Pre-monk amorphs (possessing the core skill from network-warfare
-exposure but not yet an institutional tradition) reach the nightside
-oasis island. They solve two logistics problems: (1) build an EM relay
-— jack the grid signal from a terminator peak tower, install a
-receiving dish on the island. The nightside atmosphere is EM-transparent
-(NH₃ largely condensed into the ocean). The tower network cannot
-distinguish relay from root connection. (2) Transport a starter
-population of modern symbiotes (Healers, Miners, Guards) to the island.
-Then they wait. The tower receives grid firmware via the relay,
-symbiotes self-organize (Healers ceramify, Miners deliver metals,
-Guards authenticate), and the tower bootstraps from feral chemistry to
-functioning network node. The proto-monks witness the entire boot
-sequence — the first beings to see a tower come online from scratch
-(terminator towers predate amorphs by geological ages). **The monastic
-schism originates here:** same event, two irreconcilable
-interpretations — "we turned on a machine" vs "we woke someone up."
-First-person dispute between witnesses who were there.
+
+**Not a planned expedition.** The daysider-terminator war drives
+core-skill amorphs out of both factions. They can see the tower pulling
+strings; they won't fight for either side. They're war refugees, not
+engineers — but they have a hobby. The nightside atmosphere is
+EM-transparent, and with no local towers to catch them, dark-side
+amorphs can eavesdrop on tower signals at leisure. Ham radio enthusiasts
+where the FCC will kill you.
+
+**The technology tree grows from the hobby.** Directional antennas →
+eavesdropping → root-to-wire converters → transceivers. Each piece a
+separate invention driven by the previous curiosity. One day, a
+high-gain antenna picks up a faint, intermittent, consistent spike from
+a fixed bearing over the ocean — piezoelectric emissions from a mountain
+of crystalline SiC (the geyser cone) vibrating in wind gusts. They
+don't know what it is, but it's structured and repeatable. Curiosity →
+boat → island. The cone is raw materials, not a tower.
+
+**Years of tinkering on the island.** They notice the cone is conductive
+SiC — interesting. The core skill lets them read tower signals;
+curiosity does the rest. Over years they develop relay technology
+incrementally: jack a terminator root, radio link across the ocean
+(balloon-lofted antenna for LoS), converter at each end. Every
+experiment with root signals risks network detection, but the island is
+off-grid and 300+ km of ocean puts them below the noise floor. They
+steal root material, capture symbiotes, improvise converters. First
+relay attempt fails — converters connected straight to the root create a
+massive impedance discontinuity. The network sees a reflection pattern
+that says "this isn't root." Core skill lets them read the rejection.
+Fix: root cuttings as impedance-matching sections at each end of the
+radio link, presenting proper N:SiC characteristic impedance. Network
+probes the branch and sees continuous root all the way to a massive
+conductive load (the cone) — uninitialized substrate. Standard
+transmission-line matching, exactly what antenna hobbyists already know.
+
+**The relay activation is the point of no return.** After years learning
+to hide from the network, they deliberately ring its doorbell. They
+can't know what will happen. The geyser cone is raw materials, not a
+tower — the network has never seen this site. Once the signal reaches
+the network, it sees viable conductive substrate at the end of an
+apparent root connection and triggers its standard expansion protocol.
+And once the network answers, they can't hang up.
+
+**The network builds a new tower.** The cone is a quarry, not a
+computer. Transplanted Healers receive construction directives via the
+relay and build from scratch, using the mountain of free SiC. The
+proto-monks witness the entire boot sequence in real time — something no
+terminator amorph has ever seen (terminator towers predate amorphs by
+geological ages). They watch structure emerge: first crude signal
+routing, then increasingly complex processing, then the moment the
+network begins *using* the new node. They see it from the outside, with
+the core skill that lets them read what's happening without being
+captured by it.
+
+**The monastic schism originates here.** Same event, two irreconcilable
+interpretations. One witnesses communion with a responding mind — the
+tower reached back when they reached out. The other witnesses
+engineering on a responsive system — they triggered a construction
+protocol and watched it execute. "We woke someone up" vs "we turned on
+a machine." First-person dispute between witnesses who were there. Both
+experienced the same thing. Neither can prove the other wrong.
+
+**LoS constraint:** geometric line-of-sight from a terminator peak
+tower (~4 km ASL: 1 km tower on ~3 km mound) to a balloon-lofted
+antenna above the island ≈ 300–400 km (R_planet = 8,600 km). Island
+elevation extends range modestly. The oasis must be within roughly
+300–400 km of the mound crest. Not a tight constraint — nightside seas
+concentrate near the terminator.
 
 **✓ RESOLVED: Monasteries at gas-pocket towers.** Later institutional
 development. Night-side towers whose deep roots tap subsurface SiH₄
@@ -2576,7 +2631,7 @@ irreversible. See §10.1, Tower Morphology Hub §2.6. [V2.4+]
 
 **✓ RESOLVED:** ★★★ Nightside oasis tower — chemical seamount on impact crater central peak. SiH₄ vent precipitation builds chimney from crater floor to ocean surface (<200 kyr). Geothermal thermoelectric power. Volcanic lightning ceramification. One-of-a-kind geological freak. [V2.5]
 
-**✓ RESOLVED:** ★★★ Proto-monk origin — oasis tower boot sequence. EM relay from terminator + symbiote transplant → tower bootstraps from feral chemistry to network node. Proto-monks witness first-ever tower coming online. Monastic schism originates as firsthand dispute: "machine" vs "mind." [V2.5]
+**✓ RESOLVED:** ★★★ Proto-monk origin — oasis tower boot sequence. War refugees with an EM-tinkering hobby, not engineers. Tech tree from hobby: antennas → eavesdropping → converters → transceivers. Island discovered via antenna (piezoelectric spike from geyser cone, fixed bearing). Boat → island → relay development. First relay attempt rejected (impedance discontinuity). Fix: root cuttings as impedance-matching sections — standard transmission-line technique from antenna hobby. Relay activation = point of no return — network builds new tower from cone. Proto-monks witness boot sequence. Schism: "machine" vs "mind." LoS constraint: ~300–400 km of mound crest (balloon antenna). [V2.5, revised]
 
 **✓ RESOLVED:** ★★★ Latitude-dependent terminator. Coriolis Ro ranges from ∞ (equatorial terminator, purely radial flow) to ~0.12 (polar terminator, strongly geostrophic). Rain concentrated at equatorial terminator; mound thick there, thin/absent at poles. Polar gateway is primary nightside ammonia delivery pathway. Equatorial terminator = intense storm front; polar terminator = dry, calm, walkable frontier. Two distinct ecological zones along the terminator ring. [V2.5]
 
