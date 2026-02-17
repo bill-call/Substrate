@@ -1576,7 +1576,7 @@ microstructure only a monk could perceive.
 
 **✓ RESOLVED:** Towers are stationary. At v2.4 conditions (9.5 m/s wind, q = 370 Pa), SiC aerogel strut strength (~20 MPa) exceeds wind-borne impact forces by 4–5 orders of magnitude. Only micro-scale pitting occurs, completely negated by Healer repair. Net erosion = zero. Position fixed at nucleation permanently. No sand-dune mechanism. No sacrificial crust.
 
-Nucleation positions determined by Fibonacci ping-latency spacing (network signal optimization), not migration/replacement.
+Nucleation positions determined by Fibonacci spacing (network signal optimization via fairy ring EM sensing + four-case root growth model — see §10.9), not migration/replacement.
 
 Ghost roots: subsurface root network connecting towers. Not migration artifacts (towers don't migrate).
 
@@ -1703,21 +1703,38 @@ not.
 
 **[NEW IN V2.4+]**
 
-**✓ RESOLVED:** Tower spacing is determined by network signal optimization — root attenuation, latency, and EM coverage. Towers are creatures of the network; the network builds them where it needs nodes. Spacing is an information-architecture problem, not an ecology or resource-competition problem.
+**✓ RESOLVED:** Tower spacing is determined by network signal optimization. Towers are creatures of the network; the network builds them where it needs nodes. Spacing is an information-architecture problem, not an ecology or resource-competition problem.
 
-**Fibonacci phyllotaxis:** Golden-angle (~137.5°) arrangement, ~6 neighbors per tower. Prevents wind-axis row alignment that would create correlated EM blind spots (wind-direction null in EM antenna pattern). Pattern set at nucleation and maintained by preferential-feeding tropism — network under-feeds redundant positions and over-feeds gaps.
+**Network signaling model. [NEW V2.5]** The adversarial ratchet (signal warfare between competing networks) drives toward structured, authenticated signal units — framed packets. Network warfare requires friend/foe discrimination at signal level, which requires framing, authentication headers, and error detection. Not designed; evolved through warfare pressure.
 
-**Two-speed signal model:** Tower body = FPGA processing (gate delays, ~10³–10⁴ m/s effective). Roots = transmission lines (electrical propagation, ~10⁸ m/s in N:SiC, ε_r ≈ 9.7). Root signal attenuation in N-doped SiC (ρ ≈ 0.01–0.1 Ω·cm) with ~10 cm cross-section gives ~10–20 km unboosted range. Root attenuation sets maximum useful tower spacing.
+- **Root-borne (TCP-like):** point-to-point, reliable, framed, authenticated. Each tower boosts relay traffic (amplifies without full decode; FPGA semiconductor junctions incidentally reshape/clean signal). Authentication trail: every packet carries the identity of each tower it was relayed through → hop count + network topology. No aggregate electrical measurements across multi-hop paths.
+- **EM-borne (UDP-like):** broadcast, unreliable, no acknowledgment. Authentication carried in frame. Used for presence announcement, situational awareness, direction-finding.
+- **Two-speed signal:** Tower body = FPGA processing (gate delays, ~10³–10⁴ m/s effective). Roots = transmission lines (electrical propagation, ~10⁸ m/s in N:SiC, ε_r ≈ 9.7). Root signal attenuation in N-doped SiC (ρ ≈ 0.01–0.1 Ω·cm) with ~10 cm cross-section gives ~10–20 km unboosted range.
 
-**Superconductors:** Never achieved by the network. Biological CVD lacks the crystallographic precision required for BCS-type superconductor fabrication. Late development in civilized-amorph industrial tech tree (requires controlled crystal growth, materials science tradition amorphs inherit from observatory optics). Network permanently limited by normal semiconductor root attenuation.
+**Fairy ring antenna arrays. [NEW V2.5]** Surface roots spawn antenna arrays ("fairy rings") at resistance-regular intervals along their length. Each array: a ring of varying-height SiC stalks budding from a root node. Ring geometry provides azimuthal direction-finding; varying stalk heights provide elevation angle (3D bearing). Local FPGA at the root node decodes received EM frames, computes 3D bearing + signal strength per source, sends report packets to tower. The tower aggregates reports from all fairy rings across all roots → 3D map of its authenticated EM environment. The stalks are piezoelectric (dual-purpose: antenna + wind energy harvesting), informationally alive (FPGA-capable), unlike grass (informationally dead). The terminator landscape is dotted with these crystalline SiC fairy rings along every surface root.
 
-**Spacing by region:**
+**Four-case root growth model. [NEW V2.5]** All cases evaluated from local information (fairy ring EM data cross-referenced against root-borne authentication trail):
 
-| Zone | Spacing | Binding constraint |
+| Case | Trigger | Response |
+|---|---|---|
+| 1. Direct connection | EM-authenticated tower with only indirect root connection | Grow root toward it. Both towers navigate via fairy ring bearing data, coordinate via root-borne packets, meet in the middle. |
+| 2. Lost tower | EM-authenticated tower with NO root connection (direct or indirect) | Network-level reconnection protocol. Appropriate tower(s) selected by network. |
+| 3. Enemy tower | EM signal present, fails network authentication | Network-level attack protocol. Appropriate tower(s) selected by network. |
+| 4. New territory | No authenticated EM signal from a direction | Expand: grow root into gap. If viable substrate found → build new tower. |
+
+**Root steering. [NEW V2.5]** Tower monitors root growth direction via successive fairy ring bearing reports. Geological deviations (root following fractures rather than intended bearing) detected as off-angle progression. Correction via differential feeding: starve deviant side, feed corrective side. Same preferential-feeding tropism used for internal tower structure management. Geology forces deviations; tower corrects iteratively. Imperfect but effective.
+
+**Fibonacci phyllotaxis:** Golden-angle (~137.5°) arrangement, ~6 neighbors per tower. Actively steered: tower identifies largest angular gap in its EM environment (from fairy ring data), directs next root into that gap. Golden angle emerges from "always grow into the biggest gap" — the phyllotaxis rule with a concrete mechanism. Geological noise produces irregular actual spacing; pattern is Fibonacci-ish, not geometrically precise. Prevents wind-axis row alignment that would create correlated EM blind spots.
+
+**Superconductors:** Never achieved by the network. Biological CVD lacks the crystallographic precision required for BCS-type superconductor fabrication. Late development in civilized-amorph industrial tech tree. Network permanently limited by normal semiconductor root attenuation.
+
+**Spacing by region (approximate — geological noise inherent):**
+
+| Zone | Approx. spacing | Binding constraint |
 |---|---|---|
 | Terminator (θ=90°) | ~6.5 km | Root signal range |
 | Near dark (θ≈110°) | ~8–10 km | Root signal range |
-| Mid dark (θ≈135°) | ~12–15 km | EM coverage |
+| Mid dark (θ≈135°) | ~12–15 km | EM coverage (fairy ring detection range) |
 | Deep dark (θ≈160°) | ~20 km | EM coverage |
 | Anti-stellar (θ→180°) | >20 km | Thermal convection only |
 
@@ -1728,8 +1745,6 @@ Cross-wind blockage at terminator: ~3% (tower chord ~200 m at 6.5 km intervals).
 **Material conveyor independence:** Global particulate conveyor (day-side volcanism → substellar chimney → superstream → anti-stellar downdraft → katabatic surface flow) operates independently of the forest. Conveyor saturates at atmospheric carrying capacity. Towers are flow-through (SiH₄ in, SiC dust + H₂ out, net silicon budget ≈ zero). No engineered channels needed.
 
 **Feedback mechanisms:** Three loops at equilibrium: (1) Preferential-feeding self-regulation (dominant) — network adjusts tower growth to optimize spacing. (2) Peneplain stability lock — dead-bug SiC plume contributes to katabatic abrasive load, polishes dark-side bedrock over Gyr, prevents new nucleation, freezes existing forest pattern. (3) Death cascade (crisis-mode only) — tower death → refugee overload → neighbor death, propagates day-ward. No destabilizing feedbacks at equilibrium.
-
-**⚠ OPEN:** Alternative spacing model. Current model assumes network topology (coverage, latency) drives spacing. An alternative — towers maximized for power population — would produce different spacing under different rules. Current working assumption: network topology. See Tower Morphology Hub §10.5.
 
 11\. CIVILIZATION
 
@@ -1966,14 +1981,17 @@ incrementally: jack a terminator root, radio link across the ocean
 experiment with root signals risks network detection, but the island is
 off-grid and 300+ km of ocean puts them below the noise floor. They
 steal root material, capture symbiotes, improvise converters. First
-relay attempt fails — converters connected straight to the root create a
-massive impedance discontinuity. The network sees a reflection pattern
-that says "this isn't root." Core skill lets them read the rejection.
-Fix: root cuttings as impedance-matching sections at each end of the
-radio link, presenting proper N:SiC characteristic impedance. Network
-probes the branch and sees continuous root all the way to a massive
-conductive load (the cone) — uninitialized substrate. Standard
-transmission-line matching, exactly what antenna hobbyists already know.
+relay attempt fails — converters corrupt the frame structure. The network
+uses authenticated packets; garbled frames are simply ignored. Core
+skill lets them read the tower's response and diagnose the failure mode.
+Years of iteration on converter fidelity until frames pass intact. Root
+cuttings at each end provide correct physical-layer signal
+characteristics. No spoofing needed — the relay is pure Case 4
+(EM-silent gap + viable substrate at the far end). The network has no
+evolved defense against artificial root connections because nothing in
+nature builds them. The relay's anomalous signal characteristics (radio
+propagation where root attenuation is expected) don't trigger rejection
+because the network has no model for "fake root."
 
 **The relay activation is the point of no return.** After years learning
 to hide from the network, they deliberately ring its doorbell. They
@@ -2222,7 +2240,7 @@ silane pathway. Superior to grazer bulk SiC.
 
 **✓ RESOLVED:** Tower biology follows reef model [v2.4+]: Healer-directed construction, entire tower alive throughout, no sacrificial crust. Four growth phases (autocatalytic → symbiote colonization → reef transition → SoT renewal). Symbiote genomes = tower construction program. Airfoil cross-section.
 
-**✓ RESOLVED:** Towers are stationary [v2.4+]. Pitting-only erosion at 9.5 m/s, fully repaired by Healers. Net erosion = zero. Position fixed at nucleation. No sand-dune mechanism. Nucleation via Fibonacci ping-latency.
+**✓ RESOLVED:** Towers are stationary [v2.4+]. Pitting-only erosion at 9.5 m/s, fully repaired by Healers. Net erosion = zero. Position fixed at nucleation. No sand-dune mechanism. Nucleation via Fibonacci spacing (fairy ring EM sensing, §10.9).
 
 **✓ RESOLVED:** Towers don't die of age. SoT renewal = position ancient, material renewed. Atmospheric crisis causes first tower deaths.
 
@@ -2544,11 +2562,7 @@ Network has extensive but imperfect situational awareness. Sharing depends
 on network's relationship with the organism. Grid warfare = intelligence
 warfare. [V2.4+]
 
-**✓ RESOLVED:** ★★★ Fibonacci spacing numbers. Tower-to-tower distance
-~6.5 km at terminator, widening to ~20 km deep dark. Root signal
-attenuation (~10–20 km unboosted for ~10 cm cross-section N-doped SiC)
-is the binding constraint. Cross-wind blockage ~3%. Forest effectively
-transparent to wind. See §10.9, Tower Morphology Hub §10. [V2.4+]
+**✓ RESOLVED:** ★★★ Fibonacci spacing numbers. Tower-to-tower distance ~6.5 km (avg) at terminator, widening to ~20 km deep dark. Spacing approximate — geological noise inherent (root cable length ≠ straight-line distance). Actively steered via fairy ring antenna arrays + four-case root growth model. Golden angle from "always grow into the biggest EM gap." Root signal attenuation (~10–20 km unboosted for ~10 cm cross-section N-doped SiC) is the binding constraint at terminator; EM coverage range is the binding constraint at mid/deep dark. See §10.9. [V2.4+, revised V2.5]
 
 **✓ RESOLVED:** ★★★ Superconductors: never achieved by network. Biological
 CVD lacks crystallographic precision for BCS-type fabrication. Late
@@ -2631,7 +2645,7 @@ irreversible. See §10.1, Tower Morphology Hub §2.6. [V2.4+]
 
 **✓ RESOLVED:** ★★★ Nightside oasis tower — chemical seamount on impact crater central peak. SiH₄ vent precipitation builds chimney from crater floor to ocean surface (<200 kyr). Geothermal thermoelectric power. Volcanic lightning ceramification. One-of-a-kind geological freak. [V2.5]
 
-**✓ RESOLVED:** ★★★ Proto-monk origin — oasis tower boot sequence. War refugees with an EM-tinkering hobby, not engineers. Tech tree from hobby: antennas → eavesdropping → converters → transceivers. Island discovered via antenna (piezoelectric spike from geyser cone, fixed bearing). Boat → island → relay development. First relay attempt rejected (impedance discontinuity). Fix: root cuttings as impedance-matching sections — standard transmission-line technique from antenna hobby. Relay activation = point of no return — network builds new tower from cone. Proto-monks witness boot sequence. Schism: "machine" vs "mind." LoS constraint: ~300–400 km of mound crest (balloon antenna). [V2.5, revised]
+**✓ RESOLVED:** ★★★ Proto-monk origin — oasis tower boot sequence. War refugees with an EM-tinkering hobby, not engineers. Tech tree from hobby: antennas → eavesdropping → converters → transceivers. Island discovered via antenna (piezoelectric spike from geyser cone, fixed bearing). Boat → island → relay development. First relay attempt fails (frame corruption by early converters). Fix: years of converter iteration until authenticated packets pass intact. Pure Case 4 — no spoofing needed, network has no defense against artificial root connections. Relay activation = point of no return — network builds new tower from cone. Proto-monks witness boot sequence. Schism: "machine" vs "mind." LoS constraint: ~300–400 km of mound crest (balloon antenna). [V2.5, revised]
 
 **✓ RESOLVED:** ★★★ Latitude-dependent terminator. Coriolis Ro ranges from ∞ (equatorial terminator, purely radial flow) to ~0.12 (polar terminator, strongly geostrophic). Rain concentrated at equatorial terminator; mound thick there, thin/absent at poles. Polar gateway is primary nightside ammonia delivery pathway. Equatorial terminator = intense storm front; polar terminator = dry, calm, walkable frontier. Two distinct ecological zones along the terminator ring. [V2.5]
 
@@ -2644,6 +2658,12 @@ irreversible. See §10.1, Tower Morphology Hub §2.6. [V2.4+]
 **✓ RESOLVED:** ★★ Superstream speed revised: ~20–40 m/s (thermally-driven overturning cell, mass continuity + GCM analogs for slow rotators). Previous 50–100+ m/s was the equatorial superrotation speed (absent at 18-day period). Drifter circuit transit time: ~6–12 days (was 2–4). Total circuit: ~30–65 days (was 25–55). Surface legs dominate, so ecological impact is modest. [V2.5]
 
 **✓ RESOLVED:** ★★ Day-side ammonia access. Most rainfall (~80–95%) lands on day-side slope of terminator mound. Liquid ammonia flows day-ward as ephemeral rivers/deltas until evaporating at ~240K boundary. Near-terminator daysiders have ammonia access without raiding. Daysider raids are for power (charge) and metals, not chemical feedstock. Deep day-side (past evaporation boundary) is genuinely dry. [V2.5]
+
+**✓ RESOLVED:** ★★★ Network signaling model. Adversarial ratchet drives toward framed, authenticated packets. Dual protocol: root-borne TCP-like (reliable, authenticated, boosted at each hop with authentication trail) + EM-borne UDP-like (broadcast, unreliable, authenticated). Signal boosting at each tower (FPGA junctions incidentally clean noise). Enables planetary-scale network. [V2.5]
+
+**✓ RESOLVED:** ★★★ Fairy ring antenna arrays. Surface roots spawn 3D phased-array antenna rings (varying-height SiC stalks) at resistance-regular intervals. Local FPGA computes 3D bearing + signal strength per source. Tower aggregates across all roots → spatial EM map. Dual-purpose: antenna + piezoelectric energy. Informationally alive (unlike grass). [V2.5]
+
+**✓ RESOLVED:** ★★★ Four-case root growth model + root steering. Tower evaluates fairy ring EM data against root-borne authentication: (1) authenticated + indirect root → direct connection, (2) authenticated + no root → lost tower reconnect, (3) unauthenticated EM → enemy attack, (4) no EM → expand into gap. Root steering via differential feeding monitored by fairy ring bearing reports. Fibonacci spacing from active steering into largest EM gap. [V2.5]
 
 17\. MAJOR OPEN QUESTIONS
 

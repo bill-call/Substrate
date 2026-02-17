@@ -434,20 +434,49 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **✓** Ghost roots: subsurface root network connecting towers. Not migration artifacts (towers are stationary).
 
-### Network Distribution
+### Network Signaling
 
-**✓** Fibonacci phyllotaxis (~137.5° golden angle). ~6 neighbors per tower. Prevents correlated EM blind spots.
+**✓** Packet-based signaling: adversarial ratchet drives toward framed, authenticated signal units. Network warfare requires friend/foe discrimination at signal level → framing, authentication headers, error detection. Not designed; evolved through signal warfare pressure.
 
-**✓** Spacing set by network signal optimization (root attenuation, latency), not ecology or energy competition. Towers are creatures of the network.
+**✓** Dual protocol: root-borne = TCP-like (point-to-point, reliable, framed, authenticated, boosted at each hop). EM-borne = UDP-like (broadcast, unreliable, no acknowledgment, authentication in frame).
 
-| Zone | Spacing | Binding constraint |
-|---|---|---|
-| Terminator | ~6.5 km | Root signal range |
-| Near dark | ~8–10 km | Root signal range |
-| Mid dark | ~12–15 km | EM coverage |
-| Deep dark | ~20 km | EM coverage |
+**✓** Authentication trail: root-borne packets carry the authentication identity of every tower relayed through. Gives hop count + topology. No aggregate electrical measurements across multi-hop paths — signal boosted at each tower.
+
+**✓** Signal boosting: each tower amplifies relay traffic (boosts without full decode). FPGA semiconductor junctions incidentally clean noise (threshold/reshaping). Somewhere between dumb booster and full repeater, falling out of junction physics. Enables planetary-scale network without signal degradation.
 
 **✓** Two-speed signal: tower body = FPGA (gate delay, ~10³–10⁴ m/s). Roots = transmission line (~10⁸ m/s in N:SiC). Root attenuation: ~10–20 km unboosted range (~10 cm cross-section, N-doped SiC).
+
+### Fairy Ring Antenna Arrays
+
+**✓** Surface roots spawn antenna arrays ("fairy rings") at resistance-regular intervals. Each array: a ring of varying-height SiC stalks budding from a root node. Varying height provides 3D directional sensitivity (azimuth from ring geometry, elevation from height variation). Local FPGA at root node decodes received EM frames, computes 3D bearing + signal strength per source, sends report packets to tower via root.
+
+**✓** Dual-purpose: SiC stalks are piezoelectric — antenna + wind energy harvesting in one structure. Informationally alive (FPGA-capable), unlike grass (informationally dead).
+
+**✓** Tower aggregates reports from all fairy rings across all roots → 3D map of authenticated EM environment. This is the tower's primary spatial awareness system.
+
+### Network Distribution
+
+**✓** Fibonacci phyllotaxis (~137.5° golden angle). ~6 neighbors per tower. Actively steered: tower identifies largest angular gap in its EM environment (from fairy ring data), directs next root into that gap. Golden angle emerges from "always grow into the biggest gap." Geological noise produces irregular actual spacing; pattern is Fibonacci-ish, not precise.
+
+**✓** Four-case root growth model (all evaluated from local information):
+
+| Case | Trigger | Response |
+|---|---|---|
+| 1. Direct connection | EM-authenticated tower, only indirect root connection | Grow root toward it; both towers navigate via fairy rings, meet in middle |
+| 2. Lost tower | EM-authenticated tower, NO root connection | Network-level reconnection protocol |
+| 3. Enemy tower | EM signal, fails authentication | Network-level attack protocol |
+| 4. New territory | No EM signal in a direction | Expand: grow root into gap; if viable substrate found → build new tower |
+
+**✓** Root steering: tower monitors root growth direction via successive fairy ring bearing reports. Off-angle deviation → differential feeding (starve deviant side, feed corrective side). Same preferential-feeding tropism used for internal structure management. Geology forces deviations; tower corrects iteratively.
+
+**✓** Spacing emerges from two constraints: (a) EM range sets maximum (root tip beyond EM range of all existing towers → Case 4 → build). (b) Root growth + substrate availability sets actual locations. Spacing is approximate, not precise — geological noise is inherent.
+
+| Zone | Approx. spacing | Binding constraint |
+|---|---|---|
+| Terminator | ~6.5 km (avg) | Root signal range |
+| Near dark | ~8–10 km (avg) | Root signal range |
+| Mid dark | ~12–15 km (avg) | EM coverage |
+| Deep dark | ~20 km (avg) | EM coverage |
 
 **✓** Superconductors: never by network (CVD precision insufficient). Late amorph industrial tech.
 
@@ -456,8 +485,6 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 **✓** Material conveyor independent of forest. Mature towers net-zero (intake ≈ waste). Conveyor saturates at atmospheric carrying capacity. No engineered channels needed.
 
 **✓** Three feedback mechanisms: (1) preferential-feeding self-regulation (dominant), (2) sediment-wedge stability lock (grass + breakwater field stabilizes accumulated surface → freezes existing pattern), (3) death cascade (crisis-mode only, propagates day-ward).
-
-⚠ Alternative model (towers maximized for power population, not network coverage) produces different spacing. Current working assumption: network topology is the driver.
 
 ## PLANETARY NETWORK
 
@@ -562,7 +589,7 @@ Location: dark side, gentle wind zone. Physical before philosophical.
 
 **✓** Monk core skill origin: consequence of network warfare. Fragmentation events (geological disconnection → protocol drift → reconnection → micro-war) occasionally produce losing towers/clusters that reveal vulnerabilities in the network's behavioral influence protocol before being absorbed. The winning network inherits exploit knowledge and begins patching — high-value terminator nodes first, low-priority dark-side nodes last. Amorphs on unpatched dark-side nodes experience behavioral influence with detectable artifacts. The tower's own signal environment contains information about the vulnerability (inherited war spoil). Proto-monks: amorphs who notice the seam and develop the core skill — reading structure without being captured — by learning the shape of the exploit from the tower itself. Any dark-side tower is low-priority; even a gas-pocket tower with large SiH₄ reserves is impoverished compared to a terminator tower. Core skill predates the institutional tradition.
 
-**✓** Proto-monk origin — nightside oasis tower: NOT a planned expedition. Core-skill amorphs on the dark side, avoiding the daysider-terminator war. Their hobby: EM tinkering (eavesdropping on tower signals from a safe distance — nightside atmosphere is EM-transparent, no local towers to catch them). Technology tree grows from the hobby: directional antennas → eavesdropping → root-to-wire converters → transceivers. One day a high-gain antenna picks up a faint, intermittent, consistent spike from a fixed bearing over the ocean — piezoelectric emissions from a mountain of crystalline SiC (the geyser cone) hit by wind gusts. They don't know what it is, but it's structured and repeatable. Curiosity → boat → island. The cone is raw materials, not a tower. Over years they develop the relay: jack a terminator root, radio link across the ocean (balloon-lofted antenna for LoS), converter at each end. First attempt fails — impedance discontinuity (converters connected straight to root; network sees reflections that say "this isn't root"). Core skill lets them read the network's rejection. Fix: root cuttings as impedance-matching sections at each end of the radio link. Network probes the branch and sees continuous root → massive conductive load (the cone). Standard transmission-line matching — exactly what antenna hobbyists already understand. Relay activation is the point of no return — after years hiding from the network, they deliberately ring its doorbell. Network sees viable substrate, triggers expansion protocol. Transplanted Healers build a NEW tower from scratch using the cone as a quarry. Proto-monks witness the entire boot sequence. Monastic schism originates HERE: "we turned on a machine" vs "we woke someone up." And once the network answers, they can't hang up.
+**✓** Proto-monk origin — nightside oasis tower: NOT a planned expedition. Core-skill amorphs on the dark side, avoiding the daysider-terminator war. Their hobby: EM tinkering (eavesdropping on tower signals from a safe distance — nightside atmosphere is EM-transparent, no local towers to catch them). Technology tree grows from the hobby: directional antennas → eavesdropping → root-to-wire converters → transceivers. One day a high-gain antenna picks up a faint, intermittent, consistent spike from a fixed bearing over the ocean — piezoelectric emissions from a mountain of crystalline SiC (the geyser cone) hit by wind gusts. They don't know what it is, but it's structured and repeatable. Curiosity → boat → island. The cone is raw materials, not a tower. Over years they develop the relay: jack a terminator root, radio link across the ocean (balloon-lofted antenna for LoS), converter at each end. First attempt fails — converters corrupt frame structure (network uses authenticated packets; garbled frames are ignored). Core skill lets them read the tower's response and diagnose the failure mode. Years of iteration on converter fidelity until frames pass intact. Root cuttings at each end provide correct physical-layer signal characteristics. No spoofing needed — the relay is pure Case 4 (EM-silent gap + viable substrate). The network has no evolved defense against artificial root connections because nothing in nature builds them. Relay activation is the point of no return — after years hiding from the network, they deliberately ring its doorbell. Network sees viable substrate, triggers expansion protocol. Transplanted Healers build a NEW tower from scratch using the cone as a quarry. Proto-monks witness the entire boot sequence. Monastic schism originates HERE: "we turned on a machine" vs "we woke someone up." And once the network answers, they can't hang up.
 
 **✓** Monasteries at gas-pocket towers: later institutional development. Night-side towers whose deep roots tap subsurface SiH₄ reservoirs (pressure-equilibrium gas trapped in ancient dark-side crust). Geological lottery — monastery locations determined by geology, not choice. Gas pockets provide the surplus power for federation-level cognition. Non-renewable (no dark-side volcanism to recharge). Monasteries face their own slow resource depletion.
 
