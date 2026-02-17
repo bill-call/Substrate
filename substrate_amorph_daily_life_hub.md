@@ -1,6 +1,6 @@
 # SUBSTRATE — AMORPH DAILY LIFE HUB
 
-**v2.4 — February 2026**
+**v2.5 — February 2026**
 
 **Load with:** Spine (required). Amorph Emergence Hub, Amorph Economics Hub, Fauna Structural Hub, Memory Architecture Hub (recommended). Chemistry Hub §5, §8, §11 on demand.
 
@@ -191,7 +191,7 @@ Low wind, no lightning, no thunder, no weather-driven cycles. The deep dark side
 
 **Period 1 (Terminator):** Crawling on tower surface and root. No off-grid travel. Movement is within-tower repositioning.
 
-**Period 2 (Terminator + sparse dark side):** Crawling between towers with stored charge. Wind-surfing day-ward (free, one-way). Tower-hopping day-ward (climb to summit, glide to next tower — faster than wind-surfing for tower-to-tower transit at terminator spacing). Ballooning back (upper-level return flow). Root railway for safe inter-tower transit. Sprint for emergency. Dark-side explorers: slow overland crawl on polished SiC bedrock with battery organism companions for charge reserves. Low wind means no wind-surfing or tower-hopping; silence makes the journey safe but slow.
+**Period 2 (Terminator + sparse dark side):** Crawling between towers on grass field (stored charge + piezo trickle from grass contact — subsistence, extends range). Wind-surfing day-ward (free, one-way). Tower-hopping day-ward (climb to summit, glide to next tower — faster than wind-surfing for tower-to-tower transit at terminator spacing). Ballooning back (upper-level return flow). Root railway for safe inter-tower transit. Sprint for emergency. Dark-side explorers: slow overland crawl on polished SiC bedrock (no grass, no piezo trickle — pure stored charge) with battery organism companions for charge reserves. Low wind means no wind-surfing or tower-hopping; silence makes the journey safe but slow.
 
 **Period 3 (Terminator + dark side):** Constructed aids. Membrane frames for efficient wind-surfing (better lift-to-drag). Root-gripping tools. Sledges for dark-side bedrock (polished SiC surface, low friction). Coastal watercraft for ammonia seas (sail-powered, manufactured composite hulls).
 
@@ -266,7 +266,7 @@ Gel actuators at ~5 kPa are very weak. A 100 kg amorph exerts ~500 N maximum for
 | 4 | Mechanical vehicles. Ammonia hydraulic loaders. Electric winches (tower-powered). Cargo ships. | Industrial scale |
 | 5 | Mass driver for space-bound cargo. Balloon freight. | Tonnes |
 
-**Wind as cargo aid:** Cargo sledge with sail on the peneplain. 9.5 m/s wind drives a low-friction sledge day-ward for free. Return cargo requires root railway, balloon, or upwind tacking by watercraft.
+**Wind as cargo aid:** Cargo sledge with sail on the terminator surface (grass-stabilized sediment wedge at terminator; polished SiC bedrock on dark side). 9.5 m/s wind drives a low-friction sledge day-ward for free. Return cargo requires root railway, balloon, or upwind tacking by watercraft.
 
 ---
 
@@ -315,7 +315,7 @@ A "door" is a gap in the Faraday cage. Walking into a shielded space feels like 
 
 **Period 3 (Dark side — monasteries):** Gas-pocket tower interior, acoustically tuned. Monk-carved spaces optimised for contemplation (maximum EM shielding, minimum acoustic intrusion). Abbot chambers: deep interior, multiple hardline lattice connections, spread-flat sessile configuration for heat dissipation. Communal spaces: mid-depth lattice with deliberately enlarged pores for amorph-scale occupancy.
 
-**Period 4 (Terminator):** Fiber composite architecture. Manufactured building panels, bolted or welded assemblies. First multi-story structures independent of towers. Factory complexes: large open-floor structures with ammonia shower cooling systems (wet/dry zone separation), heavy electrical feeds from grid.
+**Period 4 (Terminator):** Fiber composite architecture. Manufactured building panels, welded assemblies (no fasteners — welding is native, Mohs 9.5 threading is not; see Industrialization Hub §1.1). First multi-story structures independent of towers, powered by independent lightning tower grid. Healer-directed construction (amorphs learn tower signal protocols, replay to redirect Healer deposition — meme, not genome; see Industrialization Hub §3). Factory complexes: large open-floor structures with ammonia shower cooling systems (wet/dry zone separation), heavy electrical feeds from lightning grid.
 
 **Period 4 (Deposition zone):** Post-industrial residential. Ancient stopped towers in deep sediment. Low wind. Dead towers = no network surveillance, no behavioural nudging. First place amorphs live free of Blindsight oversight. Cultural centre, residential district, launch corridor.
 
@@ -349,7 +349,7 @@ Ammonia = solvent + coolant + chemical co-substrate. Not food — more like wate
 
 **Dark side:** Cold (215–240K). Ammonia seas stable. Coastal populations have easy access. Interior: no rain, no liquid. Must carry reserves.
 
-**Day side (Period 4+):** No liquid NH₃ without pressure vessels (saturation pressure at 300K ≈ 10.6 bar > ~1 bar partial pressure). MUST import from terminator. Ammonia is the most precious day-side commodity.
+**Day side (Period 4+):** Two zones. (1) Near-terminator day side (within 20–30°): direct access to ammonia runoff — 80–95% of terminator rainfall lands on the day-side slope of the sediment mound, flows day-ward as ephemeral rivers/deltas until evaporating at the ~240K boundary. Daysiders near the mound face do NOT need to import ammonia. (2) Deep day side (beyond evaporation boundary): no liquid NH₃ without pressure vessels (saturation pressure at 300K ≈ 10.6 bar > ~1 bar partial pressure). Must import from terminator. Ammonia is the most precious deep-day-side commodity.
 
 ### 7.3 Charging at a Tower
 
@@ -458,7 +458,7 @@ The critical property: **Layer 2 can contradict Layer 1.** An amorph projecting 
 
 1. **Subwoofer packs** (Fauna Hub §6.5): distributed phased-array EM detection achieves range beyond any individual organism. The inter-tower gap is the subwoofer's hunting ground — no Faraday shelter from phased-array detection.
 
-2. **Tower lattice as EM sensor (AWACS):** The Faraday cage effect IS the detection mechanism. External EM signals induce surface currents on the conductive lattice — those currents cancel the field inside, and the network reads the currents as signal. The tower's entire corpus is the antenna — not optimised for detection (tower morphology is shaped by wind filtration and accretion, not EM reception), but sheer scale (cross-section hundreds of meters) compensates for poor efficiency. **Sensitivity is angle-dependent:** the tower's airfoil cross-section (thin wall oriented along wind axis) creates a systematic EM blind spot in the wind direction (upwind and downwind — edge-on to the thin profile). Maximum sensitivity is broadside (perpendicular to wind, along cross-wind axis — maximum conductive surface area presented). NOT perfect omnidirectional coverage. Wind-axis blind spots are tactically exploitable in grid warfare. Multiple towers partially compensate (one tower's blind spot is another's clear sightline). Roots extend the sensor perimeter as ground-level tripwire grid (§12.3). Towers spaced ~1 km across the terminator provide strong but **imperfect** EM coverage. **The network has extensive situational awareness of its own territory, with gaps.** An amorph crossing the peneplain is not being watched by other amorphs — but the towers on either side probably see it, depending on approach angle relative to tower geometry.
+2. **Tower lattice + fairy ring arrays (AWACS):** Two complementary systems. (a) **Tower body:** Faraday cage surface currents = detection signal. External EM induces currents on the conductive lattice — those currents cancel the field inside, and the network reads them as signal. The tower's entire corpus is an antenna — not optimised for detection (morphology shaped by filtration/accretion), but sheer scale compensates. Angle-dependent sensitivity: airfoil cross-section creates systematic EM blind spots along wind axis (edge-on). Maximum sensitivity broadside. (b) **Fairy ring antenna arrays:** surface roots spawn rings of varying-height SiC stalks at resistance-regular intervals. Each ring is a 3D phased-array antenna (azimuth from ring geometry, elevation from height variation). Local FPGA at root node decodes received EM frames, computes 3D bearing + signal strength, sends reports to tower via root. Fairy rings are the tower's PRIMARY spatial awareness system — the tower body provides bulk detection while fairy rings provide direction, range, and authentication of every EM source in the territory. Together: strong but **imperfect** EM coverage. Wind-axis blind spots on the tower body partially mitigated by fairy ring arrays at different bearings. Multiple towers compensate for each other. **The network has extensive situational awareness of its own territory, with gaps.** An amorph crossing between towers is not being watched by other amorphs — but the towers on either side probably see it (fairy rings along roots track anything EM-active in their vicinity, tower body catches broadside crossings), depending on approach angle.
 
 Whether any particular amorph benefits from tower AWACS depends entirely on the network's willingness to share intelligence. For favoured symbiotes (Period 1): implicitly, via tropism management. For free-range amorphs (Period 2+): only if the network has reason to cooperate. For monks: not at all — they are off-network. For warfare: whoever controls tower access controls the sensor network. Blinding the towers isn't just cutting power — it's destroying AWACS.
 
@@ -498,7 +498,7 @@ Most communities in peacetime use no countermeasures (the tower signal is public
 
 You can sense everyone nearby thinking. "Nearby" means **close** — conversational to social distance. This is an intimate sense, not radar.
 
-**Alone on the peneplain:** Silence. Only your own thoughts. No other cognitive signatures within range. If another amorph is 500m away, you probably don't know it. What dark-side monks seek — and what makes the inter-tower gap lonely as well as dangerous. (You feel alone. The towers on either side may not agree — their lattice has been reading your surface currents, at least from the angles where their feeding-shaped geometry happens to face you. Whether that matters depends on whether the network cares.)
+**Alone between towers:** Silence. Only your own thoughts. No other cognitive signatures within range. If another amorph is 500m away, you probably don't know it. What dark-side monks seek — and what makes the inter-tower gap lonely as well as dangerous. (You feel alone. The towers on either side may not agree — their lattice has been reading your surface currents, at least from the angles where their feeding-shaped geometry happens to face you. Whether that matters depends on whether the network cares.)
 
 **Small group (2–5):** Each cognitive signature distinct, recognisable. You sense who's thinking hard, who's relaxed, who's distressed — Layer 1 (involuntary). You also read their deliberate emotional displays — Layer 2 (conventional) — and note where the two diverge. A companion projecting reassurance while their involuntary emissions spike with fear is as readable as a human whose voice says "everything's fine" while their hands tremble. Deliberate communication (Layer 3, encrypted or not) is layered on top. You experience all three simultaneously: autonomic state, emotional performance, and semantic content.
 
@@ -556,13 +556,13 @@ A charging location near a tower root junction where amorphs gather. Period 3+:
 
 | Region | Exports | Imports |
 |--------|---------|---------|
-| **Day side** | Power (solar + geothermal), fluorine products, native metals, fissile materials | Liquid ammonia, manufactured goods, labour |
+| **Day side** | Power (solar + geothermal), fluorine products, native metals, fissile materials | Manufactured goods, labour. Deep day-side: liquid ammonia (critical). Near-terminator daysiders: self-sufficient in ammonia (mound runoff). |
 | **Terminator** | Liquid NH₃, manufactured goods, labour, memes | Power, raw metals, fluorine, fissile |
 | **Dark side** | Marine products (glass organisms, concentrated H₂O, Tesla valve organisms, anti-petrification biochemistry), archaeological materials | Power, tools, memes, ammonia |
 
 ### 9.4 Wartime Economics (Period 3+)
 
-**Ammonia embargo:** Day-side populations depend on imported liquid NH₃. Cutting supply = siege. Terminator controls the rain-catchment infrastructure.
+**Ammonia embargo:** Deep-day-side populations depend on imported liquid NH₃. Cutting supply = siege. Near-terminator daysiders have mound runoff access and are less vulnerable. Daysider raids on terminator settlements target POWER (charge) and METALS (tower-delivered catalytic metals), not ammonia.
 
 **Fluorine counter-leverage:** Day-side controls fluorine ecology. Fluorine weapons are merge-contagious, meme-destroying — weapons of cultural destruction. The taboo exists because their use threatens civilisational extinction.
 
@@ -677,11 +677,13 @@ The audience LIVES the artwork. A curated merge is a composed experiential seque
 
 ### 12.1 Ground Cover
 
-**Terminator peneplain:** Microbial biofilm on bedrock. Amorph-lineage ≤100 μm organisms metabolizing atmospheric SiH₄. Like cryptobiotic soil crusts — invisible at megafauna scale. Thin (μm–mm), fragile, constantly wind-abraded, constantly regenerated from aeroplankton deposition. Ecologically present, not narratively prominent.
+**Terminator sediment wedge:** NOT peneplain. The terminator surface is an accretional sediment wedge — accumulated SiC grit, volcanic fines, and biological debris intercepted by tower breakwater arrays and SiC grass lattice over geological time. Towers grow upward through accumulating sediment. Asymmetric cross-section: gentle dark-side slope (wet, actively accumulating), flat top (tower forest, grass-stabilized), steep day-side face (dry, wind-eroded at ~240K evaporation boundary). Ground cover is **SiC grass** — a continuous self-growing SiC lattice field. Sparse surface blades harvest piezoelectric energy from wind vibration; dense buried root network provides structural integrity at every past surface level. Microbial biofilm exists ON the grass lattice and in sediment interstices. Kill the towers → grass dies → entire wedge erodes away.
 
-**Root surfaces:** Conductive SiC/SiCN, grid-connected. Ecological corridors: a strip of powered habitat crossing the exposed inter-tower gap. Root-associated organisms: powered biofilm (can grow beyond 100 μm ceiling), small tower-coupled fauna extending along roots (Miners, Guard patrols), megafauna in transit. Roots also function as **sensor tripwires** — conductive extensions of the tower lattice spread across the peneplain. Anything contacting or approaching a root is detectable by the network via the same surface-current mechanism as the tower itself. Smart predators learn not to step on roots.
+**SiC grass field:** Informationally DEAD. Bare SiC lattice — no FPGA structure, no biofilm-computing, no signal processing. Tower receives charge from grass (piezoelectric + distributed lightning collection) but has no awareness of or control over what happens on it. Electrically conductive, informationally blind. **Open commons:** any organism making Schottky contact with grass lattice draws charge — no tower authentication, no guild membership, no chelation toll. Piezo trickle = subsistence (keeps organisms alive, not thriving). Tower grid = banquet. Two separate ecologies with minimal interaction: tower middle-kingdom (authenticated, managed, high-energy) vs grass-field organisms (unauthenticated, unmanaged, low-energy). Sharp boundary: surface root highways = FPGA, maintained, signal-carrying. Grass = dumb conductor.
 
-**Dark-side bedrock:** Polished SiC over silicate. Thinner microbial biofilm (colder, slower metabolism). Essentially sterile at anti-stellar pole. Life increases toward terminator.
+**Root surfaces:** Conductive SiC/SiCN, grid-connected, FPGA-capable. Ecological corridors: a strip of powered, informationally live habitat crossing the grass field. Root-associated organisms: powered biofilm (can grow beyond 100 μm ceiling), small tower-coupled fauna extending along roots (Miners, Guard patrols), megafauna in transit. Roots also function as **sensor tripwires** — conductive extensions of the tower lattice spread across the sediment wedge. Fairy ring antenna arrays (varying-height SiC stalks budding from root nodes at resistance-regular intervals) provide 3D directional EM sensing reported to the tower via root. Anything contacting or approaching a root is detectable by the network. Smart predators learn not to step on roots.
+
+**Dark-side bedrock:** Polished SiC over silicate — true peneplain (no sediment wedge, no grass, no accretion). Thinner microbial biofilm (colder, slower metabolism). Essentially sterile at anti-stellar pole. Life increases toward terminator.
 
 **Day-side ground:** Volcanic terrain. Fluorine ecology where CaF₂ is available. Thorn-flora anchored to volcanic rock. Between provinces: barren lava fields, yardangs, high petrification risk.
 
@@ -703,10 +705,11 @@ Ammonia rain at terminator, intermittent.
 
 ### 12.4 The EM Killing Field
 
-The gap between towers is acoustically, electromagnetically, and physically exposed.
+The gap between towers is acoustically, electromagnetically, and physically exposed. But it is NOT empty — the SiC grass field provides subsistence piezoelectric charge to anything in contact, supporting a distinct low-energy ecosystem outside tower control.
 
 What survives:
-- **Microbial biofilm:** Too small to detect by EM (≤100 μm, negligible emission). Invisible to predators. Safe.
+- **Grass-field organisms:** Any organism making Schottky contact with grass draws piezo trickle charge — subsistence, not thriving. These organisms are unauthenticated, unmanaged, outside tower behavioral shaping. A separate ecology from the tower middle kingdom. Too small to detect individually by EM (mostly ≤100 μm), but collectively a living carpet.
+- **Microbial biofilm:** On grass lattice and in sediment. Too small to detect by EM (≤100 μm, negligible emission). Invisible to predators. Safe.
 - **Organisms in transit:** Amorphs on root railway, wind-surfing, sprinting. Exposed, vulnerable, crossing fast.
 - **Subwoofers** (Fauna Hub §6): free-living sexual acoustic predators, up to ~30 cm. Not just tolerant of open ground — actively exploiting it. A distributed pack IS a phased-array EM detector: passive receivers cross-correlate prey involuntary emissions to localise targets at range. The inter-tower gap is their hunting ground because it's where prey has no Faraday shelter. Find by EM, kill by sound.
 - **Thorn-flora** (day-ward transition): where tower competition thins. Fluorine defense makes EM detection irrelevant.
@@ -714,21 +717,21 @@ What survives:
 
 ### 12.5 The Sensory Experience at Ground Level
 
-Standing on the peneplain between two towers, ~1 km from each:
+Standing on the grass field between two towers, ~3 km from each (terminator, ~6.5 km average spacing):
 
 **EM:** Two tower signatures on either side — dense, complex, the hum of billions of organisms and the network managing them. Between: relative quiet, your own emission and maybe 1–2 other amorphs in transit. Distant lightning as sharp EM spikes.
 
 **Wind:** 9.5 m/s sustained, unidirectional (night→day). Physical pressure (~370 Pa). Carrying chemical information from upwind. Constant, relentless. Never stops.
 
-**Sound:** Thunder. Continuous overlapping shockwaves. Ranges from dull rumble (distant) to sharp crack (nearby — overpressure felt through the body). Thunder-skin deployed automatically. Between thunder: wind noise. Aeolian tones from each tower's lattice, faintly audible at 1 km.
+**Sound:** Thunder. Continuous overlapping shockwaves. Ranges from dull rumble (distant) to sharp crack (nearby — overpressure felt through the body). Thunder-skin deployed automatically. Between thunder: wind noise. Aeolian tones from each tower's lattice, faint at ~3 km midpoint (clearer nearer the towers).
 
 **Chemical:** SiH₄ at 0.3% (food — passively metabolizing). NH₃ at 12.5% (the smell of home). Trace metals from dead-bug plume (detectable at ppb). Volcanic trace gases if day-ward wind carries them.
 
-**Visual (parabolic eye deployed):** Flat bedrock to horizon. Towers: dark SiC pillars against amber/copper sky, lightning flickering around upper reaches. Permanent storm front: cloud wall lit from within by lightning. Day-ward: the star, permanently fixed, reddish (M3V, 3400K), amber haze. Dark-ward: darkness.
+**Visual (parabolic eye deployed):** Sediment wedge surface — flat SiC grass field with sparse blades quivering in the wind, gently rising day-ward (mound crest), sloping dark-ward. Towers: dark SiC pillars against amber/copper sky, lightning flickering around upper reaches. Fairy ring antenna stalks protruding along root lines (varying heights, distinctive against the flat grass). Permanent storm front: cloud wall lit from within by lightning. Day-ward: the star, permanently fixed, reddish (M3V, 3400K), amber haze. Dark-ward: darkness.
 
-**Tactile:** Wind pressure on surface. Hard bedrock beneath (slightly rough with biofilm crust). Ground vibration from lightning strikes (piezoelectric sensing). Temperature: 240K ambient, body ~244–250K metabolic.
+**Tactile:** Wind pressure on surface. Grass lattice underfoot (conductive — Schottky contact, subsistence charge trickle). Ground vibration from lightning strikes (piezoelectric sensing). Temperature: 240K ambient, body ~244–250K metabolic.
 
-**Emotional valence:** Exposed. Nervous. No Faraday cage — your involuntary emissions propagate unshielded. At conversational range, any nearby amorph can read your state. A subwoofer pack distributed across the area is a phased-array EM detector that can localise you at ranges beyond your own perception. And the towers on either side — probably watching, depending on your angle relative to their wind-shaped geometry. Their lattices weren't built to be sensors, but there's so much conductive surface that they pick up what they pick up. You can't sense them sensing you. Whether they care about what they see is a question you can't answer from here. The urge to reach the next tower is biological. The peneplain is a place to cross, not to linger.
+**Emotional valence:** Exposed. Nervous. No Faraday cage — your involuntary emissions propagate unshielded. At conversational range, any nearby amorph can read your state. A subwoofer pack distributed across the area is a phased-array EM detector that can localise you at ranges beyond your own perception. And the towers on either side — probably watching, depending on your angle relative to their wind-shaped geometry. Their lattices weren't built to be sensors, but there's so much conductive surface that they pick up what they pick up. You can't sense them sensing you. Whether they care about what they see is a question you can't answer from here. The urge to reach the next tower is biological. The grass field is a place to cross, not to linger — though the piezo trickle from the grass underfoot keeps you conscious while you cross it.
 
 ### 12.6 Shore/Intertidal
 
@@ -786,7 +789,12 @@ Tower-interior carved spaces: high-status. Deep interior = maximum EM privacy, m
 
 ### 14.3 Period 4 — Industrial Cities
 
-Tower-centred factory complexes. Root-network infrastructure (improved surfaces, junction hubs). Charging plazas scaled for hundreds. Residential suburbs along roots and into deposition zone.
+**Two-grid world** shapes the city. The biological tower grid (ancient, network-conscious, self-managed) and the amorph lightning tower grid (purpose-built, informationally dumb, amorph-controlled) are electrically ISOLATED. Same energy source (lightning), completely decoupled distribution. The biological tower's feedback mechanisms sense through its own lattice — a disconnected structure is invisible to it.
+
+**Settlement geography:**
+- **Residential districts** cluster at biological tower bases. Prime real estate: direct lattice contact for charging, tower wind-shadow for shelter, root-buttress interstices for housing.
+- **Industrial districts** occupy inter-tower spaces along the terminator. Independent lightning tower grid, no immune conflict with biological towers, space for large facilities. Factory complexes with ammonia shower cooling, heavy electrical feeds from lightning grid. Root-network infrastructure (improved surfaces, junction hubs) connects the two zones.
+- **Charging plazas** scaled for hundreds at root junctions between districts.
 
 **Deposition-zone districts:** Ancient stopped towers. Deep sediment. Low wind. Dead towers = EM privacy without surveillance. Cultural centre: artists, dissidents, philosophers, retirees. Less power, more freedom.
 
@@ -796,7 +804,11 @@ Not cities — survival clusters. Sealed domes. PV arrays. Geothermal boreholes.
 
 ### 14.5 Dark-Side Monasteries (Period 3+)
 
-Gas-pocket tower. Acoustically tuned interior (monks discovered piezoelectric power through aesthetic tinkering). Deep abbot chambers. Mid-depth community spaces. Exterior: polished SiC bedrock, ammonia seas. Quiet, dark, EM-silent. Physical environment IS the philosophical practice.
+**Gas-pocket monasteries:** Night-side towers whose deep roots tap subsurface SiH₄ reservoirs. Geological lottery — locations determined by geology, not choice. Acoustically tuned interior (monks discovered piezoelectric power through aesthetic tinkering). Deep abbot chambers. Mid-depth community spaces. Exterior: polished SiC bedrock, ammonia seas. Quiet, dark, EM-silent. Physical environment IS the philosophical practice. Non-renewable (no dark-side volcanism to recharge gas pockets).
+
+**Nightside oasis tower (unique):** Geological freak — a chemical seamount on the central peak of a D ~80–150 km impact crater in the nightside ocean, within ~400 km of the terminator mound crest (EM relay distance). Genesis: SiH₄ from deep-rock system vents through impact fracture network → reacts with liquid ammonia → silazane/PCS precipitates → chimney grows to ocean surface → geyser-cone in air → volcanic lightning ceramifies tip → proto-tower. Power: geothermal thermoelectric gradient (hot vent below, cold nightside atmosphere above). NOT on the grid (roots submerged in conductive ammonia = permanently shorted). One-of-a-kind.
+
+**Proto-monk origin (oasis tower):** Core-skill amorphs on the dark side, avoiding daysider-terminator war. Hobby: EM tinkering (eavesdropping on tower signals — nightside atmosphere is EM-transparent). Technology tree from the hobby: directional antennas → eavesdropping → root-to-wire converters → transceivers. High-gain antenna picks up faint piezoelectric emissions from oasis cone (wind gusts on crystalline SiC). Curiosity → boat → island. Years of iteration on relay converters (must match network's authenticated packet format — core skill enables diagnosing failures by reading tower response). Relay activation = point of no return. Network triggers Case 4 expansion protocol → transplanted Healers build new tower from scratch on the cone. Proto-monks witness entire boot sequence. Monastic schism originates here: "we turned on a machine" vs "we woke someone up."
 
 ---
 
@@ -886,8 +898,12 @@ Mass driver (3 km/s EM boost). Balloon launch to 15–20 km. Intercontinental fr
 | Mutual permanent detection | KILLED | Was an ungrounded assumption. 8-bar NH₃ atmosphere absorbs too strongly. Individual EM detection range is short (conversational to social). Spine §EM ECOLOGY revised. |
 | Subwoofer EM phased array | ✓ | Pack of 10–25 with EM receivers = ambulatory phased-array detector. Cross-correlates prey involuntary emissions for directional detection at extended range. Dual-domain predator: find by EM, kill by sound. Prey cannot hide while thinking. Tower lattice = Faraday shelter. |
 | Herd SIGINT | ✓ | Prey groups adopt distributed phased-array EM listening. Most effective against subwoofers (EM-active during approach). Least effective against cognitively-dark ambush predators (low SNR). Asymmetric arms race. |
-| Tower AWACS | ✓ | Faraday cage surface currents = detection signal. Tower corpus is antenna — not optimised for detection (morphology shaped by wind filtration), angle-dependent sensitivity, blind spots from some bearings. Sheer scale compensates for poor efficiency. Multiple towers partially compensate for each other's blind spots. Roots = ground-level tripwire grid. Network has extensive but imperfect situational awareness. Intelligence sharing depends on network relationship. Grid warfare = intelligence warfare. |
+| Tower AWACS | ✓ | Tower body (Faraday surface currents, angle-dependent) + fairy ring arrays (3D phased-array at root nodes, PRIMARY spatial awareness system). Together: strong but imperfect coverage. Intelligence sharing depends on network relationship. Grid warfare = intelligence warfare. |
 | Tower-hopping | ✓ | Glide from summit to next downwind tower. L/D ≈ 4–8, upwash-assisted climb. Terminator only (~6.5 km spacing). One-way day-ward. Premium transit mode. Recreational climbing = universal meme. (Tower Morphology Hub §11.4) |
+| Terminator ground cover | ✓ | Accretional sediment wedge + SiC grass (piezoelectric, informationally dead, open commons). NOT peneplain. Dark side = peneplain. Grass-field ecosystem separate from tower ecology. |
+| Day-side ammonia access | ✓ | Near-terminator daysiders have direct runoff access (80–95% of rainfall on day-side mound slope). Deep day-side requires pressure vessels/import. Raids are for POWER and METALS, not ammonia. |
+| Two-grid world | ✓ | Amorph lightning tower grid electrically isolated from biological network. Same energy source, decoupled distribution. Shapes industrial city morphology (residential at bio-towers, industrial in inter-tower spaces). |
+| Proto-monk origin | ✓ | Nightside oasis tower (impact crater seamount). Hobby-driven tech tree: EM tinkering → antennas → relay → Case 4 network expansion. Monastic schism: "machine" vs "woke someone up." |
 
 ---
 
@@ -905,6 +921,8 @@ Mass driver (3 km/s EM boost). Balloon launch to 15–20 km. Intercontinental fr
 - [ ] Currency transition: shell economy collapse — who loses, how violent?
 - [ ] Dark-side tidal forcing: does the star or any moon produce tidal cycles in ammonia seas? If so, coastal dark-side communities have a natural clock.
 - [ ] Federation still-time: detailed mechanics of coordinated multi-node maintenance shutdown.
+- [ ] Latitude-dependent terminator: equatorial = intense storm front; polar = drier, calmer, walkable (Spine §WIND). How does daily life differ along latitude? Two distinct ecological/cultural zones on the terminator.
+- [ ] Grass-field economy: do any amorphs or communities prefer grass-field subsistence to tower dependency? Voluntarily keyless lifestyles?
 
 ---
 
@@ -927,6 +945,10 @@ Mass driver (3 km/s EM boost). Balloon launch to 15–20 km. Intercontinental fr
 | Warfare, escalation | Warfare Hub | — |
 | Marine ecology | Spine | §AMMONIA SEA ECOLOGY |
 | Balloon fauna, drifter cycle | Spine | §ECOLOGY KEY FACTS |
+| Industrialization, lightning towers, Healer direction | Industrialization Hub | §1–§7 |
+| Fairy ring antennas, network signaling | Spine | §TOWERS (Fairy Ring, Network Signaling) |
+| SiC grass, sediment wedge, atmospheric conveyor | Spine | §WIND, §SURFACE GEOMORPHOLOGY |
+| Proto-monk origin, oasis tower | Spine | §MONKS |
 
 ---
 
