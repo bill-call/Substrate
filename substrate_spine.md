@@ -422,6 +422,14 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **✓** Convergent architecture: given geological time, all accessible towers Ship-of-Theseus replaced to current best model for each location. Regional variation reflects local conditions, not evolutionary history.
 
+### Terminator Burial Response
+
+**[FIRM]** Terminator deposition mound rises over geological time, burying tower bases. Healers respond continuously (tree-ring model, not episodic): broaden exposed base at new ground level, grow new shell around buried tip. Effect over Gyr: nested stacked shells ("stacked cups") extending from current ground level down to original nucleation monadnock on bedrock. Most of the tower is buried — visible structure is the tip of a ceramic iceberg. Surface roots receive same treatment: Healers repave on top of buried roots, producing vertical walls of root material embedded in the mound.
+
+**[FIRM]** Burial depth gradient: surface roots = active, electrically live. Shallow buried (recent cycles) = still connected at shell interfaces, live, improving ground plane. Deep buried (geological time) = structurally intact SiC/SiCN but junctions broken by differential sediment compaction; fossil infrastructure, electrically dead. The mound around a mature tower is a reinforced ceramic composite, not loose sediment. Buried shells + root walls = 3D rebar skeleton.
+
+**[FIRM]** Foundation permanence: wind load on exposed tower transmits through entire buried shell stack to bedrock. Failure mode is snapping the exposed blade, not uprooting the foundation. Dead towers (no Healers) still stand for geological time — exposed tip weathers slowly, buried infrastructure is entombed and protected. Progressively shorter stump, permanent foundation. Wide buttressed base profile is partly accumulated burial response (each cycle steps outward).
+
 ### Power Gradient
 
 **✓** Terminator towers: power SURPLUS. Lightning + piezoelectric vibration + solar (850 nm matches Si bandgap). All electricity to piezoelectric entity. Problem is managing excess. Healer renovation energy-unconstrained.
