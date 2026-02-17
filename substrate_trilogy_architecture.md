@@ -30,7 +30,7 @@ Companion to Scaffolding v2.1 and Timeline Analysis. Supersedes the single-novel
 Wonder → Intimacy → Tragedy → Bittersweet Hope
 
 ### What the Reader Experiences
-A complete novel. The alien world in full. The beauty of merge, the richness of meme exchange, the factions forming, the monks emerging from exile. A first existential crisis — not the impactor, something earlier. The messy, morally costly resolution. Survival at a price. The dawn of a new age.
+A complete novel. The alien world in full. The beauty of merge, the richness of meme exchange, the factions in conflict, the monks emerging from exile. A first existential crisis — the daysider-terminator war, resolved through the monks' most dangerous capability. The messy, morally costly resolution. Survival at a price. The dawn of a new age.
 
 The reader closes the book thinking: they made it. It cost them, but they made it. The sacrifice was worth it.
 
@@ -47,23 +47,33 @@ Everything about how they made it is the ammunition for Book Two. The new age da
 - [x] Meme chain origins planted
 - [ ] Some escape hatches begin sealing (camouflaged as straight-played episodes)
 
-### The First Crisis
-**[FIRM]** A menome mutation — a freak data-store mutation analogous to a viable genome mutation — that reduces tower responsiveness in affected amorphs. The mutation propagates through normal meme exchange.
+### The First Crisis: The Daysider-Terminator War
+**[HARD]** Not a single event but a recurring cycle driven by the key-rot plague — a phage that mutates to bind tower public key molecular sites, disabling all copies, rendering infected amorphs deaf to the tower network.
 
-**The cascade:**
-1. Mutation spreads through a subset of the population
-2. Tower network compensates — not fighting back, just thermostat adjusting. Increases signal strength to maintain behavioral equilibrium
-3. Mutants become less responsive to compensation. Non-mutants receive amplified tower influence
-4. Non-mutants begin refusing exchange and merge with mutants — and believe it's their own judgment. Their tower-amplified retrieval surfaces threat associations, avoidance impulses. Feels like genuine assessment. They have reasons. The reasons feel real.
-5. Mutants are socially expelled. Walk into the desert because the terminator zone is socially uninhabitable. This is the daysider origin — not a drift but an expulsion that felt voluntary to the expellers.
-6. Mutation reaches the monks through the exile pipeline. Monks can perceive what's happening through their tower protocol knowledge. They intervene — adjust tower inputs to mitigate the compensation.
-7. The intervention works (or partially works). The crisis eases enough for survival.
-8. Two monks who performed the same intervention walk away with irreconcilable interpretations. One experienced communion with a responding mind. The other experienced engineering on a responsive system. This is the monastic schism's origin — rooted in the lived experience of the same event, not doctrinal drift.
+**The deep history (pre-Book One):**
+1. Key-rot phage jumps from reservoir species to amorphs. Infected lose tower authentication. Tower immune response mobilizes terminators to kill infected (failed auth = hostile, same protocol as inter-tower warfare).
+2. First plague survivors carry ROM memory of the massacre. Second and subsequent plagues: infected flee immediately to dayside. Daysider population ratchets upward with each recurrence.
+3. Near-terminator daysiders have ammonia access (day-side mound runoff) and atmospheric SiH₄, but NO charge (no towers, no grid) and no catalytic metals. Deep daysiders subsist on thorn-flowers (marginal). Battery organisms in terminator territory don't need authentication. Raids begin — driven by power and metal scarcity, not ammonia. Tower mobilizes defense against unauthenticated intruders.
+4. War cycle self-sustains through ROM memory on both sides. Unforgettable. Unresolvable. Sunk-cost fallacy made permanent by hardware.
 
-**What the reader sees:** The mutation crisis as a full dramatic arc. Factions forming. A civilization tearing itself apart over a thermostat adjustment that nobody understands. The monks intervening at great cost. The resolution imperfect but sufficient. The monastic schism as an amusing philosophical footnote — two characters the reader likes, disagreeing about an abstract question. A charming coda, not a depth charge.
+**The monk intervention:**
+5. Monks learn to suppress tower immune response. Keyless amorphs can now enter monasteries without being killed. Monks gain access to both populations' ROM memories — the only faction holding the complete picture.
+6. Monks develop telomere pruning: actual deletion of ROM memories. Offer it as peace technology. Almost no one accepts — dishonors the dead, destroys identity.
+7. A few leaders accept treatment, hoping their example will inspire followers. One is assassinated by water-bombing (oxidative dissolution). Martyrdom has opposite effect — becomes tipping point. More accept treatment. War ends.
+8. Two monks who performed the intervention walk away with irreconcilable interpretations. One experienced communion with a responding mind. The other experienced engineering on a responsive system. This is the monastic schism's origin.
+
+**What the reader sees:** The war's resolution as a full dramatic arc. A civilization tearing itself apart over unforgettable trauma. The monks intervening at great cost. The resolution costly but real. The monastic schism as an amusing philosophical footnote — two characters the reader likes, disagreeing about an abstract question. A charming coda, not a depth charge.
+
+**The climax is played STRAIGHT.** The hero sees clearly, the sacrifice is not in vain, fate takes a vacation. This deliberately breaks the pattern of subverted tropes established earlier in Book One — miscalibrating the reader's trope-detection machinery for Book Two.
+
+**[OPEN]** How does the reader receive the deep history (phage, first massacre, daysider exodus, war cycle)?
+- **Option A (Chronological):** Book One spans deep time. Reader watches it all. Risk: no persistent characters across the timescale.
+- **Option B (In medias res):** Book One opens mid-war. Deep history delivered through ROM memories and chronicle passages, as the amorphs themselves receive it. Reader experiences inherited trauma structurally identically to the characters. Frozen monk is present-tense from early in book. Phage biology introduced as Wonder-phase world-building, fires when plague recurs in dramatized present. Strongest Payload One alignment. Risk: complex biology may need more direct exposition than inherited memory provides.
+- **Option C (Interleaved):** Chronicle passages cover deep time, dramatized present covers late war and resolution. Standard epic fantasy structure — recognized pattern.
+- Current instinct: B, but deferred to drafting.
 
 ### The Frozen Monk
-**[FIRM]** The monk who performs the costly act — whatever the precise intervention is — is a character in Book One. The reader knows him, cares about him, watches him do the thing, and watches him walk into the cold because he can't carry what it cost.
+**[FIRM]** The monk who performs the mass telomere pruning — cutting the war memories from willing amorphs on both sides — is a character in Book One. The reader knows him, cares about him, watches him do the thing, and watches him walk into the cold because he can't carry what it cost. He knows exactly what he cut.
 
 This is Book One's tragedy. The reader closes the book grieving for a specific person. The hope: his sacrifice bought something. The new age is his monument.
 
@@ -73,11 +83,12 @@ This is Book One's tragedy. The reader closes the book grieving for a specific p
 
 ### The Seeds
 By Book One's close, the species has survived by fragmenting into exactly the configuration that will paralyze it when the rock comes:
-- Daysiders: expelled, carrying the mutation and the memory of exile
-- Terminators: under heavier tower influence than any previous generation
-- Monks: split on an "abstract" question that will become the defining fault line
-- The tower network: recalibrated to a new equilibrium that is more aggressive than the original
-- The frozen monk: carrying the memory of what it cost, preserved in the dark, waiting
+- Daysiders: plague-scarred, carrying phage and ROM war trauma. Near-terminator: ammonia-fed but power-starved. Deep day-side: subsisting on thorn-flowers (marginal). A ratchet population that only grows.
+- Terminators: under tower influence, with ROM memories of every raid. Dependent on the tower reward economy they evolved to exploit.
+- Monks: split on an "abstract" question that will become the defining fault line. Sitting on the most dangerous capability (ROM deletion) now normalized as peace technology.
+- The tower network: running its optimization as always. Incapable of modeling the phage. Same input, same output, forever.
+- The frozen monk: carrying the memory of what he cut — every pruned memory, every identity he reshaped — preserved in the dark, waiting.
+- Memory pruning is NORMALIZED. The precedent exists. Nobody is asking: "what else could they cut?"
 
 ### Phase Coverage
 Primarily Phase 1 (Wonder) and Phase 2 (Intimacy), with the first crisis pushing into a localized grief/tragedy arc that resolves into hope. NOT Phase 3 proper — that belongs to Book Two.
@@ -113,7 +124,17 @@ The escape hatches have been sealing throughout. The reader has been building a 
 - [x] Meme chain echoes (if chains planted in Book One)
 - [x] Most escape hatches sealed
 - [x] Inherited memes driving present decisions — at least once visibly
-- [x] Impactor detected (final pages or epilogue)
+- [x] Impactor visible — enters system, near-miss with star, begins multiple passes
+- [ ] Impactor passes become urgent (late Book Two or early Book Three — pacing dependent)
+
+### The Impactor as Denial Engine
+**[FIRM]** The object is not hard to detect. It enters the system, screams past the star, and is visible. Not ambiguous. The problem was never detection — it's belief.
+
+The object makes multiple passes over decades or centuries. Each pass is a near-miss. Each near-miss is simultaneously a deflection window and a denial event. Early passes are cheap to deflect and easy to dismiss. Late passes are expensive to deflect and impossible to dismiss. The amorphs will miss the easy windows because the easy windows are also the most deniable.
+
+In Book Two, the impactor is background — another thing the monks are worried about, visible but not yet urgent, easy to dismiss because it keeps missing. The denial is reinforced by lived experience: the felt reality of "it came and it went" outweighs the mathematical reality of orbital convergence, every time, because amorphs run on experiential data.
+
+**[OPEN]** Exact placement of urgency transition relative to Book Two/Three boundary. Depends on pacing.
 
 ### The R&J Arc Placement
 **[OPEN]** Three options:
@@ -194,10 +215,10 @@ The submarine payload is distributed across all three books but the reader doesn
 ## OPEN QUESTIONS
 
 ### Book One
-- [ ] What is the first crisis? (CRITICAL — everything follows from this)
-- [ ] Does the "ancient monk" / frozen corpse material become a Book One character rather than a Book Two archaeological discovery?
+- [x] What is the first crisis? **RESOLVED: Key-rot plague → daysider-terminator war → monk intervention → telomere pruning as peace technology → leader martyrdom → war ends. Straight-played climax.**
+- [x] Does the "ancient monk" / frozen corpse material become a Book One character rather than a Book Two archaeological discovery? **RESOLVED: Yes. The frozen monk is (probably) the monk who performed the mass pruning.**
 - [ ] How much of the tower network does the reader understand by end of Book One?
-- [ ] Does the monastic schism begin in Book One or is that Book Two material?
+- [x] Does the monastic schism begin in Book One or is that Book Two material? **RESOLVED: Book One. The schism originates in the two monks' irreconcilable experiences of the same intervention.**
 
 ### Book Two
 - [ ] R&J arc placement relative to tower revelation
@@ -207,8 +228,8 @@ The submarine payload is distributed across all three books but the reader doesn
 
 ### Book Three
 - [ ] The megalodon trigger — still unknown, still found in drafting
-- [ ] How much resolution, if any? Does the species survive?
-- [ ] Is the ending ambiguous (reader doesn't know if they make it) or definite?
+- [x] How much resolution, if any? Does the species survive? **RESOLVED: No. Definite catastrophic failure. The "...no" ending.**
+- [x] Is the ending ambiguous (reader doesn't know if they make it) or definite? **RESOLVED: Definite failure. Silence. Reader alone with recognition.**
 - [ ] Length relative to other books — half? Two-thirds?
 
 ### Series-Level
