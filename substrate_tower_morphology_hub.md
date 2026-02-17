@@ -121,9 +121,9 @@ This is the extraction-depth limit. Additional material behind this zone does no
 
 ### 3.3 Symbiotic fauna amplify both capture and drag
 
-Tower-coupled organisms (Healers, Miners, Guards) occupy the windward pore zone. Their bodies are additional collection surfaces and their metabolic activity processes captured material. This increases effective capture efficiency per unit depth.
+Tower-coupled organisms (Healers, Miners, Guards) occupy the windward pore zone. **Symbiotes coat strut surfaces, not plug pores.** Organisms living on a ~2 mm strut inside a 6–12 mm pore increase the effective strut diameter (to ~4–6 mm with biological layer) and reduce the pore opening, but do not seal it. Wind still passes through. The 80–85% bulk opacity arises from the combined lattice geometry plus biological coating across ~450 partially-obstructed layers in series — no single layer is sealed. A dead tower (no symbiotes) is significantly more wind-transparent than a living one.
 
-However, organisms in pores also increase drag (partially occluding pore throats, increasing flow resistance). More organisms = better capture but higher wind loading per unit frontal area. The equilibrium balances these.
+Symbiote bodies are additional collection surfaces and their metabolic activity processes captured material. This increases effective capture efficiency per unit depth. However, organisms in pores also increase drag (partially occluding pore throats, increasing flow resistance). More organisms = better capture but higher wind loading per unit frontal area. The equilibrium balances these.
 
 ### 3.4 Why not circular?
 
@@ -261,7 +261,7 @@ Order-of-magnitude estimates for a ~1 km terminator tower.
 | Interior void | 0–10 m (height-dependent) | Chimney conduit. H₂ venting. Structural webbing. Amorph habitat. |
 | Leeward taper | 0.5–2 m | Trailing edge. Chimney vents (upper tower). Structural closure. |
 
-Interior architecture: irregular vertical chimney channels separated by solid structural webbing. Shaped by chimney self-selection (same mechanism as deep-rock: surface-connected channels stay open via draft; dead-end pockets fill solid). Larger voids where amorphs have excavated habitat. Access via leeward vents (upper tower) and base openings (root-level gaps).
+Interior architecture: irregular vertical chimney channels separated by solid structural webbing. Shaped by chimney self-selection (same mechanism as deep-rock: surface-connected channels stay open via draft; dead-end pockets fill solid). No megafauna-scale excavated chambers (see §13 Q2, Q9 — tower immune system + reverence meme prevent internal excavation). Access via leeward vents (upper tower) and base openings (root-level gaps). Amorphs live externally in root-buttress interstices and amorph-built structures (see Industrialization Hub).
 
 ### 5.8 Apex geometry
 
@@ -372,13 +372,26 @@ Day-side towers (θ < 60°) are unlikely — volcanism + rain stripping kills th
 
 ## 9. Derived Properties
 
-### 9.1 Acoustic shadow geometry
+### 9.1 Acoustic character and shadow geometry
 
-- **Aeolian tone source:** 2–3 m windward shell generates ~1 kHz from strut vortex shedding (St ≈ 0.2, v ≈ 10 m/s, d ≈ 2 mm).
-- **Shadow zone:** Leeward side shielded. Sharp acoustic boundary at flanks.
-- **Trailing-edge noise:** Chimney vents emit lower-frequency sound. Dominates leeward soundscape.
-- **Shadow shape:** Geometric at 1 kHz (λ ≈ 0.37 m, diffraction around 100 m tower negligible). Extends many tower-widths downwind. Low frequencies fill in faster.
-- **Ecology:** Leeward = low-frequency chimney noise, filtered Aeolian tone. "Filtered chord" zone. Subwoofer predators exploit shadow boundary.
+**The tower voice is layered, not tonal.**
+
+The windward shell (2–3 m active biological zone) does NOT produce clean Aeolian tones. Symbiotes coat the ~2 mm struts, increasing effective diameter to ~4–6 mm and creating irregular, soft biological surfaces. This damps vortex shedding. The windward shell generates **broadband biological noise** — turbulent flow through irregularly-coated pore channels. Think: rushing wind through dense wet forest, not a tuning fork.
+
+Clean Aeolian tones (~1 kHz from bare 2 mm struts, St ≈ 0.2, v ≈ 10 m/s) are generated in the **interior structural webbing** behind the living shell, where struts are bare SiCN and the reduced-velocity throughflow (15–20% of freestream) passes through clean geometry. These tones are quieter than the windward broadband, but spectrally pure. From inside the tower, this is the tower's "voice" — a tonal hum behind the rush.
+
+Additional acoustic components:
+- **Low-frequency structural vibration** from wind loading on the whole tower body.
+- **Chimney draft hiss** — H₂-rich updraft through vertical channels. Lower-frequency, varying with wind conditions.
+- **Trailing-edge noise** from chimney vents. Dominates leeward soundscape.
+
+**A dead tower sounds completely different.** No biological coating → bare struts throughout → clean Aeolian tones from every surface. Louder throughflow (no biological obstruction). No biological noise. The monks in their dead towers hear a different instrument — pure, resonant, crystalline. This is the acoustic environment in which monk tower-tuning develops as an art form.
+
+**Acoustic shadow:**
+- **Shadow zone:** Leeward side shielded from windward broadband and interior tones. Sharp acoustic boundary at flanks (geometric at ~1 kHz: λ ≈ 0.37 m, diffraction around 100 m tower negligible).
+- **Shadow fill:** Low frequencies (structural vibration, chimney tones) fill in faster. High frequencies remain shadowed.
+- **Leeward soundscape:** Low-frequency chimney noise + attenuated interior tones. The "filtered chord" zone.
+- **Ecology:** Subwoofer predators exploit the shadow boundary (Fauna Hub §6).
 
 ### 9.2 EM antenna pattern
 
@@ -455,6 +468,32 @@ No destabilizing feedback loops at equilibrium. No resource-competition feedback
 ### 10.5 Open: alternative spacing model
 
 ⚠ The current model assumes network topology (coverage, latency) drives spacing. An alternative — towers maximized for power population rather than network coverage — would produce different spacing under different rules. Current working assumption: network topology is the driver.
+
+### 10.6 Mechanical karst and sinkhole defense
+
+**[NEW V2.4+]**
+
+**The problem:** Ammonia rain at the terminator produces runoff. Surface drainage is routed outward by root ridges (SiC roots resist erosion; silicate bedrock between them does not). Runoff percolates into the pre-fractured monadnock bedrock beneath the tower — the same fracture network created by the deep-rock reaction front. This runoff carries SiC grit (dead-bug plume debris, atmospheric particulate). SiC grit in ammonia flow mechanically abrades silicate fracture walls — a process analogous to limestone karst on Earth, but mechanical erosion rather than chemical dissolution.
+
+**The fracture network is densest directly under the tower** (where the deep-rock reaction front originated). Maximum subterranean flow, maximum erosion, maximum sinkhole risk — exactly where it matters most.
+
+**SiCN-lined root channels resist erosion** (SiC-on-SiC, same hardness). Flow preferentially widens *unlined* fractures adjacent to roots. Over geological time, voids develop in the silicate bedrock between root-armored channels. Eventually: sinkhole collapse.
+
+**Tower defense: ammonia intrusion as signal.** Root contact with liquid ammonia where none existed before = void detected. Conductivity change in the root network triggers Healer dispatch to seal the breach with SiCN. Response time is the critical variable: a small crack with a trickle seals easily. An established flow channel carrying abrasive slurry erodes walls faster than Healers can coat them. Detection fast, seal fast, never let flow establish.
+
+**Selection pressure:** Towers with better sinkhole detection (denser subterranean root monitoring) and faster Healer sealing survived. Towers that responded too slowly to ammonia intrusion collapsed from beneath over geological time. The response is now highly optimized — which is why towers persist at geological timescales despite the continuous erosion threat.
+
+**Consequence: progressive underground SiCN armoring.** The tower continuously deposits SiCN underground to seal voids as they develop. Over geological time, the monadnock beneath a mature tower is increasingly replaced by tower-deposited ceramic — a geological Ship of Theseus. The composite of silicate remnants and SiCN void-fill is conductive (mappable), structurally reliable, and resistant to further erosion.
+
+**Sinkhole defense also builds grounding capacity.** Underground SiCN provides conductive paths to ground — supplementing the surface root network's grounding function. No conflict with surface roots: surface roots developed first (grounding is an immediate Phase 1 need; ammonia intrusion is situational/intermittent). By the time underground SiCN provides significant grounding capacity, surface roots have acquired the inter-tower networking function and are irreplaceable regardless.
+
+**Failure modes:**
+
+- **Deferred maintenance death.** A tower that loses Healers (disease, war, population crash) keeps standing — existing lattice is strong. But underground, cracks go unsealed. Established flow channels develop within years. Voids within decades. Catastrophic sinkhole within centuries. Irreversible well before collapse — once channels establish, no Healer effort reclaims them. The tower is already dead; it hasn't fallen yet.
+- **Sinkhole pools.** A collapse that fills with ammonia creates a tower-adjacent pool — an additional mechanism for pool formation alongside wind-scour basins (§10.1).
+- **Even mature towers are not 100% immune.** Some sinkholes develop in locations the root network monitors poorly, or progress faster than the sealing response. Partial sinkholes at tower periphery are a background geological hazard — not catastrophic, but a persistent maintenance load.
+
+→ **Cross-ref:** Geology Hub §Surface Geomorphology (peneplain erosion, atmospheric conveyor). Warfare Hub §siege (deliberate sinkhole induction as siege weapon). Root Propagation Notes §4d (PCS gap, grounding). Industrialization Hub §5.2 (amorph underground excavation into this composite substrate).
 
 ---
 
@@ -612,7 +651,7 @@ The pore lattice thus serves four simultaneous functions from one geometry: filt
 | **Cross-wind width at top** | 20–60 m | Low |
 | **Height (terminator)** | 500–2000 m | Moderate |
 | **Aspect ratio W:D at mid-height** | ~5:1 to 10:1 | Moderate |
-| **Aerogel solids fraction** | 3–5% (top) to 10–15% (base) | Low — needs canonizing |
+| **Aerogel solids fraction** | 3–5% (apex), 5–8% (mid), 8–12% (lower), 12–15% (base) | High — canonized. SF 8–16 throughout; structural capacity is NOT the constraint. Profile set by biological optimization (weight, conductivity, habitat, construction cost). |
 | **Apex** | Broad ridge, gentle central peak | Moderate |
 | **Trailing-edge vents** | Discrete, upper-tower concentrated | Moderate |
 | **Stationary** | Yes | High |
@@ -623,13 +662,13 @@ The pore lattice thus serves four simultaneous functions from one geometry: filt
 
 ## 13. Open Questions
 
-1. **Aerogel solids fraction:** Specific canonical values needed. The 3–15% range assumed here spans a factor of 5 in density and structural capacity.
-2. **~~Interior architecture detail~~** ✓ PARTIALLY RESOLVED (§11.5). Habitat scale hierarchy established: native lattice (6–12 mm, symbiote-scale) vs excavated chambers (meter-scale, Healer-built for amorphs) vs chimney conduits (multi-meter, gas transport). Remaining open: specific chamber geometries, structural webbing patterns, chamber size upper bound.
+1. **~~Aerogel solids fraction~~** ✓ RESOLVED. Canonized: 3–5% (apex), 5–8% (mid), 8–12% (lower), 12–15% (base). Gibson-Ashby analysis gives safety factors 8–16 throughout — structural capacity is massively over-designed for self-weight compression. The profile is set by biological optimization (weight minimization at top, conductivity/habitat/construction cost at base), not structural necessity.
+2. **~~Interior architecture detail~~** ✓ RESOLVED. Tower interior is uniformly symbiote-scale habitat (6–12 mm pore network) plus chimney conduits (multi-meter, gas transport). No megafauna-scale excavated chambers exist — see Q9. Amorphs live externally in root-buttress interstices and amorph-built structures. The §11.5 "excavated chambers" model is superseded; retained as theoretical structural analysis only.
 3. **~~Fibonacci spacing numbers~~** ✓ RESOLVED (§10.2). ~6.5 km at terminator, widening to ~20 km deep dark. Root attenuation (~10–20 km unboosted) is binding constraint. Cross-wind blockage ~3%.
-4. **Healer construction program specifics:** What behaviors are genomically encoded? Density response to stress signals, vent shaping, structural ribbing patterns, Si vs SiC deposition switching (§11.4)? The "symbiote genome = tower blueprint" claim is well-grounded in principle but the specific behavioral repertoire is unspecified.
+4. **~~Healer construction program specifics~~** ✓ RESOLVED. **Programmable symbiote model.** Symbiote genomes encode a repertoire of deterministic signal-response primitives (deposit, stop, move, increase density, switch composition, etc.), NOT architectural blueprints. Complex construction emerges from complex signal sequences orchestrated by the tower's lattice — the tower is the programmer, symbiotes are programmable logic gates. The blueprint lives in the signal patterns (lattice topology + network management). Convergent architecture = firmware standardization. Network wars = firmware wars (reprogram absorbed towers via new signal patterns, no need to replace symbiotes). Crisis degradation = program degradation (fewer units → simpler executable programs). Amorphs can direct Healers by learning and replaying the tower's signal protocol — protocol acquisition is a meme, not a breeding program (see Industrialization Hub §3).
 5. **~~Catalytic reaction status in modern towers~~** ✓ RESOLVED. Definitively dead in all fully-renewed towers. Healer SiCN lacks metallosilazane catalytic sites (metals not in atmospheric CVD feedstock; metal incorporation anti-selected). Ship of Theseus has replaced all original material. "Reaction front only" in the aliveness spectrum is an early-life state (Phase 1), not achievable by degradation of a modern tower. Crisis pathway for modern towers: full reef → degraded → inert (skips reaction-front-only). Dependence on symbiotes is absolute and irreversible.
-6. **Base-to-root transition:** Detailed geometry of the merge between tower base and root network. Smooth flare vs distinct boundary. Affects structural modeling of overturning resistance.
+6. **~~Base-to-root transition~~** ✓ RESOLVED — substrate-dependent, no universal template. The transition geometry is determined by local monadnock geology (fracture density, mineralogy, bedding), which varies across the base of a single tower. Densely fractured zones: deep root interpenetration, lattice and rock merge with no clear boundary, small/numerous interstices, best anchorage and sinkhole defense. Sparsely fractured zones: shallow roots along few fracture traces, lattice sits more distinctly on rock, large interstices between widely-spaced buttresses (better amorph habitat, worse anchorage). Bedded/layered rock: horizontal root sheets along bedding contacts, flat sheltered interstice geometry. A single tower base can exhibit all three modes on different flanks. Every tower footprint is unique. Interstice geometry (and therefore amorph habitat quality) varies around the circumference — prime real estate is flank-specific.
 7. **~~Pre-Healer root mechanism~~** ✓ RESOLVED. Same Phase 1 autocatalytic surface reaction that builds the tower, growing laterally along exposed deep-rock fracture traces at the monadnock surface. Amplified by resistance crossover: as lightning-driven downward ceramification stalls in the PCS gap (power ∝ 1/R²_total), current shifts to lateral surface paths (Kirchhoff). Pre-biotic proto-root network — dendritic, fracture-following. Healers inherit and optimize, replacing slow catalytic growth with fast directed arc-CVD. See §2.2 Phase 1.
-8. **Visual/sensory experience of tower interior:** What does it feel like to be inside a tower? EM environment, acoustic environment, spatial character at different heights.
-9. **Maximum excavated chamber size:** Structural analysis needed. At minimum solids fraction (~5%), how large a void can be excavated before the surrounding lattice cannot be densified enough to carry the redistributed load? Sets hard upper bound on amorph living space within a tower.
-10. **Upwash crossover height for passive amorph riding:** At what height on the windward face does the upwash exceed the amorph's sink rate (~4.3 m/s at max spread)? Determines the climb/ride split in the tower-hop transit model. Depends on tower width, opacity profile, and 3D flow routing around the flanks. The base center-face has the strongest 2D constraint (highest upwash) but this weakens with height as air finds lateral routes.
+8. **~~Visual/sensory experience of tower interior~~** ✓ RESOLVED. The amorph sensory palette is EM (primary), acoustic, chemical, mechanical — not primarily visual. **EM:** The lattice carries grid current and network signals continuously. Inside the tower is a dense, structured EM field — not noise but patterned signal (symbiote coordination, energy-gradient management, network data). Windward shell is loudest (steepest gradients, densest symbiote activity). Interior structural webbing creates partial Faraday shielding — deeper = quieter. Base: heavy current, dense traffic. Apex: lighter, simpler, more atmospheric EM leaking in. **Acoustic:** Layered, not tonal. Windward shell generates broadband biological noise (wind through irregularly-coated pores), NOT clean Aeolian tones (symbiote coating damps vortex shedding). Clean ~1 kHz tones come from bare interior struts behind the living shell. Low-frequency structural vibration from wind loading. Chimney draft hiss. Dead towers sound completely different — pure Aeolian tones everywhere, no biological noise (see §9.1). **Chemical:** SiH₄ decreases windward-to-leeward (filter strips it). H₂ increases (metabolic waste). Chimney channels: H₂-rich, warm. Readable gradients for orientation. **Height progression:** Base (EM-dense, acoustically sheltered, warm from geothermal roots — feels like inside a machine). Mid (quieter EM, wind-sound dominant, chimney draft, tower's tonal voice clearest). Upper (EM thins, wind increases, atmospheric EM leaks in). Apex (exposed — full wind, full thunder, full atmospheric EM, sensory overload for a ground-dweller).
+9. **~~Maximum excavated chamber size~~** ✓ RESOLVED — PREMISE REJECTED. Amorphs do not excavate chambers inside the biological tower. Two independent barriers: (a) the tower's immune system (Healers/Guards) actively resists unauthorized structural damage — chelation badge = tolerated surface mutualist, not licensed demolition contractor; (b) the tower-reverence meme (one of the oldest universal amorph memes, budding-transmitted, predating tool use) makes deliberate tower damage psychological sacrilege. Structural analysis (Kirsch solution for void stress, vault buckling) shows 30 m spans are *theoretically feasible* with densified shells at mid-tower solids fractions, but this capability is never exercised. Amorphs live in root-buttress interstices (external, naturally occurring) and in amorph-built structures (see Industrialization Hub). Tower interior remains symbiote-scale habitat (6–12 mm pore network) throughout.
+10. **~~Upwash crossover height~~** ✓ RESOLVED. **~750–850 m on a 1 km terminator tower (~75–85% of height).** The critical constraint is 3D flow routing: the tower is much taller than wide (aspect ratio ~7 at base), so blocked wind preferentially routes around the flanks rather than over the top. Upwash is weak below ~500 m (1–2 m/s, lateral routing dominates), builds through 500–750 m (2–4 m/s), crosses the 4.3 m/s amorph sink rate at ~750–850 m, and reaches 5–8 m/s in the apex zone (850–1000 m) where flow is forced over the narrowing crest. Climb/ride split: ~80% physical climbing (hours, pore-grip technique), ~20% passive upwash riding to summit. Center of windward face has strongest upwash (most 2D-constrained); near flanks, lateral routing dominates at all heights — experienced climbers favor the center line. Continuous terminator rain is not a significant factor: amorph glide surfaces are biological membranes (not precision airfoils), pore-grip is mechanical interlock (wet-insensitive), rain-drag opposes upwash by only ~0.5 m/s. Upstream approach zone (200–500 m ahead of face): weak upwash (1–3 m/s), extends tower-hop glide geometry but doesn't support soaring.

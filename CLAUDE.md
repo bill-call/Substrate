@@ -39,6 +39,7 @@ Use pandoc to convert .docx to .md, when necessary. Hard requirement: pandoc doe
   - `substrate_amorph_emergence_hub.md` — pore-to-megafauna pathway, aeroplankton dispersal, tower biofilm, IFF/first meme, miner competition, cognition emergence.
   - `substrate_amorph_daily_life_hub.md` — ground-level texture, 11×5×3 matrix (life domains × periods × geography), hierarchy of needs, locomotion, shelter, feeding, social life, economy, governance, art, ground-level ecology, city morphology, legal system, transport evolution.
   - `substrate_tower_morphology_hub.md` — physical engineering of tower shape: airfoil cross-section derivation, construction model, filtration/chimney/structural analysis, Gibson-Ashby scaling, height profiles, porosity gradients, regional variation, key dimensions.
+  - `substrate_amorph_industrialization_hub.md` — construction technology progression, Healer domestication, lightning tower revolution, two-grid world, settlement geography, amorph architecture.
 - **Planned hubs:**
   - Network Hub — adversarial ratchet, consciousness question, awakening crises, merger, monks. (Touches towers, deep-rock, civilization, narrative.)
   - Crisis Hub — atmospheric decline, tower deaths, merger, probe, space program. (Touches everything.)
@@ -135,7 +136,7 @@ These predate the spine/hub/module system. Their content has been absorbed into 
 ## Versioning
 
 All documents carry version numbers matching the bible version they're current with.
-- Current version: **v2.4** (February 2026)
+- Current version: **v2.5** (February 2026)
 - When the bible is updated, all spine/hub/module documents should be checked for consistency and updated if needed. Their version numbers should match.
 
 ## What Claude Should Do When Something Contradicts

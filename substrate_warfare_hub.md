@@ -229,13 +229,57 @@ Deploying fluorine munitions is a declaration that the enemy's *knowledge doesn'
 - **Decontamination.** Neutralize HF residue (ammonia wash — NH₃ + HF → NH₄F, ammonium fluoride, less aggressive). Area denial persists until cleanup.
 - **Deterrence.** Mutually assured cultural destruction. If you use fluorine, so will your enemy. Both sides lose irreplaceable knowledge. The rationality of deterrence depends on cultures valuing their own memes — which they do, absolutely.
 
-### 4.8 Open Questions
+### 4.8 Sidebar: The Fluorine Squirt Gun
+
+**[V2.4+ — unreviewed, preliminary]**
+
+A directed liquid-fluorine weapon: SiC nozzle (fluorine-inert at 240K), ammonia hydraulic pump, fluorine-bearing liquid payload. A chemical squirt gun. Simpler than a shell launcher, concealable, surgical.
+
+**Ballistic constraints at 8 bar.** The dense atmosphere is devastating to liquid jets. Aerodynamic Weber number (We_a = ρ_a × v² × d / σ) is 8× Earth for the same parameters, pushing jets into prompt atomization at practical velocities. Coherent jet range scales as √(ρ_fluid / ρ_atm) — roughly 1/3 of Earth equivalent.
+
+| Condition | Effective range | Character |
+|---|---|---|
+| Still air, 8 bar | ~5 m coherent, ~15 m dense spray | Moderate |
+| Open terminator (9.5 m/s crosswind) | ~2–3 m | Melee — wind shreds the jet |
+| Wind shadow (urban, sheltered) | ~5–10 m | Close-quarters |
+| In ammonia rain | Degraded further | HF partially neutralized by NH₃ |
+
+Crosswind deflection: a 10 mm coherent jet at 30 m/s is deflected ~0.85 m at 5 m range in 9.5 m/s wind. Post-breakup droplets are deflected 4+ m at the same range — effectively gone.
+
+**The weapon selects its user.** The characteristics — short range, devastating on contact, most effective in sheltered/enclosed spaces, culturally abhorrent — map to two profiles:
+
+1. **Monk weapon.** Dead tower interiors are windless. Full 5–10 m range, coherent jet, no deflection. Monks already have low cultural barrier (instrumental relationship with towers extends to instrumental relationship with taboo materials). Small communities needing asymmetric deterrence. The threat alone — "we have fluorine" — deters raids.
+
+2. **Assassin's tool.** 2–3 m open-air range = requires trust exploitation or ambush. Destroys memes without necessarily destroying the body — kills the *person* while the organism survives. No blast radius, no collateral structural damage. Concealable (SiC tube, small reservoir, hand pressure). The perfect weapon for someone who needs one target dead-of-identity and nothing else disturbed.
+
+**Meme-based tower-reverence as constraint.** The fluorine squirt gun is simple to build (SiC additive construction + fluorine sourcing from §4.2–4.3). The barrier to proliferation is primarily memetic: the tower-reverence meme (one of the oldest and most universal amorph memes, transmitted through budding, predating tool use) extends to a deep aversion to fluorine weaponry. Even day-side amorphs who have never heard a tower signal carry the reverence meme and its associated fluorine horror. Monks, who have developed counter-memes through their instrumental tower relationship, have the lowest psychological barrier.
+
+**Also a cutting tool.** SiC abrasive dust in a pressurized ammonia stream (same delivery system, non-fluorine payload) is an effective rock cutter and general-purpose subtractive tool. Mohs 9.5 abrasive against Mohs 6–7 silicate bedrock. The weapon and the tool are the same device with different reservoirs. Dual-use is inherent.
+
+**Water variant: the petrification gun.** Same delivery system, water payload. H₂O converts silazane (Si-N) to siloxane (Si-O) with K ≈ 1.6×10⁵ at 240K — thermodynamically overwhelming. Effects are slower than fluorine (hydrolysis vs fluorolysis) but still devastating: surface silazane membranes petrify on contact, exposed gel hardens to glass. Unlike fluorine, water doesn't destroy SiC lattice — it's a weapon against *biology* specifically, not infrastructure. Sources: volcanic steam (day-side), ice deposits (night-side), ammonia-distillation concentration. Easier to acquire than fluorine. Same range constraints (8-bar atmosphere, wind). Water freezes at 273K (above 240K ambient) — the payload is *ice slurry* in ammonia carrier, releasing H₂O on skin contact as ammonia evaporates. Tactically: slower kill, but the victim petrifies visibly — glass spreading across the body. Psychologically horrific. Meme damage is partial (deep memes in SiC network survive; gel-resident working memory destroyed). A fluorine gun kills the person and their history; a water gun kills the person and leaves their library readable.
+
+**Moat feasibility (monk dead-tower defense).**
+
+A perimeter barrier of hostile liquid around a dead-tower monastery. Two variants:
+
+*Fluorine moat.* HF is liquid at 240K (mp 190K, bp 292.5K at 1 bar; elevated bp at 8 bar). Physically possible. However: HF in the NH₃-rich atmosphere self-crusts. NH₃ + HF → NH₄F (solid ammonium fluoride salt). The moat develops a passivation crust like aluminum oxide — solid on top, liquid beneath. This is actually *useful*: the crust is thin, brittle, and concealed. An intruder steps through it into liquid HF below. Self-maintaining camouflage. The problem is scale. A 1 m wide × 0.3 m deep moat around a 50 m diameter tower base requires ~50 m³ of liquid HF (~50 tonnes). Monasteries are on the dark side, far from volcanic fluorine sources (§4.2). Logistics are prohibitive for a full perimeter. **Targeted traps at approach routes** — tens of kg, not tonnes — are feasible. Pit traps with HF pools at choke points. A monastery might maintain 3–5 such traps covering the main approach paths, plus portable reserves for the squirt gun.
+
+*Water/ice moat.* Water is solid ice at 240K. A trench filled with ice chunks in ammonia creates a petrification slurry — ammonia slowly dissolves the ice, creating a dilute H₂O-in-NH₃ solution (~ppm to % levels depending on equilibrium). Any organism entering the trench gets progressive petrification from prolonged contact. Much slower than fluorine (minutes to hours vs seconds), but the trench itself is a persistent obstacle. Ice is more available on the dark side (cryogenic cold-trapping from trace atmospheric H₂O over geological time → small ice deposits). A water moat is less lethal but more *logistically feasible* than fluorine for a dark-side monastery. It also doubles as a petrification-defense training ground — controlled low-concentration exposure for hardening biological membranes.
+
+Both moat types share a weakness: they're static defenses around a fixed position. Any attacker who knows the moat exists routes around it or bridges it (SiC planks are trivially inert to both fluorine and water). The moat's value is primarily as *deterrent display* and against uninvited visitors, not against determined siege.
+
+### 4.9 Open Questions
 
 - □ What historical event constitutes "first use"? What drove it?
 - □ Is there a conventional arms-control framework, or only the taboo?
 - □ Do any cultures stockpile fluorine weapons as deterrent (their nuclear arsenal)?
 - □ How does the network/tower mind view fluorine weapons? Does the network have opinions on warfare?
 - □ Is fluorine defense a driver of the day-side colonization program (escape the volcanic fluorine sources)?
+- □ What fluorine-bearing liquid is stable enough for reservoir storage but reactive on contact with silazane? (Chemistry question — carrier fluid must not self-neutralize.)
+- □ Does the squirt gun change the taboo calculus? (Directed vs area-effect — is a rifle less taboo than a gas attack?)
+- □ Is the water gun taboo-adjacent or culturally distinct from fluorine? (Petrification = natural hazard, not WMD. Water weaponization might occupy a different moral category.)
+- □ Do monasteries actually maintain HF traps, or is this theoretical capability only? What's the fluorine supply chain to the dark side?
+- □ NH₄F crust thickness vs HF pool depth at equilibrium — does the crust eventually consume all the HF? (Chemistry: rate of NH₃ diffusion through crust vs crust growth rate.)
 
 ---
 

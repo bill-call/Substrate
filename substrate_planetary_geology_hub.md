@@ -389,6 +389,20 @@ Biological consequences:
 
 ---
 
+### Mechanical Karst [NEW V2.4+]
+
+**Sinkholes are an inevitable geological artifact** wherever ammonia rain + SiC grit + fractured bedrock coincide. The mechanism: ammonia runoff percolates into pre-existing fracture networks (deep-rock reaction front, tectonic joints, bedding planes). The runoff carries SiC grit (Mohs 9.5) from the atmospheric conveyor and dead-bug plume. SiC-laden ammonia mechanically abrades silicate fracture walls (Mohs 6–7), progressively widening channels and developing voids. Over geological time: sinkhole collapse.
+
+**Tower sites are the highest-risk locations** — deepest fracture networks (reaction front origin), most runoff (tower-generated topographic complexity captures rain), highest SiC grit concentration (dead-bug plume deposits in leeward zone). Towers defend via Healer-sealing of detected ammonia intrusion (see Tower Morphology Hub §10.6). Non-tower locations lack active defense but also have shallower/sparser fracture networks and less concentrated grit delivery.
+
+**Dark-side sinkholes** form wherever katabatic wind deposits SiC grit onto fractured terrain and ammonia condensation provides the carrier fluid. Rarer than terminator sinkholes (less rain, less grit) but possible at any location with exposed fracture networks. Sinkhole pools on the dark side would be among the coldest stable ammonia bodies (~215K).
+
+**Implication for ammonia seas:** Sinkhole collapse near shores creates sudden local deepening — new habitat, disrupted shore ecology, potential connection between subterranean fracture-water and open sea. Tower-adjacent sinkhole pools (§Surface Geomorphology) are a distinct basin type from wind-scour basins.
+
+→ **Cross-ref:** Tower Morphology Hub §10.6 (tower sinkhole defense, failure modes). Warfare Hub (deliberate sinkhole induction as siege weapon).
+
+---
+
 ## 9. Open Questions
 
 □ **Planet age.** ~7 Gyr is proposed (consistent with crisis onset, complex-life evolution, M-dwarf lifetime). Not yet committed. This is a narrative tuning knob.

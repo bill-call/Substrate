@@ -298,7 +298,8 @@ Dead lining the corridors: petrified ancestors. Glass fossils. The dead persist 
 | Near dark-side towers | Residential, cultural. Comfortable climate. Near industrial base. Launch corridor (deposition zone). |
 | Dark-side towers | Spiritual. Singing zone. Monks. Contemplatives. Gentle wind, cold, calm. Acoustic richness. Gas-pocket towers = monasteries (non-renewable SiH₄ reserves). |
 | Anti-stellar pole towers | Archive. Most primitive modern architecture (near-zero power, minimal renovation). Near-zero wind. Circular dome shape. |
-| Geothermal oasis towers | Anomalous. Terminator-class architecture in energy desert. Major network nodes despite dark-side location. Non-renewable. |
+| Geothermal oasis towers (gas pocket) | Anomalous. Terminator-class architecture in energy desert. Major network nodes despite dark-side location. Non-renewable (gas pocket depletes). These become monasteries. |
+| Nightside oasis tower (unique) | [NEW V2.5] Chemical seamount on impact crater central peak in nightside ocean. Geothermal-powered (thermoelectric, inexhaustible). NOT originally on grid — initialized by proto-monks via EM relay + symbiote transplant. One-of-a-kind geological freak. Origin site of monastic tradition and schism. See spine §Monks. |
 
 ### The Mass Driver
 

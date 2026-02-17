@@ -1,6 +1,6 @@
 **SUBSTRATE**
 
-Reference Bible v2.4
+Reference Bible v2.5
 
 Compact Constraint Sheet for Continuing World-Building Sessions
 
@@ -199,11 +199,13 @@ Towers break it.
 
 **[REVISED V2.4]** Ammonia seas are **tower-dependent features** in the modern era. Any topographic depression on the dark side is a sediment trap: atmospheric particulate falls out where katabatic wind meets liquid surface (wave-induced turbulence trips boundary layer, drops carrying capacity), all particulate sinks in ammonia (SiC: 3200 kg/m³, silicate: 2500+ kg/m³, ammonia: 660 kg/m³), and without outflow the basin fills. Over geological time, every unprotected depression fills with sediment and ceases to exist.
 
-Towers are the only self-repairing roughness element on the planet. A tower breaks the otherwise aerodynamically smooth boundary layer (Re ~10¹² precludes true laminar, but surface roughness < viscous sublayer ~50 μm), creating turbulence → scour basins and complex depositional topography → depressions that hold ammonia. The tower's ongoing turbulence actively maintains the basin against sediment infilling. Kill the tower, the turbulence stops, and the peneplain reclaims the basin within geological time.
+Towers are the only self-repairing roughness element on the planet. A tower breaks the otherwise aerodynamically smooth boundary layer (Re ~10¹² precludes true laminar, but surface roughness < viscous sublayer ~50 μm), creating turbulence → scour basins carved in the tower's own accumulated sediment → depressions that hold ammonia. Basin maintenance operates by **upstream grit interception**: the grass/breakwater field surrounding the tower pre-filters the ammonia sheet flow, trapping grit before it reaches the scour basin. The basin receives pre-filtered liquid. Kill the tower → grass dies → grit-laden flow reaches basin unfiltered → basin fills with sediment → surface reclaims it within geological time.
 
 **Shore deposition zones:** Where katabatic wind meets ammonia surface, waves create roughness elements, the boundary layer trips to turbulent, and the wind's particulate carrying capacity drops. Atmospheric fallout accumulates at the shoreline — SiC grit, volcanic fines, dead-bug plume debris (catalytic metals, library fragments, SiC plates). The shore is the primary nutrient delivery system connecting the atmospheric conveyor to the marine ecosystem, and the main reason shore/intertidal is the richest marine zone.
 
 Terminator basins remain the primary sea locations (tower arrays densest, rain supply direct, fracture-zone topography supplements tower turbulence). Dark-side seas exist only where tower arrays extend dark-ward of the terminator. Locations are permanent on civilizational timescales but shift over geological time as tower arrays expand, contract, or die (towers are stationary — positions shift only through nucleation of new towers or death of existing ones).
+
+**[NEW IN V2.5] Nightside ocean:** Shallow seas (50–200 m depth, narrative knob) in the lowest nightside basins, fed by the ~5–20% of volcanic NH₃ that crosses the terminator mound crest — preferentially via the polar gateway where the mound is thin (see §3.6.3). NOT a hemisphere-spanning deep ocean. Most nightside terrain is dry. The nightside ocean is liquid and stable (above NH₃ freezing point of 195K even at the anti-stellar point of 215K) but shallow and confined to topographic lows. **Depth is uniform across connected nightside basins** — rotational and tidal bulges don't create systematic depth variation on a hydrostatically equilibrated planet (geoid and solid surface deform equally). Depth at any point = topography.
 
 3.5 Dark-Side Surface Geomorphology
 
@@ -217,7 +219,7 @@ The surface roughness falls below the viscous sublayer (~50 μm), producing an *
 
 **Visual:** From orbit, the dark side is a polished plain extending to the horizon, punctuated by tower arrays with ammonia seas at their feet. The contrast with the day side (active volcanic terrain — shield volcanoes, flood basalt provinces, yardangs and ventifacts sculpted by wind) is extreme.
 
-**Day-side geomorphology:** Volcanic construction dominates near substellar. Wind erosion increases with distance from substellar. Gradient from construction-dominated (young, rugged volcanic terrain) to erosion-dominated (streamlined remnant topography) to pure peneplain (terminator). The deposition zone 20–40° day-ward of the terminator accumulates deep sediment (km) from wind-transported mineral and volcanic ash.
+**Day-side geomorphology:** Volcanic construction dominates near substellar. Wind erosion increases with distance from substellar. Gradient from construction-dominated (young, rugged volcanic terrain) to erosion-dominated (streamlined remnant topography) to accretional sediment wedge (terminator, tower-stabilized). The deposition zone 20–40° day-ward of the terminator accumulates deep sediment (km) from wind-transported mineral and volcanic ash.
 
 3.6 Atmospheric Particulate Conveyor
 
@@ -235,6 +237,50 @@ The surface roughness falls below the viscous sublayer (~50 μm), producing an *
 **Anti-stellar dust cap:** Minor exception to the no-accumulation rule. Katabatic wind velocity starts at ~0 m/s at the anti-stellar stagnation point and the downdraft deposits material directly. The finest fraction may accumulate locally where wind is too gentle to re-entrain. Self-limiting and geologically insignificant — the stagnation zone is small and any accumulation reduces the local thermal gradient that drives the katabatic wind in the first place.
 
 **No significant cyclonic activity at convergence points.** Both the substellar and anti-stellar points are on the equator (f = 0). Rotation rate is ~4% of Earth's (18-day period). Equatorial Rossby deformation radius (~20,000 km) exceeds the planetary radius (~8,600 km). The circulation is a broad, thermally-direct overturning with equatorial superrotation (Matsuno-Gill pattern), not discrete vortices. Coriolis modifies the flow (Ro ≈ 0.17–0.28 at mid-latitudes) but does not produce cyclones.
+
+3.6.1 Vertical Atmospheric Structure
+
+**[NEW IN V2.5]**
+
+Dry adiabatic lapse rate: ~12.3 K/km (g/c_p = 17.85/1450). **Moist adiabatic lapse rate: ~5 K/km** — NH₃ latent heat (1374 kJ/kg) at 12.5% mixing ratio massively stabilizes the atmosphere, stretching the thermal structure vertically by ~2.4× compared to a dry atmosphere.
+
+Tropopause and superstream altitude: ~12–16 km (10–20% of 8-bar surface pressure). Single planet-wide overturning cell — Rossby deformation radius (~1.5× planet radius) exceeds the planet, preventing Hadley-cell breakdown into zonal jets. Coriolis deflects flow within the cell (S-shaped surface paths, equatorial superrotation) but cannot produce Earth-style jet streams.
+
+**Critical difference from Earth:** the superstream at 12–16 km altitude **passes through the NH₃ condensation zone** (which extends from the surface to ~18 km at the terminator). Earth's jet stream is above the tropopause, outside the weather. Here the upper-level return flow is *inside* the weather — subject to rain scavenging throughout the terminator transit.
+
+NH₃ condensation floor rises with surface temperature: at T_surf = 280K (near substellar) condensation begins at ~4.6 km altitude; at 260K → 2.4 km; at 250K → 1.2 km; at 240K (terminator) → surface. The superstream enters the condensation zone well dayside of the terminator mound crest.
+
+3.6.2 Effective Hydrological Cycle
+
+**[NEW IN V2.5]**
+
+The effective ammonia hydrological cycle is **terminator-to-substellar**, not planet-wide. The superstream (warm, NH₃-laden air from the dayside thermal chimney) first encounters condensation well dayside of the terminator mound crest (condensation floor rises with temperature — see §3.6.1). Most rainfall (~80–95%) lands on the dayside slope of the terminator mound, evaporates at the ~240K evaporation boundary, and recycles within the dayside atmosphere. Only ~5–20% of volcanic NH₃ crosses the mound crest to reach the nightside as liquid.
+
+**Consequence — shallow nightside ocean.** The nightside is ammonia-starved. Nightside seas are **50–200 m deep** in the lowest basins only, not a hemisphere-spanning deep ocean. Most nightside terrain is dry. The terminator mound holds by 1–3 km of headroom over the nightside sea in all realistic scenarios. Megaflood (nightside ocean overtopping the mound) is dead.
+
+**Consequence — nightside tower starvation.** Nightside tower growth is starved of atmospheric particulate (no rain delivery, no significant wind-borne sediment). Nightside towers depend entirely on their own deep-rock vent for building material, not the atmospheric conveyor.
+
+3.6.3 Latitude-Dependent Terminator and Superrotation
+
+**[NEW IN V2.5]**
+
+**The terminator is not uniform pole-to-pole.** Coriolis parameter f = 2Ω sin(φ) varies from zero at the rotational equator to maximum at the poles. Rossby number at the terminator ranges from Ro = ∞ at the equatorial terminator (f = 0, purely radial flow) to Ro ≈ 0.12 at the polar terminator (strongly geostrophic — flow runs along the terminator rather than across it). Three consequences:
+
+1. **Rain concentrated at equatorial terminator.** The superstream converges head-on at the equator (no deflection). At higher latitudes, atmospheric flow is increasingly geostrophic — runs along the terminator, not across it — producing less convergence and less precipitation.
+
+2. **Mound height is latitude-dependent.** The ammonia mound (accretional dam from rain deposition) is thick at the equatorial terminator (radial surface flow piles up against it) and thin or absent at the polar terminator (flow deflected along terminator instead of piling up).
+
+3. **Polar gateway.** Ammonia enters the nightside preferentially through the polar terminator where the mound barrier is weak. Some mid-latitude surface ammonia is deflected poleward by Coriolis, feeding the polar gateway. This is the primary nightside ammonia delivery pathway.
+
+**Nightside ocean depth is NOT latitude-dependent.** Despite the polar delivery pathway, ammonia is a liquid — it flows to all connected nightside basins and fills to a common level. On a planet in hydrostatic equilibrium, the rotational bulge raises both the solid surface and the geoid equally, creating no systematic depth variation. Ocean depth at any point = geoid − solid surface = pure topography (impact basins, volcanic features). The mound is the only systematic topographic feature (deposited material, not a geoid effect). The polar gateway determines the *plumbing*, not the *geography*.
+
+**Equatorial superrotation.** Standing Rossby and Kelvin waves transport angular momentum to the equator, producing a prograde (eastward) equatorial jet — the mechanism identified by Showman & Polvani (2011)¹ for hot Jupiters and subsequently confirmed in GCM studies of tidally locked rocky planets. For this planet's 9-day rotation period, the effect is weak — near the ~12-day transition to non-superrotating regime identified by Carone et al. (2015). Estimated equatorial jet speed: ~5–15 m/s. Hotspot offset: ~5–10° east of substellar point. Consequences: mild E-W asymmetry of the terminator — one side ("windward") receives slightly more rain, the other slightly less. This is a second-order modulation on the first-order latitude gradient from Coriolis. τ_rad/τ_wave ≈ 400 (waves have time to organize), but thermal forcing is reduced by the thick (8-bar) atmosphere's long radiative timescale.
+
+¹ Showman, A.P. & Polvani, L.M. (2011). "Equatorial Superrotation on Tidally Locked Exoplanets." *The Astrophysical Journal*, 738(1), 71. The standing-wave mechanism transfers angular momentum equatorward via the Matsuno-Gill response to asymmetric heating — produces prograde jets even on slowly rotating planets, though jet strength scales with rotation rate. See also Showman et al. (2013) for the generalized theory across planetary regimes.
+
+**No precession.** The planet is tidally locked at 0.12 AU with a circular orbit. Obliquity is damped to zero by tidal forces. No libration (circular orbit). Pole-to-pole symmetry is broken only by Coriolis. No seasonal variation of any kind.
+
+**Ecological texture:** Equatorial terminator = intense, continuous storm front (maximum rain, maximum thunder, thickest mound, densest tower forest, richest ecology). Polar terminator = drier, calmer, thinner mound, easier nightside access — a frontier zone where the terminator can be crossed on foot. Two distinct terminator biomes along a single continuous ring.
 
 3.7 Volcanic Outgassing and the Atmospheric Budget
 
@@ -568,7 +614,7 @@ needs to succeed once — wind dispersal populates all towers.
 Permanent, thermally direct circulation: hot air rises at substellar
 point, flows to dark side at altitude, descends, returns as cold dense
 surface wind toward day side. Coriolis is weak (18-day rotation, f =
-5.7×10⁻⁶ at 45°, \~6% of Earth) but **significant at planetary scale** — Ro ≈ 0.17 at 9.5 m/s terminator wind speeds over planetary distances. S-shaped surface flow paths. ~15° deflection at mid-latitude terminator; zero at equator. Paired cyclonic Rossby gyres flank the substellar point at mid-latitudes. Paired anticyclonic features at anti-stellar. Equatorial superrotating jet at altitude (50–100+ m/s). Standing Rossby wave patterns on dark side create permanent convergence/divergence zones — fixed precipitation zones and cloud banks at specific longitudes.
+5.7×10⁻⁶ at 45°, \~6% of Earth) but **significant at planetary scale** — Ro ≈ 0.17 at 9.5 m/s terminator wind speeds over planetary distances. S-shaped surface flow paths. ~15° deflection at mid-latitude terminator; zero at equator. Paired cyclonic Rossby gyres flank the substellar point at mid-latitudes. Paired anticyclonic features at anti-stellar. Equatorial superrotating jet at altitude (50–100+ m/s). Standing Rossby wave patterns on dark side create permanent convergence/divergence zones — fixed precipitation zones and cloud banks at specific longitudes. **[V2.5]** Terminator is latitude-dependent: Ro ranges from ∞ at equator to ~0.12 at poles. See §3.6.3 for full analysis (rain concentration, mound height variation, polar gateway, superrotation offset, ecological texture).
 
 5.2 Surface Wind Profile
 
@@ -611,11 +657,7 @@ on Earth). Wind power at terminator: \~3.5 kW/m² (Earth best:
 
 5.3 Erosion and Surface Geomorphology
 
-Erosive power scales as v³ and linearly with density. At 8.2 kg/m³ and
-9.5 m/s, erosion rate is modest per-second but continuous for billions
-of years. Result: terminator is a flat, featureless peneplain. No
-geological features survive. Only towers (biological, self-repairing)
-stand above the surface. Ammonia rain contributes chemical erosion.
+**[REVISED V2.4+]** Erosive power scales as v³ and linearly with density. At 8.2 kg/m³ and 9.5 m/s, erosion rate is modest per-second but continuous for billions of years. The dark side (bare bedrock) is a true erosional peneplain. The **terminator is NOT a peneplain** — it is an **accretional sediment wedge** stabilized by the tower forest and SiC grass lattice. Tower breakwater arrays + continuous grass lattice intercept grit-laden ammonia sheet flow → sediment accumulates → surface rises over geological time. Towers grow upward through accumulating sediment. Asymmetric cross-section: gentle dark-side slope (wet, actively accumulating), flat top (tower forest, grass-stabilized), steep day-side face (dry, wind-eroded at ~240K evaporation boundary). Without towers, grass dies, entire wedge erodes, and the terminator would revert to featureless flat surface.
 
 **[REVISED V2.4]** The dark side is an even more extreme peneplain — SiC-polished bedrock. Pre-biotic volcanic SiC (~9 Tg/yr from mantle moissanite + surface pyrolysis of SiH₄/CH₄ on hot lava) begins eroding silicate terrain at ~600 mm/Myr even before biology exists — smooth but not polished. The dead-bug plume later adds massive biological SiC to the conveyor, dramatically accelerating erosion to produce mirror-smooth surfaces. The transition from smooth to mirror-polish is a geological marker of the biosphere's onset. SiC (Mohs 9.5) abrading silicate bedrock (Mohs 6-7) over billions of years, with no constructive geology to fight back, produces sub-grain-scale smoothness. Surface roughness falls below the viscous sublayer (~50 μm) → aerodynamically smooth turbulent boundary layer (Re ~10¹² precludes true laminar, but surface too smooth for roughness-driven turbulence). The only persistent roughness elements on the dark side are towers. See §3.6 for the full atmospheric particulate conveyor (closed loop) and §3.4 for tower-dependent basin formation.
 
@@ -1854,7 +1896,7 @@ shell-economy collapse: grief counselors.
 
 **[NEW IN V2.4]**
 
-**✓ RESOLVED: Monk origin — network warfare consequence.**
+**✓ RESOLVED: Monk core skill origin — network warfare consequence.**
 Fragmentation events (geological disconnection → protocol drift →
 reconnection → micro-war) occasionally produce losing towers that
 reveal vulnerabilities in the network's behavioral influence protocol
@@ -1866,8 +1908,43 @@ environment contains information about the vulnerability (inherited
 war spoil). Proto-monks: amorphs who notice the seam and develop the
 core skill by learning the shape of the exploit from the tower itself.
 Any dark-side tower is low-priority for patching; even a gas-pocket
-tower is impoverished compared to a terminator node. Monk tradition
-predates the specific association with gas-pocket towers.
+tower is impoverished compared to a terminator node. Core skill
+predates the institutional tradition.
+
+**[NEW IN V2.5]**
+
+**✓ RESOLVED: Nightside oasis tower.** Single geological freak in the
+nightside ocean. Chemical seamount built on the central peak of a
+D ~80–150 km impact crater. Genesis: SiH₄ from deep-rock reaction
+front vents through impact fracture network at central peak → reacts
+with liquid ammonia → silazane/PCS precipitates → chimney grows from
+crater floor (~5 km below ocean surface) to above sea level (trivially
+easy — needs <0.001% of SiH₄ flux, completes in <200 kyr). Above
+surface: geyser-cone mechanism operates in air; volcanic lightning
+(triboelectric from ejecta plumes) provides sporadic ceramification.
+Power: geothermal thermoelectric gradient (hot vent below, cold
+nightside atmosphere above) — continuous, inexhaustible. NOT on the
+grid (roots submerged in conductive ammonia, permanently shorted).
+NOT intelligent until initialized. An ammonia-world Surtsey.
+
+**✓ RESOLVED: Proto-monk origin — oasis tower boot sequence.**
+Pre-monk amorphs (possessing the core skill from network-warfare
+exposure but not yet an institutional tradition) reach the nightside
+oasis island. They solve two logistics problems: (1) build an EM relay
+— jack the grid signal from a terminator peak tower, install a
+receiving dish on the island. The nightside atmosphere is EM-transparent
+(NH₃ largely condensed into the ocean). The tower network cannot
+distinguish relay from root connection. (2) Transport a starter
+population of modern symbiotes (Healers, Miners, Guards) to the island.
+Then they wait. The tower receives grid firmware via the relay,
+symbiotes self-organize (Healers ceramify, Miners deliver metals,
+Guards authenticate), and the tower bootstraps from feral chemistry to
+functioning network node. The proto-monks witness the entire boot
+sequence — the first beings to see a tower come online from scratch
+(terminator towers predate amorphs by geological ages). **The monastic
+schism originates here:** same event, two irreconcilable
+interpretations — "we turned on a machine" vs "we woke someone up."
+First-person dispute between witnesses who were there.
 
 **✓ RESOLVED: Monasteries at gas-pocket towers.** Later institutional
 development. Night-side towers whose deep roots tap subsurface SiH₄
@@ -2089,7 +2166,7 @@ silane pathway. Superior to grazer bulk SiC.
 **✓ RESOLVED:** Wind at terminator: \~9.5 m/s sustained (370 Pa dynamic
 pressure ≈ 25 m/s on Earth). Not storms; the climate.
 
-**✓ RESOLVED:** Terminator is flat peneplain. Only towers stand.
+**✓ RESOLVED [REVISED V2.4+]:** Terminator is accretional sediment wedge stabilized by tower forest and SiC grass lattice, NOT flat erosional peneplain. Towers + grass stand; surface rises over geological time. Dark side IS the true peneplain.
 
 **✓ RESOLVED:** Lightning is the origin-of-life engine (Miller-Urey for
 silicon). Still running.
@@ -2449,6 +2526,58 @@ of a modern tower. Modern crisis pathway: full reef → degraded → inert
 (skips reaction-front-only). Dependence on symbiotes is absolute and
 irreversible. See §10.1, Tower Morphology Hub §2.6. [V2.4+]
 
+**✓ RESOLVED:** ★★★ Programmable symbiote model. Symbiote genomes encode deterministic signal-response primitives (logic gates, not blueprints). The tower composes complex architectural behavior from sequences of simple signals. Convergent architecture across networks = firmware standardization. Network wars are partly firmware wars (different signal sets, incompatible protocols). See Tower Morphology Hub §3. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Protocol acquisition. Amorphs "domesticate" Healers by learning and replaying tower signal protocols, NOT by selective breeding. The construction-command library is a transferable meme (listen → replicate → iterate). The genetic signal-response primitives are already present; amorphs simply invoke the subset they need. Some breeding may be needed to suppress autonomic behaviors (tower-homing, substrate authentication). Barrier to lightning-tower construction is LOW — period between "industrial power shortfall" and "lightning towers" is short. See Industrialization Hub §3. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Lightning tower and two-grid world. Simplified basket-weave SiC structure for industrial power harvesting. Healer-coated for conductivity and repair. Electrically isolated from biological tower network. Bootstrap: battery organisms power first construction. Network opposition unlikely — tower's feedback mechanisms can't detect disconnected structures. Enables industrial power supply independent of tower reward economics. See Industrialization Hub §4. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Dead-bug plume is post-recycling waste. Tower has already stripped all biologically recoverable value from dead symbiotes before ejection. If ejecta had value, towers that recycled would outcompete (selection argument). Plume = SiC shells with locked metals, zero-value to tower. Pre-industrial amorph metal extraction from plume deposits: gather → tumble → magnetic sort (lightning-magnetized native iron). Ancient deposits become ore bodies when arc furnaces arrive. See Industrialization Hub §1.4. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Mechanical karst. Ammonia + SiC grit percolating through deep-rock fracture networks erodes silicate fracture walls. Tower defense: ammonia intrusion detected via root conductivity changes → Healer sealing. Response time critical — small crack seals easily, established flow channel is a losing battle. Underground SiCN armoring doubles as grounding capacity (supplements surface roots — no conflict because surface roots develop first for immediate grounding need, acquire irreplaceable networking function). Sinkhole formation = deferred-maintenance death mode. See Tower Morphology Hub §10.6, Planetary Geology Hub. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Symbiote coating model. Symbiotes coat strut surfaces (~2 mm strut → ~4–6 mm effective), NOT plug pores. Pores remain open. ~80–85% opacity from multiple partially-obstructed layers in series. Windward shell generates broadband biological noise (coating damps clean vortex shedding). Clean Aeolian tones from bare interior struts only. Dead towers sound completely different (clean tones, more wind-transparent). See Tower Morphology Hub §3.3, §9.1. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Solids fraction canonized. Gibson-Ashby scaling with safety factors 8–16 throughout: 3–5% apex (youngest, lightest), 5–8% mid-height, 8–12% lower, 12–15% base (oldest, Healer-renovated over Gyr). See Tower Morphology Hub §5.2. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Upwash crossover height. On a 1 km tower: ~750–850 m (75–85% of height). Below crossover, 3D flow routing dominates (tower much taller than wide → lateral routing). Above crossover, flow goes over apex. Climb/ride split ~80/20 for tower transit. Rain is not significant (biological membrane glide surfaces unaffected). See Tower Morphology Hub §7.1. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Base-to-root transition is substrate-dependent. No universal template. Varies with local geology (fracture density, bedding, mineralogy). A single tower can exhibit densely-interpenetrated, sparse-buttress, and sheet-root modes on different flanks simultaneously. See Tower Morphology Hub §6. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Terminator is accretional sediment wedge, NOT erosional peneplain. Tower breakwater arrays + SiC grass lattice intercept grit-laden ammonia sheet flow → sediment accumulates → surface rises over geological time. Asymmetric cross-section: gentle dark-side slope (wet, accumulating), flat top (tower forest, grass-stabilized), steep day-side face (dry, wind-eroded at ~240K evaporation boundary). Kill towers → grass dies → entire wedge erodes. Dark side IS the true peneplain. [V2.4+]
+
+**✓ RESOLVED:** ★★★ SiC grass model. Continuous self-growing SiC lattice field covering the entire terminator. Two components: sparse surface blades (slow wind at interface, harvest piezoelectric energy — self-powering, NOT a net energy cost to towers) + dense buried root network (structural integrity, accumulated at every past surface level over geological time). Connected to tower root network electrically but informationally DEAD — bare SiC, no FPGA structure, no biofilm, no signal processing. Tower receives charge but has no awareness of grass field. Grows upward through accumulating sediment. Independent ground-level ecosystem (any organism making Schottky contact draws charge — no authentication, no guild, no toll). Surface root "highways" are distinct: FPGA-structured, maintained, signal-carrying. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Ammonia sheet flow hydrology. Without towers: no ammonia ocean. Dark side below 240K dew point → supersaturated → continuous condensation. Thin wind-driven sheet flow (~10 cm at terminator) flowing day-ward. Laminar, gentle, negligible erosive power on flat surface. Sheet flow is a grit DELIVERY mechanism, not an erosion mechanism. Towers' own turbulence creates the erosion problem (self-inflicted). [V2.4+]
+
+**✓ RESOLVED:** ★★★ Rain belt is a buffer, not a wall. Terminator ammonia rain = phase change (air→liquid→air), not permanent removal. Particulate enters liquid sheet flow, transits through terminator sediment body, ammonia evaporates at day-side ~240K boundary, dried particulate re-enters atmospheric wind conveyor. Only permanent sinks: grass/breakwater mounds, sea beds, biological incorporation. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Ammonia sea basin maintenance via upstream grit interception. Grass/breakwater field surrounding tower pre-filters ammonia sheet flow, trapping grit before it reaches scour basin. Basin receives pre-filtered liquid. Scour basins carved in accumulated SEDIMENT (tower's own deposited material), not bedrock — much easier to form, much easier to fill. Tower-dependent seas model strengthened. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Coupled dual-fluid erosion. In valleys between tower mounds, wind AND ammonia runoff channel together and reinforce each other (Venturi acceleration, mutual deepening). Breakwaters (cm-scale) slow liquid but don't affect wind — wind keeps carving. Grass lattice prevents valley formation by disrupting both fluids across entire surface. Without grass, towers would end up on free-standing columns. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Grass is informationally dead. Bare SiC lattice — no FPGA structure, no biofilm, no signal processing. Tower receives piezo charge from grass but has no awareness of or control over what happens on it. Electrically conductive, informationally blind. Sharp boundary: surface root highways = FPGA (maintained, signal-carrying, monitored); grass = dumb conductor. Tower ecology and grass-field ecology are two largely separate worlds. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Grass-field independent ecosystem. Any organism making Schottky contact with grass lattice draws piezo charge — no tower authentication, no guild membership, no chelation toll. Open commons, first-come-first-served, limited by local piezo generation rate. Piezo trickle = subsistence (alive, not thriving). Tower grid = banquet. Two separate ecologies with minimal interaction. Grass field is the uninfluenced zone — keyless amorphs on grass are outside tower behavioral shaping. Self-regulating: too many grazers → less charge per organism → population crashes → charge recovers. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Piezoelectric SiC as universal energy mechanism. Not just grass — any SiC-bearing organism vibrating in wind harvests piezo charge. MEMS dorsal shells (~70 Hz), balloon fauna reef structures, free-living middle kingdom armor plates. Tower is the most efficient concentrator (cathedral-scale lattice + lightning), not exclusive owner of the mechanism. Atmospheric SiH₄ = chemical feedstock; wind-on-SiC = power. Non-tower food chain always had this foundation — grass makes it visible as infrastructure. [V2.4+]
+
+**✓ RESOLVED:** ★★★ Moist adiabatic lapse rate ~5 K/km. NH₃ latent heat (1374 kJ/kg) at 12.5% mixing ratio massively stabilizes the atmosphere. Superstream at 12–16 km altitude (inside the rain column, not above it like Earth's jet stream). Single overturning cell — no mid-latitude jet stream. Rossby deformation radius ~1.5× planet radius. [V2.5]
+
+**✓ RESOLVED:** ★★★ Effective hydrological cycle is terminator-to-substellar. Rain scavenging starts well dayside of mound crest. 80–95% of rainfall recycles on dayside. Only 5–20% of volcanic NH₃ reaches nightside as liquid. Nightside ocean is shallow (50–200 m in lowest basins), not hemisphere-spanning. Megaflood scenario dead. Mound holds by 1–3 km headroom. [V2.5]
+
+**✓ RESOLVED:** ★★★ Nightside oasis tower — chemical seamount on impact crater central peak. SiH₄ vent precipitation builds chimney from crater floor to ocean surface (<200 kyr). Geothermal thermoelectric power. Volcanic lightning ceramification. One-of-a-kind geological freak. [V2.5]
+
+**✓ RESOLVED:** ★★★ Proto-monk origin — oasis tower boot sequence. EM relay from terminator + symbiote transplant → tower bootstraps from feral chemistry to network node. Proto-monks witness first-ever tower coming online. Monastic schism originates as firsthand dispute: "machine" vs "mind." [V2.5]
+
+**✓ RESOLVED:** ★★★ Latitude-dependent terminator. Coriolis Ro ranges from ∞ (equatorial terminator, purely radial flow) to ~0.12 (polar terminator, strongly geostrophic). Rain concentrated at equatorial terminator; mound thick there, thin/absent at poles. Polar gateway is primary nightside ammonia delivery pathway. Equatorial terminator = intense storm front; polar terminator = dry, calm, walkable frontier. Two distinct ecological zones along the terminator ring. [V2.5]
+
+**✓ RESOLVED:** ★★★ Nightside ocean depth is uniform. On a hydrostatically equilibrated planet, rotational and tidal bulges deform the solid surface and geoid equally — no systematic depth variation from latitude or tidal position. Depth = topography (impact basins, volcanic features). Mound is the only systematic topographic feature (deposited material). Delivery pathway (polar gateway) ≠ steady-state ocean geography. [V2.5]
+
+**✓ RESOLVED:** ★★★ Equatorial superrotation offset ~5–10° prograde. Equatorial jet ~5–15 m/s. Near the ~12-day transition to non-superrotating regime. Second-order effect (latitude gradient from Coriolis dominates). Creates mild E-W terminator asymmetry. Seasoning, not structure. [V2.5]
+
+**✓ RESOLVED:** ★★★ No precession. Tidally locked at 0.12 AU, obliquity damped to zero, circular orbit, no libration. Pole-to-pole symmetry broken only by Coriolis. No seasonal variation. [V2.5]
+
 17\. MAJOR OPEN QUESTIONS
 
 Geology
@@ -2519,6 +2648,8 @@ skywhales)?
 **□ OPEN:** Balloon fauna sexual symbiont taxonomy: how many species?
 Functional guilds (structural, MEMS-flap, maintenance)? Analogous to
 tower Healers/Miners/Guards?
+
+**[V2.4+] ✓ RESOLVED:** SiC grass energy-harvesting mechanism = **piezoelectric wind harvesting**. SiC is natively piezoelectric (3C zinc blende, d₁₄ ≈ 1–3 pC/N). Blades vibrate in wind → charge generated automatically → flows through conductive lattice to tower root network. Anti-erosion function IS the energy function (same process: removing kinetic energy from wind). No biology required — inert dead SiC does this. SiH₄ metabolism ruled out (requires catalytic biofilm; most grass is bare). Photovoltaic ruled out (SiC bandgap 2.36+ eV too wide for M-dwarf peak at 1.46 eV / 850 nm — SiC is transparent to the star). Secondary mechanism: distributed lightning collection.
 
 **□ OPEN:** Atmospheric ecological zonation by altitude and longitude.
 

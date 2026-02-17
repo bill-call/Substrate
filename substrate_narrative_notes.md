@@ -726,9 +726,19 @@ If the survivor is pre-de-weighting era: they are crushed under the weight of a 
 
 **XIII. THE DEAD TOWER MONASTERY**
 
-**[v2.4+ NOTE: Monk Origin Predates Dead Towers]**
+**[v2.5 NOTE: Monk Origin — Three-Layer Model]**
 
-The monk contemplative tradition originates NOT from gas-pocket depletion but from network warfare consequences. Fragmentation events produce losing towers that reveal vulnerabilities in the behavioral influence protocol. The winning network inherits exploit knowledge and patches nodes — high-value first, dark-side last. Amorphs on unpatched dark-side nodes (any dark-side tower, not just gas-pocket towers) experience behavioral influence with detectable artifacts and develop the core skill: reading structure without being captured by content. The dead-tower discovery described below is a LATER chapter — an engineering breakthrough by an already-existing tradition, not the origin of monks. See spine §MONKS, bible §12, warfare hub §6.4.
+The monk tradition has three distinct origin events, each adding a layer:
+
+1. **Core skill** (earliest): network warfare consequence. Amorphs on unpatched dark-side nodes perceive behavioral influence artifacts, develop the core skill of reading structure without being captured by content. Predates any specific tower or institution.
+
+2. **Institutional tradition + monastic schism** [NEW V2.5]: proto-monks (possessing core skill) reach the unique nightside oasis tower — a chemical seamount on an impact crater central peak in the nightside ocean. They build an EM relay to jack the grid signal and transport symbiotes. The tower bootstraps from feral chemistry to network node while they watch. First beings to witness a tower boot sequence. The monastic schism originates HERE: same event, two interpretations ("we turned on a machine" vs "we woke someone up"). First-person dispute.
+
+3. **Gas-pocket monasteries** (later): institutional development. Surplus power from non-renewable SiH₄ reserves enables federation-level cognition.
+
+The dead-tower discovery described below is a STILL LATER chapter — an engineering breakthrough by an already-established tradition.
+
+**⚠ NARRATIVE TENSION:** The trilogy architecture (substrate_trilogy_architecture.md) places the schism origin at the key-rot war telomere pruning (Book One, line 63: "Two monks who performed the intervention walk away with irreconcilable interpretations"). The oasis tower origin is chronologically EARLIER. These may be compatible: the schism has deep roots at the oasis tower, and the Book One telomere pruning event is where it becomes politically decisive. But this needs explicit reconciliation. See spine §MONKS, bible §12.
 
 ---
 
@@ -742,7 +752,9 @@ But the lattice is still there. Conductive mineral. Porous. Wind flows through i
 
 No network signals. No behavioral manipulation. No gatekeeper deciding who gets charged. The silence the monks spent millennia seeking through contemplative discipline is now *literal*. The tower is quiet for the first time in its billion-year existence.
 
-**The thing they feared — tower death — turns out to be liberation.** The dead tower is a better monastery than the living one ever was.
+**[⚠ V2.5 CAUTION: "Liberation" framing is suspect. User has explicitly stated monks do NOT want disconnection from the network. The core skill is reading influence, not escaping it. The dead tower may be narratively interesting as an engineering discovery (piezoelectric power) and an acoustic treasure, but framing it as "liberation" from the network mischaracterizes the monks' relationship with the grid. Revise before drafting.]**
+
+The dead tower presents an unprecedented environment — no network signals, no behavioral manipulation, no gatekeeper.
 
 **Art Before Engineering**
 
