@@ -538,11 +538,11 @@ residence → deposition → seal). Network self-prunes to efficient conduits.
 Surface-connected paths = permanent chimneys (gas pipe + electrical
 insulator). Dead ends = solid lattice.
 
-**PCS gap mechanism:** Lightning ceramifies PCS from above (I²R heating at
-SiC/PCS interface, attenuated by accumulated SiC column resistance — scales
+**PCS gap mechanism:** Lightning ceramifies organosilicon polymer from above (I²R heating at
+SiC/polymer interface, attenuated by accumulated SiC column resistance — scales
 as ~1/R²_total). Geothermal ceramifies from below (fixed by thermal
 gradient, ~10–21 km depth at 30–60 K/km). Gap = kilometers of insulating
-PCS between two active ceramification fronts. Robust under all plausible
+polymer between two active ceramification fronts (both polysilazane and polycarbosilane are insulators at ~10¹⁰–10¹² Ω·cm; both ceramify to SiC/SiCN). Robust under all plausible
 parameters. Gap forces lateral root expansion for grounding.
 
 4.9 Independent Pool Genesis and the Tower as Evolutionary Engine
@@ -551,10 +551,11 @@ parameters. Gap forces lateral root expansion for grounding.
 
 **✓ RESOLVED:** Pool genesis is **independent** of void genesis. Both
 operate on the same planet, but are driven by mostly independent variables.
-Pool genesis requires: stable terminator ammonia pool + atmospheric SiH₄ +
-lightning + some metal source + My-scale time. A tower need not be present.
-If pool genesis is possible at all, it does not require tight coupling to
-the deep-rock fracture system.
+Pool genesis requires: stable terminator ammonia (mudflat film or discrete
+pools) + atmospheric SiH₄ + lightning + some metal source + My-scale time.
+The terminator lee-slope mudflat band is the primary genesis environment
+(see below). A tower need not be present. If pool genesis is possible at
+all, it does not require tight coupling to the deep-rock fracture system.
 
 **Why genesis cannot occur in fracture-connected pools.** When a deep-rock
 reaction front reaches a pool floor via fracture, a vent opens. The throat
@@ -567,18 +568,19 @@ pool fills in years to decades. Genesis requires My-scale. The timescales
 are incompatible by orders of magnitude.
 
 **Tower as evolutionary engine.** Void genesis (→ towers) inadvertently
-drives pool genesis forward via two mechanisms: (1) Geyser ejecta provides
-chronic fine catalytic dust to all terminator pools = **nutrient rain**.
-Small fragments (10–100 μm) travel far, have few metal centers, passivate
-fast in ammonia (surface aminolysis + metal leaching as ammine complexes,
-days to weeks). They become micronutrient capsules, not poison.
+drives pool genesis forward via two mechanisms: (1) Ejecta provides
+chronic fine catalytic dust to the mudflat band = **nutrient rain**.
+Small fragments (10–100 μm) travel far (wind + runoff carry day-ward
+down mound slope), have few metal centers, passivate fast in ammonia
+(surface aminolysis + metal leaching as ammine complexes, days to weeks).
+They become micronutrient capsules, not poison.
 (2) Rare critical-mass fragments (intermediate size, stochastic) reach
-distant pools with enough catalytic activity to locally disrupt pool
+distant mudflat zones with enough catalytic activity to locally disrupt
 chemistry = **punctuated disturbance** (competes for SiH₄, deposits PCS,
 forces displacement of protolife). Size-dependent migration is the natural
-filter. The disturbance tempo is tunable (geyser energy, fracture density,
-pool spacing — all geological variables that vary along the 62,000 km
-terminator).
+filter. The disturbance tempo is tunable (ejecta energy, fracture density,
+mound slope geometry — all geological variables that vary along the
+62,000 km terminator).
 
 **Chelation origin.** Chelation evolves as metal-MINING from catalytic PCS
 fragments, not as immune defense. Silazane chemistry naturally coordinates
@@ -598,14 +600,16 @@ exposure tolerance. Selection history, not birthright. Tower doesn't
 manufacture symbiotes — tower byproducts create the selection regime that
 produces organisms pre-adapted for eventual symbiosis.
 
-**Geyser-cone proto-tower construction.** When deep-rock reaction front
-reaches pool floor via fracture: throat seals (PCS membrane) → back-pressure
-builds → membrane fractures → geyser burst ejects PCS debris + gas + ammonia
-into pool → ejecta deposits in rings around vent → inner ring cements fastest
-(highest SiH₄ flux) → cone grows upward as rings stack → vent channel stays
-clear (scoured by each burst) → cone breaches pool surface → lightning rod →
-first strike ceramifies tip → conductive N:SiC → proto-tower established.
-Miniature volcanic cone morphology.
+**Proto-tower construction — geyser/fumarole mechanism.** When deep-rock
+reaction front reaches the surface (through pool liquid or through mound
+sediment): throat seals (PCS membrane) → back-pressure builds → membrane
+fractures → burst ejects PCS debris + gas. In pool context: ejecta deposits
+in rings, cone grows upward through pool. In sediment context: ejecta + PCS
+cementation of surrounding sediment builds mud volcano mound. In both cases:
+vent channel stays clear (scoured by each burst), structure breaches surface
+→ ceramification ratchet engages → proto-tower established. The mound
+sediment context (mud volcano) is the typical case at the terminator; pool
+context is a special case where pools happen to overlie fracture vents.
 
 **Two genesis pathways — synergistic.** Void genesis (→ towers) is the
 expected outcome of any suitable planet's chemistry. Pool genesis (→ mobile
@@ -622,6 +626,24 @@ Genesis organisms (≤100 μm, diffusion-limited) need only a wet surface, not p
 This makes genesis inevitable at planetary scale: the entire mudflat band (tens of km wide × 62,000 km terminator circumference) is a genesis experiment running in parallel, continuously, for Gyr. Tower-adjacent zones within this band receive the additional benefit of catalytic ejecta (nutrient rain + punctuated disturbance, as above). Proto-tower monadnocks on the mound crest also shelter nearby mudflat zones from the worst runoff erosion.
 
 **Lee-slope turbulence.** **[NEW V2.5]** Flow over the mound crest separates on the lee face — recirculation zone, eddies, vortex shedding. The lee slope has gusty, variable, directionally unpredictable wind. Possibly the only place on the planet where wind is non-steady and non-unidirectional. Novel sensory environment for organisms adapted to constant flow.
+
+**Pre-biotic mound.** **[NEW V2.5]** The terminator deposition mound is inevitable and pre-biotic. The terminator rain column is a planetary-scale atmospheric scrubber: particulate carried in the superstream condenses with ammonia rain at the dew-point boundary (~240K), depositing at the terminator regardless of biology. Pre-biotic equilibrium: shallow mound with gentle slopes and low runoff velocity, making the mudflat even more inevitable. Biology (towers + grass) amplifies growth rate and steepens the profile, but does not create the mound. Kill towers → grass dies → wedge erodes to pre-biotic equilibrium (shallower, persistent), not to zero. The pre-biotic mound means that deep-rock vents at the terminator have ALWAYS exited into accumulated sediment — there was never a "clean surface" tower genesis phase at the terminator.
+
+**Monadnock = mud volcano (unified model).** **[NEW V2.5]** On the terminator mound, there is NO distinction between a monadnock formed before burial (deep-rock SiC reaching the surface, later buried by sediment) and one formed after (deep-rock vent reaching the surface through pre-existing sediment). Both produce the same structure: a SiC-cored, polymer-cemented mound with active SiH₄ venting (cementation product predominantly polysilazane in liquid NH₃ — see §4.9 chemistry note). The "clean surface SiC outcrop" model applies only to the dark-side peneplain (differential erosion ~100,000:1); at the terminator, the monadnock is fundamentally a mud volcano. Monadnock chains along connected fracture networks are possible — multiple vents, connected by their ceramified disks — but not required by the model.
+
+**Tower genesis in sediment — polymer cementation + ceramification ratchet.** **[NEW V2.5]** Deep-rock vent exits into mound sediment → SiH₄ + catalytic metals (Ni, Fe, Co, Ti nanoparticles from hydrothermal fracture fluids) → organosilicon polymer cements surrounding sediment at 240K. Polymer is "glue not rock" — only needs to erode slower than loose sediment (a low bar in the continuous-rain environment).
+
+**240K cementation chemistry — RESOLVED [V2.5].** In liquid NH₃ at 240K, the dominant cementation product is **polysilazane**, not polycarbosilane. Three reinforcing mechanisms: (1) **Direct heterogeneous catalysis:** SiH₄ + NH₃ → polysilazane on Ni nanoparticle surfaces. NH₃ is both solvent and co-reactant at infinite concentration, giving the Si-N bond-forming pathway (Ea ~30–60 kJ/mol on Ni) a kinetic advantage over Si-Si or Si-C coupling. (2) **Lightning pre-activation (dominant):** Terminator lightning plasma continuously produces reactive intermediates — disilane (Si₂H₆), aminosilanes (H₃SiNH₂), oligomers — that deposit on sediment surfaces and polymerize further on metal catalysts with Ea ~15–30 kJ/mol. The thermal surface step only extends chains, not initiates them. (3) **Geothermal warmth** (+5–20K at vent) provides 7–22× rate enhancement, co-located exactly where cementation is needed. Geological timescales (Myr) make the process robust: cementation target (~150 g/m²) accumulates in kyr even under pessimistic kinetic assumptions. The Ea cutoff for geological-timescale cementation is ~80 kJ/mol; all literature-supported values for metal-catalyzed silane reactions are well below this. Both polysilazane and polycarbosilane coexist (atmosphere contains both NH₃ and CH₄); silazane dominates at 240K. "PCS" retained throughout as shorthand for the general organosilicon polymer phase. Both products are electrical insulators (~10¹⁰–10¹² Ω·cm) that ceramify to SiC/SiCN under heat. Full analysis: `substrate_PCS_240K_chemistry_results.md`.
+
+H₂ plume above vent provides marginal statistical bias for lightning — NOT a lightning rod, just a slight advantage in the continuous terminator thunderstorm. The real mechanism is the **ceramification ratchet**: first lightning strike ceramifies polymer→SiC along the strike path. The ceramified path (σ_SiC >> σ_wet_sediment >> σ_polymer) wins the lightning contest permanently → next strike preferentially follows the same conductor → more polymer ceramified → proto-tower nucleates. Each strike makes the structure more attractive to the next. The vent also provides geothermal warmth (+5–20K), metal-enriched fracture fluids (all four biometals — Ni, Fe, Co, Ti), and continuous SiH₄ supply. These enhance tower construction rate but are not the load-bearing mechanism — the ratchet is.
+
+**Disk ceramification and electrical boundary.** **[NEW V2.5]** Lightning follows paths through organosilicon polymer (fuse model), not uniform disk spreading. Ceramified paths (SiC) win permanently (conductivity hierarchy: SiC >> wet sediment >> polymer). The disk fills over time as a branching SiC network emanating from the vent. The disk is grounded to the bedrock SiC lattice through the vent channel. The tower's electrical footprint = the ceramified disk, bounded by polymer cementation radius (SiH₄ consumption limits how far cementation extends from the vent). Critical constraint: **a good conductor connected to a bad ground is no better than the ground**. SiC root extending beyond the ceramified disk edge terminates in wet sediment and confers no lightning advantage. Root extension beyond the grounded disk is electrically inert. The tower's electrical reach IS the disk, period.
+
+**Geographic separation of genesis types.** **[NEW V2.5]** The mound crest favors tower genesis (venting, lightning, ceramification ratchet). The mudflat band favors biological genesis (stable, shallow ammonia film, My-scale persistence). Two genesis processes, two environments, separated by the mound slope. Surface wind blows night→day (antistellar→substellar return flow of the overturning cell) — aeroplankton from the mudflat are carried AWAY from towers, not toward them. Wind is a dispersal barrier, not a bridge. The co-evolution pathway runs upslope, against the wind, driven by chemical gradient.
+
+**Co-evolution pathway — upslope chemical gradient + dune trapping.** **[NEW V2.5]** Tower ejecta (catalytic PCS fragments, bioavailable metals as ammine complexes) enters ammonia runoff flowing day-ward down the mound slope. Dissolved metals go wherever the liquid goes — completely UNAFFECTED by gravity. This creates an upslope chemical gradient from mudflat toward mound crest: higher metal concentration = nearer to tower. Organisms that follow the food automatically migrate upslope toward the tower. Runoff over granular sediment develops self-organizing bedforms (dune-trapping — a universal fluid-sediment instability) that retain cm-scale ejecta fragments on the slope despite downslope transport bias. Retained fragments act as breakwaters, creating complex microhydrology (eddies, high-speed channels, stagnation zones) = a niche diversity engine. Chemical gradient is the load-bearing bridge mechanism; physical stepping stones are a bonus. At 1.82g: dune trapping is weaker (higher bedload transport rate), ejecta field is more compact (~55% throw distance), but chemical gradient is unaffected. Mechanism is slower but functional. Worst-case failure mode: most ejecta washes to mound base and accumulates as a wall continuously scoured by runoff. Organisms colonize the wall but cannot advance upslope. Dune trapping mitigates this for cm-scale fragments; rare large fragments stay where they land.
+
+**Statistical inevitability of co-evolution.** **[NEW V2.5]** Tower genesis is statistically inevitable along the 62,000 km mound (any deep-rock vent + sediment + lightning + sufficient time). Mudflat genesis is statistically inevitable across the planet-wide mudflat band. 62,000 km of mound/mudflat interface × variable conditions (ejecta field geometry, runoff patterns, bedform trapping efficiency, local geology, fracture density) × Gyr = somewhere along the interface, conditions align and mudflat organisms follow the chemical gradient to a tower. Once co-evolution succeeds once, adapted organisms spread laterally along the grid (the grid is already connected). The mechanism does not require any single tower's ejecta field to bridge the gap — it requires ONE success across the entire planetary interface over geological time. The polar terminator (weak/absent mound, possible direct tower-organism contact) provides additional but minor experiment surface (tiny fraction of total interface area).
 
 5\. WIND AND WEATHER
 
@@ -1531,7 +1553,7 @@ Whether this intelligence benefits any particular organism depends on the networ
 
 **Construction model:** The tower has no genome. No body plan. Responds to local real-time measurements only (stress, wind, material intake, electrical potential). Ceramified lattice (SiC/SiCN) is permanent — cannot un-ceramify. Can be destroyed by Healer arc tool.
 
-**Four growth phases:** (1) Autocatalytic mineral accretion — lightning forges heavy molecules from atmosphere, hypercyclic catalytic reactions on N:SiC surface assemble more lattice. No biology. (2) Symbiote colonization — aeroplankton arrive, tap grid power, initially parasitic. (3) Mutualism/reef transition — Healer genomes accumulate architectural information via energy-gradient tropism selection. Tower transitions from mineral deposit to biological construction. Original autocatalytic reaction may be dead in modern towers. (4) Ship of Theseus renewal — Healers progressively replace all original material in situ. Every tower position ancient; material renewed.
+**Four growth phases:** (1) Autocatalytic mineral accretion — proto-tower nucleates in mound sediment via polymer cementation + ceramification ratchet (§4.9; cementation product predominantly polysilazane in liquid NH₃ — see §4.9 chemistry note). Lightning forges heavy molecules from atmosphere, hypercyclic catalytic reactions on ceramified N:SiC surface assemble more lattice. Tower grows upward through accumulating sediment. No biology. (2) Symbiote colonization — mudflat organisms expand upslope along ejecta-fed chemical gradient (dissolved metals in runoff), reach proto-tower, tap grid power. Initially parasitic. (3) Mutualism/reef transition — Healer genomes accumulate architectural information via energy-gradient tropism selection. Tower transitions from mineral deposit to biological construction. Original autocatalytic reaction may be dead in modern towers. (4) Ship of Theseus renewal — Healers progressively replace all original material in situ. Every tower position ancient; material renewed.
 
 **Symbiote genomes = tower construction program.** Healer genomes encode deposition/demolition behavior. Miner genomes encode metal delivery. Guard genomes encode quality control. Network behavioral patterns = project manager.
 
@@ -1598,7 +1620,7 @@ Foundation permanence: wind load on the exposed tower transmits through the enti
 
 *Narrative note:* The buried root layers and shell sequences are readable stratigraphy — ice cores for tower history. This is the primary material for "tower archaeology" (monk tradition; late-industrial academic specialty — see §10.1).
 
-**✓ RESOLVED [V2.4+]:** Pre-Healer root mechanism. Roots are the lateral component of Phase 1 autocatalytic surface growth — same N:SiC surface catalysis that builds the tower, extending along exposed fracture traces at the monadnock base. Amplified by resistance crossover: as lightning-driven PCS gap ceramification stalls (power ∝ 1/R²_total), current shifts to lateral surface paths (Kirchhoff). Pre-biotic proto-root network — dendritic, fracture-following. Healers inherit and optimize with arc-CVD, eventually replacing all original material via Ship of Theseus.
+**✓ RESOLVED [V2.4+]:** Pre-Healer root mechanism. Roots are the lateral component of Phase 1 autocatalytic surface growth — same N:SiC surface catalysis that builds the tower, extending along exposed fracture traces at the monadnock base. Amplified by resistance crossover: as lightning-driven polymer gap ceramification stalls (power ∝ 1/R²_total), current shifts to lateral surface paths (Kirchhoff). Pre-biotic proto-root network — dendritic, fracture-following. Healers inherit and optimize with arc-CVD, eventually replacing all original material via Ship of Theseus.
 
 10.4 Surface Root Networks
 
@@ -2426,8 +2448,8 @@ gas-transport ~mm/s, channel-fed ~μm/s, matrix-diffusion ~5 nm/yr.
 Exothermic self-fracturing (ΔH = −33 kJ/mol, ~20K per 1mm fill = cracking
 threshold). Chimney self-selection (surface-connected open, dead-ends fill).
 
-**✓ RESOLVED:** ★★★ PCS gap mechanism: lightning ceramifies from above,
-geothermal from below. Kilometers of insulating PCS between fronts. Forces
+**✓ RESOLVED:** ★★★ PCS gap mechanism: lightning ceramifies organosilicon polymer from above,
+geothermal from below. Kilometers of insulating polymer between fronts (polysilazane and polycarbosilane both insulating, both ceramify to SiC/SiCN). Forces
 lateral root expansion.
 
 **✓ RESOLVED:** ★★★ Pool genesis is independent of void genesis. Both
@@ -2643,7 +2665,7 @@ irreversible. See §10.1, Tower Morphology Hub §2.6. [V2.4+]
 
 **✓ RESOLVED:** ★★★ Base-to-root transition is substrate-dependent. No universal template. Varies with local geology (fracture density, bedding, mineralogy). A single tower can exhibit densely-interpenetrated, sparse-buttress, and sheet-root modes on different flanks simultaneously. See Tower Morphology Hub §6. [V2.4+]
 
-**✓ RESOLVED:** ★★★ Terminator is accretional sediment wedge, NOT erosional peneplain. Tower breakwater arrays + SiC grass lattice intercept grit-laden ammonia sheet flow → sediment accumulates → surface rises over geological time. Asymmetric cross-section: gentle dark-side (night-side) slope in dynamic equilibrium with wave action (pre-tower, self-stabilizing — waves breaking-limited by 1.82g + 10× density ratio, eroded sediment redeposits as gentle submarine ramp), flat top (tower forest, grass-stabilized), lee (day-side) face carved by ammonia runoff into gully/canyon systems terminating in mudflats at evaporation zone. Post-tower lee-face stabilization (grass) shifts mass balance → mound grows → night-side face steepens → more erosion → more base deposition → gentler ramp → self-correcting. No seawall needed. Kill towers → grass dies → entire wedge erodes. Dark side IS the true peneplain. [V2.4+, revised V2.5]
+**✓ RESOLVED:** ★★★ Terminator is accretional sediment wedge, NOT erosional peneplain. Tower breakwater arrays + SiC grass lattice intercept grit-laden ammonia sheet flow → sediment accumulates → surface rises over geological time. Asymmetric cross-section: gentle dark-side (night-side) slope in dynamic equilibrium with wave action (pre-tower, self-stabilizing — waves breaking-limited by 1.82g + 10× density ratio, eroded sediment redeposits as gentle submarine ramp), flat top (tower forest, grass-stabilized), lee (day-side) face carved by ammonia runoff into gully/canyon systems terminating in mudflats at evaporation zone. Post-tower lee-face stabilization (grass) shifts mass balance → mound grows → night-side face steepens → more erosion → more base deposition → gentler ramp → self-correcting. No seawall needed. Kill towers → grass dies → wedge erodes to pre-biotic equilibrium (shallower, persistent), not to zero. Pre-biotic mound is inevitable — rain column scrubbing deposits particulate at the terminator regardless of biology. Dark side IS the true peneplain. [V2.4+, revised V2.5]
 
 **✓ RESOLVED:** ★★ Lee-slope hydrology and mudflat genesis. Runoff on day-side slope carries mound sediment (orders of magnitude more than atmospheric particulate in rain). At evaporation zone, ammonia boils off → carrying capacity drops → deposition → backpressure propagates upstream → channels fill → every canyon terminates in mudflat. Planet-wide mudflat band = primary genesis environment (shallow ammonia film over reworked sediment, continuously replenished, impossible to silt up). Lee-slope turbulence: flow separation over mound crest → gusty, variable wind on lee face (unique on the planet). See §4.9. [V2.5]
 
@@ -2688,6 +2710,22 @@ irreversible. See §10.1, Tower Morphology Hub §2.6. [V2.4+]
 **✓ RESOLVED:** ★★★ Fairy ring antenna arrays. Surface roots spawn 3D phased-array antenna rings (varying-height SiC stalks) at resistance-regular intervals. Local FPGA computes 3D bearing + signal strength per source. Tower aggregates across all roots → spatial EM map. Dual-purpose: antenna + piezoelectric energy. Informationally alive (unlike grass). [V2.5]
 
 **✓ RESOLVED:** ★★★ Four-case root growth model + root steering. Tower evaluates fairy ring EM data against root-borne authentication: (1) authenticated + indirect root → direct connection, (2) authenticated + no root → lost tower reconnect, (3) unauthenticated EM → enemy attack, (4) no EM → expand into gap. Root steering via differential feeding monitored by fairy ring bearing reports. Fibonacci spacing from active steering into largest EM gap. [V2.5]
+
+**✓ RESOLVED:** ★★★ Pre-biotic mound is inevitable. The terminator rain column is a planetary-scale atmospheric scrubber — particulate in superstream condenses with ammonia rain at ~240K dew-point boundary, depositing at terminator regardless of biology. Pre-biotic mound: shallower slope, gentler runoff, lower erosion. Biology (towers + grass) amplifies growth rate and steepens profile. Kill towers → pre-biotic equilibrium, not zero. The mound means deep-rock vents at the terminator have ALWAYS exited into accumulated sediment. See §4.9. [V2.5]
+
+**✓ RESOLVED:** ★★★ Monadnock = mud volcano (unified model). On the terminator mound, no distinction between a monadnock formed pre-burial and one formed post-burial. Both produce the same structure: SiC-cored, polymer-cemented (predominantly polysilazane) mound with active SiH₄ venting. "Clean surface SiC outcrop" model applies only to dark-side peneplain (differential erosion ~100,000:1). At the terminator, monadnock is fundamentally a mud volcano. Monadnock chains along connected fracture networks are possible but not required. See §4.9. [V2.5]
+
+**✓ RESOLVED:** ★★★ Tower genesis in sediment — polymer cementation + ceramification ratchet. Deep-rock vent exits into mound sediment → SiH₄ + catalytic metals → organosilicon polymer at 240K (polymer, not ceramic) → cements surrounding sediment (only needs to erode slower than loose sediment — low bar). H₂ plume = marginal statistical bias for lightning (not a lightning rod). First strike ceramifies polymer→SiC along strike path → ceramified path wins permanently → next strike more likely → ceramification ratchet. Load-bearing mechanism for tower nucleation. See §4.9. [V2.5]
+
+**✓ RESOLVED:** ★★★ 240K cementation chemistry — feasibility confirmed. Dominant product is polysilazane (not polycarbosilane) because liquid NH₃ solvent provides Si-N bond-forming pathway at lower Ea (~30–60 kJ/mol on Ni) than Si-C or Si-Si coupling. Three reinforcing mechanisms: (1) direct Ni-catalyzed SiH₄ + NH₃ → polysilazane on nanoparticle surfaces; (2) lightning pre-activation (dominant) — plasma produces disilane, aminosilanes, oligomers that polymerize on metal surfaces with Ea ~15–30 kJ/mol; (3) geothermal warmth (+5–20K) co-located at vent. Geological-timescale cutoff is Ea ~80 kJ/mol; all literature-supported values are well below. Model survives at 240K ambient; geothermal fallback available but unnecessary. "PCS" retained as shorthand — encompasses both polysilazane (dominant) and polycarbosilane (minor). Both are insulators; both ceramify to SiC/SiCN. See `substrate_PCS_240K_chemistry_results.md`. [V2.5]
+
+**✓ RESOLVED:** ★★★ Disk ceramification and electrical boundary. Lightning follows paths through organosilicon polymer (fuse model). Ceramified SiC paths win permanently. Disk fills as branching SiC network. Grounded to bedrock through vent channel. Tower's electrical footprint = ceramified disk, bounded by polymer cementation radius. "Good conductor + bad ground = no better than ground" — SiC beyond disk edge in wet sediment confers no advantage. Root extension beyond grounded disk is electrically inert. See §4.9. [V2.5]
+
+**✓ RESOLVED:** ★★★ Geographic separation of genesis types. Mound crest favors tower genesis (venting, lightning, ceramification ratchet). Mudflat band favors biological genesis (stable ammonia film, My-scale persistence). Two environments separated by mound slope. Surface wind (night→day) carries aeroplankton AWAY from towers — wind is a barrier. Co-evolution pathway runs upslope, against wind, via chemical gradient. See §4.9. [V2.5]
+
+**✓ RESOLVED:** ★★★ Co-evolution via upslope chemical gradient + dune trapping. Tower ejecta + dissolved metals (ammine complexes) enter runoff flowing day-ward. Dissolved metals unaffected by gravity → upslope chemical gradient from mudflat toward mound crest. Self-organizing bedforms (dune-trapping) retain cm-scale ejecta on slope. Retained fragments create microhydrology niche diversity. Chemical gradient is load-bearing bridge; physical stepping stones are bonus. At 1.82g: dune trapping weaker, ejecta field more compact, chemical gradient unaffected. Worst case: ejecta washes to wall at mound base. See §4.9. [V2.5]
+
+**✓ RESOLVED:** ★★★ Statistical inevitability of co-evolution. 62,000 km of mound/mudflat interface × variable conditions × Gyr = somewhere conditions align and mudflat organisms reach a tower via chemical gradient. ONE success across entire planetary interface sufficient — adapted organisms spread laterally along connected grid. Polar terminator (thin/absent mound) provides minor additional experiment surface. See §4.9. [V2.5]
 
 17\. MAJOR OPEN QUESTIONS
 

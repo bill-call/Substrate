@@ -203,7 +203,7 @@ Low wind, no lightning, no thunder, no weather-driven cycles. The deep dark side
 
 **✓ Wheel as machine element: early, inevitable.** Pulley → gear → turbine → lathe. Fundamental from Period 3.
 
-**✓ Wheel as vehicle: late, optional.** Root railway already handles smooth-surface transit. Peneplain bedrock is flat but not axle-smooth (biofilm crust, root ridges, rain erosion channels). Wind-surfing is free and faster for downwind point-to-point. Wheels need metallic axles and bearings (Period 4 at earliest). Dark-side polished SiC bedrock is the best wheel surface but sparse population means low priority.
+**✓ Wheel as vehicle: late, optional.** Root railway already handles smooth-surface transit. Terminator surface (grass-stabilized sediment wedge) is uneven — no road surface. Dark-side peneplain bedrock is flat but not axle-smooth (biofilm crust, root ridges, rain erosion channels). Wind-surfing is free and faster for downwind point-to-point. Wheels need metallic axles and bearings (Period 4 at earliest). Dark-side polished SiC bedrock is the best wheel surface but sparse population means low priority.
 
 **Where wheels-as-vehicles appear:** Inside factory complexes (smooth manufactured floors). Deposition-zone cities (deep, packable sediment). Short-haul material handling. Never long-haul overland.
 
@@ -218,6 +218,8 @@ Amorphs have no fixed body plan. At 8 bar air density (~8 kg/m³), a 100 kg amor
 1. **Vertical drop (recreational/leeward).** Jump from leeward face into the tower's wind shadow. Spread wide, land gently at tower base. Safe, controlled, zero displacement.
 
 2. **Transit glide (tower-hopping).** Jump from summit into open wind. Spread into crude airfoil (gel membrane, SiC-ribbed). Glide ratio L/D ≈ 4–8 (practical best ~6). Minimum glide speed ~7.5 m/s. Glide downwind ~6.5 km to next tower's windward face. Tower upwash (~3–5 m/s, from ~80–85% bulk flow opacity) on approach extends glide and assists the climb back up (reduces effective weight 35–70% on windward face). Each hop: ~10 min glide + hours of climb (upwash-assisted). **One-way day-ward only. Terminator only** — dark-side spacing (8–20 km) exceeds glide range.
+
+   **Mound topology effect:** The terminator is an accretional sediment wedge, not flat. Most tower-to-tower hops across the flat mound top (~0.1% grade over 6.5 km) are effectively flat-terrain geometry. But near the day-side mound crest, the day-side face drops away — towers here launch over falling terrain, extending effective glide range (ground recedes from the flight path). The last few hops off the mound crest toward the deposition zone are the easiest. Conversely, the gentle dark-side slope works against the hop geometry (marginal to begin with at dark-side spacings). The mound topology reinforces tower-hopping as a **crest-to-day-side mode** — easiest exactly where you'd use it most.
 
 **Comparison with wind-surfing:** Wind-surfing is passive membrane deployment at ground level — simpler, no climb required, but slower (deceleration + lattice entry turbulence). Tower-hopping requires climbing to summit height (~3 hours at 1.82g) but the glide itself is faster and more controlled. For repeated tower-to-tower transit at terminator spacing, hopping is the premium mode: skilled, efficient, socially visible. Wind-surfing remains the accessible default.
 
@@ -309,7 +311,7 @@ A "door" is a gap in the Faraday cage. Walking into a shielded space feels like 
 
 **Period 1 (Terminator):** No architecture. Tower IS the shelter. Lattice interior provides EM shielding, wind protection, acoustic dampening, grid power.
 
-**Period 2 (Terminator):** Lee-face accumulations. Downwind debris forms wind-sheltered mounds. Amorphs camp in lee-face hollows. Crude modification: push debris into windbreak walls. First "architecture" is wind-sheltering, not EM-shielding.
+**Period 2 (Terminator):** Lee-face accumulations. Downwind debris forms wind-sheltered mounds. Amorphs camp in lee-face hollows — preferentially near the day-side mound crest, where the dropping terrain extends the lee zone (§12.4). Crude modification: push debris into windbreak walls. First "architecture" is wind-sheltering, not EM-shielding.
 
 **Period 3 (Terminator):** Grown structures. Amorphs extrude SiC composite walls from their own bodies — secrete PCS, spin fiber, ceramify in place. Low conductive domes with sealable EM gaps (doors). Root-junction towns: clusters of grown structures around root intersections. Tower-interior carved spaces for high-status individuals — rooms within the tower's Faraday cage. Requires network tolerance (Healers fill back in modifications that degrade signal propagation).
 
@@ -715,6 +717,8 @@ What survives:
 - **Thorn-flora** (day-ward transition): where tower competition thins. Fluorine defense makes EM detection irrelevant.
 - **Dead-bug plume debris field:** Not alive but ecologically significant. SiC plates, metal-bearing fragments, library debris. Substrate for scavenging. Where plume intersects runoff channels: richest ground-level habitat outside roots.
 
+**Mound-position gradient:** The terminator is a sediment wedge, not flat ground. Wind and acoustic shadows from the porous lattice (reduced-velocity plumes, not hard shadows) interact with the mound slope. On the **flat mound top** (bulk of the terminator forest): standard shadow geometry, recovering over several tower diameters. Near the **day-side crest**: ground drops away beneath the wake plume — effective shadow at ground level extends further, lee-face shelter zones are larger, acoustic shadows deeper. The inter-tower gap is LESS exposed here. On the **dark-side slope**: ground rises into the wake — shorter shadows, more exposed inter-tower gaps, less lee-face shelter per tower. This gradient means the day-side crest is the best-sheltered part of the terminator for ground-level life, and the dark-side slope the most exposed — counterintuitive, since the crest faces the dry side. Wind speed-up at the crest itself (orographic acceleration) partially offsets the shadow extension right at the topographic break.
+
 ### 12.5 The Sensory Experience at Ground Level
 
 Standing on the grass field between two towers, ~3 km from each (terminator, ~6.5 km average spacing):
@@ -779,7 +783,7 @@ Attack vector: circular dependency injection. A meme whose sub-skill calls loop 
 
 ### 14.1 Period 2 — Camps
 
-Not cities. Semi-permanent camps in tower lee-faces. Debris-walled wind shelters. Transient populations. The "settlement" is people, not buildings.
+Not cities. Semi-permanent camps in tower lee-faces. Debris-walled wind shelters. Transient populations. The "settlement" is people, not buildings. Crest-area towers preferred — extended lee zones from mound slope (§12.4).
 
 ### 14.2 Period 3 — Root-Junction Towns
 
@@ -904,6 +908,7 @@ Mass driver (3 km/s EM boost). Balloon launch to 15–20 km. Intercontinental fr
 | Day-side ammonia access | ✓ | Near-terminator daysiders have direct runoff access (80–95% of rainfall on day-side mound slope). Deep day-side requires pressure vessels/import. Raids are for POWER and METALS, not ammonia. |
 | Two-grid world | ✓ | Amorph lightning tower grid electrically isolated from biological network. Same energy source, decoupled distribution. Shapes industrial city morphology (residential at bio-towers, industrial in inter-tower spaces). |
 | Proto-monk origin | ✓ | Nightside oasis tower (impact crater seamount). Hobby-driven tech tree: EM tinkering → antennas → relay → Case 4 network expansion. Monastic schism: "machine" vs "woke someone up." |
+| Mound-position wind/acoustic shadows | ✓ | Sediment wedge gradient modifies shadow geometry. Day-side crest: extended shadows (ground drops away), best lee-face shelter. Dark-side slope: shortened shadows (ground rises into wake), most exposed. Flat mound top: standard. Crest-area towers = preferred camp/settlement sites. |
 
 ---
 
@@ -949,6 +954,7 @@ Mass driver (3 km/s EM boost). Balloon launch to 15–20 km. Intercontinental fr
 | Fairy ring antennas, network signaling | Spine | §TOWERS (Fairy Ring, Network Signaling) |
 | SiC grass, sediment wedge, atmospheric conveyor | Spine | §WIND, §SURFACE GEOMORPHOLOGY |
 | Proto-monk origin, oasis tower | Spine | §MONKS |
+| Wind/acoustic shadow geometry, tower porosity | Tower Morphology Hub | §5.9, §9.1 |
 
 ---
 

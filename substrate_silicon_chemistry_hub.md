@@ -511,7 +511,7 @@ This gives the disease the progression described in the bible (chronic, like art
 
 Items the chemistry hub does not yet resolve:
 
-**□ Specific catalysts for carbosilane Stage 1** — What metal center activates the CH₄ + SiH₄ → CH₃SiH₃ reaction at biological temperatures? Nickel is the best candidate (Ni-catalyzed hydrosilylation is established), but the specific enzymatic mechanism needs thought.
+**□ Specific catalysts for carbosilane Stage 1** — What metal center activates the CH₄ + SiH₄ → CH₃SiH₃ reaction at biological temperatures? Nickel is the best candidate (Ni-catalyzed hydrosilylation is established), but the specific enzymatic mechanism needs thought. *(Note: the pre-biological cementation question — can SiH₄ polymerize at 240K on metal nanoparticles without biology? — is RESOLVED: yes, predominantly via the silazane pathway (SiH₄ + NH₃ → polysilazane on Ni). See `substrate_PCS_240K_chemistry_results.md`. The biological enzyme question remains open.)*
 
 **□ Polysilane replication mechanism** — How is the molecular library copied during reproduction? DNA uses template-directed polymerization (complementary base pairing). What's the silicon analog? One possibility: the polysilane fragment serves as a physical template for side-chain-complementary deposition. Another: enzymatic reading + de novo synthesis (no template, just transcription).
 
