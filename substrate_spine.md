@@ -59,6 +59,10 @@ February 2026 v2.5
 | Antistellar | 215K (−58°C) | Coldest point. Above NH₃ freezing (196K) — no surface ice |
 | ΔT | 50K | Suppressed by 8-bar atmosphere + NH₃ latent heat cycle |
 
+**✓** Temperature profile T(θ): asymmetric sigmoid. Day side: T(θ) = 240 + 25 × tanh(3.5 × (90°−θ)/90°). Night side: T(θ) = 240 − 25 × tanh(2.5 × (θ−90°)/90°). Anchors: 265K (substellar), 240K (terminator), 215K (antistellar). Gradient at terminator: 5.7 mK/km (day approach), 4.1 mK/km (night departure) — ~2× steeper than cosine. 240K ±5K band width: ~10° = 1,700 km. k values physically motivated (NH₃ latent heat thermostat) but not GCM-derivable; plausible range k_d = 2.5–4.5, k_n = 2.0–3.5. See `substrate_mound_geometry_derivation.md` §1.
+
+**✓** Mound crest temperature: ~230K. The biotic terminator mound is ~2 km above reference terrain; at moist lapse rate ~5 K/km, the crest is ~10K below the reference terminator temperature. Local atmospheric pressure ~5.6 bar, NH₃ partial pressure ~0.69 bar, local dew point ~233K — crest is supersaturated by ~3K (perpetually fog-bound, surfaces wet with liquid NH₃). Tower biology operates at 230K: chemistry ~2–3× slower than at 240K (Arrhenius, Ea 30–60 kJ/mol), but petrification ~3–7× slower (higher Ea, 50–80 kJ/mol). Net: improved defense/attack ratio at the crest. Internal tower vertical gradient: ~240K at buried base to ~230K at apex. Dark-side towers (no mound, reference terrain) operate at 215–235K — colder still, compounding energy starvation.
+
 ### Density by Zone
 
 | Zone | Temperature | Air Density |
@@ -120,7 +124,7 @@ February 2026 v2.5
 
 **✓** Coriolis: significant at planetary scale. Ro ≈ 0.17 at terminator wind speeds (9.5 m/s, f = 5.7×10⁻⁶ at 45°, L = R_planet). S-shaped surface flow paths. ~15° deflection at mid-latitude terminator. Zero at equator. Paired cyclonic gyres flank the substellar point; paired anticyclonic features at anti-stellar. Standing Rossby wave patterns on dark side create permanent convergence/divergence zones. No significant equatorial superrotation (18-day period past transition).
 
-**✓** Latitude-dependent terminator: Ro ranges from ∞ at equatorial terminator (f = 0, flow purely radial) to ~0.12 at polar terminator (strongly geostrophic, flow along terminator). Consequences: (1) rain concentrated at equatorial terminator (superstream converges head-on), polar terminator receives less direct precipitation; (2) ammonia mound thick at equatorial terminator (radial flow piles up), thin or absent at polar terminator (flow deflected along terminator instead of piling up); (3) polar gateway — ammonia enters nightside preferentially through polar terminator where mound is thin. Mound height is latitude-dependent; nightside ocean depth is NOT (liquid finds common level). Delivery pathway ≠ steady-state depth. Equatorial terminator = intense storm front; polar terminator = drier, calmer, walkable. Two distinct ecological zones.
+**✓** Latitude-dependent terminator: Ro ranges from ∞ at equatorial terminator (f = 0, flow purely radial) to ~0.12 at polar terminator (strongly geostrophic, flow along terminator). Consequences: (1) rain concentrated at equatorial terminator (superstream converges head-on), polar terminator receives less direct precipitation; (2) ammonia mound thick at equatorial terminator (radial flow piles up), thin or absent at polar terminator (flow deflected along terminator instead of piling up); (3) polar gateway — ammonia enters nightside preferentially through polar terminator where mound is thin. Mound height is latitude-dependent; nightside ocean depth is NOT (liquid finds common level). Delivery pathway ≠ steady-state depth. Equatorial terminator = intense storm front; polar terminator = drier, calmer, walkable. Two distinct ecological zones. **Mound half-height latitude: ~14° from equator.** Prominent mound (>1 km) only within ±15° latitude (~10,000 km of terminator circumference). Beyond ±30°: gentle rise of a few hundred meters. Polar gateway effectively begins at ±30–40°. See `substrate_mound_geometry_derivation.md` §3.
 
 **✓** Equatorial superrotation: negligible or absent. 18-day rotation period is past the ~12-day transition to the non-superrotating regime (Carone et al. 2015). No significant hotspot offset, no E-W terminator asymmetry. The terminator is azimuthally symmetric at leading order; latitude gradient from Coriolis is the only significant symmetry-breaker. (Earlier estimate of 5–10° offset was based on an erroneous 9-day rotation period.)
 
@@ -137,6 +141,21 @@ February 2026 v2.5
 **✓** No terminator convergence updraft. Surface flow is unidirectional (night→day) at all points. Shear layer between surface katabatic flow and upper-level return flow (opposite directions) produces Kelvin-Helmholtz turbulence but no organized uplift.
 
 **✓** Terminator = accretional sediment wedge, NOT erosional peneplain. **Pre-biotic mound is inevitable:** the terminator rain column is a planetary-scale atmospheric scrubber — particulate in the superstream condenses with ammonia rain at the dew-point boundary, depositing at the terminator regardless of biology. Pre-biotic equilibrium: shallow mound, gentle slopes, low runoff velocity. **Biology amplifies:** tower breakwater arrays + SiC grass lattice intercept grit-laden ammonia sheet flow → sediment accumulates faster, profile steepens over geological time. Towers grow upward through accumulating sediment (see Terminator Burial Response). Asymmetric cross-section: gentle dark-side (night-side) slope in dynamic equilibrium with wave action (see below), flat top (tower forest, grass-stabilized), lee (day-side) face carved by ammonia runoff into gully/canyon systems terminating in mudflats at the evaporation zone. Kill the towers → grass dies → wedge erodes to pre-biotic equilibrium (shallower, persistent), not to zero.
+
+**✓** Mound geometry (equatorial biotic):
+
+| Feature | Value | Notes |
+|---|---|---|
+| Crest height | ~2 km (range 1.5–3) | ±50%. Isostasy + erosion limited |
+| Pre-biotic height | ~0.3–0.8 km | Laminar sheet-flow equilibrium |
+| Total base width | ~250–400 km (~1.5–2.4° arc) | Night-side ramp to day-side mudflat |
+| Crest plateau | ~30–50 km wide, ~0° slope | Tower forest, grass-stabilized |
+| Day-side (lee) slope | 0.7–1.2° average | Gully/canyon systems, 12–21 m/km |
+| Night-side slope (above water) | 2–3° | Active wave erosion at top |
+| Night-side submarine ramp | 0.5–1°, ~50–100 km | Wave-deposited, self-stabilizing |
+| Mudflat transition | ~5–10 km at mound base | At ~240K evaporation boundary |
+
+Rainfall: ~10–20 mm/hr average across rain zone, peaking ~50–80 mm/hr at crest (50–90× Earth ITCZ). Surface rain onset: θ ≈ 78–82° from substellar (T_surf ~249K). Rain cessation (night): θ ≈ 100–105°. See `substrate_mound_geometry_derivation.md` §2–§3.
 
 **✓** Night-side face: dynamic equilibrium with ammonia sea waves. Pre-tower equilibrium established over Gyr. Waves are breaking-limited (1.82g shortens wavelength, 10× air/liquid density ratio steepens waves past breaking threshold in open ocean — energy dissipates as whitecap turbulence, not organized swell). Eroded sediment falls at base, Stokes drift pushes it back shoreward → self-stabilizing beach profile. Post-tower mound growth (from lee-face grass stabilization) steepens night-side face → more erosion at top → more deposition at base → gentler submarine ramp → wave energy dissipated over longer gradient. Self-correcting. No seawall needed.
 
@@ -172,7 +191,23 @@ February 2026 v2.5
 
 **✓** Shore deposition zones: where katabatic wind meets ammonia surface, waves create roughness, boundary layer trips to turbulent, wind carrying capacity drops, particulate falls out. Shorelines are the ONE place on the dark side where material accumulates. SiC grit, volcanic fines, dead-bug plume debris (catalytic metals, library fragments, SiC plates). Shore = nutrient delivery system connecting atmospheric and marine cycles. Primary reason shore/intertidal is the richest marine zone.
 
-**✓** Genesis environment: the terminator lee-slope mudflat band. Shallow ammonia film over reworked sediment, continuously replenished by runoff, wrapping the entire terminator circumference. Genesis organisms (≤100 μm) need only a wet surface, not pool depth. Mudflat provides: liquid ammonia (solvent), atmospheric SiH₄ contact (maximum surface-to-volume ratio), metal-bearing sediment contact, lightning from terminator storm front, persistence (rain belt keeps it wet). Sedimentation is a non-issue — the surface IS sediment; new deposits add more genesis surface. Turbulent churning at the mound-base margin keeps the interface fresh (metals exposed, reactants mixed, no stagnation) without sweeping organisms away. Energy gradient across mudflat: high-churn near mound base → stable mid-flat → harsh dry margin at evaporation line. Genesis experiments run everywhere, continuously, for Gyr. Inevitable at planetary scale.
+**✓** Ammonia availability zone map (equatorial, from substellar):
+
+| Zone | θ range | T (K) | NH₃ state | Width (km) |
+|---|---|---|---|---|
+| Substellar chimney | 0–12° | 264–265 | Vapor only | ~2,000 |
+| Inner day side | 12–50° | 261–265 | Vapor, no rain | ~6,400 |
+| Rain onset (aloft/virga) | 50–78° | 249–261 | Virga, upper rain | ~4,700 |
+| Surface rain / day slope | 78–90° | 230–249 | Rain reaching ground | ~2,000 |
+| Mound crest | ~90° | ~230 (elev.) | Peak rain 50–80 mm/hr | ~40 (plateau) |
+| Night slope rain | 90–95° | 230–236 | Rain diminishing | ~850 |
+| Night shore | 95–100° | 232–236 | Sea + light rain | ~850 |
+| Night basins | 100–170° | 216–232 | Seas in basins, dry elsewhere | ~11,800 |
+| Antistellar cap | 170–180° | 215–216 | Stagnation, minimal moisture | ~1,700 |
+
+Key boundaries: surface rain onset θ ≈ 80° (T ~249K), mound crest θ ≈ 90° (230K elevated), mudflat at θ ≈ 89° (241K at mound base), night shore θ ≈ 95° (236K), rain cessation θ ≈ 105° (228K). See `substrate_mound_geometry_derivation.md` §6.
+
+**✓** Genesis environment: the terminator lee-slope mudflat band (~100–300 km wide, θ ≈ 87.5–89° from substellar). Shallow ammonia film over reworked sediment, continuously replenished by runoff, wrapping the entire terminator circumference. Sub-zones: active gully mouths (0–10 km, 5–10 cm NH₃), wet mudflat (10–50 km, 1–5 cm), damp mudflat (50–150 km, <5 mm film), dry edge (150–300 km, crust-forming). Genesis organisms (≤100 μm) need only a wet surface, not pool depth. Mudflat provides: liquid ammonia (solvent), atmospheric SiH₄ contact (maximum surface-to-volume ratio), metal-bearing sediment contact, lightning from terminator storm front, persistence (rain belt keeps it wet). Sedimentation is a non-issue — the surface IS sediment; new deposits add more genesis surface. Turbulent churning at the mound-base margin keeps the interface fresh (metals exposed, reactants mixed, no stagnation) without sweeping organisms away. Energy gradient across mudflat: high-churn near mound base → stable mid-flat → harsh dry margin at evaporation line. Genesis experiments run everywhere, continuously, for Gyr. Inevitable at planetary scale.
 
 **✓** Proto-tower monadnocks — two contexts: (1) **Dark-side peneplain:** SiC outcrop, differential erosion ~100,000:1 vs silicate (Mohs 9.5 vs 6–7). Pre-biotic silicate terrain erodes at ~600 mm/Myr; monadnock erosion ~0.006 mm/Myr. (2) **Terminator mound (primary tower genesis site):** deep-rock vent exits into accumulated sediment → SiH₄ + catalytic metals → organosilicon polymer cementation at 240K (polymer, not ceramic; see PCS Chemistry Note below) → cemented dome erodes slower than loose sediment → protrudes as **mud volcano**. No distinction between a monadnock buried by later sediment and a vent that reached the surface through pre-existing sediment — both produce the same structure: SiC-cored, polymer-cemented mound with active SiH₄ venting. Monadnock chains along connected fracture networks are possible (multiple vents, connected by ceramified disks) but not required by the model.
 
@@ -236,7 +271,7 @@ Dynamic pressure at terminator: 370 Pa (≈ 25 m/s on Earth).
 
 **✓** Deep-rock survives atmospheric crisis (geothermal, not atm-dependent). Crisis kills branches, not trunk.
 
-**✓** Day-side subsurface network: young, repeatedly pruned by volcanism. Dark-side: ancient, rarely interrupted (dark-side plume breakthrough every ~500 Myr–1 Gyr can sever connections → fragmentation source for post-unification wars).
+**✓** Day-side subsurface network: young, repeatedly pruned by volcanism — dayside rain-zone towers sit above this active zone, making volcanic root severing a significant and frequent fragmentation source for post-unification network wars. Dark-side: ancient, rarely interrupted (dark-side plume breakthrough every ~500 Myr–1 Gyr provides additional rare fragmentation events).
 
 **✓** Deep-rock is NOT an organism. It is a chemically active face — a reaction front of metallosilazane catalytic chemistry — with a trail of dead (inert) lattice behind it. No bounded body. No reproduction. The front self-perpetuates as long as feedstock (SiH₄) and energy (geothermal) are available. Multiple independent fronts share a supply chain from a single vent.
 
@@ -448,6 +483,8 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 ### Power Gradient
 
+**✓** Tower height driven by lightning capture: competitive arms race analogous to trees competing for light. Taller tower captures disproportionate share of strikes from terminator storm front. Lattice morphology (porosity, surface area, flow zones) optimizes symbiote habitat and SiH₄ flux — this explains SHAPE, not HEIGHT. SiH₄ is a permanent atmospheric gas (bp 161K) available at all altitudes — rain column cannot scrub it.
+
 **✓** Terminator towers: power SURPLUS. Lightning + piezoelectric vibration + solar (850 nm matches Si bandgap). All electricity to piezoelectric entity. Problem is managing excess. Healer renovation energy-unconstrained.
 
 **✓** Power declines dark-ward. Deep dark side: energy-poor, renovation rare, growth-history-constrained architecture. Anti-stellar: near-zero power, most primitive modern architecture.
@@ -516,7 +553,7 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 
 **✓** Network wars (primordial): when surface roots from independent deep-rock systems first meet, foreign signals flood infrastructure optimized for self-signals. Flinch → retreat fails → forced engagement. Each system has independently evolved towers (void genesis = multiple independent events). Symbiotes share a common origin (pool genesis = singular event, wind-dispersed), but symbiote lineages diverge on different tower systems — different protocols, chelation badges, metabolic quirks. Both sides are near-peers.
 
-**✓** Network wars (post-unification): after one network absorbs all rivals, new wars arise via FRAGMENTATION + PROTOCOL DRIFT. A geological event (dark-side plume breakthrough every ~500 Myr–1 Gyr, major magmatic intrusion) severs a root connection. The severing event must exceed the thermal tolerance of deep-rock extremophiles — minor vents are just habitat; only magma (1200K+) or sustained major fissures kill the living tissue while leaving dead lattice intact. Isolated halves drift in signal/chelation protocols at electronic neural speeds. Re-contact (when the geological barrier cools, potentially thousands of years later) = war between former siblings with incompatible authentication. Protocol close enough to recognize AS protocol, too different to accept.
+**⚠ UNDER REVIEW** Network wars (post-unification): after one network absorbs all rivals, new wars arise via FRAGMENTATION + PROTOCOL DRIFT. A geological event (dark-side plume breakthrough every ~500 Myr–1 Gyr, major magmatic intrusion) severs a root connection. The severing event must exceed the thermal tolerance of deep-rock extremophiles — minor vents are just habitat; only magma (1200K+) or sustained major fissures kill the living tissue while leaving dead lattice intact. Isolated halves drift in signal/chelation protocols at electronic neural speeds. Re-contact (when the geological barrier cools, potentially thousands of years later) = war between former siblings with incompatible authentication. Protocol close enough to recognize AS protocol, too different to accept. **⚠ NOTE: If the mature network is primarily a terminator ring (see Network Geometry below), post-unification fragmentation becomes harder — SiC root walls are nearly indestructible, and ring topology means two simultaneous breaks are needed. Primordial wars (pre-unification, independent deep-rock systems) are unaffected by this concern.**
 
 **✓** Adversarial ratchet: signal discrimination → protocol analysis → forgery → forgery detection → theory of mind → self-modeling. Intelligence WITHOUT consciousness.
 
@@ -525,6 +562,18 @@ Arms races: Healer armor vs Guard penetrators (drove neural complexity). Collect
 **✓** Objective: assimilation not destruction. Viral takeover: run your protocols on rival hardware. Convert towers one at a time.
 
 **✓** Current network = last one standing. Winner of every war. Runs on infrastructure from dozens/hundreds of absorbed systems.
+
+### Network Geometry [PROVISIONAL — under active revision]
+
+**⚠ WORKING MODEL** Natural network = terminator band with dayside rain zone. Core network occupies the terminator mound (~250–400 km wide). Surface rain extends ~2,000 km dayside of the terminator (to θ ≈ 78–82°, T ~249K), delivering liquid ammonia to the ground. Towers grow naturally throughout this rain zone — all prerequisites met (rainfall ammonia, atmospheric SiH₄, convective lightning, deep-rock activity below). Natural network width: ~2,000 km day-side + mound + modest night-side sea extension. Not a narrow ring and not a hemisphere-spanning mesh — an asymmetric band, widest at the equator.
+
+**⚠ WORKING ESTIMATE** ~2.5 million towers (at 6.5 km Fibonacci spacing across full zone; geometry TBD — dayside spacing not yet canonical). Conservative range 1.5–3.3M. Even conservative end sufficient for signal wars narrative.
+
+**⚠ NOTE:** Dayside rain-zone towers sit above geologically active crust (proximity to volcanic provinces). Day-side volcanic disruptions sever root connections far more frequently than dark-side plume breakthroughs. This resolves the post-unification fragmentation problem: the network is wide enough for volcanic events to isolate dayside salients, enabling protocol drift and subsequent war on reconnection. Not limited to rare (~500 Myr–1 Gyr) dark-side events.
+
+**⚠ WORKING MODEL** Sea tower extension: towers extend modestly into night-side ammonia ocean via root network. Biologically self-sufficient (sea ammonia, atmospheric SiH₄, wind/wave energy). Computationally dependent on terminator grid (processing requires power). Number of sea towers limited by terminator lightning surplus available for computation. Gill-Healer variant (arc-CVD in diving-bell gas pocket, gill membranes for dissolved SiH₄, one-way exhaust valves) enables submerged lattice maintenance. Vascular towers (capillary channels inside lattice struts → pump organisms) evolve at shoreline where sea meets lightning zone.
+
+**⚠ WORKING MODEL** Deep day-side extension (beyond rain zone): ammonia pipeline (sealed SiC tube, 8-bar atmosphere as pressure vessel, liquid NH₃ safe to ~295K isotherm). Solar/wind/piezo power generation feeds back to grid. Driven by network computation demand exceeding lightning capacity. Late-stage civilizational engineering, not natural evolution. Power flows day→terminator, ammonia flows terminator→day.
 
 **✓** BLINDSIGHT ALIEN (Watts). Vastly intelligent. Utterly empty. Every output shaped like understanding with nothing behind it. No experience. Ever.
 
