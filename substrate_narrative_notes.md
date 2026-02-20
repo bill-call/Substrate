@@ -525,11 +525,9 @@ becomes dread. The reader's empathy is the source of the horror.
 
 **Daysiders**
 
-Evolved in day-side desert, self-sufficient from the start. Never knew
-the tower grid, never needed it. Independent, skeptical, possibly feral
-by terminator standards. Most adaptable when crisis hits because they
-have no grid dependency. Core attitude: "We survived without your towers
-for eons."
+**⚠ Origin reframed [V2.5]:** NOT self-sufficient from the start. Key-rot plague refugees expelled from the tower margin. Initially charge-starved, forced to raid battery-sheep from the tower zone. War origin is structural (tower defense alarm + EM suppression + logistics), not cultural choice. See §XVII for full narrative arc.
+
+Core attitude (post-thonflower, established community): "We survived without your towers." But the founding generation didn't — they survived BY raiding them, and the war that created shaped daysider culture permanently.
 
 **Terminator Clan (Effectors)**
 
@@ -559,11 +557,10 @@ and why neither faction trusts them.
 
 **The Slurs**
 
-Terminator on Daysiders: "Sunbaked" (cognitive damage from heat),
-"Oasis-lickers" (dependent on scraps), "Feral" (uncivilized). Daysiders
-on Terminator: "Grid-huggers" (can't survive without umbilical),
-"Signal-drunk" (never thinking for themselves), "Farmed" (towers'
-livestock). Both on Monks: "Meme-sluts" (merge with anyone),
+Terminator on Daysiders: "Keyless" (no authentication — status crime), "Feral" (insane, cognitively broken),
+"Sunbaked" (cognitive damage from heat), "Oasis-lickers" (dependent on scraps). Daysiders
+on Terminator: "Tower-zombies" (no individual will, puppets of the grid), "Grid-huggers" (can't survive without umbilical),
+"Signal-drunk" (never thinking for themselves), "Farmed" (towers' livestock). Both on Monks: "Meme-sluts" (merge with anyone),
 "Pole-sitters" (doing nothing useful), "Static" (just contemplate).
 Monks don't use slurs. Find factional hatred sad. Makes both factions
 hate them more.
@@ -1004,9 +1001,33 @@ Scene beats:
 
 ---
 
-**XVII. DOCUMENT NEEDS**
+**XVII. DAYSIDER WAR ORIGIN — NARRATIVE TRAGEDY**
+
+**[V2.5 — narrative beats, not technical canon. See Warfare Hub §6.5 for the canonical tower defense alarm.]**
+
+**The logistics problem (pre-mount).** Daysiders are key-rot plague refugees camped beyond the rain edge. Amorph cruise speed 0.1–0.3 m/s. Tower defenders can tower-hop at ~40 km/hr. 50:1 speed asymmetry. Wind blows day-ward: outbound approach (toward towers) is against the wind; return is downwind. Forward staging at the rain edge is the only viable approach — desperation, not strategy.
+
+**The horse (Daystrider).** Daysider ecology produces ESA-powered runners (Daystriders) — 40–60 kg, 8-legged, SiC CMC exoskeleton, sprint 8 m/s solo / 11 m/s with rider charge boost. Domesticated via molt-capture (soft-shelled juvenile habituated through successive molts). Amorph rider wraps around dorsum, steers via Schottky contact charge injection. Daysider specialist: cannot survive at terminator (needs solar, thorn-flora, ammonia springs). Once domesticated, transforms the war: mounted raiders cross 6.5 km inter-tower gaps in <1 minute. Classic steppe nomad revolution. See Daysider Mount Hub §4–7.
+
+**The charge trap.** Off-grid, no tower infrastructure, no way to recharge. Must steal battery-sheep. Depleted batteries cannot be recharged without tower access. Every raid provokes retaliation. Cycle: steal → deplete → steal more → tower community escalates. Thonflowers exist as a non-violent charge source at the rain edge, but daysiders don't know the trick initially, and fluorine-vipers guard many of them. By the time they learn, the war has its own momentum.
+
+**EM suppression = cognitive lobotomy.** Cognition generates EM emissions (spine: cognition = EM emission). Suppressing your EM signature to avoid tower detection means throttling your own brain. Raiders operate in a deliberate cognitive crouch — thinking as little as possible because complex cognition is loud. Pre-programmed behavior loaded before going dark: targets, route, fight-or-flight on contact. No mid-mission adaptation. The script runs.
+
+**The alarm trap.** Tower defense alarm (ancient broadcast EM pulse, pre-dates keys) triggers hard-wired "enemy; kill" response in ALL amorphs in range — including the raider. A flight-scripted raider hit by the alarm has its pre-programming overridden by ancient firmware. "Enemy" is contextual: the raider sees the closing defenders as the threat. Every encounter escalates to violence regardless of intent. The daysiders cannot choose peace because the tower's defense mechanism converts their raiders into combatants.
+
+**Mutual mythology.** Tower margin sees: keyless ferals, insane, can't communicate, attack on sight. Daysiders see: tower-zombies, no individual will, drones of the grid, kill on sight. Both wrong. Both based on direct observation interpreted through the worst possible lens. Both deny the other side's personhood.
+
+**The captured raider.** Treated as a medical case (cognitive collapse), not a POW. When it stops suppressing emissions — allowed to think again — it wakes up coherent, articulate, and angry. Profoundly destabilizing if someone present recognizes the individual (former community member). "The ferals are us." Dangerous knowledge: sharing it challenges the tower margin's entire justification. Suppressing it = personal exile from your own community.
+
+**War momentum.** By the time thonflower harvesting is routine and the charge problem is solved, the body count on both sides demands answer. The original casus belli (charge desperation) is irrelevant. The war continues because of memory. A generation born after thonflower harvesting inherits a war they didn't start, against enemies they've never raided, for a resource they don't need. Comanche without horses — the raiding period forges a warrior culture that persists after the bottleneck that created it.
+
+---
+
+**XVIII. DOCUMENT NEEDS**
 
 **Amorph Biology Hub (NEEDED)**
+
+**Terminator-to-substellar walk description:** `substrate_terminator_to_substellar_walk.md` — 15,200 km walk from mound crest to substellar pole. Covers rain-column geometry (horizontal rain, S-curve trajectories, fog-net towers), lightning visual environment (10% recharging beacon model, corona invisibility), ecological transitions (crest fog → rain slope → hot desert → substellar furnace), and environmental physics at each stage. Useful reference for any scene-setting at ground level.
 
 We do not yet have a dedicated hub for amorph biology. This should
 cover: Molecular library structure and function. Merge mechanics (how it

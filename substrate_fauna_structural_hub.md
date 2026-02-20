@@ -201,7 +201,23 @@ Voltage source: series-stacked SiC semiconductor junctions (~2.7–3V each). 100
 | **MEMS surface** | 5 kPa × 0.01 mm², 1 μg scale, 5 μm travel | ~70 Hz per scale, ~15 ms full surface reconfiguration | ✓ Adequate for turbulent flow adaptation (~1–100 Hz). |
 | **Fast voluntary movement** | Not possible | — | Spring mechanisms required (§9.3). |
 
-The organisms are slow and weak by Earth standards. The ecology doesn't require speed or power — it requires grip, armor, and electronic intelligence. Electronic neural speed (100–2,000× Earth) means fast perception and decision; gel actuation means slow, deliberate movement. Think fast, act carefully.
+The organisms are slow and weak by Earth standards. The tower ecology doesn't require speed or power — it requires grip, armor, and electronic intelligence. Electronic neural speed (100–2,000× Earth) means fast perception and decision; gel actuation means slow, deliberate movement. Think fast, act carefully.
+
+### 4.4 Electroactive Silazane Actuators (ESA) [NEW V2.5]
+
+ESA is gel actuation with organized electrode/dielectric layering — the same relationship as smooth muscle to striated muscle on Earth. Same base chemistry (silazane + SiC), but organized into thin dielectric films between SiC electrode layers at the actuator site. Maxwell stress at high field (80 MV/m) in the thin organized layer yields ~100–230 kPa — 20–45× gel stress.
+
+| Property | Gel (smooth) | ESA (striated) |
+|---|---|---|
+| Stress | ~5 kPa | ~100–230 kPa |
+| Organization | Bulk, unstructured | Layered electrode/dielectric |
+| Cycle rate | ~1 Hz | 5–100+ Hz |
+| Power density | ~0.7 W/kg | ~100–200 W/kg |
+| Evolved for | Internal processes, peristalsis | Joint actuation, fast locomotion |
+
+ESA is a general capability of silicon biochemistry — all middle-kingdom organisms have the raw materials. The evolutionary step is organizing them into actuator geometry at joint sites (genomically encoded structural arrangement, not new chemistry). ESA enables active walking beyond the 5–8 cm gel ceiling, pushing the size regime to ~25 cm (atmospheric power) or ~50+ cm (day-side with solar supplement). Energy-limited, not stress-limited. Binding constraint shifts from actuator force to charge budget.
+
+**Key ecological consequence:** ESA enables middle-kingdom runners — fast, legged organisms that outrun amorph prey. Daystriders (40–60 kg, 8 m/s sprint) and ESA-powered subwoofer packs (1–2 m/s sustained pursuit) are the primary examples. See Daysider Mount Hub §1–4.
 
 ---
 
@@ -307,17 +323,18 @@ How structural requirements change with body size across the three-tier architec
 | Microbial | <100 μm | None (gel cohesion sufficient) | Surface tension, not mechanics |
 | Small middle kingdom | 100 μm – 2 mm | Thin SiC CMC shell, no internal bracing | Shell production rate vs. growth rate |
 | Large middle kingdom (tower-coupled) | 2 mm – 2 cm | SiC CMC shell + apodemes + foam partitions | **Energy extraction** via Schottky contacts (scales R²) vs metabolism (scales R^2.55). Crossover ~2 cm. |
-| Large middle kingdom (free-living, mobile) | 2 cm – 8 cm | SiC CMC shell + extensive internal bracing | **Gel actuator force/weight** drops below 1 for active walking at ~5–8 cm. |
+| Large middle kingdom (free-living, gel-only mobile) | 2 cm – 8 cm | SiC CMC shell + extensive internal bracing | **Gel actuator force/weight** drops below 1 for active walking at ~5–8 cm. |
+| Large middle kingdom (free-living, ESA mobile) | 8 cm – 50+ cm | SiC CMC shell + ESA actuators at joints | **[NEW V2.5]** Energy budget, not stress. ESA (§4.4) provides 20–45× gel stress. Largest on day side (solar supplement). Daystriders, large subwoofer runners. See Daysider Mount Hub §2. |
 | Large middle kingdom (free-living, anchored) | 5 cm – 30 cm | Shell as armor; foam/strut internal bracing carries majority of structural load | Internal bracing complexity. Wind-anchored, limpet-style locomotion. Not walkers. |
 | Megafauna (amorph) | 10 cm – 2 m+ | Variable: gel with redistributable SiC stock | Energy budget (gas-phase SiH₄ diffusion) |
 
 **The 2 cm wall — SCOPED TO TOWER SYMBIOTES:** [CORRECTED V2.4] The ~2 cm ceiling applies to **tower-coupled** organisms whose energy intake is limited by Schottky contact extraction from the lattice. This is a metabolic limit, not a structural one. SiC CMC has ~15–30× the specific strength of chitin; the structural limit for an SiC exoskeleton in 1.82g is well over a meter and is never the binding constraint at biological scales.
 
-**Free-living sexual organisms** face different ceilings depending on their locomotion strategy. Atmospheric SiH₄ metabolism in gas phase provides ~13 W for a 15 cm organism (~3× metabolic need), removing the tower energy bottleneck entirely. The binding constraint becomes the gel actuator: at ~5 kPa (50× weaker than Earth muscle), force-to-weight drops below 1 around 5–8 cm for active walking. Above this, organisms must adopt anchored/semi-sessile body plans — wind downforce supplements actuator force, enabling ambush predation at 10–30 cm (e.g., subwoofers, Fauna Hub §6).
+**Free-living sexual organisms (gel-only)** face different ceilings depending on their locomotion strategy. Atmospheric SiH₄ metabolism in gas phase provides ~13 W for a 15 cm organism (~3× metabolic need), removing the tower energy bottleneck entirely. The binding constraint becomes the gel actuator: at ~5 kPa (50× weaker than Earth muscle), force-to-weight drops below 1 around 5–8 cm for active walking. Above this, gel-only organisms must adopt anchored/semi-sessile body plans — wind downforce supplements actuator force, enabling ambush predation at 10–30 cm (e.g., subwoofers, Fauna Hub §6).
 
-**Above ~30 cm, sexual organisms are not viable** — internal bracing mass fraction becomes prohibitive, and the rigid body plan loses to amorph reconfigurability. This is the real structural wall.
+**[REVISED V2.5] Free-living sexual organisms (ESA-powered)** break the gel ceiling. ESA actuators (§4.4) provide 20–45× gel stress, enabling active walking and running well beyond 8 cm. Energy budget replaces actuator stress as the binding constraint. On the day side (solar + atmospheric + thorn-flora charging), ESA organisms reach 40–60 kg (Daystriders). At the terminator (no solar, no thorn-flora), ESA organisms are smaller but still significant (subwoofer pack runners at 15–25 cm). The ~30 cm soft ceiling for sexual organisms remains approximately valid at the terminator but is broken on the energy-rich day side.
 
-Amorphs bypass all of these limits because they have no committed structural mass. Every gram of SiC is redistributable. The cost is paid in versatility: an amorph at 50 cm is less mechanically efficient than a dedicated exoskeletal form would be at 2 cm, but the amorph exists at 50 cm and the exoskeletal form does not.
+Amorphs bypass structural limits because they have no committed structural mass. Every gram of SiC is redistributable. The cost is paid in versatility: an amorph at 50 cm is less mechanically efficient than a dedicated exoskeletal form would be at 2 cm, but above ~30 cm amorphs still dominate numerically (cognitive advantages, reconfigurability). ESA exceptions are ecologically significant but confined to high-energy environments with strong speed-selection pressure.
 
 ---
 
@@ -469,7 +486,7 @@ All mobile guild members are 8-limbed scaffold-climbers (§9.4). Differentiation
 
 Practical repair in minutes. Rate scales with organism size, lattice flow speed (venturi amplification in pores), and conversion efficiency.
 
-**Ventral shell geometry:** Concave shroud with inlet/outlet channels. Not a flat contact surface — a miniature wind tunnel with the field-emitter array at the throat. The organism's body converts the wind (the same force driving erosion) into the feedstock supply for repair.
+**Ventral shell geometry:** Concave shroud with inlet/outlet channels. Not a flat contact surface — a miniature wind tunnel with the field-emitter array at the throat. The organism's body converts the wind (the same force driving erosion) into the feedstock supply for repair. **[V2.5] Dual function: liquid excluder.** On the ammonia-streaming mound crest windward face, the concave shroud pressed against a strut displaces liquid ammonia from the repair zone, creating a de facto gas pocket at the work face. This is not a secondary adaptation — the crest environment is continuously wet, so the shroud geometry is ALWAYS functioning as both flow concentrator and liquid excluder simultaneously. This makes the ventral shroud a pre-adaptation for shallow submersion (mudflat root construction in 1–10 cm liquid NH₃) and ultimately the Gill-Healer's diving-bell gas pocket (see bible §5.4).
 
 **Evolutionary pathway — chemical fill to flow-through arc-CVD:**
 

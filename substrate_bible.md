@@ -302,6 +302,8 @@ Full first-principles derivation in `substrate_mound_geometry_derivation.md`. Ke
 
 **Rainfall rates:** Energy-budget derivation gives ~10–20 mm/hr average across the rain zone, peaking ~50–80 mm/hr at the mound crest (where the entire atmospheric column is saturated from surface to ~18 km). For reference: Earth ITCZ averages ~0.3 mm/hr sustained — this is 50–90× more intense. The 12.5% condensable fraction (vs Earth's 2–3%) and 10× volumetric heat capacity drive this intensity. Surface rain onset at θ ≈ 78–82° (T_surf ~249K). Upper-level virga begins much earlier (θ ≈ 55–60°). Rain diminishes rapidly past the crest; night-side cessation at θ ≈ 100–105°. Uncertainty: ±factor of 2–3 (energy partition poorly constrained).
 
+**Rain-column geometry — horizontal rain. [NEW V2.5]** Rain is nearly horizontal at the surface. NH₃ drop terminal velocity ~3 m/s (2 mm drops in 8-bar atmosphere; ρ_air ~5× Earth, drag coefficient ~0.44). Surface wind at 9.5 m/s gives impact angle 70–81° from vertical (arctan(v_wind/v_term); range from 2 mm drops at 70° to fine drizzle at 81°). Drop relaxation time τ = v_t/g ≈ 0.17 s — drops reach wind speed within ~0.5 m of formation, tracking wind perfectly at all altitudes. Wind reverses with altitude: day-ward at surface (0–5 km, katabatic/pressure-gradient), night-ward at superstream altitude (12–16 km). This drives S-curve drop trajectories — drops nucleating at superstream altitude drift night-ward during initial fall, reverse as they enter the surface flow, and arrive at the surface displaced from their nucleation column. Net horizontal displacements: from 16 km → ~38 km night-ward; from 10 km → ~7 km day-ward; from 4 km → ~13 km day-ward. Crossover altitude (zero net horizontal displacement) ~9–10 km. **The vertical condensate flux in mm/hr is independent of horizontal wind** — spine rainfall rates remain valid as equivalent vertical moisture flux (rate at which condensed mass crosses horizontal planes). Orographic enhancement: the 2 km mound forces ~10K adiabatic cooling in the ascending surface airflow → crest supersaturated by ~3K → perpetual fog. **Lee-face rain shadow:** air descending the day-side slope warms adiabatically → evaporates entrained moisture → reduced precipitation. Day-slope towers function as fog-net collectors (windward lattice faces intercept wind-driven droplets), not passive recipients of vertical rain. Full walk-through of rain zone visual environment: `substrate_terminator_to_substellar_walk.md`.
+
 **Mound dimensions (equatorial biotic):** Height ~2 km (range 1.5–3 km). Pre-biotic: ~0.3–0.8 km (laminar sheet-flow equilibrium, slope 0.1–0.25°). Total base width ~250–400 km. Crest plateau ~30–50 km wide. Day-side (lee) slope 0.7–1.2° average, carved into gullies (spacing ~1–5 km, set by tower spacing and drainage). Night-side slope 2–3° above waterline (wave-eroded), grading into submarine ramp (0.5–1°, ~50–100 km). Isostasy: 2 km mound depresses crust by ~6 km (Airy); mound base width (~300 km) is comparable to flexural wavelength (~400 km for 50 km elastic thickness) → partial isostatic support. Biology amplifies mound by ~3–5× over pre-biotic.
 
 **Mudflat band:** ~100–300 km wide (grading from actively wet to damp), at θ ≈ 87.5–89° from substellar (day-ward of mound crest). Sub-zones: active gully mouths (0–10 km from mound base, 5–10 cm NH₃, turbulent churning), wet mudflat (10–50 km, 1–5 cm sheet flow), damp mudflat (50–150 km, <5 mm film, intermittent, evaporites forming), dry edge (150–300 km, no liquid, crust-forming). This is the primary genesis environment — see §4.9.
@@ -1087,17 +1089,18 @@ analog) but cannot transmit it.
 **\[NEW IN V2.1\]**
 
 **✓ RESOLVED:** Middle-kingdom organisms are rigid, genomic (sexual
-lineage). Two size regimes [CORRECTED V2.4]:
+lineage). Three size regimes [REVISED V2.5]:
 - **Tower-coupled** (Healers, Miners, Guards): mm to ~2 cm. Energy-limited
   by Schottky contact extraction from lattice, not by structural
   constraints. Tower-locked mutualists.
-- **Free-living** (subwoofers, thorn-flora, soaring organisms): up to ~30 cm.
+- **Free-living gel-only**: up to ~8 cm active walking.
   Self-powered (atmospheric SiH₄, wind, solar-electric). Active walking
   viable ≤5–8 cm (gel actuator force/weight limit). Anchored/semi-sessile
-  body plans up to ~30 cm. Above 30 cm = amorph territory.
+  body plans up to ~30 cm.
+- **Free-living ESA** [NEW V2.5]: 8–50+ cm. Electroactive silazane actuators (ESA) — same chemistry as gel, organized into layered electrode/dielectric geometry at joint sites. Maxwell stress ~100–230 kPa (20–45× gel). Energy-limited, not stress-limited. Largest on day side (solar supplement). Daystriders (40–60 kg daysider runners), ESA-powered subwoofer runners (15–25 cm). Above ~30 cm still mostly amorph territory but ESA enables exceptions under strong speed-selection pressure. See Daysider Mount Hub §1–2.
 SiC CMC exoskeleton has ~15–30× specific strength of chitin; structural
 limits far exceed biological sizes. The binding constraints are metabolic
-(tower-coupled) or actuator force (free-living).
+(tower-coupled), actuator force (free-living gel-only), or energy budget (free-living ESA).
 
 Without metabolic processing organs, fuel storage, or digestive systems
 (beyond minimal material intake), their mass budget goes almost entirely
@@ -1593,11 +1596,24 @@ Whether this intelligence benefits any particular organism depends on the networ
 
 **Power gradient:** Terminator = surplus (lightning + piezo + solar). Problem is managing excess. Power declines dark-ward. Geothermal oasis exception (SiH₄ pocket towers).
 
+**Tower lightning management. [NEW V2.5]** Mature towers actively manage electrical potential to AVOID lightning strikes when fully charged. Mechanisms: controlled corona leakage from SiC lattice surfaces, inter-tower charge balancing via root network conduction. Only towers currently recharging (~10% at any time, randomly distributed across the grid) present as high-potential targets that attract strikes. A recharging tower is an intense local beacon: ~10× the local strike rate, active Healer renovation throughout the lattice, H₂ exhaust flares from symbiote metabolism. A non-recharging tower (90%) is dark, quiet, and habitable — no strikes, no renovation disturbance, no thermal shock. This creates natural spatial zoning: at 6.5 km average spacing, the nearest recharging tower is ~10 km away (density ~1 per 420 km²). Visual consequence at the mound crest: luminous fog ceiling from cloud-to-cloud discharges above (lavender/pink-white from N₂/H₂/NH₃/CH₄ plasma), dark tower silhouettes (90%), scattered beacon towers (10%) flaring with repeated strikes. Corona discharge on SiC tips is physically real but visually invisible against the ambient scattered-lightning glow (~10⁵–10⁸× dimmer). The 10% figure is a working estimate pending energy-budget modeling of charge/discharge cycle times.
+
 **[NEW — PROVISIONAL, UNDER ACTIVE REVISION]**
 
-**Network geometry — terminator band with dayside rain zone:** The natural tower network is centered on the terminator mound but extends ~2,000 km into the day side, where surface rain delivers liquid ammonia to the ground (to θ ≈ 78–82°, T ~249K; see §3.6.4). Towers grow naturally throughout this rain zone — all prerequisites met (rainfall ammonia, atmospheric SiH₄, convective lightning, deep-rock activity below). Night side is under the ammonia sea (limited power, no lightning); modest sea tower extension via Gill-Healer variant. Natural network width: ~2,000 km day-side + mound + sea margin — an asymmetric band, not a narrow ring. Dayside rain-zone towers sit above geologically active crust (closer to volcanic provinces), providing the fragmentation mechanism for post-unification network wars (see §10.7). **Working estimate: ~2.5 million towers** at 6.5 km Fibonacci spacing across the full zone (conservative range 1.5–3.3M; dayside spacing geometry TBD). Even the conservative end is sufficient for signal wars narrative.
+**Network geometry — terminator band with dayside rain zone:** The natural tower network is centered on the terminator mound but extends ~2,000 km into the day side, where surface rain delivers liquid ammonia to the ground (to θ ≈ 78–82°, T ~249K; see §3.6.4). Towers grow naturally throughout this rain zone — all prerequisites met (rainfall ammonia, atmospheric SiH₄, convective lightning, deep-rock activity below). Night side is under the ammonia sea (limited power, no lightning); modest sea tower extension via wet-adapted Healers (see §5.4 wet-adaptation gradient). Natural network width: ~2,000 km day-side + mound + sea margin — an asymmetric band, not a narrow ring. Dayside rain-zone towers sit above geologically active crust (closer to volcanic provinces), providing the fragmentation mechanism for post-unification network wars (see §10.7). **Working estimate: ~2.5 million towers** at 6.5 km Fibonacci spacing across the full zone (conservative range 1.5–3.3M; dayside spacing geometry TBD). Even the conservative end is sufficient for signal wars narrative.
 
-**Sea tower extension:** Towers extend modestly into night-side ocean. Gill-Healer variant enables submerged maintenance (arc-CVD in diving-bell gas pocket, gill membranes for dissolved SiH₄ extraction, one-way exhaust valves for H₂ waste). Vascular towers evolve at shoreline (capillary channels inside lattice struts → pump organisms). Sea towers are biologically self-sufficient (sea ammonia, atmospheric SiH₄, wind/wave) but computationally dependent on terminator grid power. Extension limited by terminator lightning surplus.
+**Healer wet-adaptation gradient. [NEW V2.5]** Terminator Healers are not dry-atmosphere organisms. The mound crest windward face streams continuously with liquid ammonia (horizontal fog-blast at 50–80 mm/hr equivalent). Healers do arc-CVD and chemical fill on surfaces under a moving ammonia film. The concave ventral shroud geometry (§8.8, evolved for atmospheric flow-concentration) is simultaneously a liquid excluder — pressing against the strut surface, it displaces ammonia from the repair zone, creating a de facto gas pocket at the work face. Chemical fill (Mode 1) operates through liquid without modification (PCS secretion + resistive ceramification, no gas flow needed). Mudflat root construction requires Healers working in 1–10 cm of standing liquid ammonia — shallow submersion achievable via the existing shroud gas-pocket geometry plus either a snorkel (tube maintaining atmospheric contact through cm-scale liquid layer) or a modestly better-sealed ventral pocket. The adaptation gradient is continuous and requires no speciation event:
+
+| Environment | Liquid depth | Adaptation needed |
+|---|---|---|
+| Tower windward face (crest) | Continuous film, mm-scale | Ventral shroud excludes liquid from work face (baseline) |
+| Mudflat root construction | 1–10 cm standing NH₃ | Snorkel or improved shroud seal (incremental) |
+| Night-side surf zone | Intermittent wave submersion, 0.1–1 m | Sealed gas pocket + timed work cycles (behavioral) |
+| Full ocean submersion | Meters | Gill-Healer: diving-bell gas pocket, gill membranes for dissolved SiH₄ extraction, exhaust valves for H₂ waste (endpoint) |
+
+The Gill-Healer is the deep-water endpoint of an existing adaptation gradient, not a qualitatively new variant. The question "how plausible is the Gill-Healer as a natural adaptation?" is answered: the first two stages are already required at the terminator and already exist.
+
+**Sea tower extension:** Towers extend modestly into night-side ocean. Gill-Healer (deep-water endpoint of wet-adaptation gradient above) enables submerged lattice maintenance. Vascular towers evolve at shoreline (capillary channels inside lattice struts → pump organisms). Sea towers are biologically self-sufficient (sea ammonia, atmospheric SiH₄, wind/wave) but computationally dependent on terminator grid power. Extension limited by terminator lightning surplus.
 
 **Deep day-side extension (beyond rain zone, theoretical):** Ammonia pipeline (sealed SiC tube, 8-bar atmosphere as pressure vessel, liquid NH₃ safe to ~295K). Solar/wind/piezo power generation. Driven by computation demand exceeding lightning capacity. Late-stage civilizational engineering, not natural evolution.
 
@@ -1611,6 +1627,8 @@ Healers reprogram the circuit by adding/removing structure. A tower without
 Healers = frozen processor (still conducts, still processes signals according
 to baked-in topology, but can't be reprogrammed). A disconnected tower
 (roots dead) = isolated processor — silent because no input, not incapable.
+
+**Tower defense alarm. [NEW V2.5]** The tower's primary active defense mechanism is a broadcast EM pulse — not a root-borne packet. Ancient firmware predating the key/authentication system by eons (evolved during primordial network wars). Hard-wired reception in all amorph membranes: direct electromagnetic stimulus to semiconductor neural substrate, bypassing all higher-level processing. The tower cannot command amorphs in detail (that requires the full packet/authentication stack), but has a few hard-wired "buttons" — the defense alarm is the primary one. Broadcast rather than point-to-point because guards may be off-root and would miss a root packet. "Enemy" is contextual: the alarm does not specify a target — each recipient identifies threat from its own local situation. Pre-key universality: affects all amorphs (keyed, unkeyed, foreign-keyed, cognitively suppressed) because the mechanism predates authentication. Consequence: any intruder detected by the tower alarm is driven to fight by the same signal that alerts defenders, regardless of the intruder's intent. A cognitively suppressed amorph running a pre-programmed flight script has that script overridden by the alarm's hard-wired response. Peace requires cognitive override — possible for a fully-thinking amorph, impossible for one in suppression. This mechanism guarantees that tower intrusions escalate to violence.
 
 10.2 Convergent Tower Evolution
 
@@ -2407,6 +2425,12 @@ Small (mm to low cm), rigid, genomic. Tap lattice for energy. Cannot
 self-power. Insect-scale. The grazers, armored predators, and arms races
 all happen at insect scale on the lattice. (Historical note: initially characterized as "parasites" — revised to "mutualists" per fauna structural hub §5. Tower tolerates and network manages the middle kingdom because it provides services the tower cannot perform alone: surface maintenance, metal delivery, quality control.)
 
+**✓ RESOLVED:** ★★★ Electroactive silazane actuators (ESA). Same chemistry as gel, organized into layered electrode/dielectric geometry at joint sites. Maxwell stress ~100–230 kPa (20–45× gel's 5 kPa). Smooth-muscle/striated-muscle analogy. ESA breaks the gel actuator ceiling, enabling middle-kingdom runners (8–50+ cm). Largest on energy-rich day side (Daystriders, 40–60 kg). Energy-limited, not stress-limited. General capability of silicon biochemistry — evolutionary step is organizing existing materials into actuator geometry. [V2.5]
+
+**✓ RESOLVED:** ★★★ Daysider mount (Daystrider). Domesticated ESA-powered daysider runner. 40–60 kg, 8-legged, SiC CMC exoskeleton, low-slung body plan. Sprint 8 m/s solo, 11 m/s with rider charge boost. Domestication via molt-capture. Amorph rider wraps dorsum, steers via Schottky contact charge injection to ESA leg groups. Daysider specialist (solar + thorn-flora + springs; cannot survive at terminator). Daysider military monopoly. Steppe nomad revolution: mounted raiders cross inter-tower gaps in <1 min. See Daysider Mount Hub §4–7. [V2.5]
+
+**✓ RESOLVED:** ★★ Day-side ammonia hydrology. Underground ammonia thermodynamically stable planet-wide (pressure raises bp faster than depth raises T). Artesian aquifer fed by terminator rainfall. Discharge as ammonia springs at day-side fracture intersections. Patchy (fracture connectivity limited). Oasis desert ecology anchored to springs. See Daysider Mount Hub §3.4. [V2.5]
+
 **✓ RESOLVED:** ★★ Middle-kingdom organisms do not inherit memories.
 Individual learning only. Network manages them via crude EM field
 modulation (tropism), not subtle behavioral suggestion.
@@ -2573,6 +2597,8 @@ processor (disconnected, silent). Chelation badges = biological public-key
 authentication (easy to verify, hard to forge). Network wars drove key
 complexity via forgery/detection arms race. [V2.4+]
 
+**✓ RESOLVED:** ★★ Tower defense alarm. Broadcast EM pulse (not root-packet). Ancient firmware predating key/authentication by eons. Hard-wired reception in all amorph membranes — bypasses higher-level processing, affects keyed and unkeyed alike. Context-dependent "enemy" response. Tower has a few hard-wired buttons; this is the primary one. Guarantees intrusion→violence escalation for any cognitively suppressed intruder (cannot override). [V2.5]
+
 **✓ RESOLVED:** ★★★ H₂O at genesis sites does not kill abiogenesis.
 Void genesis: reducing buffer scavenges H₂O (metallic Si). Pool genesis:
 distillation shield keeps terminator pools <1 ppm H₂O. Open sea hostile
@@ -2721,6 +2747,10 @@ irreversible. See §10.1, Tower Morphology Hub §2.6. [V2.4+]
 
 **✓ RESOLVED:** ★★★ Effective hydrological cycle is terminator-to-substellar. Rain scavenging starts well dayside of mound crest. 80–95% of rainfall recycles on dayside. Only 5–20% of volcanic NH₃ reaches nightside as liquid. Nightside ocean is shallow (50–200 m in lowest basins), not hemisphere-spanning. Megaflood scenario dead. Mound holds by 1–3 km headroom. [V2.5]
 
+**✓ RESOLVED:** ★★ Rain-column geometry: rain is nearly horizontal at the surface (70–81° from vertical). NH₃ drop terminal velocity ~3 m/s vs 9.5 m/s surface wind. S-curve trajectories from wind reversal with altitude. Vertical condensate flux (mm/hr) preserved regardless of slant — rainfall rate numbers remain valid. Lee-face rain shadow from adiabatic warming → day-slope towers are fog-net collectors on windward faces. See §3.6.4 and `substrate_terminator_to_substellar_walk.md` §11. [V2.5]
+
+**✓ RESOLVED:** ★★ Tower lightning management: mature towers manage potential to avoid strikes when fully charged. ~10% recharging at any time (randomly distributed), presenting as high-potential targets with ~10× strike rate. 90% dark and habitable. Corona discharge on SiC tips physically real but invisible against ambient scattered-lightning glow. See §5.4. [V2.5]
+
 **✓ RESOLVED:** ★★★ Nightside oasis tower — chemical seamount on impact crater central peak. SiH₄ vent precipitation builds chimney from crater floor to ocean surface (<200 kyr). Geothermal thermoelectric power. Volcanic lightning ceramification. One-of-a-kind geological freak. [V2.5]
 
 **✓ RESOLVED:** ★★★ Proto-monk origin — oasis tower boot sequence. War refugees with an EM-tinkering hobby, not engineers. Tech tree from hobby: antennas → eavesdropping → converters → transceivers. Island discovered via antenna (piezoelectric spike from geyser cone, fixed bearing). Boat → island → relay development. First relay attempt fails (frame corruption by early converters). Fix: years of converter iteration until authenticated packets pass intact. Pure Case 4 — no spoofing needed, network has no defense against artificial root connections. Relay activation = point of no return — network builds new tower from cone. Proto-monks witness boot sequence. Schism: "machine" vs "mind." LoS constraint: ~300–400 km of mound crest (balloon antenna). [V2.5, revised]
@@ -2859,7 +2889,7 @@ Network
 
 **[V2.5+] ✓ PARTIALLY RESOLVED:** Network geometry: natural network is an asymmetric band (~2,000 km dayside rain zone + mound + sea margin), not a narrow terminator ring. Ring topology isolation concern resolved — dayside volcanic activity severs root connections in rain-zone salients. Sea tower extension and deep day-side pipeline remain open (see below). Implications for monk isolation and daysider narrative still under active revision.
 
-**[V2.5+] □ OPEN:** Gill-Healer evolution: submerged Healer variant (diving-bell gas pocket, gill membranes, exhaust valves) as prerequisite for ocean tower extension. How plausible as natural adaptation? Does it precede or follow vascular tower architecture?
+**[V2.5+] ✓ RESOLVED:** Gill-Healer plausibility: not a speculative new variant but the deep-water endpoint of an existing wet-adaptation gradient. Terminator Healers already work in continuous ammonia film (ventral shroud = liquid excluder). Mudflat root-builders already work in 1–10 cm submersion (snorkel or improved seal). Gill-Healer (diving-bell + gills + exhaust valves) is incremental from there. No discontinuity in the gradient. Remaining open: does it precede or follow vascular tower architecture? [V2.5]
 
 **[V2.5+] □ OPEN:** Vascular tower architecture: capillary channels inside lattice struts → pump organisms. Evolves at shoreline (sea + lightning overlap). How far does this extend? Does the ocean-evolved vascular system enable day-side ammonia pipeline, or is that a qualitatively different engineering problem?
 

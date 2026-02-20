@@ -111,7 +111,7 @@ The only towers with original ancient material would be those geologically isola
 
 ### 3.1 The tower's primary function
 
-The tower exists to intercept particulate-laden wind and extract building materials + SiH₄ feedstock. The windward face is the intake. Air passes THROUGH the porous lattice, not around it. Every strut surface inside the lattice is a collection site for particulate and a gas-exchange surface for SiH₄ metabolism.
+The tower exists to intercept particulate-laden wind and extract building materials + SiH₄ feedstock. The windward face is the intake. Air passes THROUGH the porous lattice, not around it. Every strut surface inside the lattice is a collection site for particulate and a gas-exchange surface for SiH₄ metabolism. **[V2.5] On the lee (day-side) slope, rain is nearly horizontal (70–81° from vertical at surface wind speeds) and the lee-face rain shadow reduces vertical precipitation. Towers here function primarily as fog-net collectors** — the windward lattice face intercepts wind-driven droplets by inertial impaction, delivering ammonia and entrained particulate directly to the strut surfaces. This is the dominant water/particulate delivery mechanism for any tower below the mound crest.
 
 ### 3.2 Functional depth: 2–3 m
 
@@ -272,7 +272,7 @@ The tower top is a thin blade (3–5 m deep, 20–60 m wide). The apex is a hori
 - Distributed lightning strikes along the ridge (vs dangerous current concentration at a single point)
 - Primary chimney exhaust opening runs along the ridge
 
-The central peak emerges from growth patterns — the center of the windward face has the highest SiH₄/particulate flux (stagnation zone), so Healer-directed growth is fastest there. No sharp spike needed — mature towers handle lightning through whole-body potential management regardless of strike location.
+The central peak emerges from growth patterns — the center of the windward face has the highest SiH₄/particulate flux (stagnation zone), so Healer-directed growth is fastest there. No sharp spike needed — mature towers handle lightning through whole-body potential management regardless of strike location. **[V2.5]** Mature towers actively manage potential to AVOID strikes when fully charged (~90% of towers at any time). Only ~10% (randomly distributed, currently recharging) present as high-potential targets. A recharging tower experiences ~10× the local strike rate; a non-recharging tower is dark and habitable. The ridge distributes strike energy across the full cross-wind width when strikes do occur.
 
 ### 5.9 Network regulation of cross-wind width
 

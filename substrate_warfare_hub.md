@@ -453,6 +453,22 @@ The tower network carries authentication (chelation), communication, and (post-a
 
 ⚠ Network warfare requires its own deep treatment. This hub covers physical warfare only.
 
+### 6.5 Tower Defense Alarm — Ancient Firmware
+
+**[NEW V2.5]**
+
+The tower's primary active defense is a **broadcast EM pulse** — not a root-borne packet. This is ancient firmware, predating the key/authentication system by eons. It evolved during the primordial network wars, when towers needed to mobilize nearby organisms against intruders without requiring those organisms to be root-connected or authenticated.
+
+**Mechanism:** The tower detects an intrusion (via AWACS lattice sensing, fairy ring perimeter alerts, or root-contact detection) and emits a patterned EM pulse from its conductive lattice. The pulse is broadcast, not directed — it saturates the local EM environment.
+
+**Hard-wired reception:** Every amorph membrane in range receives the signal. This is not a decoded packet requiring authentication — it's a direct electromagnetic stimulus to the semiconductor neural substrate, triggering a pre-cognitive response. The tower cannot command amorphs in detail (that would require the full packet/authentication stack), but it has a few hard-wired "buttons" that bypass all higher-level processing. The defense alarm is the primary one.
+
+**"Enemy" is contextual.** The alarm signal does not specify a target. It triggers a context-dependent threat response — each recipient identifies the "enemy" from its own local sensory environment. For tower-resident amorphs, the enemy is obvious (the intruder). For the intruder, the enemy is equally obvious (the defenders closing in).
+
+**Pre-key universality.** Because the mechanism predates authentication, it affects ALL amorphs — keyed, unkeyed, foreign-keyed, cognitively suppressed. There is no way to be immune. An amorph that has suppressed its own EM emissions to avoid detection is still a receiver. A daysider raider running a pre-programmed flight script gets the alarm and has its script overridden by ancient firmware.
+
+**Strategic consequence:** The alarm guarantees that every intrusion escalates to violence. An intruder that intended to flee fights instead, because the tower's alarm triggers the same hard-wired combat response in the intruder as in the defenders. Peace requires cognitive override of the alarm response — possible for a fully-thinking amorph, impossible for one running in cognitive suppression.
+
 ---
 
 ## 7. WARFARE BY ERA
@@ -460,11 +476,12 @@ The tower network carries authentication (chelation), communication, and (post-a
 | Era | Dominant weapons | Strategic character |
 |---|---|---|
 | Pre-awakening (tribal) | Body weapons, thrown SiC, torsion launchers | Territorial skirmishes. Merge-capture of enemies (absorb their memes). |
+| Daysider mounted raids | Body weapons + ESA-powered mounts (Daystrider) | **[NEW V2.5]** Steppe nomad vs. settled civilization. Mounted daysiders cross 6.5 km inter-tower gaps in <1 min. Terminators own towers (impregnable); daysiders own open ground (uncatchable). Battery-sheep theft, caravan raiding, grass-field infrastructure attacks. Tower alarm guarantees violence (§6.5). Terminator defense: relocate soft targets to tower interiors, fortify root highways. Daysider monopoly — Daystriders are daysider specialists, cannot survive at terminator. See Daysider Mount Hub §7. |
 | Pre-industrial (volcanic provinces) | Biological railgun + farmed CaF₂ thorns. Electrohydraulic blast. | Fluorine weapons available before metallurgy. Taboo forms here. Thorn-flower farming creates supply chain vulnerable to daysider biological sabotage (viper introduction, §4.4). |
 | Early industrial | Electrohydraulic blast, ammonia hydraulics, early EM launchers | Tower-centric warfare. Siege and power denial. |
 | Industrial | Railguns, coilguns, shaped blast charges, battery-powered field weapons | Expeditionary capability improves. Charge logistics becomes the strategic art. |
 | Post-fluorine-discovery | Conventional + fluorine deterrent | Arms control era. The taboo restrains escalation. Proxy conflicts, network warfare, economic pressure replace direct tower assault. |
-| Daysider diaspora | Conventional + iodine laser (daysider monopoly) | Asymmetric warfare era. Daysiders deploy invisible directed-energy strikes. Terminators pursue HUMINT for technology acquisition. Biological IP as strategic asset. |
+| Daysider diaspora | Conventional + iodine laser (daysider monopoly) + mounted cavalry | Asymmetric warfare era. Daysiders deploy invisible directed-energy strikes from mounted platforms. Terminators pursue HUMINT for technology acquisition. Biological IP as strategic asset. |
 | Crisis era (atmospheric decline) | All of the above under existential pressure | Resource wars as SiH₄ declines. Taboo under maximum stress. Laser proliferation accelerates as desperation overrides restraint. Does the fluorine taboo hold? |
 
 ---
@@ -507,6 +524,8 @@ The tower network carries authentication (chelation), communication, and (post-a
 - **Fluorine Ecology Hub §3.6–3.9** — Thorn-flower federated architecture, energy budget, day-side viability band, dispersal outcome matrix.
 - **Amorph Daily Life Hub §8.3.2** — Tower AWACS: tower lattice as EM sensor, network panopticon, grid warfare = intelligence warfare. Blinding towers destroys sensor coverage.
 - **Fauna Hub §6.5** — Subwoofer EM phased-array detection. Herd SIGINT counter. Phased-array arms race.
+- **Spine** — Cognition = EM emission (§EM Ecology). Tower defense alarm (§Towers). Tower AWACS (§EM Ecology).
+- **Narrative Notes §XVII** — Daysider war origin: logistics, charge trap, EM suppression, alarm trap, mutual mythology.
 
 ---
 
